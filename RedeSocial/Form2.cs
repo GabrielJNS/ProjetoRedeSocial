@@ -16,5 +16,25 @@ namespace RedeSocial
         {
             InitializeComponent();
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label2.Text = Login.nomes[2];
+            label3.Text = Login.nomes[3];
+            label4.Text = Login.nomes[4];
+
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
