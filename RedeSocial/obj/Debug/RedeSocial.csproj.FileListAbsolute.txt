@@ -38,3 +38,4 @@ C:\Users\User\source\repos\RedeSocial\RedeSocial0609\RedeSocial\obj\Debug\RedeSo
 C:\Users\User\source\repos\RedeSocial\RedeSocial0609\RedeSocial\obj\Debug\RedeSocial.exe
 C:\Users\User\source\repos\RedeSocial\RedeSocial0609\RedeSocial\obj\Debug\RedeSocial.pdb
 C:\Users\User\source\repos\RedeSocial\RedeSocial0609\RedeSocial\obj\Debug\RedeSocial.Aviso_Cadastro.resources
+C:\Users\User\source\repos\RedeSocial\RedeSocial0609\RedeSocial\obj\Debug\RedeSocial.Tela_Perfil.resources
