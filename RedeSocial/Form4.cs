@@ -12,9 +12,8 @@ namespace RedeSocial
 {
     public partial class Tela_Cadastro : Form
     {
-        int i;
-        int j = 0;
-        int n = 1;
+       
+        
 
         public Tela_Cadastro()
         {
@@ -23,16 +22,23 @@ namespace RedeSocial
 
         private void bt_cadastrar_Click(object sender, EventArgs e)
         {
-            for (i = j; i < n; i++)
+            for (Login.i = Login.j; Login.i < Login.n; Login.i++)
             {
-                Login.nomes [i] = caixa_nome.Text;
-                Login.senha [i] = caixa_senha.Text;
-
-
+                Login.nomes [Login.i] = caixa_nome.Text;
+                Login.senha [Login.i] = caixa_senha.Text;
             }
-            j++;
-            n++;
-
+            Login.j++;
+            Login.n++;
+            if (caixa_nome.Text.Equals(""))
+            {
+                Tela_Erro novo = new Tela_Erro();
+                novo.Show();
+                
+            }else
+            {
+                Aviso_Cadastro novo = new Aviso_Cadastro();
+                novo.Show();
+            }
         }
     }
 }

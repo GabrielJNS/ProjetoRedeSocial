@@ -13,9 +13,9 @@ namespace RedeSocial
     public partial class Login : Form
     {
         public static string user;
-        int i;
-        int j = 0;
-        int n = 1;
+        public static int i;
+        public static int j = 1;
+        public static int n = 2;
         string nome_log;
         string senha_log;
         public static string[] nomes = new string[50];
@@ -40,12 +40,14 @@ namespace RedeSocial
         private void bt_logar_Click(object sender, EventArgs e)
         {
 
+            nomes[0] = "Tom Anjos";
+            senha[0] = "2424";
             nome_log = caixa_nome.Text;
             senha_log = caixa_senha.Text;
             indiceUsuario = Array.IndexOf(nomes, nome_log);
             if (indiceUsuario != -1 && senha[indiceUsuario] == senha_log)
             {
-                for (int cont = 0; cont < n; cont++)
+                for (int cont = 0; cont < 50; cont++)
                 {
                     if (nome_log.Equals(nomes[cont]))
                     {
@@ -66,6 +68,11 @@ namespace RedeSocial
         private void label2_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

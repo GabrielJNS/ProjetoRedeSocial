@@ -14,7 +14,9 @@ namespace RedeSocial
     {
         public Tela_BoasVindas()
         {
+            
             InitializeComponent();
+            bt_UsuarioLogado.Text = Login.nomes[Convert.ToInt32(Login.user)];
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
@@ -25,14 +27,17 @@ namespace RedeSocial
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label2.Text = Login.nomes[2];
-            label3.Text = Login.nomes[3];
-            label4.Text = Login.nomes[4];
+           
 
 
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bt_UsuarioLogado_Click(object sender, EventArgs e)
         {
 
         }
