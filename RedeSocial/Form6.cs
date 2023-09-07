@@ -15,6 +15,7 @@ namespace RedeSocial
         public Tela_Perfil()
         {
             InitializeComponent();
+            Label_Nome.Text = Tela_BoasVindas.nome_final;
             
         }
 

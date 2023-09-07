@@ -36,7 +36,7 @@ namespace RedeSocial
             this.Amigo1 = new System.Windows.Forms.Button();
             this.Amigo2 = new System.Windows.Forms.Button();
             this.Amigo3 = new System.Windows.Forms.Button();
-            this.Amigo5 = new System.Windows.Forms.Button();
+            this.Amigo4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
@@ -48,7 +48,7 @@ namespace RedeSocial
             this.Amigo0.Name = "Amigo0";
             this.Amigo0.Size = new System.Drawing.Size(82, 32);
             this.Amigo0.TabIndex = 2;
-            this.Amigo0.Text = "Amigo";
+            this.Amigo0.Text = "Amigo 0";
             this.Amigo0.UseVisualStyleBackColor = true;
             this.Amigo0.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -86,7 +86,7 @@ namespace RedeSocial
             this.Amigo1.Name = "Amigo1";
             this.Amigo1.Size = new System.Drawing.Size(75, 32);
             this.Amigo1.TabIndex = 6;
-            this.Amigo1.Text = "Amigo";
+            this.Amigo1.Text = "Amigo 1";
             this.Amigo1.UseVisualStyleBackColor = true;
             this.Amigo1.Click += new System.EventHandler(this.Amigo1_Click);
             // 
@@ -96,7 +96,7 @@ namespace RedeSocial
             this.Amigo2.Name = "Amigo2";
             this.Amigo2.Size = new System.Drawing.Size(75, 32);
             this.Amigo2.TabIndex = 7;
-            this.Amigo2.Text = "Amigo";
+            this.Amigo2.Text = "Amigo 2";
             this.Amigo2.UseVisualStyleBackColor = true;
             this.Amigo2.Click += new System.EventHandler(this.Amigo2_Click);
             // 
@@ -106,19 +106,19 @@ namespace RedeSocial
             this.Amigo3.Name = "Amigo3";
             this.Amigo3.Size = new System.Drawing.Size(75, 32);
             this.Amigo3.TabIndex = 8;
-            this.Amigo3.Text = "Amigo";
+            this.Amigo3.Text = "Amigo 3";
             this.Amigo3.UseVisualStyleBackColor = true;
             this.Amigo3.Click += new System.EventHandler(this.Amigo3_Click);
             // 
-            // Amigo5
+            // Amigo4
             // 
-            this.Amigo5.Location = new System.Drawing.Point(383, 81);
-            this.Amigo5.Name = "Amigo5";
-            this.Amigo5.Size = new System.Drawing.Size(88, 32);
-            this.Amigo5.TabIndex = 9;
-            this.Amigo5.Text = "Amigo";
-            this.Amigo5.UseVisualStyleBackColor = true;
-            this.Amigo5.Click += new System.EventHandler(this.Amigo5_Click);
+            this.Amigo4.Location = new System.Drawing.Point(383, 81);
+            this.Amigo4.Name = "Amigo4";
+            this.Amigo4.Size = new System.Drawing.Size(88, 32);
+            this.Amigo4.TabIndex = 9;
+            this.Amigo4.Text = "Amigo 4";
+            this.Amigo4.UseVisualStyleBackColor = true;
+            this.Amigo4.Click += new System.EventHandler(this.Amigo5_Click);
             // 
             // label1
             // 
@@ -144,7 +144,7 @@ namespace RedeSocial
             this.ClientSize = new System.Drawing.Size(535, 358);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.Amigo5);
+            this.Controls.Add(this.Amigo4);
             this.Controls.Add(this.Amigo3);
             this.Controls.Add(this.Amigo2);
             this.Controls.Add(this.Amigo1);
@@ -167,7 +167,7 @@ namespace RedeSocial
         private System.Windows.Forms.Button Amigo1;
         private System.Windows.Forms.Button Amigo2;
         private System.Windows.Forms.Button Amigo3;
-        private System.Windows.Forms.Button Amigo5;
+        private System.Windows.Forms.Button Amigo4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox richTextBox1;
     }

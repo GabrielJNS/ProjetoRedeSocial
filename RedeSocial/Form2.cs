@@ -12,25 +12,33 @@ namespace RedeSocial
 {
     public partial class Tela_BoasVindas : Form
     {
-        
+        public static string nome_Carregado;
+        public static string nome_Carregado1;
+        public static string nome_Carregado2;
+        public static string nome_Carregado3;
+        public static string nome_Carregado4;
+        public static string nome_final;
         public Tela_BoasVindas()
         {
+            
             Random rnd = new Random();             
             InitializeComponent();
+
             
             bt_UsuarioLogado.Text = Login.nomes[Convert.ToInt32(Login.user)];
         novo:
                 Amigo0.Text = Login.nomes[rnd.Next(Login.i)];
-               
+                nome_Carregado = Amigo0.Text;
                 Amigo1.Text = Login.nomes[rnd.Next(Login.i)];
-               
+                nome_Carregado1 = Amigo1.Text;
                 Amigo2.Text = Login.nomes[rnd.Next(Login.i)];
-            
+                nome_Carregado2 = Amigo2.Text;
                 Amigo3.Text = Login.nomes[rnd.Next(Login.i)];
-                 
-                Amigo5.Text = Login.nomes[rnd.Next(Login.i)];
-               
-            if (Amigo0.Text==Amigo1.Text && Amigo3.Text==Amigo5.Text)
+                nome_Carregado3 = Amigo3.Text;
+                Amigo4.Text = Login.nomes[rnd.Next(Login.i)];
+                nome_Carregado4 = Amigo4.Text;
+
+            if (Amigo0.Text==Amigo1.Text && Amigo3.Text==Amigo4.Text)
             {
                 goto novo;
             }
@@ -45,8 +53,12 @@ namespace RedeSocial
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Tela_Perfil novo = new Tela_Perfil();
-            
+
+            if (true)
+            {
+                nome_final = nome_Carregado;
+            }
+            Tela_Perfil novo = new Tela_Perfil();            
             novo.Show();
 
 
@@ -64,25 +76,45 @@ namespace RedeSocial
 
         private void Amigo1_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
+                nome_final = nome_Carregado1;
+            }
             Tela_Perfil novo = new Tela_Perfil();
+           
             novo.Show();
         }
 
         private void Amigo2_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
+                nome_final = nome_Carregado2;
+            }
             Tela_Perfil novo = new Tela_Perfil();
+            
             novo.Show();
         }
 
         private void Amigo3_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
+                nome_final = nome_Carregado3;
+            }
             Tela_Perfil novo = new Tela_Perfil();
+            
             novo.Show();
         }
 
         private void Amigo5_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
+                nome_final = nome_Carregado4;
+            }
             Tela_Perfil novo = new Tela_Perfil();
+            
             novo.Show();
         }
     }
