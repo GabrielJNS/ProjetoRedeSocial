@@ -12,6 +12,7 @@ namespace RedeSocial
 {
     public partial class Tela_BoasVindas : Form
     {
+        public static string nome_Perfil;
         public static string nome_Carregado;
         public static string nome_Carregado1;
         public static string nome_Carregado2;
@@ -26,6 +27,7 @@ namespace RedeSocial
 
             
             bt_UsuarioLogado.Text = Login.nomes[Convert.ToInt32(Login.user)];
+            nome_Perfil = Login.user;
         novo:
                 Amigo0.Text = Login.nomes[rnd.Next(Login.i)];
                 nome_Carregado = Amigo0.Text;
@@ -71,7 +73,12 @@ namespace RedeSocial
 
         private void bt_UsuarioLogado_Click(object sender, EventArgs e)
         {
-
+            if (true)
+            {
+                nome_final = nome_Perfil;
+                Tela_Perfil nova = new Tela_Perfil();                
+                nova.Show();
+            }
         }
 
         private void Amigo1_Click(object sender, EventArgs e)
@@ -116,6 +123,7 @@ namespace RedeSocial
             Tela_Perfil novo = new Tela_Perfil();
             
             novo.Show();
+            
         }
 
         private void Tela_BoasVindas_Load(object sender, EventArgs e)

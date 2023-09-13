@@ -16,5 +16,10 @@ namespace RedeSocial
         {
             InitializeComponent();
         }
+
+        private void bt_sair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

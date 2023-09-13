@@ -12,6 +12,7 @@ namespace RedeSocial
 {
     public partial class Login : Form
     {
+        
         public static string user;
         public static int i;
         public static int j = 1;
@@ -21,6 +22,8 @@ namespace RedeSocial
         int cont;
         public static string[] nomes = new string[50];
         public static string[] senha = new string[50];
+        public static string[] email = new string[50];
+        public static string[] data_nascimento = new string[50]; 
 
         
         int indiceUsuario;

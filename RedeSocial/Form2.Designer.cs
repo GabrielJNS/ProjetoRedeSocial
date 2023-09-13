@@ -51,10 +51,9 @@ namespace RedeSocial
             // Amigo0
             // 
             this.Amigo0.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Amigo0.Location = new System.Drawing.Point(562, 64);
-            this.Amigo0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Amigo0.Location = new System.Drawing.Point(1345, 155);
             this.Amigo0.Name = "Amigo0";
-            this.Amigo0.Size = new System.Drawing.Size(100, 39);
+            this.Amigo0.Size = new System.Drawing.Size(75, 32);
             this.Amigo0.TabIndex = 2;
             this.Amigo0.Text = "Amigo 0";
             this.Amigo0.UseVisualStyleBackColor = true;
@@ -62,10 +61,9 @@ namespace RedeSocial
             // 
             // bt_UsuarioLogado
             // 
-            this.bt_UsuarioLogado.Location = new System.Drawing.Point(13, 9);
-            this.bt_UsuarioLogado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bt_UsuarioLogado.Location = new System.Drawing.Point(50, 18);
             this.bt_UsuarioLogado.Name = "bt_UsuarioLogado";
-            this.bt_UsuarioLogado.Size = new System.Drawing.Size(70, 51);
+            this.bt_UsuarioLogado.Size = new System.Drawing.Size(52, 41);
             this.bt_UsuarioLogado.TabIndex = 3;
             this.bt_UsuarioLogado.Text = "Usuário";
             this.bt_UsuarioLogado.UseVisualStyleBackColor = true;
@@ -73,30 +71,27 @@ namespace RedeSocial
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(530, 314);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(1293, 20);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(153, 34);
+            this.button2.Size = new System.Drawing.Size(115, 28);
             this.button2.TabIndex = 4;
             this.button2.Text = "Minhas Redes";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(532, 356);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(1160, 18);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(151, 39);
+            this.button3.Size = new System.Drawing.Size(113, 32);
             this.button3.TabIndex = 5;
             this.button3.Text = "Criar Comunidade";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // Amigo1
             // 
-            this.Amigo1.Location = new System.Drawing.Point(562, 111);
-            this.Amigo1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Amigo1.Location = new System.Drawing.Point(1345, 219);
             this.Amigo1.Name = "Amigo1";
-            this.Amigo1.Size = new System.Drawing.Size(100, 39);
+            this.Amigo1.Size = new System.Drawing.Size(75, 32);
             this.Amigo1.TabIndex = 6;
             this.Amigo1.Text = "Amigo 1";
             this.Amigo1.UseVisualStyleBackColor = true;
@@ -104,10 +99,9 @@ namespace RedeSocial
             // 
             // Amigo2
             // 
-            this.Amigo2.Location = new System.Drawing.Point(562, 158);
-            this.Amigo2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Amigo2.Location = new System.Drawing.Point(1345, 284);
             this.Amigo2.Name = "Amigo2";
-            this.Amigo2.Size = new System.Drawing.Size(100, 39);
+            this.Amigo2.Size = new System.Drawing.Size(75, 32);
             this.Amigo2.TabIndex = 7;
             this.Amigo2.Text = "Amigo 2";
             this.Amigo2.UseVisualStyleBackColor = true;
@@ -115,10 +109,9 @@ namespace RedeSocial
             // 
             // Amigo3
             // 
-            this.Amigo3.Location = new System.Drawing.Point(562, 205);
-            this.Amigo3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Amigo3.Location = new System.Drawing.Point(1345, 347);
             this.Amigo3.Name = "Amigo3";
-            this.Amigo3.Size = new System.Drawing.Size(100, 39);
+            this.Amigo3.Size = new System.Drawing.Size(75, 32);
             this.Amigo3.TabIndex = 8;
             this.Amigo3.Text = "Amigo 3";
             this.Amigo3.UseVisualStyleBackColor = true;
@@ -126,10 +119,9 @@ namespace RedeSocial
             // 
             // Amigo4
             // 
-            this.Amigo4.Location = new System.Drawing.Point(562, 252);
-            this.Amigo4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Amigo4.Location = new System.Drawing.Point(1345, 421);
             this.Amigo4.Name = "Amigo4";
-            this.Amigo4.Size = new System.Drawing.Size(100, 39);
+            this.Amigo4.Size = new System.Drawing.Size(75, 32);
             this.Amigo4.TabIndex = 9;
             this.Amigo4.Text = "Amigo 4";
             this.Amigo4.UseVisualStyleBackColor = true;
@@ -138,61 +130,66 @@ namespace RedeSocial
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(595, 18);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(1352, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 16);
+            this.label1.Size = new System.Drawing.Size(68, 13);
             this.label1.TabIndex = 10;
             this.label1.Text = "Seus Amigos";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(186, 87);
+            this.label2.Location = new System.Drawing.Point(342, 155);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 16);
+            this.label2.Size = new System.Drawing.Size(31, 13);
             this.label2.TabIndex = 11;
             this.label2.Text = "Feed";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(101, 15);
+            this.textBox1.Location = new System.Drawing.Point(210, 25);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(144, 22);
+            this.textBox1.Size = new System.Drawing.Size(455, 20);
             this.textBox1.TabIndex = 12;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(251, 15);
+            this.button1.Location = new System.Drawing.Point(749, 20);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(58, 50);
+            this.button1.Size = new System.Drawing.Size(44, 41);
             this.button1.TabIndex = 13;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(315, 15);
+            this.button4.Location = new System.Drawing.Point(846, 20);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(58, 50);
+            this.button4.Size = new System.Drawing.Size(44, 41);
             this.button4.TabIndex = 14;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(379, 15);
+            this.button5.Location = new System.Drawing.Point(948, 20);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(58, 50);
+            this.button5.Size = new System.Drawing.Size(44, 41);
             this.button5.TabIndex = 15;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(443, 15);
+            this.button6.Location = new System.Drawing.Point(1025, 20);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(58, 50);
+            this.button6.Size = new System.Drawing.Size(44, 41);
             this.button6.TabIndex = 16;
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
@@ -200,18 +197,21 @@ namespace RedeSocial
             // pictureBox1
             // 
             this.pictureBox1.Image = global::RedeSocial.Properties.Resources.moça;
-            this.pictureBox1.Location = new System.Drawing.Point(180, 111);
+            this.pictureBox1.Location = new System.Drawing.Point(395, 155);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(183, 110);
+            this.pictureBox1.Size = new System.Drawing.Size(608, 425);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
             // Tela_BoasVindas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(713, 441);
+            this.ClientSize = new System.Drawing.Size(1584, 861);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -228,7 +228,6 @@ namespace RedeSocial
             this.Controls.Add(this.button2);
             this.Controls.Add(this.bt_UsuarioLogado);
             this.Controls.Add(this.Amigo0);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Tela_BoasVindas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bem Vindo";
