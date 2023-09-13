@@ -18,13 +18,17 @@ namespace RedeSocial
         public static int n = 2;
         string nome_log;
         string senha_log;
+        int cont;
         public static string[] nomes = new string[50];
         public static string[] senha = new string[50];
+
         
         int indiceUsuario;
+
         public Login()
         {
-            InitializeComponent();
+            
+            InitializeComponent();            
 
         }
 
@@ -40,19 +44,19 @@ namespace RedeSocial
         private void bt_logar_Click(object sender, EventArgs e)
         {
 
-            nomes[0] = "Tom Anjos";
-            senha[0] = "2424";
+            
             nome_log = caixa_nome.Text;
             senha_log = caixa_senha.Text;
             indiceUsuario = Array.IndexOf(nomes, nome_log);
+            
             if (indiceUsuario != -1 && senha[indiceUsuario] == senha_log)
             {
-                for (int cont = 0; cont < 50; cont++)
+                for (cont = 0; cont < 50; cont++)
                 {
                     if (nome_log.Equals(nomes[cont]))
                     {
                         user = Convert.ToString(cont);
-                        label2.Text = user;
+                        label_Vetor.Text = user;
                     }
                 }
                 Tela_BoasVindas nova = new Tela_BoasVindas();

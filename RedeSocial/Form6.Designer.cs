@@ -37,9 +37,10 @@ namespace RedeSocial
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(33, 83);
+            this.button1.Location = new System.Drawing.Point(44, 102);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(128, 24);
+            this.button1.Size = new System.Drawing.Size(171, 30);
             this.button1.TabIndex = 0;
             this.button1.Text = "Seguir";
             this.button1.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@ namespace RedeSocial
             // Label_Nome
             // 
             this.Label_Nome.AutoSize = true;
-            this.Label_Nome.Location = new System.Drawing.Point(44, 57);
+            this.Label_Nome.Location = new System.Drawing.Point(59, 70);
+            this.Label_Nome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label_Nome.Name = "Label_Nome";
-            this.Label_Nome.Size = new System.Drawing.Size(106, 13);
+            this.Label_Nome.Size = new System.Drawing.Size(137, 16);
             this.Label_Nome.TabIndex = 1;
             this.Label_Nome.Text = "Nome Usuário Amigo";
             this.Label_Nome.Click += new System.EventHandler(this.Label_Nome_Click);
@@ -63,12 +65,14 @@ namespace RedeSocial
             // 
             // Tela_Perfil
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(547, 366);
+            this.ClientSize = new System.Drawing.Size(636, 434);
             this.Controls.Add(this.Label_Nome);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Tela_Perfil";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Perfil";
             this.ResumeLayout(false);
             this.PerformLayout();

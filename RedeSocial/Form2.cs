@@ -117,5 +117,15 @@ namespace RedeSocial
             
             novo.Show();
         }
+
+        private void Tela_BoasVindas_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripContainer1_LeftToolStripPanel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
