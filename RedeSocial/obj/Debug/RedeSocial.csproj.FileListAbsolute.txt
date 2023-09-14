@@ -54,3 +54,18 @@ C:\Users\User\source\repos\RedeSocial\RedeSocial 1309\RedeSocial\obj\Debug\RedeS
 C:\Users\User\source\repos\RedeSocial\RedeSocial 1309\RedeSocial\obj\Debug\RedeSocial.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\RedeSocial\RedeSocial 1309\RedeSocial\obj\Debug\RedeSocial.exe
 C:\Users\User\source\repos\RedeSocial\RedeSocial 1309\RedeSocial\obj\Debug\RedeSocial.pdb
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\bin\Debug\RedeSocial.exe.config
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\bin\Debug\RedeSocial.exe
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\bin\Debug\RedeSocial.pdb
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.Login.resources
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.Tela_BoasVindas.resources
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.Tela_Erro.resources
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.Tela_Cadastro.resources
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.Aviso_Cadastro.resources
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.Tela_Perfil.resources
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.Properties.Resources.resources
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.csproj.GenerateResource.cache
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.exe
+C:\Users\User\source\repos\RedeSocial\Rede Social 1409\RedeSocial\obj\Debug\RedeSocial.pdb
