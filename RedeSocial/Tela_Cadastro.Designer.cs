@@ -121,6 +121,7 @@ namespace RedeSocial
             this.Name = "Tela_Cadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Cadastro";
+            this.Load += new System.EventHandler(this.Tela_Cadastro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

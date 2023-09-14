@@ -150,7 +150,7 @@ namespace RedeSocial
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(91, 140);
+            this.label2.Location = new System.Drawing.Point(32, 113);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 13);
@@ -225,7 +225,7 @@ namespace RedeSocial
             // 
             // Bt_Postar
             // 
-            this.Bt_Postar.Location = new System.Drawing.Point(68, 167);
+            this.Bt_Postar.Location = new System.Drawing.Point(12, 150);
             this.Bt_Postar.Name = "Bt_Postar";
             this.Bt_Postar.Size = new System.Drawing.Size(123, 42);
             this.Bt_Postar.TabIndex = 18;

@@ -25,6 +25,7 @@ namespace RedeSocial
         public static string[] email = new string[50];
         public static string[] data_nascimento = new string[50];
         public static string[] foto_perfil = new string[50];
+        public static int amigo;
 
         
         int indiceUsuario;

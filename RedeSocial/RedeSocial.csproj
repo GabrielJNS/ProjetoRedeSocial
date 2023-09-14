@@ -52,6 +52,12 @@
     <Compile Include="Tela_Login.Designer.cs">
       <DependentUpon>Tela_Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tela_Perfil_Amigos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Perfil_Amigos.Designer.cs">
+      <DependentUpon>Tela_Perfil_Amigos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tela_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Tela_Login.resx">
       <DependentUpon>Tela_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Perfil_Amigos.resx">
+      <DependentUpon>Tela_Perfil_Amigos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_Principal.resx">
       <DependentUpon>Tela_Principal.cs</DependentUpon>

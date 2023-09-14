@@ -58,5 +58,10 @@ namespace RedeSocial
             this.Close();
 
         }
+
+        private void Tela_Cadastro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

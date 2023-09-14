@@ -22,28 +22,37 @@ namespace RedeSocial
         public static string nome_final;
         public static string caminho = System.Environment.CurrentDirectory;
         public static string caminho_foto =  caminho + @"\fotos\";
+        public static int a, b, c, d, z ;
+        Random rnd = new Random();
+
         public Tela_BoasVindas()
         {
             
-            Random rnd = new Random();             
+                         
             InitializeComponent();
 
             
             bt_UsuarioLogado.Text = Login.nomes[Convert.ToInt32(Login.user)];
             nome_Perfil = Login.user;
         novo:
-                Amigo0.Text = Login.nomes[rnd.Next(Login.i)];
+            a = rnd.Next(Login.n);
+                Amigo0.Text = Login.nomes[a];                
                 nome_Carregado = Amigo0.Text;
-                Amigo1.Text = Login.nomes[rnd.Next(Login.i)];
+            b = rnd.Next(Login.n);
+                Amigo1.Text = Login.nomes[b];
                 nome_Carregado1 = Amigo1.Text;
-                Amigo2.Text = Login.nomes[rnd.Next(Login.i)];
+            c = rnd.Next(Login.n);
+                Amigo2.Text = Login.nomes[c];
                 nome_Carregado2 = Amigo2.Text;
-                Amigo3.Text = Login.nomes[rnd.Next(Login.i)];
+            d = rnd.Next(Login.n);
+                Amigo3.Text = Login.nomes[d];
                 nome_Carregado3 = Amigo3.Text;
-                Amigo4.Text = Login.nomes[rnd.Next(Login.i)];
+            z = rnd.Next(Login.n);
+                Amigo4.Text = Login.nomes[z];
                 nome_Carregado4 = Amigo4.Text;
 
-            if (Amigo0.Text==Amigo1.Text && Amigo3.Text==Amigo4.Text)
+
+            if (a == b && a == c && a == d && a == z || b == c && b ==d && b == z || c == d && c == z)
             {
                 goto novo;
             }
@@ -61,9 +70,14 @@ namespace RedeSocial
 
             if (true)
             {
+               
                 nome_final = nome_Carregado;
+                Login.amigo = a;
+
+                
             }
-            Tela_Perfil novo = new Tela_Perfil();            
+            
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();            
             novo.Show();
 
 
@@ -73,15 +87,17 @@ namespace RedeSocial
         {
 
         }
-
+        //usuário logado chama Tela de Status
         private void bt_UsuarioLogado_Click(object sender, EventArgs e)
         {
             if (true)
             {
-                nome_final = nome_Perfil;
-                Tela_Perfil nova = new Tela_Perfil();                
-                nova.Show();
+                nome_final = nome_Perfil;             
+
+               
             }
+            Tela_Perfil nova = new Tela_Perfil();
+            nova.Show();
         }
 
         private void Amigo1_Click(object sender, EventArgs e)
@@ -89,9 +105,12 @@ namespace RedeSocial
             if (true)
             {
                 nome_final = nome_Carregado1;
+                Login.amigo = b;
+
+                
+
             }
-            Tela_Perfil novo = new Tela_Perfil();
-           
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();           
             novo.Show();
         }
 
@@ -100,9 +119,9 @@ namespace RedeSocial
             if (true)
             {
                 nome_final = nome_Carregado2;
+                Login.amigo = c;
             }
-            Tela_Perfil novo = new Tela_Perfil();
-            
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();            
             novo.Show();
         }
 
@@ -111,9 +130,9 @@ namespace RedeSocial
             if (true)
             {
                 nome_final = nome_Carregado3;
+                Login.amigo = d;
             }
-            Tela_Perfil novo = new Tela_Perfil();
-            
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();            
             novo.Show();
         }
 
@@ -122,9 +141,11 @@ namespace RedeSocial
             if (true)
             {
                 nome_final = nome_Carregado4;
+                Login.amigo = z;
+                
+
             }
-            Tela_Perfil novo = new Tela_Perfil();
-            
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();            
             novo.Show();
             
         }
@@ -149,8 +170,7 @@ namespace RedeSocial
             if(openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 origemCompleto = openFileDialog1.FileName;
-                foto = openFileDialog1.SafeFileName;
-                
+                foto = openFileDialog1.SafeFileName;                
                 Login.foto_perfil[Convert.ToInt32(Login.user)] = pastaDestino + foto;
             }
             if (File.Exists(Login.foto_perfil[Convert.ToInt32(Login.user)]))
