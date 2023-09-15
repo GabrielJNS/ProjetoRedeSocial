@@ -23,9 +23,12 @@ namespace RedeSocial
         public static string[] nomes = new string[50];
         public static string[] senha = new string[50];
         public static string[] email = new string[50];
-        public static string[] data_nascimento = new string[50]; 
+        public static string[] data_nascimento = new string[50];
+        public static string[] foto_perfil = new string[50];
+        public static int amigo;
+        bool senhaVisivel = false;
 
-        
+
         int indiceUsuario;
 
         public Login()
@@ -36,22 +39,22 @@ namespace RedeSocial
         }
 
         private void Bt_cadastrar_Click(object sender, EventArgs e)
-        {
-        
+        {       
 
             Tela_Cadastro nova = new Tela_Cadastro();
             nova.Show();
-
         }
 
         private void bt_logar_Click(object sender, EventArgs e)
         {
-
-            
+            Logar();
+        }
+        private void Logar()
+        {
             nome_log = caixa_nome.Text;
             senha_log = caixa_senha.Text;
             indiceUsuario = Array.IndexOf(nomes, nome_log);
-            
+
             if (indiceUsuario != -1 && senha[indiceUsuario] == senha_log)
             {
                 for (cont = 0; cont < 50; cont++)
@@ -66,10 +69,10 @@ namespace RedeSocial
                 nova.Show();
             }
             else
-                {
-                    Tela_Erro nova1 = new Tela_Erro();
-                    nova1.Show();
-                }
+            {
+                Tela_Erro nova1 = new Tela_Erro();
+                nova1.Show();
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -78,6 +81,37 @@ namespace RedeSocial
         }
 
         private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bt_Senha_Click(object sender, EventArgs e)
+        {
+            // Inverte a visibilidade da senha
+            caixa_senha.UseSystemPasswordChar = !caixa_senha.UseSystemPasswordChar;
+
+            // Atualiza a imagem do botão de acordo com a visibilidade da senha
+            if (caixa_senha.UseSystemPasswordChar)
+            {
+                bt_Senha.Image = Properties.Resources.olho_fechado; // Senha oculta, use a imagem "olho_fechado"
+            }
+            else
+            {
+                bt_Senha.Image = Properties.Resources.olho_aberto; // Senha visível, use a imagem "olho_aberto"
+            }
+        }
+
+        private void caixa_senha_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void caixa_nome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void caixa_senha_TextChanged(object sender, EventArgs e)
         {
 
         }

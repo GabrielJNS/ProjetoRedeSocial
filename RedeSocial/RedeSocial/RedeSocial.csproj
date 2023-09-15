@@ -46,61 +46,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Tela_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Tela_Login.Designer.cs">
+      <DependentUpon>Tela_Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Tela_Perfil_Amigos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Tela_Perfil_Amigos.Designer.cs">
+      <DependentUpon>Tela_Perfil_Amigos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Tela_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Tela_Principal.Designer.cs">
+      <DependentUpon>Tela_Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="Tela_Erro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="Tela_Erro.Designer.cs">
+      <DependentUpon>Tela_Erro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="Tela_Cadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="Tela_Cadastro.Designer.cs">
+      <DependentUpon>Tela_Cadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="Tela_Cadastro_Confirmado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="Tela_Cadastro_Confirmado.Designer.cs">
+      <DependentUpon>Tela_Cadastro_Confirmado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_Perfil_Usuário.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Perfil_Usuário.Designer.cs">
+      <DependentUpon>Tela_Perfil_Usuário.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Tela_Login.resx">
+      <DependentUpon>Tela_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Tela_Perfil_Amigos.resx">
+      <DependentUpon>Tela_Perfil_Amigos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Tela_Principal.resx">
+      <DependentUpon>Tela_Principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="Tela_Erro.resx">
+      <DependentUpon>Tela_Erro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="Tela_Cadastro.resx">
+      <DependentUpon>Tela_Cadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="Tela_Cadastro_Confirmado.resx">
+      <DependentUpon>Tela_Cadastro_Confirmado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Perfil_Usuário.resx">
+      <DependentUpon>Tela_Perfil_Usuário.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -130,6 +139,37 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login__14_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olho_aberto.jpg" />
+    <None Include="Resources\olho_fechado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olho_aberto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olho_fechado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login__16_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login %2822%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

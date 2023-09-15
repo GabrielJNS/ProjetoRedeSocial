@@ -23,7 +23,7 @@ namespace RedeSocial
             Label_name.Text = Login.nomes[cont];
             Label_email.Text = Login.email[cont];
             Label_Data.Text = Login.data_nascimento[cont];
-            
+            foto_perfil.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
             
         }
 
@@ -48,6 +48,11 @@ namespace RedeSocial
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void foto_perfil_Click(object sender, EventArgs e)
         {
 
         }
