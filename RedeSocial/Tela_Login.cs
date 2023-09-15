@@ -38,22 +38,22 @@ namespace RedeSocial
         }
 
         private void Bt_cadastrar_Click(object sender, EventArgs e)
-        {
-        
+        {       
 
             Tela_Cadastro nova = new Tela_Cadastro();
             nova.Show();
-
         }
 
         private void bt_logar_Click(object sender, EventArgs e)
         {
-
-            
+            Logar();
+        }
+        private void Logar()
+        {
             nome_log = caixa_nome.Text;
             senha_log = caixa_senha.Text;
             indiceUsuario = Array.IndexOf(nomes, nome_log);
-            
+
             if (indiceUsuario != -1 && senha[indiceUsuario] == senha_log)
             {
                 for (cont = 0; cont < 50; cont++)
@@ -68,10 +68,10 @@ namespace RedeSocial
                 nova.Show();
             }
             else
-                {
-                    Tela_Erro nova1 = new Tela_Erro();
-                    nova1.Show();
-                }
+            {
+                Tela_Erro nova1 = new Tela_Erro();
+                nova1.Show();
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)

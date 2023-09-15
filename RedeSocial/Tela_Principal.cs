@@ -26,15 +26,19 @@ namespace RedeSocial
         Random rnd = new Random();
 
         public Tela_BoasVindas()
-        {
-            
+        {           
                          
             InitializeComponent();
-
+            Sorteio_Amigos();    
             
-            bt_UsuarioLogado.Text = Login.nomes[Convert.ToInt32(Login.user)];
+         
+        }
+        //Sorteio Amigos
+        private void Sorteio_Amigos()
+        {
+            bt_UsuarioLogado.Text = Login.nomes [Convert.ToInt32(Login.user)];
             nome_Perfil = Login.user;
-        novo:
+            novo:
             a = rnd.Next(Login.n);
                 Amigo0.Text = Login.nomes[a];                
                 nome_Carregado = Amigo0.Text;
@@ -56,7 +60,6 @@ namespace RedeSocial
             {
                 goto novo;
             }
-            
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
@@ -64,7 +67,7 @@ namespace RedeSocial
             
 
         }
-
+        //Botão Amigo Carregado
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -72,14 +75,11 @@ namespace RedeSocial
             {
                
                 nome_final = nome_Carregado;
-                Login.amigo = a;
-
-                
+                Login.amigo = a;                
             }
             
             Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();            
             novo.Show();
-
 
         }
 
@@ -99,7 +99,7 @@ namespace RedeSocial
             Tela_Perfil nova = new Tela_Perfil();
             nova.Show();
         }
-
+        //Botão Amigo Carregado
         private void Amigo1_Click(object sender, EventArgs e)
         {
             if (true)
@@ -113,7 +113,7 @@ namespace RedeSocial
             Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();           
             novo.Show();
         }
-
+        //Botão Amigo Carregado
         private void Amigo2_Click(object sender, EventArgs e)
         {
             if (true)
@@ -124,7 +124,7 @@ namespace RedeSocial
             Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();            
             novo.Show();
         }
-
+        //Botão Amigo Carregado
         private void Amigo3_Click(object sender, EventArgs e)
         {
             if (true)
@@ -135,14 +135,13 @@ namespace RedeSocial
             Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();            
             novo.Show();
         }
-
+        //Botão Amigo Carregado
         private void Amigo5_Click(object sender, EventArgs e)
         {
             if (true)
             {
                 nome_final = nome_Carregado4;
-                Login.amigo = z;
-                
+                Login.amigo = z;                
 
             }
             Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();            
@@ -159,35 +158,53 @@ namespace RedeSocial
         {
 
         }
-
+        //Botão sobe a foto
         private void button7_Click(object sender, EventArgs e)
+        {
+            Foto_Perfil();
+        }
+        //Foto de Perfil
+        private void Foto_Perfil()
         {
             string origemCompleto = "";
             string foto = "";
             string pastaDestino = caminho_foto;
-            
             Login.foto_perfil[Convert.ToInt32(Login.user)] = "";
-            if(openFileDialog1.ShowDialog() == DialogResult.OK)
+            try
             {
-                origemCompleto = openFileDialog1.FileName;
-                foto = openFileDialog1.SafeFileName;                
-                Login.foto_perfil[Convert.ToInt32(Login.user)] = pastaDestino + foto;
-            }
-            if (File.Exists(Login.foto_perfil[Convert.ToInt32(Login.user)]))
-            {
-                if(MessageBox.Show("Arquivo já existe, deseja substituir?", "Substituir", MessageBoxButtons.YesNo) == DialogResult.No)
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    return;
+                    origemCompleto = openFileDialog1.FileName;
+                    foto = openFileDialog1.SafeFileName;
+                    Login.foto_perfil[Convert.ToInt32(Login.user)] = pastaDestino + foto;
+                }
+                if (File.Exists(Login.foto_perfil[Convert.ToInt32(Login.user)]))
+                {
+                    if (MessageBox.Show("Arquivo já existe, deseja substituir?", "Substituir", MessageBoxButtons.YesNo) == DialogResult.No)
+                    {
+                        return;
+                    }
                 }
             }
-            System.IO.File.Copy(origemCompleto, Login.foto_perfil[Convert.ToInt32(Login.user)], true);
-            if (File.Exists(Login.foto_perfil[Convert.ToInt32(Login.user)]))
+            catch (Exception ex)
             {
-                Pic_Mostra_Foto.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
+                MessageBox.Show(ex.Message);
             }
-            else
+            try
             {
-                MessageBox.Show("Arquivo não copiado");
+                System.IO.File.Copy(origemCompleto, Login.foto_perfil[Convert.ToInt32(Login.user)], true);
+                if (File.Exists(Login.foto_perfil[Convert.ToInt32(Login.user)]))
+                {
+                    Pic_Mostra_Foto.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
+                }
+                else
+                {
+                    MessageBox.Show("Arquivo não copiado");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }

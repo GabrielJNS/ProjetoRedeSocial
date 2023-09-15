@@ -64,7 +64,7 @@ namespace RedeSocial
             // bt_UsuarioLogado
             // 
             this.bt_UsuarioLogado.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bt_UsuarioLogado.Location = new System.Drawing.Point(45, 32);
+            this.bt_UsuarioLogado.Location = new System.Drawing.Point(45, 86);
             this.bt_UsuarioLogado.Name = "bt_UsuarioLogado";
             this.bt_UsuarioLogado.Size = new System.Drawing.Size(52, 41);
             this.bt_UsuarioLogado.TabIndex = 3;
@@ -150,7 +150,7 @@ namespace RedeSocial
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(32, 113);
+            this.label2.Location = new System.Drawing.Point(29, 130);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 13);
@@ -213,19 +213,18 @@ namespace RedeSocial
             // Pic_Mostra_Foto
             // 
             this.Pic_Mostra_Foto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Pic_Mostra_Foto.BackgroundImage = global::RedeSocial.Properties.Resources.moça;
-            this.Pic_Mostra_Foto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pic_Mostra_Foto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Pic_Mostra_Foto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Pic_Mostra_Foto.Location = new System.Drawing.Point(218, 79);
+            this.Pic_Mostra_Foto.Location = new System.Drawing.Point(301, 130);
             this.Pic_Mostra_Foto.Margin = new System.Windows.Forms.Padding(2);
             this.Pic_Mostra_Foto.Name = "Pic_Mostra_Foto";
-            this.Pic_Mostra_Foto.Size = new System.Drawing.Size(660, 443);
+            this.Pic_Mostra_Foto.Size = new System.Drawing.Size(458, 332);
             this.Pic_Mostra_Foto.TabIndex = 17;
             this.Pic_Mostra_Foto.TabStop = false;
             // 
             // Bt_Postar
             // 
-            this.Bt_Postar.Location = new System.Drawing.Point(12, 150);
+            this.Bt_Postar.Location = new System.Drawing.Point(12, 27);
             this.Bt_Postar.Name = "Bt_Postar";
             this.Bt_Postar.Size = new System.Drawing.Size(123, 42);
             this.Bt_Postar.TabIndex = 18;
