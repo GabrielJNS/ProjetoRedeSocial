@@ -12,6 +12,7 @@ namespace RedeSocial
 {
     public partial class Tela_Perfil_Amigos : Form
     {
+        
         public Tela_Perfil_Amigos()
         {
             InitializeComponent();
@@ -25,6 +26,17 @@ namespace RedeSocial
         private void Tela_Perfil_Amigos_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Pessoa novo = new Pessoa();
+            
+            Pessoa.Seguir(novo);
+            MessageBox.Show("Pessoa" + Login.amigo);
+            label5.Text = Convert.ToString(novo.cont_ami);
+            
+            
         }
     }
 }

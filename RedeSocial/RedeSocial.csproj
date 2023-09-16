@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pessoa.cs" />
     <Compile Include="Tela_Login.cs">
       <SubType>Form</SubType>
     </Compile>

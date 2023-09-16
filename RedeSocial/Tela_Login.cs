@@ -12,7 +12,11 @@ namespace RedeSocial
 {
     public partial class Login : Form
     {
-        
+
+        public static int pessoa_logada;
+        public static int cont_ami;
+        public static int amig_atual = 0;
+        public static int amig_fut = 1;
         public static string user;
         public static int i;
         public static int j = 1;
@@ -25,6 +29,7 @@ namespace RedeSocial
         public static string[] email = new string[50];
         public static string[] data_nascimento = new string[50];
         public static string[] foto_perfil = new string[50];
+        
         public static int amigo;
 
         
@@ -61,10 +66,12 @@ namespace RedeSocial
                     if (nome_log.Equals(nomes[cont]))
                     {
                         user = Convert.ToString(cont);
-                        label_Vetor.Text = user;
+                        MessageBox.Show("Valor do Vetor:" + cont);
+                       
                     }
                 }
                 Tela_BoasVindas nova = new Tela_BoasVindas();
+                             
                 nova.Show();
             }
             else

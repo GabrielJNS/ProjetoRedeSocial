@@ -47,6 +47,7 @@ namespace RedeSocial
             this.Pic_Mostra_Foto = new System.Windows.Forms.PictureBox();
             this.Bt_Postar = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.Bt_mais_amigos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Mostra_Foto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -237,6 +238,16 @@ namespace RedeSocial
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.Filter = "JPEG(*.jpeg)|*.jpeg|PNG(*.png)|*.png|JPG(*.jpg)|*.jpg";
             // 
+            // Bt_mais_amigos
+            // 
+            this.Bt_mais_amigos.Location = new System.Drawing.Point(933, 86);
+            this.Bt_mais_amigos.Name = "Bt_mais_amigos";
+            this.Bt_mais_amigos.Size = new System.Drawing.Size(150, 42);
+            this.Bt_mais_amigos.TabIndex = 19;
+            this.Bt_mais_amigos.Text = "Mais Amigos";
+            this.Bt_mais_amigos.UseVisualStyleBackColor = true;
+            this.Bt_mais_amigos.Click += new System.EventHandler(this.Bt_mais_amigos_Click);
+            // 
             // Tela_BoasVindas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -245,6 +256,7 @@ namespace RedeSocial
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1156, 704);
+            this.Controls.Add(this.Bt_mais_amigos);
             this.Controls.Add(this.Bt_Postar);
             this.Controls.Add(this.Pic_Mostra_Foto);
             this.Controls.Add(this.button6);
@@ -291,5 +303,6 @@ namespace RedeSocial
         private System.Windows.Forms.PictureBox Pic_Mostra_Foto;
         private System.Windows.Forms.Button Bt_Postar;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button Bt_mais_amigos;
     }
 }

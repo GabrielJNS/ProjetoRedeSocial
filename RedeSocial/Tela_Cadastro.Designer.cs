@@ -46,7 +46,7 @@ namespace RedeSocial
             this.caixa_nome.Name = "caixa_nome";
             this.caixa_nome.Size = new System.Drawing.Size(237, 20);
             this.caixa_nome.TabIndex = 0;
-            this.caixa_nome.Text = "Nome";
+            this.caixa_nome.Text = "Tom Anjos";
             // 
             // caixa_senha
             // 
@@ -55,7 +55,7 @@ namespace RedeSocial
             this.caixa_senha.Name = "caixa_senha";
             this.caixa_senha.Size = new System.Drawing.Size(236, 20);
             this.caixa_senha.TabIndex = 1;
-            this.caixa_senha.Text = "Senha";
+            this.caixa_senha.Text = "1234";
             // 
             // label1
             // 
@@ -86,7 +86,7 @@ namespace RedeSocial
             this.caixa_email.Name = "caixa_email";
             this.caixa_email.Size = new System.Drawing.Size(237, 20);
             this.caixa_email.TabIndex = 4;
-            this.caixa_email.Text = "E-Mail";
+            this.caixa_email.Text = "tomanjos@gmail.com";
             // 
             // caixa_confirmaSenha
             // 
@@ -95,7 +95,7 @@ namespace RedeSocial
             this.caixa_confirmaSenha.Name = "caixa_confirmaSenha";
             this.caixa_confirmaSenha.Size = new System.Drawing.Size(237, 20);
             this.caixa_confirmaSenha.TabIndex = 5;
-            this.caixa_confirmaSenha.Text = "Confirmar Senha";
+            this.caixa_confirmaSenha.Text = "1234";
             // 
             // caixa_data
             // 
@@ -104,7 +104,7 @@ namespace RedeSocial
             this.caixa_data.Name = "caixa_data";
             this.caixa_data.Size = new System.Drawing.Size(237, 20);
             this.caixa_data.TabIndex = 6;
-            this.caixa_data.Text = "Data de Nascimento";
+            this.caixa_data.Text = "01/02/2000";
             // 
             // Tela_Cadastro
             // 

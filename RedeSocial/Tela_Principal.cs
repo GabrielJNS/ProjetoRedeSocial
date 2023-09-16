@@ -149,6 +149,14 @@ namespace RedeSocial
             
         }
 
+        private void Bt_mais_amigos_Click(object sender, EventArgs e)
+        {
+            for(int i = 0; i < 1; i++)
+            {
+                Sorteio_Amigos();
+            }
+        }
+
         private void Tela_BoasVindas_Load(object sender, EventArgs e)
         {
 
