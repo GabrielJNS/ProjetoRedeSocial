@@ -209,15 +209,27 @@ namespace RedeSocial
         
         public void mostrar_Postagens()
         {
+            denovo:
+            int i = rnd.Next(Login.contador_Postagens);
+            int j = rnd.Next(Login.contador_Postagens);
             try
             {
-                int res = rnd.Next(Login.contador_Postagens);
-                Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
-                Pic_Mostra_Foto.ImageLocation = Login.foto_postagens[rnd.Next(res)];
-                Label_Descrição.Text = Login.descricao_postagens[rnd.Next(res)];
-            }catch(Exception ex)
+                if (i == j)
+                {
+                    Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
+                    Pic_Mostra_Foto.ImageLocation = Login.foto_postagens[i];
+                    Label_Descrição.Text = Login.descricao_postagens[j];
+                }
+                else
+                {
+                    goto denovo;
+                }                
+                
+                
+            }
+            catch(Exception ex) 
             {
-                MessageBox.Show("Sem Postagem!");
+                MessageBox.Show("Deu Ruim");
             }
         }
         private void button1_Click_2(object sender, EventArgs e)
@@ -230,7 +242,7 @@ namespace RedeSocial
         }
 
 
-        int res;
+        
         private void button7_Click_2(object sender, EventArgs e)
         {
             mostrar_Postagens();

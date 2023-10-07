@@ -26,11 +26,12 @@ namespace RedeSocial
         private void button2_Click(object sender, EventArgs e)
         {
             Foto_Postagem();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Login.descricao_postagens[0] = text_descricao.Text;
+            Login.descricao_postagens[Login.contador_Postagens] = text_descricao.Text;
             MessageBox.Show("Postagem Realizada com Sucesso");
             Login.contador_Postagens++;
         }
