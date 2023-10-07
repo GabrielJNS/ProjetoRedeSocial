@@ -66,7 +66,7 @@ namespace RedeSocial
                 if (File.Exists(Login.foto_postagens[Login.contador_Postagens]))
                 {
                     // Configura o PictureBox para exibir a imagem redimensionada
-                    foto_postar.SizeMode = PictureBoxSizeMode.StretchImage;
+                    foto_postar.SizeMode = PictureBoxSizeMode.Zoom;
                     foto_postar.ImageLocation = Login.foto_postagens[Login.contador_Postagens];
                     
 

@@ -84,7 +84,7 @@ namespace RedeSocial
                 if (File.Exists(Comunidade.foto_comunidades[0]))
                 {
                     // Configura o PictureBox para exibir a imagem redimensionada
-                    Picture_Imagem_Comunidade.SizeMode = PictureBoxSizeMode.StretchImage;
+                    Picture_Imagem_Comunidade.SizeMode = PictureBoxSizeMode.Zoom;
                     Picture_Imagem_Comunidade.ImageLocation = Comunidade.foto_comunidades[0];
 
                     // Redimensiona a imagem

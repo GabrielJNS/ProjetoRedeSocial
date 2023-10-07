@@ -206,27 +206,34 @@ namespace RedeSocial
             Tela_Mostrar_Comunidade novo = new Tela_Mostrar_Comunidade();
             novo.Show();
         }
-        int i=0;
-        private void button1_Click_2(object sender, EventArgs e)
+        
+        public void mostrar_Postagens()
         {
             try
             {
-                int res = i % Login.contador_Postagens;
-                Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.StretchImage;
+                int res = rnd.Next(Login.contador_Postagens);
+                Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
                 Pic_Mostra_Foto.ImageLocation = Login.foto_postagens[rnd.Next(res)];
                 Label_Descrição.Text = Login.descricao_postagens[rnd.Next(res)];
-                res = 0;
-            }
-            catch(Exception ex)
+            }catch(Exception ex)
             {
-                MessageBox.Show("Sem Postagens");
+                MessageBox.Show("Sem Postagem!");
             }
-            
-                         
+        }
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            mostrar_Postagens();           
         }
         private void bt_Perfil_Imagem_Click(object sender, EventArgs e)
         {
 
+        }
+
+
+        int res;
+        private void button7_Click_2(object sender, EventArgs e)
+        {
+            mostrar_Postagens();
         }
 
         private void toolStripContainer1_LeftToolStripPanel_Click(object sender, EventArgs e)

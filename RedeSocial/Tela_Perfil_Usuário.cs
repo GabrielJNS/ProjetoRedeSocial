@@ -28,6 +28,7 @@ namespace RedeSocial
             Label_name.Text = Login.nomes[cont];
             Label_email.Text = Login.email[cont];
             Label_Data.Text = Login.data_nascimento[cont];
+            foto_perfil.SizeMode = PictureBoxSizeMode.Zoom;
             foto_perfil.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
             
         }
@@ -116,9 +117,10 @@ namespace RedeSocial
                 if (File.Exists(Login.foto_perfil[Convert.ToInt32(Login.user)]))
                 {
                     // Configura o PictureBox para exibir a imagem redimensionada
-                    foto_perfil.SizeMode = PictureBoxSizeMode.StretchImage;
+                    foto_perfil.SizeMode = PictureBoxSizeMode.Zoom;
                     foto_perfil.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
                     Tela_BoasVindas novo = new Tela_BoasVindas();
+                    novo.foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
                     novo.foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
 
                     // Redimensiona a imagem

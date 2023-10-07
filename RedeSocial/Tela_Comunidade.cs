@@ -21,8 +21,11 @@ namespace RedeSocial
             int alturaDesejada = 206;  // Defina a altura desejada em pixels
             InitializeComponent();
             Label_Nome_Comunidade.Text = Comunidade.nome_comunidades[0];
-            Label_Descricao.Text = Comunidade.descricao_comunidades[0];            
-            RedimensionarImagem(Foto_Comunidade.ImageLocation = Comunidade.foto_comunidades[0], larguraDesejada, alturaDesejada);
+            Label_Descricao.Text = Comunidade.descricao_comunidades[0];
+            Foto_Comunidade.SizeMode = PictureBoxSizeMode.Zoom;
+            Foto_Comunidade.ImageLocation = Comunidade.foto_comunidades[0];
+            
+            
 
         }
         private void RedimensionarImagem(string caminhoDaImagem, int larguraDesejada, int alturaDesejada)

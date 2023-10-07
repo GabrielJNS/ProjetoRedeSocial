@@ -52,7 +52,6 @@ namespace RedeSocial
             this.bt_amigo2 = new System.Windows.Forms.Button();
             this.bt_amigo1 = new System.Windows.Forms.Button();
             this.bt_amigo0 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.foto_perfil_usuario = new System.Windows.Forms.PictureBox();
@@ -250,7 +249,6 @@ namespace RedeSocial
             this.bt_amigo4.TabIndex = 24;
             this.bt_amigo4.Text = "Amigo 4";
             this.bt_amigo4.UseVisualStyleBackColor = true;
-            this.bt_amigo4.Click += new System.EventHandler(this.button7_Click_1);
             // 
             // bt_amigo3
             // 
@@ -261,7 +259,6 @@ namespace RedeSocial
             this.bt_amigo3.TabIndex = 23;
             this.bt_amigo3.Text = "Amigo 3";
             this.bt_amigo3.UseVisualStyleBackColor = true;
-            this.bt_amigo3.Click += new System.EventHandler(this.button8_Click);
             // 
             // bt_amigo2
             // 
@@ -272,7 +269,6 @@ namespace RedeSocial
             this.bt_amigo2.TabIndex = 22;
             this.bt_amigo2.Text = "Amigo 2";
             this.bt_amigo2.UseVisualStyleBackColor = true;
-            this.bt_amigo2.Click += new System.EventHandler(this.button9_Click);
             // 
             // bt_amigo1
             // 
@@ -283,7 +279,6 @@ namespace RedeSocial
             this.bt_amigo1.TabIndex = 21;
             this.bt_amigo1.Text = "Amigo 1";
             this.bt_amigo1.UseVisualStyleBackColor = true;
-            this.bt_amigo1.Click += new System.EventHandler(this.button10_Click);
             // 
             // bt_amigo0
             // 
@@ -294,18 +289,6 @@ namespace RedeSocial
             this.bt_amigo0.TabIndex = 20;
             this.bt_amigo0.Text = "Amigo 0";
             this.bt_amigo0.UseVisualStyleBackColor = true;
-            this.bt_amigo0.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(384, 102);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 26;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
@@ -324,12 +307,14 @@ namespace RedeSocial
             this.button7.Size = new System.Drawing.Size(56, 70);
             this.button7.TabIndex = 28;
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click_2);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = global::RedeSocial.Properties.Resources.kisspng_computer_icons_arrow_symbol_icon_design_creative_5aca57642062b6_1016917615232100841327;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -386,7 +371,6 @@ namespace RedeSocial
             this.Controls.Add(this.Label_Descrição);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.foto_perfil_usuario);
             this.Controls.Add(this.bt_amigo4);
             this.Controls.Add(this.bt_amigo3);
@@ -447,7 +431,6 @@ namespace RedeSocial
         private System.Windows.Forms.Button bt_amigo2;
         private System.Windows.Forms.Button bt_amigo1;
         private System.Windows.Forms.Button bt_amigo0;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button7;
         public System.Windows.Forms.PictureBox foto_perfil_usuario;

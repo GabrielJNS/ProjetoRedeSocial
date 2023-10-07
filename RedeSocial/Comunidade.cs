@@ -32,18 +32,15 @@ namespace RedeSocial
             int i = 1;
 
             
-                while (i != fin)
-                {
-                    ID_Pessoas_Comunidades[i] = c;
-                    nome_comunidades[i] = a;
-                    descricao_comunidades[i] = b;
-                    foto_comunidades[i] = d;
+             
+                    ID_Pessoas_Comunidades[0] = c;
+                    nome_comunidades[0] = a;
+                    descricao_comunidades[0] = b;
+                    foto_comunidades[0] = d;
                     MessageBox.Show("Comunidade Cadastrada " + nome_comunidades[i] + " Usuário Administrador: " + ID_Pessoas_Comunidades[i] + " Posição do Vetor: " + i);
-                    i++;
-                    fin++;
+                   
 
-
-                }
+      
                 
             
           
