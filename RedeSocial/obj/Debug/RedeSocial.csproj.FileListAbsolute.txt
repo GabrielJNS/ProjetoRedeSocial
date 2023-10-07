@@ -173,3 +173,23 @@ C:\Users\aluno.FATECLAB\Downloads\Rede Social sos\Rede Social sos\RedeSocial\obj
 C:\Users\aluno.FATECLAB\Downloads\Rede Social sos\Rede Social sos\RedeSocial\obj\Debug\RedeSocial.csproj.CoreCompileInputs.cache
 C:\Users\aluno.FATECLAB\Downloads\Rede Social sos\Rede Social sos\RedeSocial\obj\Debug\RedeSocial.exe
 C:\Users\aluno.FATECLAB\Downloads\Rede Social sos\Rede Social sos\RedeSocial\obj\Debug\RedeSocial.pdb
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\bin\Debug\RedeSocial.exe.config
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\bin\Debug\RedeSocial.exe
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\bin\Debug\RedeSocial.pdb
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Tela_Comunidade.resources
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Tela_Criar_Comunidades.resources
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Login.resources
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Tela_Mostrar_Comunidade.resources
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Tela_Perfil_Amigos.resources
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Tela_BoasVindas.resources
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Tela_Erro.resources
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Tela_Cadastro.resources
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Aviso_Cadastro.resources
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Tela_Perfil.resources
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Properties.Resources.resources
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.exe
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.pdb
+C:\Users\User\Desktop\Rede_Social_Apresentação\RedeSocial\obj\Debug\RedeSocial.Tela_Postagem.resources

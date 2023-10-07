@@ -25,6 +25,7 @@ namespace RedeSocial
             Label_id.Text = Convert.ToString(Login.amigo);
             Label_nome.Text = Login.nomes[Login.amigo];
             Label_data.Text = Login.data_nascimento[Login.amigo];
+            Pic_amigo.SizeMode = PictureBoxSizeMode.StretchImage;
             Pic_amigo.ImageLocation = Login.foto_perfil[Login.amigo];    
            
         }

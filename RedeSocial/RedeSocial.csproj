@@ -48,7 +48,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fotos.cs" />
     <Compile Include="Comunidade.cs" />
+    <Compile Include="Tela_Postar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Postar.Designer.cs">
+      <DependentUpon>Tela_Postar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tela_Comunidade.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +119,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Tela_Postar.resx">
+      <DependentUpon>Tela_Postar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tela_Comunidade.resx">
       <DependentUpon>Tela_Comunidade.cs</DependentUpon>
     </EmbeddedResource>

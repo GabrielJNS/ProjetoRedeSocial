@@ -22,7 +22,7 @@ namespace RedeSocial
         public static string nome_Carregado4;
         public static string nome_final;
         public static string caminho = System.Environment.CurrentDirectory;
-        public static string caminho_foto = caminho + @"\fotos\";
+        public static string caminho_foto = caminho + @"\postagem\";
         public static int a, b, c, d, z;
         public static int amigo;
         Random rnd = new Random();
@@ -32,8 +32,7 @@ namespace RedeSocial
 
             Pessoa novo = new Pessoa();
             InitializeComponent();
-            Sorteio_Amigos();
-            bt_Perfil_Imagem.Text = Login.foto_perfil[Convert.ToInt32(Login.user)];
+            Sorteio_Amigos();        
                 
          
 
@@ -207,12 +206,24 @@ namespace RedeSocial
             Tela_Mostrar_Comunidade novo = new Tela_Mostrar_Comunidade();
             novo.Show();
         }
-
+        int i=0;
         private void button1_Click_2(object sender, EventArgs e)
         {
-
+            try
+            {
+                int res = i % Login.contador_Postagens;
+                Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.StretchImage;
+                Pic_Mostra_Foto.ImageLocation = Login.foto_postagens[rnd.Next(res)];
+                Label_Descrição.Text = Login.descricao_postagens[rnd.Next(res)];
+                res = 0;
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Sem Postagens");
+            }
+            
+                         
         }
-
         private void bt_Perfil_Imagem_Click(object sender, EventArgs e)
         {
 
@@ -225,16 +236,17 @@ namespace RedeSocial
         //Botão sobe a foto
         private void button7_Click(object sender, EventArgs e)
         {
-            Foto_Perfil();
+            Tela_Postagem novo = new Tela_Postagem();
+            novo.Show();
         }
         //Foto de Perfil
-        private void Foto_Perfil()
+        public void Foto_Perfil()
         {
             string origemCompleto = "";
             string foto = "";
             string pastaDestino = caminho_foto;
 
-            Login.foto_perfil[Convert.ToInt32(Login.user)] = "";
+            Login.foto_postagens[Convert.ToInt32(Login.user)] = "";
 
             int larguraDesejada = 510; // Defina a largura desejada em pixels
             int alturaDesejada = 686;  // Defina a altura desejada em pixels
@@ -245,9 +257,9 @@ namespace RedeSocial
                 {
                     origemCompleto = openFileDialog1.FileName;
                     foto = openFileDialog1.SafeFileName;
-                    Login.foto_perfil[Convert.ToInt32(Login.user)] = pastaDestino + foto;
+                    Login.foto_postagens[Convert.ToInt32(Login.user)] = pastaDestino + foto;
                 }
-                if (File.Exists(Login.foto_perfil[Convert.ToInt32(Login.user)]))
+                if (File.Exists(Login.foto_postagens[Convert.ToInt32(Login.user)]))
                 {
                     if (MessageBox.Show("Arquivo já existe, deseja substituir?", "Substituir", MessageBoxButtons.YesNo) == DialogResult.No)
                     {
@@ -256,16 +268,16 @@ namespace RedeSocial
                 }
 
                 // Copie a imagem para o destino
-                System.IO.File.Copy(origemCompleto, Login.foto_perfil[Convert.ToInt32(Login.user)], true);
+                System.IO.File.Copy(origemCompleto, Login.foto_postagens[Convert.ToInt32(Login.user)], true);
 
-                if (File.Exists(Login.foto_perfil[Convert.ToInt32(Login.user)]))
+                if (File.Exists(Login.foto_postagens[Convert.ToInt32(Login.user)]))
                 {
                     // Configura o PictureBox para exibir a imagem redimensionada
                     Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.StretchImage;
-                    Pic_Mostra_Foto.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
+                    Pic_Mostra_Foto.ImageLocation = Login.foto_postagens[Convert.ToInt32(Login.user)];
 
                     // Redimensiona a imagem
-                    RedimensionarImagem(Login.foto_perfil[Convert.ToInt32(Login.user)], larguraDesejada, alturaDesejada);
+                    RedimensionarImagem(Login.foto_postagens[Convert.ToInt32(Login.user)], larguraDesejada, alturaDesejada);
                 }
                 else
 
@@ -278,7 +290,7 @@ namespace RedeSocial
                
             }
         }
-        private void RedimensionarImagem(string caminhoDaImagem, int larguraDesejada, int alturaDesejada)
+        public void RedimensionarImagem(string caminhoDaImagem, int larguraDesejada, int alturaDesejada)
         {
             try
             {

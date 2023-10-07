@@ -20,8 +20,8 @@ namespace RedeSocial
         public static int amig_fut = 1;
         public static string user;
         public static int i;
-        public static int j = 0;
-        public static int n = 1;
+        public static int j = 1;
+        public static int n = 2;
         string senha_log;
         string email_log;
         int cont;
@@ -29,14 +29,22 @@ namespace RedeSocial
         public static string[] senha = new string[50];
         public static string[] email = new string[50];
         public static string[] data_nascimento = new string[50];
-        public static string[] foto_perfil = new string[50];       
+        public static string[] foto_perfil = new string[50];
+        public static string[] foto_postagens = new string[200];
+        public static string[] descricao_postagens = new string[200];
+        public static string[] comunidade_fotos = new string[50];
+        public static int contador_Postagens = 0;
         public static int amigo;        
         int indiceUsuario;
 
         public Login()
         {
             
-            InitializeComponent();            
+            InitializeComponent();
+            Login.nomes[0] = "Mané Dos Santos";
+            Login.email[0] = "mane@gmail.com";
+            Login.senha[0] = "123";
+            Login.data_nascimento[0] = "15/11/1967";
 
         }
 
@@ -45,7 +53,7 @@ namespace RedeSocial
 
             Tela_Cadastro nova = new Tela_Cadastro();
             nova.Show();
-            this.Hide();
+            
         }
 
         private void bt_logar_Click(object sender, EventArgs e)
@@ -74,7 +82,7 @@ namespace RedeSocial
                 Tela_Perfil_Amigos.prov = 0;
                 nova.Show();
 
-                this.Hide();
+                
             }
             else
             {

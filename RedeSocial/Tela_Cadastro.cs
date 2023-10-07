@@ -9,6 +9,7 @@ namespace RedeSocial
         public Tela_Cadastro()
         {
             InitializeComponent();
+            
         }
       
         private void bt_cadastrar_Click(object sender, EventArgs e)
