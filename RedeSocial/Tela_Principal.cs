@@ -32,9 +32,10 @@ namespace RedeSocial
 
             Pessoa novo = new Pessoa();
             InitializeComponent();
-            Sorteio_Amigos();        
-                
-         
+            Sorteio_Amigos();            
+            foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
+            foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
+            
 
         }
         //Sorteio Amigos
@@ -98,6 +99,7 @@ namespace RedeSocial
                 nome_final = nome_Perfil;
             }
             Tela_Perfil nova = new Tela_Perfil();
+            this.Close();
             nova.Show();
         }
         //Botão Amigo Carregado

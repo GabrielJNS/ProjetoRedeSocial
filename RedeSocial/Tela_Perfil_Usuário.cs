@@ -78,20 +78,27 @@ namespace RedeSocial
         {
 
         }
-
+             
         private void button2_Click(object sender, EventArgs e)
         {
-            Foto_Perfil();
             
+            Foto_Perfil();
+            MessageBox.Show("Foto Alterada");
+            Tela_BoasVindas novo = new Tela_BoasVindas();
+            novo.Show();
             
         }
+        public void atualizarDados()
+        {
+
+        }
+
         public void Foto_Perfil()
         {
             string origemCompleto = "";
             string foto = "";
             string pastaDestino = caminho_foto;
             Login.foto_perfil[Convert.ToInt32(Login.user)] = "";
-
             int larguraDesejada = 510; // Defina a largura desejada em pixels
             int alturaDesejada = 686;  // Defina a altura desejada em pixels
 

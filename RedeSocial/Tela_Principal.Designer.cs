@@ -58,7 +58,6 @@ namespace RedeSocial
             this.Pic_Mostra_Foto = new System.Windows.Forms.PictureBox();
             this.Label_Descrição = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.label3 = new System.Windows.Forms.Label();
             this.label_Usuario_Postagem = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil_usuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Mostra_Foto)).BeginInit();
@@ -363,15 +362,6 @@ namespace RedeSocial
             this.Label_Descrição.TabIndex = 29;
             this.Label_Descrição.Text = "Descrição";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(0, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 30;
-            this.label3.Text = "label3";
-            // 
             // label_Usuario_Postagem
             // 
             this.label_Usuario_Postagem.AutoSize = true;
@@ -391,7 +381,6 @@ namespace RedeSocial
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1156, 659);
             this.Controls.Add(this.label_Usuario_Postagem);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.Label_Descrição);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button1);
@@ -461,7 +450,6 @@ namespace RedeSocial
         private System.Windows.Forms.Label Label_Descrição;
         public System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.ColorDialog colorDialog1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label_Usuario_Postagem;
     }
 }
