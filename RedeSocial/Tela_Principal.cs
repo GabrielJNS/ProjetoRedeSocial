@@ -212,13 +212,16 @@ namespace RedeSocial
             denovo:
             int i = rnd.Next(Login.contador_Postagens);
             int j = rnd.Next(Login.contador_Postagens);
+            int l = rnd.Next(Login.contador_Postagens);
             try
             {
-                if (i == j)
+                if (i == j && i == l && l == j)
                 {
                     Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
                     Pic_Mostra_Foto.ImageLocation = Login.foto_postagens[i];
                     Label_Descrição.Text = Login.descricao_postagens[j];
+                    label_Usuario_Postagem.Text = Login.dono_postagem[l];
+
                 }
                 else
                 {

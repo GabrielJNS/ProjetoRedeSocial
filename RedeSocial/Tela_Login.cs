@@ -30,6 +30,7 @@ namespace RedeSocial
         public static string[] email = new string[50];
         public static string[] data_nascimento = new string[50];
         public static string[] foto_perfil = new string[50];
+        public static string[] dono_postagem = new string[200];
         public static string[] foto_postagens = new string[200];
         public static string[] descricao_postagens = new string[200];
         public static string[] comunidade_fotos = new string[50];
