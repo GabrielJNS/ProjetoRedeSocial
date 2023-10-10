@@ -32,7 +32,6 @@ namespace RedeSocial
             this.Label_Nome_Comunidade = new System.Windows.Forms.Label();
             this.Label_Descricao = new System.Windows.Forms.Label();
             this.Foto_Comunidade = new System.Windows.Forms.PictureBox();
-            this.bt_sair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Foto_Comunidade)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,22 +64,11 @@ namespace RedeSocial
             this.Foto_Comunidade.TabStop = false;
             this.Foto_Comunidade.Click += new System.EventHandler(this.Foto_Comunidade_Click);
             // 
-            // bt_sair
-            // 
-            this.bt_sair.Location = new System.Drawing.Point(43, 385);
-            this.bt_sair.Name = "bt_sair";
-            this.bt_sair.Size = new System.Drawing.Size(127, 35);
-            this.bt_sair.TabIndex = 3;
-            this.bt_sair.Text = "Sair";
-            this.bt_sair.UseVisualStyleBackColor = true;
-            this.bt_sair.Click += new System.EventHandler(this.bt_sair_Click);
-            // 
             // Tela_Comunidade
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.bt_sair);
             this.Controls.Add(this.Foto_Comunidade);
             this.Controls.Add(this.Label_Descricao);
             this.Controls.Add(this.Label_Nome_Comunidade);
@@ -98,6 +86,5 @@ namespace RedeSocial
         private System.Windows.Forms.Label Label_Nome_Comunidade;
         private System.Windows.Forms.Label Label_Descricao;
         private System.Windows.Forms.PictureBox Foto_Comunidade;
-        private System.Windows.Forms.Button bt_sair;
     }
 }

@@ -13,8 +13,9 @@ namespace RedeSocial
 {
     public partial class Login : Form
     {
-
-        public static int pessoa_logada;
+        private bool senhaVisivel = false;
+        private Image olhoAberto = Properties.Resources.olho_aberto; 
+        private Image olhoFechado = Properties.Resources.olho_fechado; 
         public static int cont_ami;
         public static int amig_atual = 0;
         public static int amig_fut = 1;
@@ -46,6 +47,7 @@ namespace RedeSocial
             Login.email[0] = "mane@gmail.com";
             Login.senha[0] = "123";
             Login.data_nascimento[0] = "15/11/1967";
+            caixaSenha.PasswordChar = '•';
 
         }
 
@@ -64,7 +66,7 @@ namespace RedeSocial
         private void Logar()
         {
             email_log = Caixa_email.Text;
-            senha_log = caixa_senha.Text;
+            senha_log = caixaSenha.Text;
             indiceUsuario = Array.IndexOf(email, email_log);
 
             if (indiceUsuario != -1 && senha[indiceUsuario] == senha_log)
@@ -101,12 +103,50 @@ namespace RedeSocial
 
         private void Login_Load(object sender, EventArgs e)
         {
+            caixaSenha.PasswordChar = '•'; 
+            btnMostrarSenha.BackgroundImage = Properties.Resources.olho_fechado;
 
-        }
+        
+    }
 
        
 
         private void Caixa_email_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void caixa_senha_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void btnMostrarSenha_Click(object sender, EventArgs e)
+        {
+            if (senhaVisivel)
+            {
+                caixaSenha.PasswordChar = '•';
+                btnMostrarSenha.BackgroundImage = Properties.Resources.olho_fechado;
+
+            }
+            else
+            {
+                caixaSenha.PasswordChar = '\0'; 
+                btnMostrarSenha.BackgroundImage = Properties.Resources.olho_aberto;
+                
+            }
+
+            senhaVisivel = !senhaVisivel; 
+        
+
+    }
+
+        private void pictureBoxOlho_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void caixaSenha_TextChanged(object sender, EventArgs e)
         {
 
         }

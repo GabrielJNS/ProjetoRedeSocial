@@ -37,29 +37,39 @@ namespace RedeSocial
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 83);
+            this.label1.Location = new System.Drawing.Point(16, 102);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(295, 24);
+            this.label1.Size = new System.Drawing.Size(0, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Cadastro Realizado Com Sucesso";
             // 
             // bt_sair
             // 
-            this.bt_sair.Location = new System.Drawing.Point(114, 163);
+            this.bt_sair.BackColor = System.Drawing.Color.Transparent;
+            this.bt_sair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_sair.FlatAppearance.BorderSize = 0;
+            this.bt_sair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_sair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.bt_sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_sair.Location = new System.Drawing.Point(106, 276);
+            this.bt_sair.Margin = new System.Windows.Forms.Padding(4);
             this.bt_sair.Name = "bt_sair";
-            this.bt_sair.Size = new System.Drawing.Size(97, 29);
+            this.bt_sair.Size = new System.Drawing.Size(129, 36);
             this.bt_sair.TabIndex = 1;
-            this.bt_sair.Text = "Sair";
-            this.bt_sair.UseVisualStyleBackColor = true;
+            this.bt_sair.UseVisualStyleBackColor = false;
             this.bt_sair.Click += new System.EventHandler(this.bt_sair_Click);
             // 
             // Aviso_Cadastro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(324, 224);
+            this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__21_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(341, 343);
             this.Controls.Add(this.bt_sair);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Aviso_Cadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro Confirmado";

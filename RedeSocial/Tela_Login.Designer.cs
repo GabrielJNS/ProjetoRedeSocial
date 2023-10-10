@@ -30,24 +30,12 @@ namespace RedeSocial
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.caixa_senha = new System.Windows.Forms.MaskedTextBox();
             this.bt_logar = new System.Windows.Forms.Button();
             this.bt_cadastrar = new System.Windows.Forms.Button();
             this.Caixa_email = new System.Windows.Forms.TextBox();
+            this.btnMostrarSenha = new System.Windows.Forms.Button();
+            this.caixaSenha = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // caixa_senha
-            // 
-            this.caixa_senha.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.caixa_senha.BackColor = System.Drawing.Color.White;
-            this.caixa_senha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.caixa_senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixa_senha.Location = new System.Drawing.Point(587, 301);
-            this.caixa_senha.Name = "caixa_senha";
-            this.caixa_senha.Size = new System.Drawing.Size(254, 24);
-            this.caixa_senha.TabIndex = 1;
-            this.caixa_senha.Text = "123";
-            this.caixa_senha.UseSystemPasswordChar = true;
             // 
             // bt_logar
             // 
@@ -61,9 +49,10 @@ namespace RedeSocial
             this.bt_logar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_logar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_logar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_logar.Location = new System.Drawing.Point(670, 367);
+            this.bt_logar.Location = new System.Drawing.Point(867, 451);
+            this.bt_logar.Margin = new System.Windows.Forms.Padding(4);
             this.bt_logar.Name = "bt_logar";
-            this.bt_logar.Size = new System.Drawing.Size(88, 48);
+            this.bt_logar.Size = new System.Drawing.Size(152, 59);
             this.bt_logar.TabIndex = 2;
             this.bt_logar.UseVisualStyleBackColor = false;
             this.bt_logar.Click += new System.EventHandler(this.bt_logar_Click);
@@ -79,9 +68,10 @@ namespace RedeSocial
             this.bt_cadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_cadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cadastrar.Location = new System.Drawing.Point(734, 441);
+            this.bt_cadastrar.Location = new System.Drawing.Point(979, 543);
+            this.bt_cadastrar.Margin = new System.Windows.Forms.Padding(4);
             this.bt_cadastrar.Name = "bt_cadastrar";
-            this.bt_cadastrar.Size = new System.Drawing.Size(66, 20);
+            this.bt_cadastrar.Size = new System.Drawing.Size(88, 25);
             this.bt_cadastrar.TabIndex = 3;
             this.bt_cadastrar.UseVisualStyleBackColor = false;
             this.bt_cadastrar.Click += new System.EventHandler(this.Bt_cadastrar_Click);
@@ -92,27 +82,55 @@ namespace RedeSocial
             this.Caixa_email.BackColor = System.Drawing.Color.White;
             this.Caixa_email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Caixa_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Caixa_email.Location = new System.Drawing.Point(587, 204);
+            this.Caixa_email.Location = new System.Drawing.Point(783, 251);
+            this.Caixa_email.Margin = new System.Windows.Forms.Padding(4);
             this.Caixa_email.Name = "Caixa_email";
-            this.Caixa_email.Size = new System.Drawing.Size(254, 24);
+            this.Caixa_email.Size = new System.Drawing.Size(338, 28);
             this.Caixa_email.TabIndex = 5;
             this.Caixa_email.Text = "mane@gmail.com";
             this.Caixa_email.TextChanged += new System.EventHandler(this.Caixa_email_TextChanged);
             // 
+            // btnMostrarSenha
+            // 
+            this.btnMostrarSenha.BackColor = System.Drawing.Color.FloralWhite;
+            this.btnMostrarSenha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMostrarSenha.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMostrarSenha.FlatAppearance.BorderSize = 0;
+            this.btnMostrarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMostrarSenha.Location = new System.Drawing.Point(1078, 366);
+            this.btnMostrarSenha.Name = "btnMostrarSenha";
+            this.btnMostrarSenha.Size = new System.Drawing.Size(43, 28);
+            this.btnMostrarSenha.TabIndex = 6;
+            this.btnMostrarSenha.UseVisualStyleBackColor = false;
+            this.btnMostrarSenha.Click += new System.EventHandler(this.btnMostrarSenha_Click);
+            // 
+            // caixaSenha
+            // 
+            this.caixaSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.caixaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.caixaSenha.Location = new System.Drawing.Point(783, 366);
+            this.caixaSenha.Name = "caixaSenha";
+            this.caixaSenha.Size = new System.Drawing.Size(297, 28);
+            this.caixaSenha.TabIndex = 7;
+            this.caixaSenha.Text = "123";
+            this.caixaSenha.TextChanged += new System.EventHandler(this.caixaSenha_TextChanged);
+            // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__15_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(886, 490);
+            this.ClientSize = new System.Drawing.Size(1181, 603);
+            this.Controls.Add(this.caixaSenha);
+            this.Controls.Add(this.btnMostrarSenha);
             this.Controls.Add(this.Caixa_email);
             this.Controls.Add(this.bt_cadastrar);
             this.Controls.Add(this.bt_logar);
-            this.Controls.Add(this.caixa_senha);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -124,10 +142,11 @@ namespace RedeSocial
         }
 
         #endregion
-        private System.Windows.Forms.MaskedTextBox caixa_senha;
         private System.Windows.Forms.Button bt_logar;
         private System.Windows.Forms.Button bt_cadastrar;
         private System.Windows.Forms.TextBox Caixa_email;
+        private System.Windows.Forms.Button btnMostrarSenha;
+        private System.Windows.Forms.TextBox caixaSenha;
     }
 }
 

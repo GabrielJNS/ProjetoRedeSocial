@@ -174,6 +174,16 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Login__21_ {
+            get {
+                object obj = ResourceManager.GetObject("Login (21)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Login__24_ {
             get {
                 object obj = ResourceManager.GetObject("Login (24)", resourceCulture);
@@ -204,9 +214,39 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Login__27_ {
+            get {
+                object obj = ResourceManager.GetObject("Login (27)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap moça {
             get {
                 object obj = ResourceManager.GetObject("moça", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap olho_aberto {
+            get {
+                object obj = ResourceManager.GetObject("olho_aberto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap olho_fechado {
+            get {
+                object obj = ResourceManager.GetObject("olho_fechado", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

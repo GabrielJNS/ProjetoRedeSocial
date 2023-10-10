@@ -223,5 +223,17 @@
   <ItemGroup>
     <None Include="Resources\Ropuinhas_pug.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olho_fechado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olho_aberto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login %2827%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
