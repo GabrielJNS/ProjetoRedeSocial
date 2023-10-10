@@ -253,6 +253,11 @@ namespace RedeSocial
             mostrar_Postagens();
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void toolStripContainer1_LeftToolStripPanel_Click(object sender, EventArgs e)
         {
 
