@@ -13,6 +13,8 @@ namespace RedeSocial
 {
     public partial class Login : Form
     {
+        // Variáveis de controle e dados do usuário
+
         private bool senhaVisivel = false;
         private Image olhoAberto = Properties.Resources.olho_aberto; 
         private Image olhoFechado = Properties.Resources.olho_fechado; 
@@ -26,6 +28,9 @@ namespace RedeSocial
         string senha_log;
         string email_log;
         int cont;
+
+        // Vetores para armazenar informações dos usuários e postagens
+
         public static string[] nomes = new string[50];
         public static string[] senha = new string[50];
         public static string[] email = new string[50];
@@ -41,7 +46,8 @@ namespace RedeSocial
 
         public Login()
         {
-            
+            //  exemplo
+
             InitializeComponent();
             Login.nomes[0] = "Mané Dos Santos";
             Login.email[0] = "mane@gmail.com";
@@ -63,6 +69,7 @@ namespace RedeSocial
         {
             Logar();
         }
+        // Função para efetuar o login
         private void Logar()
         {
             email_log = Caixa_email.Text;
@@ -100,7 +107,7 @@ namespace RedeSocial
         {
             
         }
-
+        //inicialiazar com:
         private void Login_Load(object sender, EventArgs e)
         {
             caixaSenha.PasswordChar = '•'; 
@@ -120,6 +127,7 @@ namespace RedeSocial
         {
 
         }
+        // Evento de clique no botão de mostrar/ocultar senha
 
         private void btnMostrarSenha_Click(object sender, EventArgs e)
         {

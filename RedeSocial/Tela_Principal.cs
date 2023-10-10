@@ -14,6 +14,8 @@ namespace RedeSocial
 {
     public partial class Tela_BoasVindas : Form
     {
+        // Variáveis de controle e dados do perfil
+
         public static string nome_Perfil;
         public static string nome_Carregado;
         public static string nome_Carregado1;
@@ -38,7 +40,7 @@ namespace RedeSocial
             
 
         }
-        //Sorteio Amigos
+        // Função para sortear amigos
         private void Sorteio_Amigos()
         {
             bt_UsuarioLogado.Text = Login.nomes[Convert.ToInt32(Login.user)];
@@ -208,24 +210,36 @@ namespace RedeSocial
             Tela_Mostrar_Comunidade novo = new Tela_Mostrar_Comunidade();
             novo.Show();
         }
-        
+        // Método para exibir postagens aleatórias
         public void mostrar_Postagens()
         {
             denovo:
+            // Seleciona índices aleatórios para postagens
+
             int i = rnd.Next(Login.contador_Postagens);
             int j = rnd.Next(Login.contador_Postagens);
             int l = rnd.Next(Login.contador_Postagens);
             try
             {
+                // Verifica se os índices são iguais para evitar a exibição de postagens duplicadas
+
                 if (i == j && i == l && l == j)
-                {
+
+                {  
+                    // Configura o PictureBox para exibir a imagem 
                     Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
+
+                    // Define a imagem da postagem 
                     Pic_Mostra_Foto.ImageLocation = Login.foto_postagens[i];
+
+                    // Define a descrição da postagem
                     Label_Descrição.Text = Login.descricao_postagens[j];
+
+                    // Define o nome do usuário que fez a postagem 
                     label_Usuario_Postagem.Text = Login.dono_postagem[l];
 
                 }
-                else
+                else            
                 {
                     goto denovo;
                 }                

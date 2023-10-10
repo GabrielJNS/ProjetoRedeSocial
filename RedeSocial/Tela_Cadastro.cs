@@ -25,13 +25,14 @@ namespace RedeSocial
             string email = caixa_email.Text;
             string confirmaEmail = caixa_confirmaEmail.Text;
 
-
+            // Verifica se o email é válido
 
             if (!IsValidEmail(email))
             {
                 MessageBox.Show("O email deve ter o formato igual a 'exemplo@gmail.com' para ser válido.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            // Verifica se os emails informados são iguais
 
             if (!novoEmail.Equals(confirmaEmail))
 
@@ -40,7 +41,7 @@ namespace RedeSocial
                 return;
             }
 
-
+            // Verifica se o email já está cadastrado no vetor
 
             if (EmailJaCadastrado(novoEmail))
 
@@ -48,6 +49,7 @@ namespace RedeSocial
                 MessageBox.Show("Este email já foi cadastrado por outro usuário.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            // Loop para cadastrar os dados do usuário
 
             for (Login.i = Login.j; Login.i < Login.n; Login.i++)
             {   
@@ -56,6 +58,7 @@ namespace RedeSocial
                     Login.email[Login.i] = caixa_email.Text;
                     Login.data_nascimento[Login.i] = caixa_data.Text;
                 }
+             // Verifica se os emails informados são iguais novamente 
 
                 if (!email.Equals(confirmaEmail))
 
@@ -67,8 +70,9 @@ namespace RedeSocial
 
 
                     return;
-                }            
+                }
 
+            // Loop para garantir que a senha e a confirmação de senha sejam iguais
 
             volta:
 
@@ -91,8 +95,14 @@ namespace RedeSocial
                 }
 
             }
+
+            // Atualiza os contadores de usuários
             Login.j++;
             Login.n++;
+
+
+            // Verifica se o nome ou a senha estão vazios
+
             if (caixa_nome.Text.Equals("") || caixa_senha.Text.Equals(""))
             {
                 Tela_Erro novo = new Tela_Erro();
@@ -107,6 +117,8 @@ namespace RedeSocial
             }
             this.Close();
         }
+
+        // Função para validar o formato do email
         private bool IsValidEmail(string email)
         {
           
@@ -116,6 +128,7 @@ namespace RedeSocial
             }
             return false;
         }
+        // Função para verificar se o email já está cadastrado
         private bool EmailJaCadastrado(string novoEmail)
         {
             for (int i = 0; i < Login.n; i++)
