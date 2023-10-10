@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Tela_Fotos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Fotos.Designer.cs">
+      <DependentUpon>Tela_Fotos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fotos.cs" />
     <Compile Include="Comunidade.cs" />
     <Compile Include="Tela_Postar.cs">
@@ -119,6 +125,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Tela_Fotos.resx">
+      <DependentUpon>Tela_Fotos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tela_Postar.resx">
       <DependentUpon>Tela_Postar.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +185,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Círculo-PNG.png_fit=980%252C982&amp;ssl=1" />
     <None Include="Resources\moça.JPG" />
   </ItemGroup>
   <ItemGroup>
@@ -234,6 +244,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Login %2827%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Foto_fotos.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

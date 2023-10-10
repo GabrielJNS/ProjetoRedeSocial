@@ -277,6 +277,27 @@ namespace RedeSocial
 
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click_3(object sender, EventArgs e)
+        {
+            Tela_Fotos novo = new Tela_Fotos();
+            novo.Show();
+        }
+
         private void toolStripContainer1_LeftToolStripPanel_Click(object sender, EventArgs e)
         {
 
