@@ -258,6 +258,11 @@ namespace RedeSocial
 
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void toolStripContainer1_LeftToolStripPanel_Click(object sender, EventArgs e)
         {
 
