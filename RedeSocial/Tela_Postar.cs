@@ -64,7 +64,6 @@ namespace RedeSocial
 
                 // Copie a imagem para o destino
                 System.IO.File.Copy(origemCompleto, Login.foto_postagens[Login.contador_Postagens], true);
-
                 if (File.Exists(Login.foto_postagens[Login.contador_Postagens]))
                 {
                     // Configura o PictureBox para exibir a imagem redimensionada
