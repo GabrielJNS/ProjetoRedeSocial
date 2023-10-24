@@ -49,8 +49,8 @@ namespace RedeSocial
             this.bt_amigo2 = new System.Windows.Forms.Button();
             this.bt_amigo1 = new System.Windows.Forms.Button();
             this.bt_amigo0 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bt_E = new System.Windows.Forms.Button();
+            this.bt_D = new System.Windows.Forms.Button();
             this.foto_perfil_usuario = new System.Windows.Forms.PictureBox();
             this.Pic_Mostra_Foto = new System.Windows.Forms.PictureBox();
             this.Label_Descrição = new System.Windows.Forms.Label();
@@ -297,45 +297,45 @@ namespace RedeSocial
             this.bt_amigo0.Text = "Amigo 0";
             this.bt_amigo0.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // bt_E
             // 
-            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button7.BackColor = System.Drawing.Color.Transparent;
-            this.button7.BackgroundImage = global::RedeSocial.Properties.Resources.kisspng_computer_icons_arrow_symbol_icon_design_creative_5aca57642062b61;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button7.Location = new System.Drawing.Point(276, 414);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 86);
-            this.button7.TabIndex = 28;
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click_2);
+            this.bt_E.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bt_E.BackColor = System.Drawing.Color.Transparent;
+            this.bt_E.BackgroundImage = global::RedeSocial.Properties.Resources.seta_PhotoRoom_png_PhotoRoom;
+            this.bt_E.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bt_E.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_E.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.bt_E.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_E.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.bt_E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_E.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.bt_E.Location = new System.Drawing.Point(256, 414);
+            this.bt_E.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bt_E.Name = "bt_E";
+            this.bt_E.Size = new System.Drawing.Size(75, 86);
+            this.bt_E.TabIndex = 28;
+            this.bt_E.UseVisualStyleBackColor = false;
+            this.bt_E.Click += new System.EventHandler(this.button7_Click_2);
             // 
-            // button1
+            // bt_D
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::RedeSocial.Properties.Resources.kisspng_computer_icons_arrow_symbol_icon_design_creative_5aca57642062b6_1016917615232100841327;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(979, 414);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 86);
-            this.button1.TabIndex = 27;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            this.bt_D.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bt_D.BackColor = System.Drawing.Color.Transparent;
+            this.bt_D.BackgroundImage = global::RedeSocial.Properties.Resources.seta_PhotoRoom_png_PhotoRoom__1_;
+            this.bt_D.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bt_D.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_D.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.bt_D.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.bt_D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_D.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.bt_D.Location = new System.Drawing.Point(993, 414);
+            this.bt_D.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bt_D.Name = "bt_D";
+            this.bt_D.Size = new System.Drawing.Size(75, 86);
+            this.bt_D.TabIndex = 27;
+            this.bt_D.UseVisualStyleBackColor = false;
+            this.bt_D.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // foto_perfil_usuario
             // 
@@ -349,6 +349,7 @@ namespace RedeSocial
             this.foto_perfil_usuario.Size = new System.Drawing.Size(64, 62);
             this.foto_perfil_usuario.TabIndex = 25;
             this.foto_perfil_usuario.TabStop = false;
+            this.foto_perfil_usuario.Click += new System.EventHandler(this.foto_perfil_usuario_Click);
             // 
             // Pic_Mostra_Foto
             // 
@@ -439,8 +440,8 @@ namespace RedeSocial
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label_Usuario_Postagem);
             this.Controls.Add(this.Label_Descrição);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bt_E);
+            this.Controls.Add(this.bt_D);
             this.Controls.Add(this.foto_perfil_usuario);
             this.Controls.Add(this.bt_amigo4);
             this.Controls.Add(this.bt_amigo3);
@@ -497,8 +498,8 @@ namespace RedeSocial
         private System.Windows.Forms.Button bt_amigo2;
         private System.Windows.Forms.Button bt_amigo1;
         private System.Windows.Forms.Button bt_amigo0;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button bt_D;
+        private System.Windows.Forms.Button bt_E;
         public System.Windows.Forms.PictureBox foto_perfil_usuario;
         private System.Windows.Forms.Label Label_Descrição;
         public System.Windows.Forms.OpenFileDialog openFileDialog1;

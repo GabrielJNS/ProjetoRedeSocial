@@ -117,6 +117,7 @@ namespace RedeSocial
             this.caixa_data.Size = new System.Drawing.Size(214, 22);
             this.caixa_data.TabIndex = 6;
             this.caixa_data.Text = "09/04/2003";
+            this.caixa_data.TextChanged += new System.EventHandler(this.caixa_data_TextChanged);
             // 
             // caixa_confirmaEmail
             // 

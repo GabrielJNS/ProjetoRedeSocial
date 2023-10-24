@@ -37,6 +37,8 @@ namespace RedeSocial
             string novoEmail = caixa_email.Text;
             string email = caixa_email.Text;
             string confirmaEmail = caixa_confirmaEmail.Text;
+            string dataNascimento = caixa_data.Text;
+
 
             // Verifica se o email é válido
 
@@ -82,6 +84,12 @@ namespace RedeSocial
                     caixa_email.Text = "";
 
 
+                    return;
+                }
+                // verificar idade
+                if (!DataNascimentoValida(dataNascimento))
+                {
+                    MessageBox.Show("Você deve ter mais de 13 anos para se cadastrar.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
@@ -153,6 +161,24 @@ namespace RedeSocial
             }
             return false;
         }
+        private bool DataNascimentoValida(string dataNascimento)
+        {
+            if (DateTime.TryParse(dataNascimento, out DateTime dataNasc))
+            {
+                int idade = DateTime.Today.Year - dataNasc.Year;
+
+                if (dataNasc.Date > DateTime.Today.AddYears(-idade))
+                {
+                    idade--;
+
+                    if (idade >= 13)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
         private void caixa_email_GotFocus(object sender, EventArgs e)
         {
             if (caixa_email.Text == "@exemplo.com")
@@ -194,6 +220,11 @@ namespace RedeSocial
         }
 
         private void caixa_senha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void caixa_data_TextChanged(object sender, EventArgs e)
         {
 
         }

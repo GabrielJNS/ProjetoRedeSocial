@@ -130,6 +130,9 @@
   <data name="olho_fechado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\olho_fechado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Login (26)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login (26).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="moça" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\moça.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -138,9 +141,6 @@
   </data>
   <data name="Login__16_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Login__16_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Login (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Login (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,14 +154,14 @@
   <data name="kisspng-computer-icons-arrow-symbol-icon-design-creative-5aca57642062b61" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-computer-icons-arrow-symbol-icon-design-creative-5aca57642062b6.10169176152321008413271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Login (30)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Login (30).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="seta-PhotoRoom.png-PhotoRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta-PhotoRoom.png-PhotoRoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kisspng-computer-icons-arrow-symbol-icon-design-creative-5aca57642062b6.1016917615232100841327" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-computer-icons-arrow-symbol-icon-design-creative-5aca57642062b6.1016917615232100841327.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ropuinhas_pug" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ropuinhas_pug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Login (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Login (27)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Login (27).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,19 +169,28 @@
   <data name="Login (15)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Login (15)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Ropuinhas_pug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ropuinhas_pug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Login (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Login (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seta-PhotoRoom.png-PhotoRoom (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seta-PhotoRoom.png-PhotoRoom (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login (31)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login (31).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="olho_aberto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\olho_aberto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Login (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Login (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Login (30)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login (30).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Login (26)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Login (26).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Login (31)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Login (31).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Login (32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login (32).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

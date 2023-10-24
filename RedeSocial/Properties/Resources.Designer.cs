@@ -244,6 +244,16 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Login__32_ {
+            get {
+                object obj = ResourceManager.GetObject("Login (32)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap moça {
             get {
                 object obj = ResourceManager.GetObject("moça", resourceCulture);
@@ -277,6 +287,26 @@ namespace RedeSocial.Properties {
         internal static System.Drawing.Bitmap Ropuinhas_pug {
             get {
                 object obj = ResourceManager.GetObject("Ropuinhas_pug", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seta_PhotoRoom_png_PhotoRoom {
+            get {
+                object obj = ResourceManager.GetObject("seta-PhotoRoom.png-PhotoRoom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap seta_PhotoRoom_png_PhotoRoom__1_ {
+            get {
+                object obj = ResourceManager.GetObject("seta-PhotoRoom.png-PhotoRoom (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -37,9 +37,14 @@ namespace RedeSocial
             Sorteio_Amigos();            
             foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
             foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
-            
+            ConfigurarCircularButton(bt_D);
+            ConfigurarCircularButton(bt_E);
+            ConfigurarCircularPictureBox(foto_perfil_usuario);
+
+
 
         }
+        
         // Função para sortear amigos
         private void Sorteio_Amigos()
         {
@@ -316,6 +321,12 @@ namespace RedeSocial
 
         }
 
+        private void foto_perfil_usuario_Click(object sender, EventArgs e)
+        {
+            Tela_Perfil telaPerfil = new Tela_Perfil();
+            telaPerfil.ShowDialog();
+        }
+
         private void toolStripContainer1_LeftToolStripPanel_Click(object sender, EventArgs e)
         {
 
@@ -399,5 +410,30 @@ namespace RedeSocial
             }
 
         }
+        private void ConfigurarCircularPictureBox(PictureBox pictureBox)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddEllipse(pictureBox.ClientRectangle);
+            pictureBox.Region = new Region(path);
+            pictureBox.BackColor = Color.Transparent;
+            pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+
+        }
+
+        private void ConfigurarCircularButton(Button button)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddEllipse(button.ClientRectangle);
+            button.Region = new Region(path);
+            button.FlatStyle = FlatStyle.Flat;
+            button.FlatAppearance.BorderSize = 0;
+            button.BackColor = Color.CornflowerBlue;
+            button.Click += Button_Click;
+        }
+        private void Button_Click(object sender, EventArgs e)
+        {
+            Button clickedButton = (Button)sender;
+        }
+
     }
 }
