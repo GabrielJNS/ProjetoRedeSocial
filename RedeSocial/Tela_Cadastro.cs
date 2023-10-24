@@ -9,9 +9,22 @@ namespace RedeSocial
         public Tela_Cadastro()
         {
             InitializeComponent();
-            
+            caixa_confirmaEmail.BorderStyle = BorderStyle.None;
+            caixa_confirmaSenha.BorderStyle = BorderStyle.None;
+            caixa_data.BorderStyle = BorderStyle.None;
+            caixa_email.BorderStyle = BorderStyle.None;
+            caixa_nome.BorderStyle = BorderStyle.None;
+            caixa_senha.BorderStyle = BorderStyle.None;
+
+
+
+
+
+
+
+
         }
-      
+
         private void bt_cadastrar_Click(object sender, EventArgs e)
         {
             cadastro(); 

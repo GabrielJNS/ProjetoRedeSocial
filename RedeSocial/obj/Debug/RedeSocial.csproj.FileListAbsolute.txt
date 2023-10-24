@@ -258,3 +258,6 @@ C:\Users\User\Desktop\RedeSocial2310\RedeSocial\obj\Debug\RedeSocial.csproj.Core
 C:\Users\User\Desktop\RedeSocial2310\RedeSocial\obj\Debug\RedeSocial.exe
 C:\Users\User\Desktop\RedeSocial2310\RedeSocial\obj\Debug\RedeSocial.pdb
 C:\Users\User\Desktop\RedeSocial2310\RedeSocial\obj\Debug\RedeSocial.Tela_Alterar.resources
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\Resources\Foto_fotos.PNG
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Alterar.resources
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Fotos.resources

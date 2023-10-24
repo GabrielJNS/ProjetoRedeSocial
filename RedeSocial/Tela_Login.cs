@@ -112,14 +112,17 @@ namespace RedeSocial
         {
             caixaSenha.PasswordChar = '•'; 
             btnMostrarSenha.BackgroundImage = Properties.Resources.olho_fechado;
+            caixaSenha.BorderStyle = BorderStyle.None;
+            Caixa_email.BorderStyle = BorderStyle.None;
 
-        
-    }
 
-       
+        }
+
+
 
         private void Caixa_email_TextChanged(object sender, EventArgs e)
         {
+            Caixa_email.BorderStyle = BorderStyle.None;
 
         }
 
@@ -156,6 +159,7 @@ namespace RedeSocial
 
         private void caixaSenha_TextChanged(object sender, EventArgs e)
         {
+            caixaSenha.BorderStyle = BorderStyle.None;
 
         }
     }

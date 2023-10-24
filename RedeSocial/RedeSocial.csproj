@@ -258,6 +258,8 @@
     <Content Include="Resources\Foto_fotos.PNG">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Login %2831%29.png" />
+    <None Include="Resources\Login %2830%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
