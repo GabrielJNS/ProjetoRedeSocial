@@ -56,7 +56,7 @@ namespace RedeSocial
             // 
             this.caixa_senha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.caixa_senha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.caixa_senha.Location = new System.Drawing.Point(540, 358);
+            this.caixa_senha.Location = new System.Drawing.Point(532, 358);
             this.caixa_senha.Margin = new System.Windows.Forms.Padding(4);
             this.caixa_senha.Name = "caixa_senha";
             this.caixa_senha.Size = new System.Drawing.Size(212, 22);
@@ -76,7 +76,7 @@ namespace RedeSocial
             this.bt_cadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_cadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cadastrar.Location = new System.Drawing.Point(387, 469);
+            this.bt_cadastrar.Location = new System.Drawing.Point(366, 478);
             this.bt_cadastrar.Margin = new System.Windows.Forms.Padding(4);
             this.bt_cadastrar.Name = "bt_cadastrar";
             this.bt_cadastrar.Size = new System.Drawing.Size(153, 50);
@@ -88,7 +88,7 @@ namespace RedeSocial
             // 
             this.caixa_email.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.caixa_email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.caixa_email.Location = new System.Drawing.Point(136, 285);
+            this.caixa_email.Location = new System.Drawing.Point(132, 283);
             this.caixa_email.Margin = new System.Windows.Forms.Padding(4);
             this.caixa_email.Name = "caixa_email";
             this.caixa_email.Size = new System.Drawing.Size(214, 22);
@@ -100,7 +100,7 @@ namespace RedeSocial
             // 
             this.caixa_confirmaSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.caixa_confirmaSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.caixa_confirmaSenha.Location = new System.Drawing.Point(540, 430);
+            this.caixa_confirmaSenha.Location = new System.Drawing.Point(532, 434);
             this.caixa_confirmaSenha.Margin = new System.Windows.Forms.Padding(4);
             this.caixa_confirmaSenha.Name = "caixa_confirmaSenha";
             this.caixa_confirmaSenha.Size = new System.Drawing.Size(212, 22);
@@ -111,7 +111,7 @@ namespace RedeSocial
             // 
             this.caixa_data.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.caixa_data.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.caixa_data.Location = new System.Drawing.Point(136, 430);
+            this.caixa_data.Location = new System.Drawing.Point(132, 434);
             this.caixa_data.Margin = new System.Windows.Forms.Padding(4);
             this.caixa_data.Name = "caixa_data";
             this.caixa_data.Size = new System.Drawing.Size(214, 22);
@@ -121,7 +121,7 @@ namespace RedeSocial
             // caixa_confirmaEmail
             // 
             this.caixa_confirmaEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.caixa_confirmaEmail.Location = new System.Drawing.Point(136, 358);
+            this.caixa_confirmaEmail.Location = new System.Drawing.Point(132, 358);
             this.caixa_confirmaEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.caixa_confirmaEmail.Name = "caixa_confirmaEmail";
             this.caixa_confirmaEmail.Size = new System.Drawing.Size(214, 22);
@@ -137,8 +137,8 @@ namespace RedeSocial
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__31_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1181, 603);
-            this.Controls.Add(this.caixa_confirmaEmail);
             this.Controls.Add(this.caixa_data);
+            this.Controls.Add(this.caixa_confirmaEmail);
             this.Controls.Add(this.caixa_confirmaSenha);
             this.Controls.Add(this.caixa_email);
             this.Controls.Add(this.bt_cadastrar);

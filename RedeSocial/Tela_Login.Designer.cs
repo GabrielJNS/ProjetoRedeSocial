@@ -82,10 +82,10 @@ namespace RedeSocial
             this.Caixa_email.BackColor = System.Drawing.Color.White;
             this.Caixa_email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Caixa_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Caixa_email.Location = new System.Drawing.Point(783, 251);
+            this.Caixa_email.Location = new System.Drawing.Point(792, 248);
             this.Caixa_email.Margin = new System.Windows.Forms.Padding(4);
             this.Caixa_email.Name = "Caixa_email";
-            this.Caixa_email.Size = new System.Drawing.Size(338, 28);
+            this.Caixa_email.Size = new System.Drawing.Size(329, 28);
             this.Caixa_email.TabIndex = 5;
             this.Caixa_email.Text = "mane@gmail.com";
             this.Caixa_email.TextChanged += new System.EventHandler(this.Caixa_email_TextChanged);
@@ -99,9 +99,9 @@ namespace RedeSocial
             this.btnMostrarSenha.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnMostrarSenha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnMostrarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMostrarSenha.Location = new System.Drawing.Point(1086, 375);
+            this.btnMostrarSenha.Location = new System.Drawing.Point(1091, 368);
             this.btnMostrarSenha.Name = "btnMostrarSenha";
-            this.btnMostrarSenha.Size = new System.Drawing.Size(35, 24);
+            this.btnMostrarSenha.Size = new System.Drawing.Size(30, 31);
             this.btnMostrarSenha.TabIndex = 6;
             this.btnMostrarSenha.UseVisualStyleBackColor = false;
             this.btnMostrarSenha.Click += new System.EventHandler(this.btnMostrarSenha_Click);
@@ -110,7 +110,7 @@ namespace RedeSocial
             // 
             this.caixaSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.caixaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaSenha.Location = new System.Drawing.Point(783, 375);
+            this.caixaSenha.Location = new System.Drawing.Point(792, 371);
             this.caixaSenha.Name = "caixaSenha";
             this.caixaSenha.Size = new System.Drawing.Size(297, 28);
             this.caixaSenha.TabIndex = 7;
