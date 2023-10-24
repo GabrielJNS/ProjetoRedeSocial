@@ -23,7 +23,7 @@ namespace RedeSocial
         {
             InitializeComponent();
             cont = Convert.ToInt32(Login.user);
-            Label_Nome.Text = Tela_BoasVindas.nome_final;
+            //Label_Nome.Text = Tela_BoasVindas.nome_final;
             Label_Id.Text = Login.user;
             Label_name.Text = Login.nomes[cont];
             Label_email.Text = Login.email[cont];
@@ -165,6 +165,12 @@ namespace RedeSocial
 
             }
 
+        }
+
+        private void bt_alterar_dados_Click(object sender, EventArgs e)
+        {
+            Tela_Alterar nova = new Tela_Alterar();
+            nova.Show();
         }
     }
 }

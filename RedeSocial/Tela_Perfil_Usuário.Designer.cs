@@ -46,13 +46,14 @@ namespace RedeSocial
             this.foto_perfil = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.openFileDialog1_foto_perfil = new System.Windows.Forms.OpenFileDialog();
+            this.bt_alterar_dados = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil)).BeginInit();
             this.SuspendLayout();
             // 
             // Label_Nome
             // 
             this.Label_Nome.AutoSize = true;
-            this.Label_Nome.Location = new System.Drawing.Point(44, 57);
+            this.Label_Nome.Location = new System.Drawing.Point(44, 35);
             this.Label_Nome.Name = "Label_Nome";
             this.Label_Nome.Size = new System.Drawing.Size(106, 13);
             this.Label_Nome.TabIndex = 1;
@@ -69,7 +70,7 @@ namespace RedeSocial
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(118, 202);
+            this.label1.Location = new System.Drawing.Point(263, 96);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 24);
             this.label1.TabIndex = 2;
@@ -80,7 +81,7 @@ namespace RedeSocial
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(118, 170);
+            this.label2.Location = new System.Drawing.Point(263, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(32, 24);
             this.label2.TabIndex = 3;
@@ -91,7 +92,7 @@ namespace RedeSocial
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(2, 274);
+            this.label3.Location = new System.Drawing.Point(262, 165);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(184, 24);
             this.label3.TabIndex = 4;
@@ -101,7 +102,7 @@ namespace RedeSocial
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(118, 239);
+            this.label4.Location = new System.Drawing.Point(262, 133);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(68, 24);
             this.label4.TabIndex = 5;
@@ -110,7 +111,7 @@ namespace RedeSocial
             // Label_Id
             // 
             this.Label_Id.AutoSize = true;
-            this.Label_Id.Location = new System.Drawing.Point(207, 178);
+            this.Label_Id.Location = new System.Drawing.Point(455, 73);
             this.Label_Id.Name = "Label_Id";
             this.Label_Id.Size = new System.Drawing.Size(18, 13);
             this.Label_Id.TabIndex = 6;
@@ -120,7 +121,7 @@ namespace RedeSocial
             // Label_Data
             // 
             this.Label_Data.AutoSize = true;
-            this.Label_Data.Location = new System.Drawing.Point(207, 282);
+            this.Label_Data.Location = new System.Drawing.Point(455, 173);
             this.Label_Data.Name = "Label_Data";
             this.Label_Data.Size = new System.Drawing.Size(30, 13);
             this.Label_Data.TabIndex = 7;
@@ -129,7 +130,7 @@ namespace RedeSocial
             // Label_email
             // 
             this.Label_email.AutoSize = true;
-            this.Label_email.Location = new System.Drawing.Point(207, 247);
+            this.Label_email.Location = new System.Drawing.Point(455, 141);
             this.Label_email.Name = "Label_email";
             this.Label_email.Size = new System.Drawing.Size(43, 13);
             this.Label_email.TabIndex = 8;
@@ -138,7 +139,7 @@ namespace RedeSocial
             // Label_name
             // 
             this.Label_name.AutoSize = true;
-            this.Label_name.Location = new System.Drawing.Point(207, 210);
+            this.Label_name.Location = new System.Drawing.Point(455, 107);
             this.Label_name.Name = "Label_name";
             this.Label_name.Size = new System.Drawing.Size(43, 13);
             this.Label_name.TabIndex = 9;
@@ -148,16 +149,16 @@ namespace RedeSocial
             // foto_perfil
             // 
             this.foto_perfil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.foto_perfil.Location = new System.Drawing.Point(409, 57);
+            this.foto_perfil.Location = new System.Drawing.Point(37, 94);
             this.foto_perfil.Name = "foto_perfil";
-            this.foto_perfil.Size = new System.Drawing.Size(336, 218);
+            this.foto_perfil.Size = new System.Drawing.Size(124, 115);
             this.foto_perfil.TabIndex = 10;
             this.foto_perfil.TabStop = false;
             this.foto_perfil.Click += new System.EventHandler(this.foto_perfil_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(47, 118);
+            this.button2.Location = new System.Drawing.Point(61, 65);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 11;
@@ -170,11 +171,22 @@ namespace RedeSocial
             this.openFileDialog1_foto_perfil.FileName = "openFileDialog1_foto_perfil";
             this.openFileDialog1_foto_perfil.Filter = "JPEG(*.jpeg)|*.jpeg|PNG(*.png)|*.png|JPG(*.jpg)|*.jpg";
             // 
+            // bt_alterar_dados
+            // 
+            this.bt_alterar_dados.Location = new System.Drawing.Point(409, 248);
+            this.bt_alterar_dados.Name = "bt_alterar_dados";
+            this.bt_alterar_dados.Size = new System.Drawing.Size(141, 38);
+            this.bt_alterar_dados.TabIndex = 12;
+            this.bt_alterar_dados.Text = "Alterar Dados";
+            this.bt_alterar_dados.UseVisualStyleBackColor = true;
+            this.bt_alterar_dados.Click += new System.EventHandler(this.bt_alterar_dados_Click);
+            // 
             // Tela_Perfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(924, 599);
+            this.ClientSize = new System.Drawing.Size(591, 330);
+            this.Controls.Add(this.bt_alterar_dados);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.foto_perfil);
             this.Controls.Add(this.Label_name);
@@ -210,5 +222,6 @@ namespace RedeSocial
         private System.Windows.Forms.PictureBox foto_perfil;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.OpenFileDialog openFileDialog1_foto_perfil;
+        private System.Windows.Forms.Button bt_alterar_dados;
     }
 }

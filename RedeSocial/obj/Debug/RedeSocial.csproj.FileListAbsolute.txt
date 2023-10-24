@@ -257,3 +257,4 @@ C:\Users\User\Desktop\RedeSocial2310\RedeSocial\obj\Debug\RedeSocial.csproj.Gene
 C:\Users\User\Desktop\RedeSocial2310\RedeSocial\obj\Debug\RedeSocial.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\RedeSocial2310\RedeSocial\obj\Debug\RedeSocial.exe
 C:\Users\User\Desktop\RedeSocial2310\RedeSocial\obj\Debug\RedeSocial.pdb
+C:\Users\User\Desktop\RedeSocial2310\RedeSocial\obj\Debug\RedeSocial.Tela_Alterar.resources

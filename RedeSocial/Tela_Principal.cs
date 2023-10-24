@@ -234,6 +234,7 @@ namespace RedeSocial
 
                     // Define a descrição da postagem
                     Label_Descrição.Text = Login.descricao_postagens[j];
+                    text_Box_Comentarios.Text = Login.descricao_postagens[j];
 
                     // Define o nome do usuário que fez a postagem 
                     label_Usuario_Postagem.Text = Login.dono_postagem[l];
@@ -296,6 +297,23 @@ namespace RedeSocial
         {
             Tela_Fotos novo = new Tela_Fotos();
             novo.Show();
+        }
+
+        private void bt_like_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 1; i++)
+            {
+                Like();
+            }
+        }
+        private void Like()
+        {
+            int cont = 0;               
+                cont++;                
+                bt_like.Text = Convert.ToString(" Likes " + cont);
+            
+
+
         }
 
         private void toolStripContainer1_LeftToolStripPanel_Click(object sender, EventArgs e)

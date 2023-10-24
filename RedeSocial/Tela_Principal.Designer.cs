@@ -57,6 +57,8 @@ namespace RedeSocial
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.label_Usuario_Postagem = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.text_Box_Comentarios = new System.Windows.Forms.RichTextBox();
+            this.bt_like = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil_usuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Mostra_Foto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -198,6 +200,7 @@ namespace RedeSocial
             // 
             // Bt_Postar
             // 
+            this.Bt_Postar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Bt_Postar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Bt_Postar.Location = new System.Drawing.Point(815, 206);
             this.Bt_Postar.Name = "Bt_Postar";
@@ -214,6 +217,7 @@ namespace RedeSocial
             // 
             // Bt_mais_amigos
             // 
+            this.Bt_mais_amigos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Bt_mais_amigos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Bt_mais_amigos.Location = new System.Drawing.Point(975, 206);
             this.Bt_mais_amigos.Name = "Bt_mais_amigos";
@@ -280,6 +284,7 @@ namespace RedeSocial
             // 
             // button7
             // 
+            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button7.BackColor = System.Drawing.Color.Transparent;
             this.button7.BackgroundImage = global::RedeSocial.Properties.Resources.kisspng_computer_icons_arrow_symbol_icon_design_creative_5aca57642062b61;
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -299,6 +304,7 @@ namespace RedeSocial
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = global::RedeSocial.Properties.Resources.kisspng_computer_icons_arrow_symbol_icon_design_creative_5aca57642062b6_1016917615232100841327;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -318,6 +324,7 @@ namespace RedeSocial
             // 
             // foto_perfil_usuario
             // 
+            this.foto_perfil_usuario.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.foto_perfil_usuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.foto_perfil_usuario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.foto_perfil_usuario.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -344,9 +351,10 @@ namespace RedeSocial
             // 
             // Label_Descrição
             // 
+            this.Label_Descrição.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Label_Descrição.AutoSize = true;
             this.Label_Descrição.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Label_Descrição.Location = new System.Drawing.Point(220, 552);
+            this.Label_Descrição.Location = new System.Drawing.Point(138, 578);
             this.Label_Descrição.Name = "Label_Descrição";
             this.Label_Descrição.Size = new System.Drawing.Size(55, 13);
             this.Label_Descrição.TabIndex = 29;
@@ -354,6 +362,7 @@ namespace RedeSocial
             // 
             // label_Usuario_Postagem
             // 
+            this.label_Usuario_Postagem.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label_Usuario_Postagem.AutoSize = true;
             this.label_Usuario_Postagem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label_Usuario_Postagem.Location = new System.Drawing.Point(288, 177);
@@ -365,6 +374,7 @@ namespace RedeSocial
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(441, 93);
@@ -373,6 +383,27 @@ namespace RedeSocial
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_3);
+            // 
+            // text_Box_Comentarios
+            // 
+            this.text_Box_Comentarios.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.text_Box_Comentarios.BackColor = System.Drawing.SystemColors.Menu;
+            this.text_Box_Comentarios.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.text_Box_Comentarios.Location = new System.Drawing.Point(192, 506);
+            this.text_Box_Comentarios.Name = "text_Box_Comentarios";
+            this.text_Box_Comentarios.Size = new System.Drawing.Size(610, 48);
+            this.text_Box_Comentarios.TabIndex = 33;
+            this.text_Box_Comentarios.Text = "";
+            // 
+            // bt_like
+            // 
+            this.bt_like.Location = new System.Drawing.Point(199, 571);
+            this.bt_like.Name = "bt_like";
+            this.bt_like.Size = new System.Drawing.Size(56, 27);
+            this.bt_like.TabIndex = 35;
+            this.bt_like.Text = "Like 0";
+            this.bt_like.UseVisualStyleBackColor = true;
+            this.bt_like.Click += new System.EventHandler(this.bt_like_Click);
             // 
             // Tela_BoasVindas
             // 
@@ -383,6 +414,8 @@ namespace RedeSocial
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__27_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1156, 659);
+            this.Controls.Add(this.bt_like);
+            this.Controls.Add(this.text_Box_Comentarios);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label_Usuario_Postagem);
             this.Controls.Add(this.Label_Descrição);
@@ -451,5 +484,7 @@ namespace RedeSocial
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.Label label_Usuario_Postagem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.RichTextBox text_Box_Comentarios;
+        private System.Windows.Forms.Button bt_like;
     }
 }
