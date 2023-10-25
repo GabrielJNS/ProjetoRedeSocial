@@ -37,14 +37,14 @@ namespace RedeSocial
             Sorteio_Amigos();            
             foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
             foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
-            ConfigurarCircularButton(bt_D);
-            ConfigurarCircularButton(bt_E);
+           
             ConfigurarCircularPictureBox(foto_perfil_usuario);
+            caixa_Procura.BorderStyle = BorderStyle.None;
 
 
 
         }
-        
+
         // Função para sortear amigos
         private void Sorteio_Amigos()
         {
@@ -196,6 +196,8 @@ namespace RedeSocial
 
         private void Pic_Mostra_Foto_Click(object sender, EventArgs e)
         {
+           Pic_Mostra_Foto.BackColor = Color.Transparent;
+
 
         }
 
@@ -271,6 +273,8 @@ namespace RedeSocial
         private void button7_Click_2(object sender, EventArgs e)
         {
             mostrar_Postagens();
+
+
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -300,6 +304,7 @@ namespace RedeSocial
 
         private void pictureBox1_Click_3(object sender, EventArgs e)
         {
+
             Tela_Fotos novo = new Tela_Fotos();
             novo.Show();
         }
@@ -323,8 +328,7 @@ namespace RedeSocial
 
         private void foto_perfil_usuario_Click(object sender, EventArgs e)
         {
-            Tela_Perfil telaPerfil = new Tela_Perfil();
-            telaPerfil.ShowDialog();
+            
         }
 
         private void toolStripContainer1_LeftToolStripPanel_Click(object sender, EventArgs e)
@@ -388,6 +392,13 @@ namespace RedeSocial
                
             }
         }
+
+        private void bt_Foto_Click(object sender, EventArgs e)
+        {
+            Tela_Fotos novo = new Tela_Fotos();
+            novo.Show();
+        }
+
         public void RedimensionarImagem(string caminhoDaImagem, int larguraDesejada, int alturaDesejada)
         {
             try
@@ -420,20 +431,21 @@ namespace RedeSocial
 
         }
 
-        private void ConfigurarCircularButton(Button button)
-        {
-            GraphicsPath path = new GraphicsPath();
-            path.AddEllipse(button.ClientRectangle);
-            button.Region = new Region(path);
-            button.FlatStyle = FlatStyle.Flat;
-            button.FlatAppearance.BorderSize = 0;
-            button.BackColor = Color.CornflowerBlue;
-            button.Click += Button_Click;
-        }
+       
         private void Button_Click(object sender, EventArgs e)
         {
             Button clickedButton = (Button)sender;
         }
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            bt_D.Visible = true;
+            bt_E.Visible = true;
+        }
 
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            bt_D.Visible = false;
+            bt_E.Visible = false;
+        }
     }
 }

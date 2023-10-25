@@ -86,12 +86,7 @@ namespace RedeSocial
 
                     return;
                 }
-                // verificar idade
-                if (!DataNascimentoValida(dataNascimento))
-                {
-                    MessageBox.Show("Você deve ter mais de 13 anos para se cadastrar.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
+        
 
             // Loop para garantir que a senha e a confirmação de senha sejam iguais
 
@@ -161,24 +156,7 @@ namespace RedeSocial
             }
             return false;
         }
-        private bool DataNascimentoValida(string dataNascimento)
-        {
-            if (DateTime.TryParse(dataNascimento, out DateTime dataNasc))
-            {
-                int idade = DateTime.Today.Year - dataNasc.Year;
-
-                if (dataNasc.Date > DateTime.Today.AddYears(-idade))
-                {
-                    idade--;
-
-                    if (idade >= 13)
-                    {
-                        return true;
-                    }
-                }
-            }
-            return false;
-        }
+        
         private void caixa_email_GotFocus(object sender, EventArgs e)
         {
             if (caixa_email.Text == "@exemplo.com")

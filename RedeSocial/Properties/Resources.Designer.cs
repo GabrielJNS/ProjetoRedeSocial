@@ -73,6 +73,16 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4511733_icone_de_camera_em_fundo_branco_vetor {
+            get {
+                object obj = ResourceManager.GetObject("4511733-icone-de-camera-em-fundo-branco-vetor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kisspng_computer_icons_arrow_symbol_icon_design_creative_5aca57642062b6_1016917615232100841327 {
             get {
                 object obj = ResourceManager.GetObject("kisspng-computer-icons-arrow-symbol-icon-design-creative-5aca57642062b6.101691761" +
@@ -254,6 +264,56 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Login__33_ {
+            get {
+                object obj = ResourceManager.GetObject("Login (33)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Login__36__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Login__36_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Login__37__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Login__37_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Login__39_ {
+            get {
+                object obj = ResourceManager.GetObject("Login (39)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Login__40_ {
+            get {
+                object obj = ResourceManager.GetObject("Login (40)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap moça {
             get {
                 object obj = ResourceManager.GetObject("moça", resourceCulture);
@@ -277,6 +337,17 @@ namespace RedeSocial.Properties {
         internal static System.Drawing.Bitmap olho_fechado {
             get {
                 object obj = ResourceManager.GetObject("olho_fechado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_camera_icon_isolated_on_abstract_background_png_image_5083023_PhotoRoom_png_PhotoRoom {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-camera-icon-isolated-on-abstract-background-png-image_5083023-PhotoRoom.p" +
+                        "ng-PhotoRoom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

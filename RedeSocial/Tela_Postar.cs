@@ -85,5 +85,10 @@ namespace RedeSocial
 
             }
         }
+
+        private void foto_postar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

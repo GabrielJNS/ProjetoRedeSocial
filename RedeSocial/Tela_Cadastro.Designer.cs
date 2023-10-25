@@ -47,7 +47,7 @@ namespace RedeSocial
             this.caixa_nome.Location = new System.Drawing.Point(136, 210);
             this.caixa_nome.Margin = new System.Windows.Forms.Padding(4);
             this.caixa_nome.Name = "caixa_nome";
-            this.caixa_nome.Size = new System.Drawing.Size(203, 22);
+            this.caixa_nome.Size = new System.Drawing.Size(219, 22);
             this.caixa_nome.TabIndex = 0;
             this.caixa_nome.Text = "Tom Anjos";
             this.caixa_nome.TextChanged += new System.EventHandler(this.caixa_nome_TextChanged);
@@ -56,10 +56,10 @@ namespace RedeSocial
             // 
             this.caixa_senha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.caixa_senha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.caixa_senha.Location = new System.Drawing.Point(532, 358);
+            this.caixa_senha.Location = new System.Drawing.Point(480, 210);
             this.caixa_senha.Margin = new System.Windows.Forms.Padding(4);
             this.caixa_senha.Name = "caixa_senha";
-            this.caixa_senha.Size = new System.Drawing.Size(212, 22);
+            this.caixa_senha.Size = new System.Drawing.Size(216, 22);
             this.caixa_senha.TabIndex = 1;
             this.caixa_senha.Text = "123";
             this.caixa_senha.TextChanged += new System.EventHandler(this.caixa_senha_TextChanged);
@@ -68,7 +68,7 @@ namespace RedeSocial
             // 
             this.bt_cadastrar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.bt_cadastrar.BackColor = System.Drawing.Color.Transparent;
-            this.bt_cadastrar.BackgroundImage = global::RedeSocial.Properties.Resources.Login__16__removebg_preview1;
+            this.bt_cadastrar.BackgroundImage = global::RedeSocial.Properties.Resources.Login__36__removebg_preview;
             this.bt_cadastrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bt_cadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bt_cadastrar.FlatAppearance.BorderColor = System.Drawing.Color.White;
@@ -76,7 +76,7 @@ namespace RedeSocial
             this.bt_cadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_cadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cadastrar.Location = new System.Drawing.Point(366, 478);
+            this.bt_cadastrar.Location = new System.Drawing.Point(364, 474);
             this.bt_cadastrar.Margin = new System.Windows.Forms.Padding(4);
             this.bt_cadastrar.Name = "bt_cadastrar";
             this.bt_cadastrar.Size = new System.Drawing.Size(153, 50);
@@ -91,7 +91,7 @@ namespace RedeSocial
             this.caixa_email.Location = new System.Drawing.Point(132, 283);
             this.caixa_email.Margin = new System.Windows.Forms.Padding(4);
             this.caixa_email.Name = "caixa_email";
-            this.caixa_email.Size = new System.Drawing.Size(214, 22);
+            this.caixa_email.Size = new System.Drawing.Size(223, 22);
             this.caixa_email.TabIndex = 4;
             this.caixa_email.Text = "tomanjos@gmail.com";
             this.caixa_email.TextChanged += new System.EventHandler(this.caixa_email_TextChanged);
@@ -100,10 +100,10 @@ namespace RedeSocial
             // 
             this.caixa_confirmaSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.caixa_confirmaSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.caixa_confirmaSenha.Location = new System.Drawing.Point(532, 434);
+            this.caixa_confirmaSenha.Location = new System.Drawing.Point(480, 283);
             this.caixa_confirmaSenha.Margin = new System.Windows.Forms.Padding(4);
             this.caixa_confirmaSenha.Name = "caixa_confirmaSenha";
-            this.caixa_confirmaSenha.Size = new System.Drawing.Size(212, 22);
+            this.caixa_confirmaSenha.Size = new System.Drawing.Size(216, 22);
             this.caixa_confirmaSenha.TabIndex = 5;
             this.caixa_confirmaSenha.Text = "123";
             // 
@@ -114,7 +114,7 @@ namespace RedeSocial
             this.caixa_data.Location = new System.Drawing.Point(132, 434);
             this.caixa_data.Margin = new System.Windows.Forms.Padding(4);
             this.caixa_data.Name = "caixa_data";
-            this.caixa_data.Size = new System.Drawing.Size(214, 22);
+            this.caixa_data.Size = new System.Drawing.Size(223, 22);
             this.caixa_data.TabIndex = 6;
             this.caixa_data.Text = "09/04/2003";
             this.caixa_data.TextChanged += new System.EventHandler(this.caixa_data_TextChanged);
@@ -125,7 +125,7 @@ namespace RedeSocial
             this.caixa_confirmaEmail.Location = new System.Drawing.Point(132, 358);
             this.caixa_confirmaEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.caixa_confirmaEmail.Name = "caixa_confirmaEmail";
-            this.caixa_confirmaEmail.Size = new System.Drawing.Size(214, 22);
+            this.caixa_confirmaEmail.Size = new System.Drawing.Size(223, 22);
             this.caixa_confirmaEmail.TabIndex = 7;
             this.caixa_confirmaEmail.Text = "tomanjos@gmail.com";
             this.caixa_confirmaEmail.TextChanged += new System.EventHandler(this.caixa_confirmaEmail_TextChanged);
@@ -135,7 +135,7 @@ namespace RedeSocial
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__31_;
+            this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__39_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1181, 603);
             this.Controls.Add(this.caixa_data);

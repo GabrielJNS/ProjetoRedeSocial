@@ -255,9 +255,16 @@
     <None Include="Resources\Login %2827%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Login__37_-removebg-preview.png" />
+    <None Include="Resources\Login %2840%29.png" />
+    <None Include="Resources\pngtree-camera-icon-isolated-on-abstract-background-png-image_5083023-PhotoRoom.png-PhotoRoom.png" />
+    <None Include="Resources\4511733-icone-de-camera-em-fundo-branco-vetor.jpg" />
     <Content Include="Resources\Foto_fotos.PNG">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Login %2833%29.png" />
+    <None Include="Resources\Login__36_-removebg-preview.png" />
+    <None Include="Resources\Login %2839%29.png" />
     <None Include="Resources\Login %2832%29.png" />
     <None Include="Resources\seta-PhotoRoom.png-PhotoRoom %281%29.png" />
     <None Include="Resources\seta-PhotoRoom.png-PhotoRoom.png" />
