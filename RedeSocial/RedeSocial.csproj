@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Tela_Amizades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Amizades.Designer.cs">
+      <DependentUpon>Tela_Amizades.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tela_Alterar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +139,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Tela_Alterar.resx">
       <DependentUpon>Tela_Alterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Amizades.resx">
+      <DependentUpon>Tela_Amizades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_Fotos.resx">
       <DependentUpon>Tela_Fotos.cs</DependentUpon>

@@ -37,23 +37,24 @@ namespace RedeSocial
 
        
               
-        public void Seguindo()
-        {           
-                segue = Convert.ToInt32(Login.user);  
-                contI = prov;
-                contF = prov + 1;      
-                for (cont = contI; cont < contF; cont++)
-                {
-                    novo.Seguir(segue, cont);
-                }
-                contF++;
-                contI++;
-                prov = contI;             
+        public void Amizade()
+        {
+            
+            
+            for (Login.cont_amigo_ini = 0; Login.cont_amigo_ini < Login.cont_amigo; Login.cont_amigo_ini++)
+            {
+                Login.amigo_geral[Login.cont_amigo] =  Login.nomes[Login.amigo];
+                Login.solicita_amigo[Login.cont_amigo] = Login.nomes[Convert.ToInt32(Login.user)];
+                Login.confirmar_amigo_geral[Login.cont_amigo] = false;
+                
+            }
+            MessageBox.Show("Convite eviado a:  " + Login.amigo_geral[Login.cont_amigo_ini] + " Esperando Confirmação: " + Login.confirmar_amigo_geral[Login.cont_amigo_ini]);
+            Login.cont_amigo_ini++;
+            Login.cont_amigo++;
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            Seguindo();      
-                      
+            Amizade();                       
 
         }
 

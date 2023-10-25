@@ -26,7 +26,7 @@ namespace RedeSocial
         public static string caminho = System.Environment.CurrentDirectory;
         public static string caminho_foto = caminho + @"\postagem\";
         public static int a, b, c, d, z;
-        public static int amigo;
+        public static int amigo;        
         Random rnd = new Random();
 
         public Tela_BoasVindas()
@@ -36,11 +36,15 @@ namespace RedeSocial
             InitializeComponent();
             Sorteio_Amigos();            
             foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
-            foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
-           
+            foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];           
             ConfigurarCircularPictureBox(foto_perfil_usuario);
             caixa_Procura.BorderStyle = BorderStyle.None;
-
+            Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;           
+            Pic_Mostra_Foto.ImageLocation = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/postagem/paraiso.jpg";            
+            Label_Descrição.Text = "Paraiso";
+            text_Box_Comentarios.Text = "Paraiso Maravilhoso";           
+            label_Usuario_Postagem.Text = Login.nomes[Convert.ToInt32(Login.user)];
+            bt_amigo0.Text = Login.seusAmigos[0];
 
 
         }
@@ -51,20 +55,30 @@ namespace RedeSocial
             bt_UsuarioLogado.Text = Login.nomes[Convert.ToInt32(Login.user)];
             nome_Perfil = Login.user;
         novo:
-            a = rnd.Next(Login.n);
+            a = rnd.Next(Login.n-1);
             Amigo0.Text = Login.nomes[a];
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.ImageLocation = Login.foto_perfil[a];
             nome_Carregado = Amigo0.Text;
-            b = rnd.Next(Login.n);
+            b = rnd.Next(Login.n-1);
             Amigo1.Text = Login.nomes[b];
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.ImageLocation = Login.foto_perfil[b];
             nome_Carregado1 = Amigo1.Text;
-            c = rnd.Next(Login.n);
+            c = rnd.Next(Login.n-1);
             Amigo2.Text = Login.nomes[c];
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.ImageLocation = Login.foto_perfil[c];
             nome_Carregado2 = Amigo2.Text;
-            d = rnd.Next(Login.n);
+            d = rnd.Next(Login.n-1);
             Amigo3.Text = Login.nomes[d];
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.ImageLocation = Login.foto_perfil[d];
             nome_Carregado3 = Amigo3.Text;
-            z = rnd.Next(Login.n);
+            z = rnd.Next(Login.n-1);
             Amigo4.Text = Login.nomes[z];
+            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox5.ImageLocation = Login.foto_perfil[z];
             nome_Carregado4 = Amigo4.Text;
 
             if (a == b && a == c && a == d && a == z || b == c && b == d && b == z || c == d && c == z)
@@ -421,6 +435,13 @@ namespace RedeSocial
             }
 
         }
+
+        private void bt_amizades_Click(object sender, EventArgs e)
+        {
+            Tela_Amizades novo = new Tela_Amizades();
+            novo.Show();
+        }
+
         private void ConfigurarCircularPictureBox(PictureBox pictureBox)
         {
             GraphicsPath path = new GraphicsPath();

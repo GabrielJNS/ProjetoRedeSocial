@@ -261,3 +261,27 @@ C:\Users\User\Desktop\RedeSocial2310\RedeSocial\obj\Debug\RedeSocial.Tela_Altera
 C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\Resources\Foto_fotos.PNG
 C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Alterar.resources
 C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Fotos.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\bin\Debug\Resources\Foto_fotos.PNG
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\bin\Debug\RedeSocial.exe.config
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\bin\Debug\RedeSocial.exe
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\bin\Debug\RedeSocial.pdb
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_Alterar.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_Fotos.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_Postagem.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_Comunidade.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_Criar_Comunidades.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Login.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_Mostrar_Comunidade.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_Perfil_Amigos.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_BoasVindas.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_Erro.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_Cadastro.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Aviso_Cadastro.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_Perfil.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Properties.Resources.resources
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.exe
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.pdb
+C:\Users\User\Desktop\Projeto Enari\Rede Social 2510\RedeSocial\obj\Debug\RedeSocial.Tela_Amizades.resources

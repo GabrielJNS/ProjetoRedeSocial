@@ -23,8 +23,8 @@ namespace RedeSocial
         public static int amig_fut = 1;
         public static string user;
         public static int i;
-        public static int j = 1;
-        public static int n = 2;
+        public static int j = 5;
+        public static int n = 6;
         string senha_log;
         string email_log;
         int cont;
@@ -44,15 +44,45 @@ namespace RedeSocial
         public static int amigo;        
         int indiceUsuario;
 
+        // Solicitação de Amizades
+        public static int cont_amigo = 1;
+        public static int cont_amigo_ini = 0;
+        public static string[] solicita_amigo = new string[200];
+        public static string[] amigo_geral = new string[200];
+        public static bool[] confirmar_amigo_geral = new bool[200];
+        public static string[] seusAmigos = new string[200];
+
         public Login()
         {
             //  exemplo
 
             InitializeComponent();
-            Login.nomes[0] = "Mané Dos Santos";
+            Login.nomes[0] = "Manuel Francisco dos Santos";
             Login.email[0] = "mane@gmail.com";
             Login.senha[0] = "123";
-            Login.data_nascimento[0] = "15/11/1967";
+            Login.data_nascimento[0] = "28/10/1933";
+            Login.foto_perfil[0] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/garrincha.jpg";
+            Login.nomes[1] = "Tom Anjos";
+            Login.email[1] = "tom@gmail.com";
+            Login.senha[1] = "123";
+            Login.data_nascimento[1] = "15/11/2000";
+            Login.foto_perfil[1] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/tomanjos.jpg";
+            Login.nomes[2] = "Edson Arantes do Nascimento";
+            Login.email[2] = "pele@gmail.com";
+            Login.senha[2] = "123";
+            Login.data_nascimento[2] = "23/10/1940";
+            Login.foto_perfil[2] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/pele.jpg";
+            Login.nomes[3] = "Diego Armando Maradonna";
+            Login.email[3] = "dios@gmail.com";
+            Login.senha[3] = "123";
+            Login.data_nascimento[3] = "30/10/1960";
+            Login.foto_perfil[3] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/maradonna.jpg";
+            Login.nomes[4] = "Lionel Messi";
+            Login.email[4] = "et@gmail.com";
+            Login.senha[4] = "123";
+            Login.data_nascimento[4] = "24/06/1987";
+            Login.foto_perfil[4] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/messi.jpg";
+
             caixaSenha.PasswordChar = '•';
 
         }
