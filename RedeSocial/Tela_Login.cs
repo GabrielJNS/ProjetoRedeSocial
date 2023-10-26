@@ -23,8 +23,8 @@ namespace RedeSocial
         public static int amig_fut = 1;
         public static string user;
         public static int i;
-        public static int j = 5;
-        public static int n = 6;
+        public static int j = 6;
+        public static int n = 7;
         string senha_log;
         string email_log;
         int cont;
@@ -47,10 +47,13 @@ namespace RedeSocial
         // Solicitação de Amizades
         public static int cont_amigo = 1;
         public static int cont_amigo_ini = 0;
+        //contagem de amigos geral
         public static string[] solicita_amigo = new string[200];
         public static string[] amigo_geral = new string[200];
         public static bool[] confirmar_amigo_geral = new bool[200];
         public static string[] seusAmigos = new string[200];
+        //contagem de amigos pessoais
+        public static int conta_seus_amigos = 1; 
 
         public Login()
         {
@@ -82,6 +85,27 @@ namespace RedeSocial
             Login.senha[4] = "123";
             Login.data_nascimento[4] = "24/06/1987";
             Login.foto_perfil[4] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/messi.jpg";
+            Login.nomes[5] = "Steve Jobs";
+            Login.email[5] = "maça@gmail.com";
+            Login.senha[5] = "123";
+            Login.data_nascimento[5] = "24/02/1955";
+            Login.foto_perfil[5] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/steve.jpg";
+            Login.nomes[5] = "Steve Jobs";
+            Login.email[5] = "maça@gmail.com";
+            Login.senha[5] = "123";
+            Login.data_nascimento[5] = "24/02/1955";
+            Login.foto_perfil[5] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/steve.jpg";
+            Login.nomes[5] = "Jeff Bezos";
+            Login.email[5] = "amazon@gmail.com";
+            Login.senha[5] = "123";
+            Login.data_nascimento[5] = "12/01/1964";
+            Login.foto_perfil[5] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/bezos.jpg";
+            Login.nomes[5] = "Pietra Ferrari";
+            Login.email[5] = "pietra@gmail.com";
+            Login.senha[5] = "123";
+            Login.data_nascimento[5] = "12/07/2000";
+            Login.foto_perfil[5] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/pietra.jpg";
+
 
             caixaSenha.PasswordChar = '•';
 

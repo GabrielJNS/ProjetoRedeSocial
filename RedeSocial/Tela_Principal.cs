@@ -44,7 +44,8 @@ namespace RedeSocial
             Label_Descrição.Text = "Paraiso";
             text_Box_Comentarios.Text = "Paraiso Maravilhoso";           
             label_Usuario_Postagem.Text = Login.nomes[Convert.ToInt32(Login.user)];
-            bt_amigo0.Text = Login.seusAmigos[0];
+            bt_amigo0.Text = Login.seusAmigos[1];
+            bt_amigo1.Text = Login.seusAmigos[2];
 
 
         }
