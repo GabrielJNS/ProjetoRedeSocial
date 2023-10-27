@@ -83,6 +83,16 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5525275 {
+            get {
+                object obj = ResourceManager.GetObject("5525275", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kisspng_computer_icons_arrow_symbol_icon_design_creative_5aca57642062b6_1016917615232100841327 {
             get {
                 object obj = ResourceManager.GetObject("kisspng-computer-icons-arrow-symbol-icon-design-creative-5aca57642062b6.101691761" +
@@ -314,6 +324,36 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Login__42_ {
+            get {
+                object obj = ResourceManager.GetObject("Login (42)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Login__43_ {
+            get {
+                object obj = ResourceManager.GetObject("Login (43)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Login__43_1 {
+            get {
+                object obj = ResourceManager.GetObject("Login (43)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap moça {
             get {
                 object obj = ResourceManager.GetObject("moça", resourceCulture);
@@ -358,6 +398,16 @@ namespace RedeSocial.Properties {
         internal static System.Drawing.Bitmap Ropuinhas_pug {
             get {
                 object obj = ResourceManager.GetObject("Ropuinhas_pug", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap services_parametres_et_icone_d_engrenage_bleue {
+            get {
+                object obj = ResourceManager.GetObject("services-parametres-et-icone-d-engrenage-bleue", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

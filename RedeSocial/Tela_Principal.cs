@@ -443,6 +443,26 @@ namespace RedeSocial
             novo.Show();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_Usuario_Postagem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void ConfigurarCircularPictureBox(PictureBox pictureBox)
         {
             GraphicsPath path = new GraphicsPath();

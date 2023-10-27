@@ -19,6 +19,8 @@ namespace RedeSocial
         public static string caminho = System.Environment.CurrentDirectory;
         public static string caminho_foto = caminho + @"\fotos\";
         int cont;
+        private Dictionary<string, string> descricaoUsuarios = new Dictionary<string, string>();
+
         public Tela_Perfil()
         {
             InitializeComponent();
@@ -30,9 +32,10 @@ namespace RedeSocial
             Label_Data.Text = Login.data_nascimento[cont];
             foto_perfil.SizeMode = PictureBoxSizeMode.Zoom;
             foto_perfil.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
-            
+            ConfigurarCircularPictureBox(foto_perfil);
+
         }
-       
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -169,8 +172,28 @@ namespace RedeSocial
 
         private void bt_alterar_dados_Click(object sender, EventArgs e)
         {
-            Tela_Alterar nova = new Tela_Alterar();
-            nova.Show();
+            Tela_Fotos novo = new Tela_Fotos();
+            novo.Show();
+        }
+
+        private void ConfigurarCircularPictureBox(PictureBox pictureBox)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddEllipse(pictureBox.ClientRectangle);
+            pictureBox.Region = new Region(path);
+            pictureBox.BackColor = Color.Transparent;
+            pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+
+        }
+
+        private void textBoxDescricao_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalvarDescricao_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

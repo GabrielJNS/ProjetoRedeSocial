@@ -333,3 +333,4 @@ C:\Users\aluno.FATECLAB\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.
 C:\Users\aluno.FATECLAB\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.csproj.CoreCompileInputs.cache
 C:\Users\aluno.FATECLAB\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.exe
 C:\Users\aluno.FATECLAB\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.pdb
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Amizades.resources

@@ -264,10 +264,15 @@
     <None Include="Resources\Login %2827%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Login %2843%291.png" />
+    <None Include="Resources\services-parametres-et-icone-d-engrenage-bleue.png" />
+    <None Include="Resources\Login %2843%29.png" />
+    <None Include="Resources\Login %2842%29.png" />
     <None Include="Resources\Login__37_-removebg-preview.png" />
     <None Include="Resources\Login %2840%29.png" />
     <None Include="Resources\pngtree-camera-icon-isolated-on-abstract-background-png-image_5083023-PhotoRoom.png-PhotoRoom.png" />
     <None Include="Resources\4511733-icone-de-camera-em-fundo-branco-vetor.jpg" />
+    <None Include="Resources\5525275.png" />
     <Content Include="Resources\Foto_fotos.PNG">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
