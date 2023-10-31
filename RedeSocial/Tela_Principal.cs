@@ -26,7 +26,8 @@ namespace RedeSocial
         public static string caminho = System.Environment.CurrentDirectory;
         public static string caminho_foto = caminho + @"\postagem\";
         public static int a, b, c, d, z;
-        public static int amigo;        
+        public static int amigo;
+        public static int postagem_atual;
         Random rnd = new Random();
 
         public Tela_BoasVindas()
@@ -256,10 +257,21 @@ namespace RedeSocial
 
                     // Define a descrição da postagem
                     Label_Descrição.Text = Login.descricao_postagens[j];
-                    text_Box_Comentarios.Text = Login.descricao_postagens[j];
+                    postagem_atual = j;
 
                     // Define o nome do usuário que fez a postagem 
                     label_Usuario_Postagem.Text = Login.dono_postagem[l];
+                    //Comentario do Post
+                    caixa_de_comentarios.Clear();
+                    for (int cont = 0; cont < 50; cont++)
+                    {
+
+                        if (Login.qual_postagem[cont] == Convert.ToString(l))
+                        {
+                            caixa_de_comentarios.AppendText(Login.dono_comentario[cont] + ":  " + Login.comentarios_postagens[cont] + Environment.NewLine);
+                        }
+                    }
+                    bt_like.Text = "Likes " + Convert.ToString(Login.contador_Like[postagem_atual]);
 
                 }
                 else            
@@ -326,17 +338,15 @@ namespace RedeSocial
 
         private void bt_like_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < 1; i++)
-            {
-                Like();
-            }
+            Like(postagem_atual);
         }
-        private void Like()
+        private void Like(int a)
         {
-            int cont = 0;               
-                cont++;                
-                bt_like.Text = Convert.ToString(" Likes " + cont);
-            
+            int post;
+            post = a;
+            Login.contador_Like[post]++;
+            bt_like.Text = "Likes " + Convert.ToString(Login.contador_Like[post]);
+
 
 
         }
@@ -460,6 +470,32 @@ namespace RedeSocial
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void bt_comentarios_Click(object sender, EventArgs e)
+        {
+            Comentario(postagem_atual);
+            MessageBox.Show("Comentario Número" + Login.contagem_comentarios);
+            Login.contagem_comentarios++;
+            text_Box_Comentarios.Text = "";
+
+        }
+        public void Comentario(int a)
+        {
+            
+            int post;
+            post = a;                    
+            Login.comentarios_postagens[Login.contagem_comentarios] = text_Box_Comentarios.Text;
+            Login.dono_comentario[Login.contagem_comentarios] = Login.nomes[Convert.ToInt32(Login.user)];
+            Login.qual_postagem[Login.contagem_comentarios] = Convert.ToString(post);            
+            caixa_de_comentarios.Clear();
+            for(int i = 0; i < 200; i++) {
+
+                if(Login.qual_postagem[i] == Convert.ToString(post)){
+                    caixa_de_comentarios.AppendText(Login.dono_comentario[i] + " " + Login.comentarios_postagens[i] + Environment.NewLine);
+                }         
+             }
 
         }
 

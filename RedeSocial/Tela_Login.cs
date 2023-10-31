@@ -36,9 +36,17 @@ namespace RedeSocial
         public static string[] email = new string[50];
         public static string[] data_nascimento = new string[50];
         public static string[] foto_perfil = new string[50];
+        //Postagens
         public static string[] dono_postagem = new string[200];
         public static string[] foto_postagens = new string[200];
         public static string[] descricao_postagens = new string[200];
+        public static string[] comentarios_postagens = new string[200];
+        public static string[] dono_comentario = new string[200];
+        public static string[] qual_postagem = new string[200];
+        public static int[] contador_Like = new int[200];
+        public static int posicao_contador_Like = 0;
+        public static int contagem_comentarios = 0;
+        //Comunidades
         public static string[] comunidade_fotos = new string[50];
         public static int contador_Postagens = 0;
         public static int amigo;        

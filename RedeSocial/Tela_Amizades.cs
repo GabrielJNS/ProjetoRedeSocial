@@ -49,7 +49,7 @@ namespace RedeSocial
                 
             }
             {
-                if (Login.amigo_geral[prov1] == Login.nomes[Convert.ToInt32(Login.user)])
+                if (Login.amigo_geral[prov1] == Login.nomes[Convert.ToInt32(Login.user)] && Login.amigo_geral[prov1] != Login.amigo_geral[prov])
                 {
                     //segunda fila                    
                     label5.Text = Login.solicita_amigo[prov1];
@@ -64,7 +64,7 @@ namespace RedeSocial
                 }
             }
             {
-                if (Login.amigo_geral[prov2] == Login.nomes[Convert.ToInt32(Login.user)])
+                if (Login.amigo_geral[prov2] == Login.nomes[Convert.ToInt32(Login.user)] && Login.amigo_geral[prov2] != Login.amigo_geral[prov] && Login.amigo_geral[prov2] != Login.amigo_geral[prov1])
                 {
                     //terceira fila                    
                     label7.Text = Login.solicita_amigo[prov2];
