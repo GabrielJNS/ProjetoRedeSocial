@@ -23,8 +23,8 @@ namespace RedeSocial
         public static int amig_fut = 1;
         public static string user;
         public static int i;
-        public static int j = 8;
-        public static int n = 9;
+        public static int j = 9;
+        public static int n = 10;
         string senha_log;
         string email_log;
         int cont;
@@ -32,6 +32,7 @@ namespace RedeSocial
         // Vetores para armazenar informações dos usuários e postagens
 
         public static string[] nomes = new string[50];
+        public static string[] descricao_user = new string[50];
         public static string[] senha = new string[50];
         public static string[] email = new string[50];
         public static string[] data_nascimento = new string[50];

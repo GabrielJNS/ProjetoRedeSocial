@@ -50,7 +50,7 @@ namespace RedeSocial
             this.bt_Foto = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBoxDescricao = new System.Windows.Forms.TextBox();
+            this.textBoxDescricao_user = new System.Windows.Forms.TextBox();
             this.btnSalvarDescricao = new System.Windows.Forms.Button();
             this.Label_Descricao = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil)).BeginInit();
@@ -194,6 +194,7 @@ namespace RedeSocial
             this.bt_alterar_dados.BackColor = System.Drawing.Color.Transparent;
             this.bt_alterar_dados.BackgroundImage = global::RedeSocial.Properties.Resources._5525275;
             this.bt_alterar_dados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt_alterar_dados.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bt_alterar_dados.FlatAppearance.BorderSize = 0;
             this.bt_alterar_dados.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_alterar_dados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -224,6 +225,7 @@ namespace RedeSocial
             this.bt_Foto.Size = new System.Drawing.Size(49, 46);
             this.bt_Foto.TabIndex = 37;
             this.bt_Foto.UseVisualStyleBackColor = false;
+            this.bt_Foto.Click += new System.EventHandler(this.bt_Foto_Click);
             // 
             // label5
             // 
@@ -247,15 +249,15 @@ namespace RedeSocial
             this.label6.TabIndex = 39;
             this.label6.Text = "Alterar Dados";
             // 
-            // textBoxDescricao
+            // textBoxDescricao_user
             // 
-            this.textBoxDescricao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxDescricao.Location = new System.Drawing.Point(812, 254);
-            this.textBoxDescricao.Multiline = true;
-            this.textBoxDescricao.Name = "textBoxDescricao";
-            this.textBoxDescricao.Size = new System.Drawing.Size(547, 127);
-            this.textBoxDescricao.TabIndex = 40;
-            this.textBoxDescricao.TextChanged += new System.EventHandler(this.textBoxDescricao_TextChanged);
+            this.textBoxDescricao_user.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxDescricao_user.Location = new System.Drawing.Point(812, 254);
+            this.textBoxDescricao_user.Multiline = true;
+            this.textBoxDescricao_user.Name = "textBoxDescricao_user";
+            this.textBoxDescricao_user.Size = new System.Drawing.Size(547, 127);
+            this.textBoxDescricao_user.TabIndex = 40;
+            this.textBoxDescricao_user.TextChanged += new System.EventHandler(this.textBoxDescricao_TextChanged);
             // 
             // btnSalvarDescricao
             // 
@@ -287,7 +289,7 @@ namespace RedeSocial
             this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.Label_Descricao);
             this.Controls.Add(this.btnSalvarDescricao);
-            this.Controls.Add(this.textBoxDescricao);
+            this.Controls.Add(this.textBoxDescricao_user);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.bt_Foto);
@@ -332,7 +334,7 @@ namespace RedeSocial
         private System.Windows.Forms.Button bt_Foto;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBoxDescricao;
+        private System.Windows.Forms.TextBox textBoxDescricao_user;
         private System.Windows.Forms.Button btnSalvarDescricao;
         private System.Windows.Forms.Label Label_Descricao;
     }

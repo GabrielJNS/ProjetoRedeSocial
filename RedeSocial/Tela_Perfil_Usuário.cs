@@ -33,6 +33,7 @@ namespace RedeSocial
             foto_perfil.SizeMode = PictureBoxSizeMode.Zoom;
             foto_perfil.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
             ConfigurarCircularPictureBox(foto_perfil);
+            textBoxDescricao_user.Text = Login.descricao_user[Convert.ToInt32(Login.user)];
 
         }
 
@@ -172,7 +173,7 @@ namespace RedeSocial
 
         private void bt_alterar_dados_Click(object sender, EventArgs e)
         {
-            Tela_Fotos novo = new Tela_Fotos();
+            Tela_Alterar novo = new Tela_Alterar();
             novo.Show();
         }
 
@@ -193,7 +194,13 @@ namespace RedeSocial
 
         private void btnSalvarDescricao_Click(object sender, EventArgs e)
         {
-            
+           Login.descricao_user[Convert.ToInt32(Login.user)] = textBoxDescricao_user.Text;
+        }
+
+        private void bt_Foto_Click(object sender, EventArgs e)
+        {
+            Tela_Fotos novo = new Tela_Fotos();
+            novo.Show();
         }
     }
 }
