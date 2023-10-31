@@ -45,6 +45,7 @@ namespace RedeSocial
         public static string[] dono_comentario = new string[200];
         public static string[] qual_postagem = new string[200];
         public static int[] contador_Like = new int[200];
+        public static string[] quem_deu_like = new string[200];
         public static int posicao_contador_Like = 0;
         public static int contagem_comentarios = 0;
         //Comunidades

@@ -344,11 +344,24 @@ namespace RedeSocial
         {
             int post;
             post = a;
-            Login.contador_Like[post]++;
-            bt_like.Text = "Likes " + Convert.ToString(Login.contador_Like[post]);
 
+            if (Login.quem_deu_like[post] != Login.nomes[Convert.ToInt32(Login.user)])
+            {
+                Login.contador_Like[post]++;
+                Login.quem_deu_like[post] = Login.nomes[Convert.ToInt32(Login.user)];
+                bt_like.Text = "Likes " + Convert.ToString(Login.contador_Like[post]);
 
+            }
+            else
+            {
+                MessageBox.Show("Vc ja deu Like");
+                Login.quem_deu_like[post] = null;
+                Login.contador_Like[post] = Login.contador_Like[post] - 1;
+                bt_like.Text = "Likes " + Convert.ToString(Login.contador_Like[post]);
 
+            }
+            
+            
         }
 
         private void foto_perfil_usuario_Click(object sender, EventArgs e)
@@ -497,6 +510,11 @@ namespace RedeSocial
                 }         
              }
 
+        }
+
+        private void bt_home_Click(object sender, EventArgs e)
+        {
+            InitializeComponent();
         }
 
         private void ConfigurarCircularPictureBox(PictureBox pictureBox)
