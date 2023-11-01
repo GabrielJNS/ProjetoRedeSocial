@@ -38,12 +38,15 @@ namespace RedeSocial
         {
             string nome = Nome_Comunidade.Text;
             string descricao = Text_Box_Descricao.Text;
-            int Id = Convert.ToInt32(Login.user);
+            string Id = Login.user;
             string foto = Picture_Imagem_Comunidade.ImageLocation;
             Comunidade novo = new Comunidade();
             novo.Criar_Comunidade(nome, descricao, Id, foto);
             Tela_Comunidade nova_tela = new Tela_Comunidade();
+            Comunidade.contador_de_comunidades++;
             nova_tela.Show();
+            Tela_BoasVindas nova = new Tela_BoasVindas();
+            nova.comunidade0.Show();
         }
 
         private void Bt_Carrega_Imagem_Click(object sender, EventArgs e)
@@ -57,10 +60,9 @@ namespace RedeSocial
             string foto = "";
             string pastaDestino = caminho_foto_comunidade;
 
-            Login.foto_perfil[Convert.ToInt32(Login.user)] = "";
+            
 
-            int larguraDesejada = 510; // Defina a largura desejada em pixels
-            int alturaDesejada = 686;  // Defina a altura desejada em pixels
+           
 
             try
             {
@@ -68,9 +70,9 @@ namespace RedeSocial
                 {
                     origemCompleto = openFileDialog1.FileName;
                     foto = openFileDialog1.SafeFileName;
-                    Comunidade.foto_comunidades[0] = pastaDestino + foto;
+                    Comunidade.foto_comunidades[Comunidade.contador_de_comunidades] = pastaDestino + foto;
                 }
-                if (File.Exists(Comunidade.foto_comunidades[0]))
+                if (File.Exists(Comunidade.foto_comunidades[Comunidade.contador_de_comunidades]))
                 {
                     if (MessageBox.Show("Arquivo já existe, deseja substituir?", "Substituir", MessageBoxButtons.YesNo) == DialogResult.No)
                     {
@@ -79,13 +81,13 @@ namespace RedeSocial
                 }
 
                 // Copie a imagem para o destino
-                System.IO.File.Copy(origemCompleto, Comunidade.foto_comunidades[0], true);
+                System.IO.File.Copy(origemCompleto, Comunidade.foto_comunidades[Comunidade.contador_de_comunidades], true);
 
-                if (File.Exists(Comunidade.foto_comunidades[0]))
+                if (File.Exists(Comunidade.foto_comunidades[Comunidade.contador_de_comunidades]))
                 {
                     // Configura o PictureBox para exibir a imagem redimensionada
                     Picture_Imagem_Comunidade.SizeMode = PictureBoxSizeMode.Zoom;
-                    Picture_Imagem_Comunidade.ImageLocation = Comunidade.foto_comunidades[0];
+                    Picture_Imagem_Comunidade.ImageLocation = Comunidade.foto_comunidades[Comunidade.contador_de_comunidades];
 
                     // Redimensiona a imagem
                     //RedimensionarImagem(Comunidade.foto_comunidades[0], larguraDesejada, alturaDesejada);
@@ -101,28 +103,7 @@ namespace RedeSocial
 
             }
         }
-        private void RedimensionarImagem(string caminhoDaImagem, int larguraDesejada, int alturaDesejada)
-        {
-            try
-            {
-                Image imagemOriginal = Image.FromFile(caminhoDaImagem);
-                Bitmap imagemRedimensionada = new Bitmap(larguraDesejada, alturaDesejada);
-
-                using (Graphics g = Graphics.FromImage(imagemRedimensionada))
-                {
-                    g.InterpolationMode = InterpolationMode.HighQualityBicubic;
-                    g.DrawImage(imagemOriginal, 0, 0, larguraDesejada, alturaDesejada);
-                }
-                 //Salve a imagem redimensionada de volta ao caminho
-                imagemRedimensionada.Save(caminhoDaImagem, imagemOriginal.RawFormat);
-
-            }
-            catch (Exception ex)
-            {
-
-            }
-
-        }
+        
 
         private void Picture_Imagem_Comunidade_Click(object sender, EventArgs e)
         {

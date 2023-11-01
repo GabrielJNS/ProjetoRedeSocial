@@ -19,6 +19,8 @@ namespace RedeSocial
                 components.Dispose();
             }
             base.Dispose(disposing);
+            Tela_BoasVindas nova = new Tela_BoasVindas();
+            nova.Show();
         }
 
         #region Windows Form Designer generated code

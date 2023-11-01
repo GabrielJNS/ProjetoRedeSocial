@@ -9,35 +9,37 @@ namespace RedeSocial
 {
     class Comunidade
     {
-        public static int[] ID_Pessoas_Comunidades = new int[50];
+        
+        public static string[] adim_comunidade = new string[50];
         public static string[] nome_comunidades = new string[50];
         public static string[] descricao_comunidades = new string[50];
         public static string[] foto_comunidades = new string[50];
-        public static string a, b, d;
-        public static int c;
+        public static string[] integrantes_comunidade = new string[50];
+        public static int contador_de_comunidades = 0;
+        public static string a, b, d, c;
+        
         
 
         public Comunidade()
         {
 
         }
-        public void Criar_Comunidade(string nome, string descricao, int ID, string foto)
+        public void Criar_Comunidade(string nome, string descricao, string adim, string foto)
         {
             a = nome;
             b = descricao;
-            c = ID;
+            c = adim;
             d = foto;
-            int Inic = 1;
-            int fin = 1;
-            int i = 1;
+            
+            
 
             
              
-                    ID_Pessoas_Comunidades[0] = c;
-                    nome_comunidades[0] = a;
-                    descricao_comunidades[0] = b;
-                    foto_comunidades[0] = d;
-                    MessageBox.Show("Comunidade Cadastrada " + nome_comunidades[i] + " Usuário Administrador: " + ID_Pessoas_Comunidades[i] + " Posição do Vetor: " + i);
+                    adim_comunidade[contador_de_comunidades] = c;
+                    nome_comunidades[contador_de_comunidades] = a;
+                    descricao_comunidades[contador_de_comunidades] = b;
+                    foto_comunidades[contador_de_comunidades] = d;
+                    MessageBox.Show("Comunidade Cadastrada " + nome_comunidades[contador_de_comunidades] + " Usuário Administrador: " + adim_comunidade[contador_de_comunidades] + " Posição do Vetor: " + contador_de_comunidades);
                    
 
       

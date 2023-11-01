@@ -93,12 +93,6 @@
     <Compile Include="Tela_Login.Designer.cs">
       <DependentUpon>Tela_Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tela_Mostrar_Comunidade.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Tela_Mostrar_Comunidade.Designer.cs">
-      <DependentUpon>Tela_Mostrar_Comunidade.cs</DependentUpon>
-    </Compile>
     <Compile Include="Tela_Perfil_Amigos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,9 +151,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_Login.resx">
       <DependentUpon>Tela_Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tela_Mostrar_Comunidade.resx">
-      <DependentUpon>Tela_Mostrar_Comunidade.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_Perfil_Amigos.resx">
       <DependentUpon>Tela_Perfil_Amigos.cs</DependentUpon>

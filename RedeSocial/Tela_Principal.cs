@@ -35,7 +35,8 @@ namespace RedeSocial
 
             Pessoa novo = new Pessoa();
             InitializeComponent();
-            Sorteio_Amigos();            
+            Sorteio_Amigos();
+            MostrarComunidades();
             foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
             foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];           
             ConfigurarCircularPictureBox(foto_perfil_usuario);
@@ -83,7 +84,7 @@ namespace RedeSocial
             pictureBox5.ImageLocation = Login.foto_perfil[z];
             nome_Carregado4 = Amigo4.Text;
 
-            if (a == b && a == c && a == d && a == z || b == c && b == d && b == z || c == d && c == z)
+            if (a == b && a == c && a == d && a == z || b == c && b == d && b == z || c == d && c == z || d == z)
             {
                 goto novo;
             }
@@ -172,11 +173,8 @@ namespace RedeSocial
         }
 
         private void Bt_mais_amigos_Click(object sender, EventArgs e)
-        {
-            for (int i = 0; i < 1; i++)
-            {
-                Sorteio_Amigos();
-            }
+        {            
+           Sorteio_Amigos();   
         }
 
 
@@ -230,8 +228,7 @@ namespace RedeSocial
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Tela_Mostrar_Comunidade novo = new Tela_Mostrar_Comunidade();
-            novo.Show();
+           
         }
         // Método para exibir postagens aleatórias
         public void mostrar_Postagens()
@@ -286,15 +283,27 @@ namespace RedeSocial
                 MessageBox.Show("Deu Ruim");
             }
         }
+        public string nome_admin;
+        public string qual_comunidade;
+        public void MostrarComunidades()
+        {
+            comunidade0.ImageLocation = Comunidade.foto_comunidades[0];
+            nome_admin = Comunidade.adim_comunidade[0];
+            qual_comunidade = Comunidade.nome_comunidades[0];
+            comunidade1.ImageLocation = Comunidade.foto_comunidades[1];
+            comunidade2.ImageLocation = Comunidade.foto_comunidades[2];
+            comunidade3.ImageLocation = Comunidade.foto_comunidades[3];
+            comunidade4.ImageLocation = Comunidade.foto_comunidades[4];
+        }
         private void button1_Click_2(object sender, EventArgs e)
         {
             mostrar_Postagens();           
         }
         private void bt_Perfil_Imagem_Click(object sender, EventArgs e)
         {
-
+           
         }
-
+        
 
         
         private void button7_Click_2(object sender, EventArgs e)
@@ -354,7 +363,7 @@ namespace RedeSocial
             }
             else
             {
-                MessageBox.Show("Vc ja deu Like");
+               
                 Login.quem_deu_like[post] = null;
                 Login.contador_Like[post] = Login.contador_Like[post] - 1;
                 bt_like.Text = "Likes " + Convert.ToString(Login.contador_Like[post]);
@@ -498,6 +507,8 @@ namespace RedeSocial
         {
             
             int post;
+            char separador = ' ';
+            
             post = a;                    
             Login.comentarios_postagens[Login.contagem_comentarios] = text_Box_Comentarios.Text;
             Login.dono_comentario[Login.contagem_comentarios] = Login.nomes[Convert.ToInt32(Login.user)];
@@ -506,7 +517,7 @@ namespace RedeSocial
             for(int i = 0; i < 200; i++) {
 
                 if(Login.qual_postagem[i] == Convert.ToString(post)){
-                    caixa_de_comentarios.AppendText(Login.dono_comentario[i] + " " + Login.comentarios_postagens[i] + Environment.NewLine);
+                    caixa_de_comentarios.AppendText(Login.dono_comentario[i] + ":  " + Login.comentarios_postagens[i] + Environment.NewLine);
                 }         
              }
 
@@ -514,7 +525,14 @@ namespace RedeSocial
 
         private void bt_home_Click(object sender, EventArgs e)
         {
-            InitializeComponent();
+           
+        }
+
+        private void comunidade0_Click(object sender, EventArgs e)
+        {
+            Tela_Comunidade nova = new Tela_Comunidade();        
+                
+            nova.Show();
         }
 
         private void ConfigurarCircularPictureBox(PictureBox pictureBox)

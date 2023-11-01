@@ -346,7 +346,6 @@ C:\Users\User\Desktop\Projeto Enari\Rede Social 3010\RedeSocial\obj\Debug\RedeSo
 C:\Users\User\Desktop\Projeto Enari\Rede Social 3010\RedeSocial\obj\Debug\RedeSocial.Tela_Comunidade.resources
 C:\Users\User\Desktop\Projeto Enari\Rede Social 3010\RedeSocial\obj\Debug\RedeSocial.Tela_Criar_Comunidades.resources
 C:\Users\User\Desktop\Projeto Enari\Rede Social 3010\RedeSocial\obj\Debug\RedeSocial.Login.resources
-C:\Users\User\Desktop\Projeto Enari\Rede Social 3010\RedeSocial\obj\Debug\RedeSocial.Tela_Mostrar_Comunidade.resources
 C:\Users\User\Desktop\Projeto Enari\Rede Social 3010\RedeSocial\obj\Debug\RedeSocial.Tela_Perfil_Amigos.resources
 C:\Users\User\Desktop\Projeto Enari\Rede Social 3010\RedeSocial\obj\Debug\RedeSocial.Tela_BoasVindas.resources
 C:\Users\User\Desktop\Projeto Enari\Rede Social 3010\RedeSocial\obj\Debug\RedeSocial.Tela_Erro.resources

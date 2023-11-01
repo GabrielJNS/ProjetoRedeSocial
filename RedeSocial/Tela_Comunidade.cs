@@ -17,39 +17,18 @@ namespace RedeSocial
         
         public Tela_Comunidade()
         {
-            int larguraDesejada = 217; // Defina a largura desejada em pixels
-            int alturaDesejada = 206;  // Defina a altura desejada em pixels
+           
             InitializeComponent();
-            Label_Nome_Comunidade.Text = Comunidade.nome_comunidades[0];
-            Label_Descricao.Text = Comunidade.descricao_comunidades[0];
+            Label_Nome_Comunidade.Text = Comunidade.nome_comunidades[Comunidade.contador_de_comunidades];
+            Label_Descricao.Text = Comunidade.descricao_comunidades[Comunidade.contador_de_comunidades];
             Foto_Comunidade.SizeMode = PictureBoxSizeMode.Zoom;
-            Foto_Comunidade.ImageLocation = Comunidade.foto_comunidades[0];
+            Foto_Comunidade.ImageLocation = Comunidade.foto_comunidades[Comunidade.contador_de_comunidades];
+            
             
             
 
         }
-        private void RedimensionarImagem(string caminhoDaImagem, int larguraDesejada, int alturaDesejada)
-        {
-            try
-            {
-                Image imagemOriginal = Image.FromFile(caminhoDaImagem);
-                Bitmap imagemRedimensionada = new Bitmap(larguraDesejada, alturaDesejada);
-
-                using (Graphics g = Graphics.FromImage(imagemRedimensionada))
-                {
-                    g.InterpolationMode = InterpolationMode.HighQualityBicubic;
-                    g.DrawImage(imagemOriginal, 0, 0, larguraDesejada, alturaDesejada);
-                }
-                // Salve a imagem redimensionada de volta ao caminho
-                imagemRedimensionada.Save(caminhoDaImagem, imagemOriginal.RawFormat);
-
-            }
-            catch (Exception ex)
-            {
-
-            }
-
-        }
+       
         private void Tela_Comunidade_Load(object sender, EventArgs e)
         {
 
@@ -61,6 +40,15 @@ namespace RedeSocial
         }
 
         private void Foto_Comunidade_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bt_convite_comunidade_Click(object sender, EventArgs e)
+        {
+
+        }
+        public void ConviteComunidades()
         {
 
         }
