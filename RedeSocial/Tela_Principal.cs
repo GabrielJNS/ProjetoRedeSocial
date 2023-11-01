@@ -41,11 +41,8 @@ namespace RedeSocial
             foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];           
             ConfigurarCircularPictureBox(foto_perfil_usuario);
             caixa_Procura.BorderStyle = BorderStyle.None;
-            Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;           
-            Pic_Mostra_Foto.ImageLocation = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/postagem/paraiso.jpg";            
-            Label_Descrição.Text = "Paraiso";
-            text_Box_Comentarios.Text = "Paraiso Maravilhoso";           
-            label_Usuario_Postagem.Text = Login.nomes[Convert.ToInt32(Login.user)];
+            Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;        
+            
             bt_amigo0.Text = Login.seusAmigos[1];
             bt_amigo1.Text = Login.seusAmigos[2];
 
@@ -239,6 +236,7 @@ namespace RedeSocial
             int i = rnd.Next(Login.contador_Postagens);
             int j = rnd.Next(Login.contador_Postagens);
             int l = rnd.Next(Login.contador_Postagens);
+            
             try
             {
                 // Verifica se os índices são iguais para evitar a exibição de postagens duplicadas
@@ -258,13 +256,13 @@ namespace RedeSocial
 
                     // Define o nome do usuário que fez a postagem 
                     label_Usuario_Postagem.Text = Login.dono_postagem[l];
-                    int cont_fotos = 0;
-                    while (cont_fotos != Login.contador_Postagens)
+                    
+                    for(int cont_fotos=0; cont_fotos < Login.contador_Postagens; cont_fotos++)
                     {
-                        if (Login.dono_postagem[l] == Login.nomes[cont_fotos])
+                        if (Login.dono_postagem[l].Equals(Login.nomes[cont_fotos]))
                         {
                             foto_quem_postou.ImageLocation = Login.foto_perfil[cont_fotos];
-                        }cont_fotos++;
+                        }
                     }
                     //Comentario do Post
                     caixa_de_comentarios.Clear();
