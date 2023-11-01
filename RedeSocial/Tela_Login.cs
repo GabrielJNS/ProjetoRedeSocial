@@ -40,6 +40,7 @@ namespace RedeSocial
         //Postagens
         public static string[] dono_postagem = new string[200];
         public static string[] foto_postagens = new string[200];
+        public static string[] foto_dono_postagem = new string[200];
         public static string[] descricao_postagens = new string[200];
         public static string[] comentarios_postagens = new string[200];
         public static string[] dono_comentario = new string[200];

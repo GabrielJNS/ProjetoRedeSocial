@@ -33,6 +33,7 @@ namespace RedeSocial
         {
             Login.descricao_postagens[Login.contador_Postagens] = text_descricao.Text;
             Login.dono_postagem[Login.contador_Postagens] = Login.nomes[Convert.ToInt32(Login.user)];
+            Login.foto_dono_postagem[Login.contador_Postagens] = Login.nomes[Convert.ToInt32(Login.user)];
             MessageBox.Show("Postagem Realizada com Sucesso");
             Login.contador_Postagens++;
         }

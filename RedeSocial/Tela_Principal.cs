@@ -258,6 +258,14 @@ namespace RedeSocial
 
                     // Define o nome do usuário que fez a postagem 
                     label_Usuario_Postagem.Text = Login.dono_postagem[l];
+                    int cont_fotos = 0;
+                    while (cont_fotos != Login.contador_Postagens)
+                    {
+                        if (Login.dono_postagem[l] == Login.nomes[cont_fotos])
+                        {
+                            foto_quem_postou.ImageLocation = Login.foto_perfil[cont_fotos];
+                        }cont_fotos++;
+                    }
                     //Comentario do Post
                     caixa_de_comentarios.Clear();
                     for (int cont = 0; cont < 50; cont++)
@@ -517,7 +525,7 @@ namespace RedeSocial
             for(int i = 0; i < 200; i++) {
 
                 if(Login.qual_postagem[i] == Convert.ToString(post)){
-                    caixa_de_comentarios.AppendText(Login.dono_comentario[i] + ":  " + Login.comentarios_postagens[i] + Environment.NewLine);
+                    caixa_de_comentarios.AppendText(Login.dono_comentario[i] + ":  " + Login.comentarios_postagens[i] + Environment.NewLine + Environment.NewLine);
                 }         
              }
 
