@@ -37,12 +37,12 @@ namespace RedeSocial
             InitializeComponent();
             Sorteio_Amigos();
             MostrarComunidades();
+            mostrar_Postagens();
             foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
             foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];           
             ConfigurarCircularPictureBox(foto_perfil_usuario);
             caixa_Procura.BorderStyle = BorderStyle.None;
-            Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;        
-            
+            Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;       
             bt_amigo0.Text = Login.seusAmigos[1];
             bt_amigo1.Text = Login.seusAmigos[2];
 
@@ -257,13 +257,16 @@ namespace RedeSocial
                     // Define o nome do usuário que fez a postagem 
                     label_Usuario_Postagem.Text = Login.dono_postagem[l];
                     
-                    for(int cont_fotos=0; cont_fotos < Login.contador_Postagens; cont_fotos++)
-                    {
-                        if (Login.dono_postagem[l].Equals(Login.nomes[cont_fotos]))
+                    
+                        for (int cont_fotos = 0; cont_fotos < Login.j; cont_fotos++)
                         {
-                            foto_quem_postou.ImageLocation = Login.foto_perfil[cont_fotos];
+                            if (Login.dono_postagem[l].Equals(Login.nomes[cont_fotos]))
+                            {
+                                foto_quem_postou.ImageLocation = Login.foto_perfil[cont_fotos];
+                            }
                         }
-                    }
+                    
+                    
                     //Comentario do Post
                     caixa_de_comentarios.Clear();
                     for (int cont = 0; cont < 50; cont++)

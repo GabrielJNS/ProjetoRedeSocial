@@ -25,8 +25,7 @@ namespace RedeSocial
 
             Random rnd = new Random();
             int prov, prov1, prov2;
-            prov = prov1 = prov2 = Login.cont_amigo;
-            
+            prov = prov1 = prov2 = Login.cont_amigo;            
             prov = rnd.Next(prov);
             prov1 = rnd.Next(prov1);
             prov2= rnd.Next(prov2);

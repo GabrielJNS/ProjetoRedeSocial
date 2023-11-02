@@ -241,7 +241,7 @@ namespace RedeSocial
             this.caixa_Procura.BackColor = System.Drawing.SystemColors.Menu;
             this.caixa_Procura.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.caixa_Procura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
-            this.caixa_Procura.Location = new System.Drawing.Point(379, 23);
+            this.caixa_Procura.Location = new System.Drawing.Point(379, 36);
             this.caixa_Procura.Margin = new System.Windows.Forms.Padding(2);
             this.caixa_Procura.Multiline = true;
             this.caixa_Procura.Name = "caixa_Procura";
@@ -346,10 +346,10 @@ namespace RedeSocial
             this.bt_E.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_E.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_E.Location = new System.Drawing.Point(408, 209);
+            this.bt_E.Location = new System.Drawing.Point(408, 205);
             this.bt_E.Margin = new System.Windows.Forms.Padding(2);
             this.bt_E.Name = "bt_E";
-            this.bt_E.Size = new System.Drawing.Size(202, 413);
+            this.bt_E.Size = new System.Drawing.Size(202, 408);
             this.bt_E.TabIndex = 28;
             this.bt_E.UseVisualStyleBackColor = false;
             this.bt_E.Click += new System.EventHandler(this.button7_Click_2);
@@ -367,10 +367,10 @@ namespace RedeSocial
             this.bt_D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_D.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_D.Location = new System.Drawing.Point(1341, 203);
+            this.bt_D.Location = new System.Drawing.Point(1341, 205);
             this.bt_D.Margin = new System.Windows.Forms.Padding(2);
             this.bt_D.Name = "bt_D";
-            this.bt_D.Size = new System.Drawing.Size(202, 413);
+            this.bt_D.Size = new System.Drawing.Size(202, 402);
             this.bt_D.TabIndex = 27;
             this.bt_D.UseVisualStyleBackColor = false;
             this.bt_D.Click += new System.EventHandler(this.button1_Click_2);
@@ -548,6 +548,7 @@ namespace RedeSocial
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.flowLayoutPanel1.Controls.Add(this.comunidade0);
             this.flowLayoutPanel1.Controls.Add(this.comunidade1);
             this.flowLayoutPanel1.Controls.Add(this.comunidade2);

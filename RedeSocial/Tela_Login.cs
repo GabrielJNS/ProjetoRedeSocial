@@ -50,7 +50,7 @@ namespace RedeSocial
         public static int contagem_comentarios = 0;
         //Comunidades
         public static string[] comunidade_fotos = new string[50];
-        public static int contador_Postagens = 0;
+        public static int contador_Postagens = 2;
         public static int amigo;        
         int indiceUsuario;
 
@@ -115,6 +115,12 @@ namespace RedeSocial
             Login.senha[8] = "123";
             Login.data_nascimento[8] = "12/07/2000";
             Login.foto_perfil[8] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/pietra.jpg";
+            Login.descricao_postagens[0] = "Paisagem";
+            Login.dono_postagem[0] = "Edson Arantes do Nascimento";
+            Login.foto_postagens[0] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 3010/postagem/paraiso.jpg";
+            Login.descricao_postagens[1] = "Nova Foto";
+            Login.dono_postagem[1] = "Steve Jobs";
+            Login.foto_postagens[1] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 3010/postagem/garrincha.jpg";
 
 
             caixaSenha.PasswordChar = '•';
