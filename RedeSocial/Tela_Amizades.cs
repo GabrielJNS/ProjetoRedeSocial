@@ -63,7 +63,7 @@ namespace RedeSocial
                     {
                         if (Login.solicita_amigo[prov1] == Login.nomes[i])
                         {
-                            pic_solicita1.ImageLocation = Login.foto_perfil[i];
+                            pic_solicita2.ImageLocation = Login.foto_perfil[i];
                         }
                     }
                     label5.Text = Login.solicita_amigo[prov1];
@@ -86,7 +86,7 @@ namespace RedeSocial
                     {
                         if (Login.solicita_amigo[prov2] == Login.nomes[i])
                         {
-                            pic_solicita1.ImageLocation = Login.foto_perfil[i];
+                            pic_solicita3.ImageLocation = Login.foto_perfil[i];
                         }
                     }
                     label7.Text = Login.solicita_amigo[prov2];

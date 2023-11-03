@@ -141,7 +141,7 @@ namespace RedeSocial
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Tela_Criar_Comunidades";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tela_Criar_Comunidades";
+            this.Text = "Criar Comunidades";
             this.Load += new System.EventHandler(this.Tela_Criar_Comunidades_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Picture_Imagem_Comunidade)).EndInit();
             this.ResumeLayout(false);

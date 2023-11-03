@@ -540,7 +540,7 @@ namespace RedeSocial
 
         private void comunidade0_Click(object sender, EventArgs e)
         {
-            Tela_Comunidade nova = new Tela_Comunidade();        
+            Tela_Comunidade nova = new Tela_Comunidade();   
                 
             nova.Show();
         }

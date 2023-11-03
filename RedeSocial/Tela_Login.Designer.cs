@@ -99,7 +99,7 @@ namespace RedeSocial
             this.btnMostrarSenha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnMostrarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMostrarSenha.Location = new System.Drawing.Point(1727, 636);
-            this.btnMostrarSenha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMostrarSenha.Margin = new System.Windows.Forms.Padding(2);
             this.btnMostrarSenha.Name = "btnMostrarSenha";
             this.btnMostrarSenha.Size = new System.Drawing.Size(48, 42);
             this.btnMostrarSenha.TabIndex = 6;
@@ -112,7 +112,7 @@ namespace RedeSocial
             this.caixaSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.caixaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caixaSenha.Location = new System.Drawing.Point(1300, 647);
-            this.caixaSenha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.caixaSenha.Margin = new System.Windows.Forms.Padding(2);
             this.caixaSenha.Multiline = true;
             this.caixaSenha.Name = "caixaSenha";
             this.caixaSenha.Size = new System.Drawing.Size(423, 31);
@@ -137,7 +137,7 @@ namespace RedeSocial
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "z";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

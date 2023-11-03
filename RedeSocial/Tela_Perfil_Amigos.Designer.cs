@@ -173,7 +173,7 @@ namespace RedeSocial
             this.Controls.Add(this.button1);
             this.Name = "Tela_Perfil_Amigos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tela_Perfil_Amigos";
+            this.Text = "Tela Amigos";
             this.Load += new System.EventHandler(this.Tela_Perfil_Amigos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Pic_amigo)).EndInit();
             this.ResumeLayout(false);
