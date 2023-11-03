@@ -48,8 +48,8 @@ namespace RedeSocial
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label_user = new System.Windows.Forms.Label();
+            this.Pic_perfil = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -68,6 +68,7 @@ namespace RedeSocial
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_perfil)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -243,23 +244,24 @@ namespace RedeSocial
             this.label1.TabIndex = 19;
             this.label1.Text = "Fotos";
             // 
-            // label2
+            // label_user
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(584, 239);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 13);
-            this.label2.TabIndex = 20;
-            this.label2.Text = "User";
+            this.label_user.AutoSize = true;
+            this.label_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_user.Location = new System.Drawing.Point(443, 173);
+            this.label_user.Name = "label_user";
+            this.label_user.Size = new System.Drawing.Size(57, 25);
+            this.label_user.TabIndex = 20;
+            this.label_user.Text = "User";
             // 
-            // label3
+            // Pic_perfil
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(749, 245);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(25, 13);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "Sair";
+            this.Pic_perfil.Location = new System.Drawing.Point(431, 116);
+            this.Pic_perfil.Name = "Pic_perfil";
+            this.Pic_perfil.Size = new System.Drawing.Size(69, 54);
+            this.Pic_perfil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Pic_perfil.TabIndex = 21;
+            this.Pic_perfil.TabStop = false;
             // 
             // Tela_Fotos
             // 
@@ -268,8 +270,8 @@ namespace RedeSocial
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__43_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.Pic_perfil);
+            this.Controls.Add(this.label_user);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox15);
@@ -310,6 +312,7 @@ namespace RedeSocial
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_perfil)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -336,7 +339,7 @@ namespace RedeSocial
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label_user;
+        private System.Windows.Forms.PictureBox Pic_perfil;
     }
 }

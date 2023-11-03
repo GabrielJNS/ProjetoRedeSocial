@@ -17,6 +17,8 @@ namespace RedeSocial
         {
             InitializeComponent();
             MostrarFotos();
+            label_user.Text = Login.nomes[Convert.ToInt32(Login.user)];
+            Pic_perfil.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
         }
         public void MostrarFotos()
         {

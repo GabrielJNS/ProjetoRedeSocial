@@ -35,6 +35,13 @@ namespace RedeSocial
                 if (Login.amigo_geral[prov] == Login.nomes[Convert.ToInt32(Login.user)])
                 {
                     //primeira fila                    
+                    for (int i = 0; i < Login.n; i++)
+                    {
+                        if (Login.solicita_amigo[prov] == Login.nomes[i])
+                        {
+                            pic_solicita1.ImageLocation = Login.foto_perfil[i];
+                        }
+                    }
                     label2.Text = Login.solicita_amigo[prov];
                     pegaValor = prov;
                 }
@@ -44,6 +51,7 @@ namespace RedeSocial
                     button2.Hide();
                     label14.Hide();
                     label2.Hide();
+                    pic_solicita1.Hide();
                 }
                 
             }
@@ -51,6 +59,13 @@ namespace RedeSocial
                 if (Login.amigo_geral[prov1] == Login.nomes[Convert.ToInt32(Login.user)] && Login.amigo_geral[prov1] != Login.amigo_geral[prov])
                 {
                     //segunda fila                    
+                    for (int i = 0; i < Login.n; i++)
+                    {
+                        if (Login.solicita_amigo[prov1] == Login.nomes[i])
+                        {
+                            pic_solicita1.ImageLocation = Login.foto_perfil[i];
+                        }
+                    }
                     label5.Text = Login.solicita_amigo[prov1];
                     pegaValor1 = prov1;
                 }
@@ -60,12 +75,20 @@ namespace RedeSocial
                     button3.Hide();
                     label15.Hide();
                     label5.Hide();
+                    pic_solicita2.Hide();
                 }
             }
             {
                 if (Login.amigo_geral[prov2] == Login.nomes[Convert.ToInt32(Login.user)] && Login.amigo_geral[prov2] != Login.amigo_geral[prov] && Login.amigo_geral[prov2] != Login.amigo_geral[prov1])
                 {
                     //terceira fila                    
+                    for (int i = 0; i < Login.n; i++)
+                    {
+                        if (Login.solicita_amigo[prov2] == Login.nomes[i])
+                        {
+                            pic_solicita1.ImageLocation = Login.foto_perfil[i];
+                        }
+                    }
                     label7.Text = Login.solicita_amigo[prov2];
                     pegaValor2 = prov2;
 
@@ -76,6 +99,7 @@ namespace RedeSocial
                     button5.Hide();
                     label16.Hide();
                     label7.Hide();
+                    pic_solicita3.Hide();
                 }
 
             }
@@ -131,8 +155,14 @@ namespace RedeSocial
                     button2.Hide();
                     label14.Hide();
                     label2.Hide();
+                    pic_solicita3.Hide();
                 }
             }
+        }
+
+        private void Tela_Amizades_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

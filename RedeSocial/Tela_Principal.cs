@@ -33,19 +33,20 @@ namespace RedeSocial
         public Tela_BoasVindas()
         {
 
-            Pessoa novo = new Pessoa();
-            InitializeComponent();
-            Sorteio_Amigos();
-            MostrarComunidades();
-            mostrar_Postagens();
-            foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
-            foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];           
-            ConfigurarCircularPictureBox(foto_perfil_usuario);
-            caixa_Procura.BorderStyle = BorderStyle.None;
-            Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;       
-            bt_amigo0.Text = Login.seusAmigos[1];
-            bt_amigo1.Text = Login.seusAmigos[2];
-
+            
+                Pessoa novo = new Pessoa();
+                InitializeComponent();
+                Sorteio_Amigos();
+                MostrarComunidades();
+                mostrar_Postagens();
+                foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
+                foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
+                ConfigurarCircularPictureBox(foto_perfil_usuario);
+                caixa_Procura.BorderStyle = BorderStyle.None;
+                Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
+                bt_amigo0.Text = Login.seusAmigos[1];
+                bt_amigo1.Text = Login.seusAmigos[2];
+            
 
         }
 
@@ -542,6 +543,25 @@ namespace RedeSocial
             Tela_Comunidade nova = new Tela_Comunidade();        
                 
             nova.Show();
+        }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+            Refresh();
+        }
+        public void Refresh()
+        {
+            Pessoa novo = new Pessoa();
+            Sorteio_Amigos();
+            MostrarComunidades();
+            mostrar_Postagens();
+            foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
+            foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
+            ConfigurarCircularPictureBox(foto_perfil_usuario);
+            caixa_Procura.BorderStyle = BorderStyle.None;
+            Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
+            bt_amigo0.Text = Login.seusAmigos[1];
+            bt_amigo1.Text = Login.seusAmigos[2];
         }
 
         private void ConfigurarCircularPictureBox(PictureBox pictureBox)
