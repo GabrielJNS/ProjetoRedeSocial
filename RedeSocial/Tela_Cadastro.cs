@@ -15,14 +15,6 @@ namespace RedeSocial
             caixa_email.BorderStyle = BorderStyle.None;
             caixa_nome.BorderStyle = BorderStyle.None;
             caixa_senha.BorderStyle = BorderStyle.None;
-
-
-
-
-
-
-
-
         }
 
         private void bt_cadastrar_Click(object sender, EventArgs e)

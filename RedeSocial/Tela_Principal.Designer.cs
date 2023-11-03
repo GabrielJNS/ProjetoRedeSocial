@@ -112,7 +112,13 @@ namespace RedeSocial
             // Amigo0
             // 
             this.Amigo0.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Amigo0.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Amigo0.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Amigo0.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Amigo0.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo0.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo0.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Amigo0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Amigo0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Amigo0.Location = new System.Drawing.Point(1700, 361);
@@ -173,12 +179,18 @@ namespace RedeSocial
             // Amigo1
             // 
             this.Amigo1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Amigo1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Amigo1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Amigo1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Amigo1.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo1.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Amigo1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Amigo1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Amigo1.Location = new System.Drawing.Point(1650, 489);
             this.Amigo1.Name = "Amigo1";
-            this.Amigo1.Size = new System.Drawing.Size(75, 21);
+            this.Amigo1.Size = new System.Drawing.Size(75, 30);
             this.Amigo1.TabIndex = 6;
             this.Amigo1.Text = "Amigo 1";
             this.Amigo1.UseVisualStyleBackColor = false;
@@ -187,12 +199,18 @@ namespace RedeSocial
             // Amigo2
             // 
             this.Amigo2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Amigo2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Amigo2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Amigo2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Amigo2.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo2.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Amigo2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Amigo2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Amigo2.Location = new System.Drawing.Point(1738, 485);
+            this.Amigo2.Location = new System.Drawing.Point(1738, 489);
             this.Amigo2.Name = "Amigo2";
-            this.Amigo2.Size = new System.Drawing.Size(73, 25);
+            this.Amigo2.Size = new System.Drawing.Size(73, 30);
             this.Amigo2.TabIndex = 7;
             this.Amigo2.Text = "Amigo 2";
             this.Amigo2.UseVisualStyleBackColor = false;
@@ -201,12 +219,18 @@ namespace RedeSocial
             // Amigo3
             // 
             this.Amigo3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Amigo3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Amigo3.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Amigo3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Amigo3.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo3.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Amigo3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Amigo3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Amigo3.Location = new System.Drawing.Point(1650, 617);
+            this.Amigo3.Location = new System.Drawing.Point(1650, 612);
             this.Amigo3.Name = "Amigo3";
-            this.Amigo3.Size = new System.Drawing.Size(75, 20);
+            this.Amigo3.Size = new System.Drawing.Size(75, 25);
             this.Amigo3.TabIndex = 8;
             this.Amigo3.Text = "Amigo 3";
             this.Amigo3.UseVisualStyleBackColor = false;
@@ -215,7 +239,13 @@ namespace RedeSocial
             // Amigo4
             // 
             this.Amigo4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Amigo4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Amigo4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Amigo4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Amigo4.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo4.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Amigo4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Amigo4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Amigo4.Location = new System.Drawing.Point(1738, 613);
@@ -417,6 +447,7 @@ namespace RedeSocial
             // 
             this.Label_Descrição.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Label_Descrição.AutoSize = true;
+            this.Label_Descrição.BackColor = System.Drawing.Color.Transparent;
             this.Label_Descrição.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Label_Descrição.Location = new System.Drawing.Point(595, 567);
             this.Label_Descrição.Name = "Label_Descrição";
@@ -428,6 +459,7 @@ namespace RedeSocial
             // 
             this.label_Usuario_Postagem.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label_Usuario_Postagem.AutoSize = true;
+            this.label_Usuario_Postagem.BackColor = System.Drawing.Color.Transparent;
             this.label_Usuario_Postagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Usuario_Postagem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label_Usuario_Postagem.Location = new System.Drawing.Point(810, 176);
@@ -554,16 +586,18 @@ namespace RedeSocial
             // 
             // caixa_de_comentarios
             // 
+            this.caixa_de_comentarios.Enabled = false;
             this.caixa_de_comentarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caixa_de_comentarios.Location = new System.Drawing.Point(567, 612);
             this.caixa_de_comentarios.Name = "caixa_de_comentarios";
+            this.caixa_de_comentarios.ReadOnly = true;
             this.caixa_de_comentarios.Size = new System.Drawing.Size(796, 120);
             this.caixa_de_comentarios.TabIndex = 46;
             this.caixa_de_comentarios.Text = "";
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.flowLayoutPanel1.Controls.Add(this.comunidade0);
             this.flowLayoutPanel1.Controls.Add(this.comunidade1);
             this.flowLayoutPanel1.Controls.Add(this.comunidade2);
@@ -703,6 +737,7 @@ namespace RedeSocial
             // 
             // foto_quem_postou
             // 
+            this.foto_quem_postou.BackColor = System.Drawing.Color.Transparent;
             this.foto_quem_postou.Location = new System.Drawing.Point(770, 166);
             this.foto_quem_postou.Name = "foto_quem_postou";
             this.foto_quem_postou.Size = new System.Drawing.Size(33, 34);

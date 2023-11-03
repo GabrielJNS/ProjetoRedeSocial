@@ -68,6 +68,7 @@ namespace RedeSocial
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(159, 93);
             this.label1.Name = "label1";
@@ -78,6 +79,7 @@ namespace RedeSocial
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(80, 309);
             this.label3.Name = "label3";
@@ -105,6 +107,7 @@ namespace RedeSocial
             // 
             // Picture_Imagem_Comunidade
             // 
+            this.Picture_Imagem_Comunidade.BackColor = System.Drawing.Color.Transparent;
             this.Picture_Imagem_Comunidade.Location = new System.Drawing.Point(529, 93);
             this.Picture_Imagem_Comunidade.Name = "Picture_Imagem_Comunidade";
             this.Picture_Imagem_Comunidade.Size = new System.Drawing.Size(233, 169);

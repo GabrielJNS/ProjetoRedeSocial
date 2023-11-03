@@ -57,6 +57,7 @@ namespace RedeSocial
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(332, 166);
             this.label1.Name = "label1";
@@ -67,6 +68,7 @@ namespace RedeSocial
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(331, 208);
             this.label2.Name = "label2";
@@ -77,6 +79,7 @@ namespace RedeSocial
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(332, 251);
             this.label3.Name = "label3";
@@ -87,6 +90,7 @@ namespace RedeSocial
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(331, 294);
             this.label4.Name = "label4";
@@ -97,6 +101,7 @@ namespace RedeSocial
             // label_nome_amigo
             // 
             this.label_nome_amigo.AutoSize = true;
+            this.label_nome_amigo.BackColor = System.Drawing.Color.Transparent;
             this.label_nome_amigo.Location = new System.Drawing.Point(111, 166);
             this.label_nome_amigo.Name = "label_nome_amigo";
             this.label_nome_amigo.Size = new System.Drawing.Size(41, 13);
@@ -107,6 +112,7 @@ namespace RedeSocial
             // Label_nome
             // 
             this.Label_nome.AutoSize = true;
+            this.Label_nome.BackColor = System.Drawing.Color.White;
             this.Label_nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_nome.Location = new System.Drawing.Point(571, 208);
             this.Label_nome.Name = "Label_nome";
@@ -117,6 +123,7 @@ namespace RedeSocial
             // Label_data
             // 
             this.Label_data.AutoSize = true;
+            this.Label_data.BackColor = System.Drawing.Color.White;
             this.Label_data.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_data.Location = new System.Drawing.Point(571, 251);
             this.Label_data.Name = "Label_data";
@@ -127,6 +134,7 @@ namespace RedeSocial
             // Label_comunidades
             // 
             this.Label_comunidades.AutoSize = true;
+            this.Label_comunidades.BackColor = System.Drawing.Color.White;
             this.Label_comunidades.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_comunidades.Location = new System.Drawing.Point(571, 294);
             this.Label_comunidades.Name = "Label_comunidades";
@@ -137,6 +145,7 @@ namespace RedeSocial
             // Label_id
             // 
             this.Label_id.AutoSize = true;
+            this.Label_id.BackColor = System.Drawing.Color.White;
             this.Label_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_id.Location = new System.Drawing.Point(572, 166);
             this.Label_id.Name = "Label_id";
@@ -146,8 +155,8 @@ namespace RedeSocial
             // 
             // Pic_amigo
             // 
+            this.Pic_amigo.BackColor = System.Drawing.Color.Transparent;
             this.Pic_amigo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Pic_amigo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Pic_amigo.Location = new System.Drawing.Point(45, 190);
             this.Pic_amigo.Name = "Pic_amigo";
             this.Pic_amigo.Size = new System.Drawing.Size(167, 214);
