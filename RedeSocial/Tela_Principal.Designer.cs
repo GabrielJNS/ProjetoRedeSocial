@@ -168,6 +168,8 @@ namespace RedeSocial
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button3.Location = new System.Drawing.Point(1207, 8);
             this.button3.Name = "button3";
@@ -290,6 +292,8 @@ namespace RedeSocial
             this.Bt_Postar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bt_Postar.BackgroundImage")));
             this.Bt_Postar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Bt_Postar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Bt_Postar.FlatAppearance.BorderSize = 0;
+            this.Bt_Postar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Bt_Postar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Bt_Postar.Location = new System.Drawing.Point(1093, 10);
             this.Bt_Postar.Name = "Bt_Postar";
@@ -502,7 +506,7 @@ namespace RedeSocial
             this.bt_Foto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_Foto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_Foto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_Foto.Location = new System.Drawing.Point(875, 16);
+            this.bt_Foto.Location = new System.Drawing.Point(875, 10);
             this.bt_Foto.Margin = new System.Windows.Forms.Padding(2);
             this.bt_Foto.Name = "bt_Foto";
             this.bt_Foto.Size = new System.Drawing.Size(77, 63);
@@ -566,6 +570,8 @@ namespace RedeSocial
             // 
             this.bt_amizades.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bt_amizades.BackgroundImage")));
             this.bt_amizades.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_amizades.FlatAppearance.BorderSize = 0;
+            this.bt_amizades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_amizades.Location = new System.Drawing.Point(1326, 8);
             this.bt_amizades.Margin = new System.Windows.Forms.Padding(2);
             this.bt_amizades.Name = "bt_amizades";
@@ -770,6 +776,8 @@ namespace RedeSocial
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(978, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(76, 67);

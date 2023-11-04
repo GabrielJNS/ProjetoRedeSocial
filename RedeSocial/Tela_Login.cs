@@ -232,5 +232,10 @@ namespace RedeSocial
             caixaSenha.BorderStyle = BorderStyle.None;
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
