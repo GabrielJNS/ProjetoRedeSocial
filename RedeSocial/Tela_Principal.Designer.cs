@@ -84,6 +84,8 @@ namespace RedeSocial
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil_usuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Mostra_Foto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -107,6 +109,7 @@ namespace RedeSocial
             ((System.ComponentModel.ISupportInitialize)(this.foto_quem_postou)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Amigo0
@@ -141,9 +144,9 @@ namespace RedeSocial
             this.bt_UsuarioLogado.Font = new System.Drawing.Font("Arial Black", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_UsuarioLogado.ForeColor = System.Drawing.Color.White;
             this.bt_UsuarioLogado.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_UsuarioLogado.Location = new System.Drawing.Point(79, 19);
+            this.bt_UsuarioLogado.Location = new System.Drawing.Point(89, 27);
             this.bt_UsuarioLogado.Name = "bt_UsuarioLogado";
-            this.bt_UsuarioLogado.Size = new System.Drawing.Size(267, 45);
+            this.bt_UsuarioLogado.Size = new System.Drawing.Size(221, 45);
             this.bt_UsuarioLogado.TabIndex = 3;
             this.bt_UsuarioLogado.Text = "Usuário";
             this.bt_UsuarioLogado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -154,7 +157,7 @@ namespace RedeSocial
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button2.Location = new System.Drawing.Point(1916, 215);
+            this.button2.Location = new System.Drawing.Point(31, 396);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 64);
             this.button2.TabIndex = 4;
@@ -165,17 +168,18 @@ namespace RedeSocial
             // button3
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button3.BackColor = System.Drawing.Color.Transparent;
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button3.Location = new System.Drawing.Point(1207, 8);
+            this.button3.Location = new System.Drawing.Point(1210, 8);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 69);
             this.button3.TabIndex = 5;
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Amigo1
@@ -277,28 +281,27 @@ namespace RedeSocial
             this.caixa_Procura.BackColor = System.Drawing.SystemColors.Menu;
             this.caixa_Procura.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.caixa_Procura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F);
-            this.caixa_Procura.Location = new System.Drawing.Point(379, 36);
+            this.caixa_Procura.Location = new System.Drawing.Point(398, 41);
             this.caixa_Procura.Margin = new System.Windows.Forms.Padding(2);
             this.caixa_Procura.Multiline = true;
             this.caixa_Procura.Name = "caixa_Procura";
-            this.caixa_Procura.Size = new System.Drawing.Size(405, 26);
+            this.caixa_Procura.Size = new System.Drawing.Size(335, 26);
             this.caixa_Procura.TabIndex = 12;
             this.caixa_Procura.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Bt_Postar
             // 
             this.Bt_Postar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Bt_Postar.BackColor = System.Drawing.Color.MidnightBlue;
-            this.Bt_Postar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bt_Postar.BackgroundImage")));
+            this.Bt_Postar.BackColor = System.Drawing.Color.White;
             this.Bt_Postar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Bt_Postar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Bt_Postar.FlatAppearance.BorderSize = 0;
-            this.Bt_Postar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Bt_Postar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Bt_Postar.Location = new System.Drawing.Point(1093, 10);
+            this.Bt_Postar.Location = new System.Drawing.Point(1132, 127);
             this.Bt_Postar.Name = "Bt_Postar";
-            this.Bt_Postar.Size = new System.Drawing.Size(75, 67);
+            this.Bt_Postar.Size = new System.Drawing.Size(205, 67);
             this.Bt_Postar.TabIndex = 18;
+            this.Bt_Postar.Text = "Postar";
             this.Bt_Postar.UseVisualStyleBackColor = false;
             this.Bt_Postar.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -313,7 +316,7 @@ namespace RedeSocial
             this.Bt_mais_amigos.BackColor = System.Drawing.Color.DarkBlue;
             this.Bt_mais_amigos.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Bt_mais_amigos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Bt_mais_amigos.Location = new System.Drawing.Point(1639, 215);
+            this.Bt_mais_amigos.Location = new System.Drawing.Point(1641, 195);
             this.Bt_mais_amigos.Name = "Bt_mais_amigos";
             this.Bt_mais_amigos.Size = new System.Drawing.Size(181, 33);
             this.Bt_mais_amigos.TabIndex = 19;
@@ -392,7 +395,7 @@ namespace RedeSocial
             this.bt_E.Location = new System.Drawing.Point(408, 205);
             this.bt_E.Margin = new System.Windows.Forms.Padding(2);
             this.bt_E.Name = "bt_E";
-            this.bt_E.Size = new System.Drawing.Size(202, 408);
+            this.bt_E.Size = new System.Drawing.Size(202, 348);
             this.bt_E.TabIndex = 28;
             this.bt_E.UseVisualStyleBackColor = false;
             this.bt_E.Click += new System.EventHandler(this.button7_Click_2);
@@ -413,7 +416,7 @@ namespace RedeSocial
             this.bt_D.Location = new System.Drawing.Point(1341, 205);
             this.bt_D.Margin = new System.Windows.Forms.Padding(2);
             this.bt_D.Name = "bt_D";
-            this.bt_D.Size = new System.Drawing.Size(202, 402);
+            this.bt_D.Size = new System.Drawing.Size(202, 348);
             this.bt_D.TabIndex = 27;
             this.bt_D.UseVisualStyleBackColor = false;
             this.bt_D.Click += new System.EventHandler(this.button1_Click_2);
@@ -424,7 +427,7 @@ namespace RedeSocial
             this.foto_perfil_usuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.foto_perfil_usuario.Cursor = System.Windows.Forms.Cursors.Default;
             this.foto_perfil_usuario.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.foto_perfil_usuario.Location = new System.Drawing.Point(1, 3);
+            this.foto_perfil_usuario.Location = new System.Drawing.Point(11, 6);
             this.foto_perfil_usuario.Margin = new System.Windows.Forms.Padding(2);
             this.foto_perfil_usuario.Name = "foto_perfil_usuario";
             this.foto_perfil_usuario.Size = new System.Drawing.Size(73, 61);
@@ -442,7 +445,7 @@ namespace RedeSocial
             this.Pic_Mostra_Foto.Location = new System.Drawing.Point(614, 205);
             this.Pic_Mostra_Foto.Margin = new System.Windows.Forms.Padding(2);
             this.Pic_Mostra_Foto.Name = "Pic_Mostra_Foto";
-            this.Pic_Mostra_Foto.Size = new System.Drawing.Size(645, 348);
+            this.Pic_Mostra_Foto.Size = new System.Drawing.Size(723, 348);
             this.Pic_Mostra_Foto.TabIndex = 17;
             this.Pic_Mostra_Foto.TabStop = false;
             this.Pic_Mostra_Foto.Click += new System.EventHandler(this.Pic_Mostra_Foto_Click);
@@ -453,7 +456,7 @@ namespace RedeSocial
             this.Label_Descrição.AutoSize = true;
             this.Label_Descrição.BackColor = System.Drawing.Color.Transparent;
             this.Label_Descrição.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Label_Descrição.Location = new System.Drawing.Point(595, 567);
+            this.Label_Descrição.Location = new System.Drawing.Point(615, 574);
             this.Label_Descrição.Name = "Label_Descrição";
             this.Label_Descrição.Size = new System.Drawing.Size(55, 13);
             this.Label_Descrição.TabIndex = 29;
@@ -466,7 +469,7 @@ namespace RedeSocial
             this.label_Usuario_Postagem.BackColor = System.Drawing.Color.Transparent;
             this.label_Usuario_Postagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Usuario_Postagem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label_Usuario_Postagem.Location = new System.Drawing.Point(810, 176);
+            this.label_Usuario_Postagem.Location = new System.Drawing.Point(659, 174);
             this.label_Usuario_Postagem.Name = "label_Usuario_Postagem";
             this.label_Usuario_Postagem.Size = new System.Drawing.Size(64, 20);
             this.label_Usuario_Postagem.TabIndex = 31;
@@ -478,16 +481,16 @@ namespace RedeSocial
             // 
             this.text_Box_Comentarios.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.text_Box_Comentarios.BackColor = System.Drawing.SystemColors.Menu;
-            this.text_Box_Comentarios.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.text_Box_Comentarios.Location = new System.Drawing.Point(567, 754);
+            this.text_Box_Comentarios.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.text_Box_Comentarios.Location = new System.Drawing.Point(614, 754);
             this.text_Box_Comentarios.Name = "text_Box_Comentarios";
-            this.text_Box_Comentarios.Size = new System.Drawing.Size(660, 39);
+            this.text_Box_Comentarios.Size = new System.Drawing.Size(613, 39);
             this.text_Box_Comentarios.TabIndex = 33;
             this.text_Box_Comentarios.Text = "";
             // 
             // bt_like
             // 
-            this.bt_like.Location = new System.Drawing.Point(1293, 556);
+            this.bt_like.Location = new System.Drawing.Point(1280, 567);
             this.bt_like.Name = "bt_like";
             this.bt_like.Size = new System.Drawing.Size(56, 27);
             this.bt_like.TabIndex = 35;
@@ -506,7 +509,7 @@ namespace RedeSocial
             this.bt_Foto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_Foto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_Foto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_Foto.Location = new System.Drawing.Point(875, 10);
+            this.bt_Foto.Location = new System.Drawing.Point(864, 14);
             this.bt_Foto.Margin = new System.Windows.Forms.Padding(2);
             this.bt_Foto.Name = "bt_Foto";
             this.bt_Foto.Size = new System.Drawing.Size(77, 63);
@@ -568,23 +571,25 @@ namespace RedeSocial
             // 
             // bt_amizades
             // 
+            this.bt_amizades.BackColor = System.Drawing.Color.Transparent;
             this.bt_amizades.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bt_amizades.BackgroundImage")));
+            this.bt_amizades.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bt_amizades.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bt_amizades.FlatAppearance.BorderSize = 0;
             this.bt_amizades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_amizades.Location = new System.Drawing.Point(1326, 8);
+            this.bt_amizades.Location = new System.Drawing.Point(1322, 8);
             this.bt_amizades.Margin = new System.Windows.Forms.Padding(2);
             this.bt_amizades.Name = "bt_amizades";
             this.bt_amizades.Size = new System.Drawing.Size(78, 69);
             this.bt_amizades.TabIndex = 42;
-            this.bt_amizades.UseVisualStyleBackColor = true;
+            this.bt_amizades.UseVisualStyleBackColor = false;
             this.bt_amizades.Click += new System.EventHandler(this.bt_amizades_Click);
             // 
             // bt_comentarios
             // 
             this.bt_comentarios.Location = new System.Drawing.Point(1225, 754);
             this.bt_comentarios.Name = "bt_comentarios";
-            this.bt_comentarios.Size = new System.Drawing.Size(138, 39);
+            this.bt_comentarios.Size = new System.Drawing.Size(112, 39);
             this.bt_comentarios.TabIndex = 43;
             this.bt_comentarios.Text = "Comentario";
             this.bt_comentarios.UseVisualStyleBackColor = true;
@@ -592,12 +597,13 @@ namespace RedeSocial
             // 
             // caixa_de_comentarios
             // 
+            this.caixa_de_comentarios.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.caixa_de_comentarios.Enabled = false;
             this.caixa_de_comentarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixa_de_comentarios.Location = new System.Drawing.Point(567, 612);
+            this.caixa_de_comentarios.Location = new System.Drawing.Point(615, 612);
             this.caixa_de_comentarios.Name = "caixa_de_comentarios";
             this.caixa_de_comentarios.ReadOnly = true;
-            this.caixa_de_comentarios.Size = new System.Drawing.Size(796, 120);
+            this.caixa_de_comentarios.Size = new System.Drawing.Size(722, 120);
             this.caixa_de_comentarios.TabIndex = 46;
             this.caixa_de_comentarios.Text = "";
             // 
@@ -616,9 +622,10 @@ namespace RedeSocial
             this.flowLayoutPanel1.Controls.Add(this.comunidade9);
             this.flowLayoutPanel1.Controls.Add(this.comunidade10);
             this.flowLayoutPanel1.Controls.Add(this.comunidade11);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(27, 380);
+            this.flowLayoutPanel1.Controls.Add(this.checkedListBox1);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(31, 556);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(258, 307);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(269, 339);
             this.flowLayoutPanel1.TabIndex = 48;
             // 
             // comunidade0
@@ -735,7 +742,7 @@ namespace RedeSocial
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(95, 344);
+            this.label3.Location = new System.Drawing.Point(95, 507);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(128, 24);
             this.label3.TabIndex = 49;
@@ -744,18 +751,19 @@ namespace RedeSocial
             // foto_quem_postou
             // 
             this.foto_quem_postou.BackColor = System.Drawing.Color.Transparent;
-            this.foto_quem_postou.Location = new System.Drawing.Point(770, 166);
+            this.foto_quem_postou.Location = new System.Drawing.Point(619, 164);
             this.foto_quem_postou.Name = "foto_quem_postou";
             this.foto_quem_postou.Size = new System.Drawing.Size(33, 34);
             this.foto_quem_postou.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.foto_quem_postou.TabIndex = 50;
             this.foto_quem_postou.TabStop = false;
+            this.foto_quem_postou.Click += new System.EventHandler(this.foto_quem_postou_Click);
             // 
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(1548, 87);
+            this.pictureBox6.Location = new System.Drawing.Point(1560, 85);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(344, 956);
             this.pictureBox6.TabIndex = 51;
@@ -773,17 +781,77 @@ namespace RedeSocial
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(978, 12);
+            this.button1.Location = new System.Drawing.Point(981, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(76, 67);
             this.button1.TabIndex = 53;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_3);
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(3, 295);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
+            this.checkedListBox1.TabIndex = 12;
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::RedeSocial.Properties.Resources.Login__33_;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.foto_quem_postou);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.flowLayoutPanel1);
+            this.panel1.Controls.Add(this.Amigo0);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.caixa_de_comentarios);
+            this.panel1.Controls.Add(this.bt_comentarios);
+            this.panel1.Controls.Add(this.pictureBox5);
+            this.panel1.Controls.Add(this.pictureBox4);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.bt_Foto);
+            this.panel1.Controls.Add(this.bt_like);
+            this.panel1.Controls.Add(this.text_Box_Comentarios);
+            this.panel1.Controls.Add(this.label_Usuario_Postagem);
+            this.panel1.Controls.Add(this.Label_Descrição);
+            this.panel1.Controls.Add(this.Pic_Mostra_Foto);
+            this.panel1.Controls.Add(this.bt_E);
+            this.panel1.Controls.Add(this.bt_D);
+            this.panel1.Controls.Add(this.foto_perfil_usuario);
+            this.panel1.Controls.Add(this.bt_amigo4);
+            this.panel1.Controls.Add(this.bt_amigo3);
+            this.panel1.Controls.Add(this.bt_amigo2);
+            this.panel1.Controls.Add(this.bt_amigo1);
+            this.panel1.Controls.Add(this.bt_amigo0);
+            this.panel1.Controls.Add(this.Bt_mais_amigos);
+            this.panel1.Controls.Add(this.Bt_Postar);
+            this.panel1.Controls.Add(this.caixa_Procura);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.Amigo4);
+            this.panel1.Controls.Add(this.Amigo3);
+            this.panel1.Controls.Add(this.Amigo2);
+            this.panel1.Controls.Add(this.Amigo1);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.bt_UsuarioLogado);
+            this.panel1.Controls.Add(this.bt_amizades);
+            this.panel1.Controls.Add(this.pictureBox6);
+            this.panel1.Controls.Add(this.pictureBox7);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1904, 1041);
+            this.panel1.TabIndex = 54;
             // 
             // Tela_BoasVindas
             // 
@@ -794,46 +862,7 @@ namespace RedeSocial
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__33_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.foto_quem_postou);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.Amigo0);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.caixa_de_comentarios);
-            this.Controls.Add(this.bt_comentarios);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.bt_Foto);
-            this.Controls.Add(this.bt_like);
-            this.Controls.Add(this.text_Box_Comentarios);
-            this.Controls.Add(this.label_Usuario_Postagem);
-            this.Controls.Add(this.Label_Descrição);
-            this.Controls.Add(this.Pic_Mostra_Foto);
-            this.Controls.Add(this.bt_E);
-            this.Controls.Add(this.bt_D);
-            this.Controls.Add(this.foto_perfil_usuario);
-            this.Controls.Add(this.bt_amigo4);
-            this.Controls.Add(this.bt_amigo3);
-            this.Controls.Add(this.bt_amigo2);
-            this.Controls.Add(this.bt_amigo1);
-            this.Controls.Add(this.bt_amigo0);
-            this.Controls.Add(this.Bt_mais_amigos);
-            this.Controls.Add(this.Bt_Postar);
-            this.Controls.Add(this.caixa_Procura);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.Amigo4);
-            this.Controls.Add(this.Amigo3);
-            this.Controls.Add(this.Amigo2);
-            this.Controls.Add(this.Amigo1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.bt_UsuarioLogado);
-            this.Controls.Add(this.bt_amizades);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -864,8 +893,9 @@ namespace RedeSocial
             ((System.ComponentModel.ISupportInitialize)(this.foto_quem_postou)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -924,5 +954,7 @@ namespace RedeSocial
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

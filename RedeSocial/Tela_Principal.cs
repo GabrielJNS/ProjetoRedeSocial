@@ -564,6 +564,16 @@ namespace RedeSocial
             bt_amigo1.Text = Login.seusAmigos[2];
         }
 
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void foto_quem_postou_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void ConfigurarCircularPictureBox(PictureBox pictureBox)
         {
             GraphicsPath path = new GraphicsPath();
