@@ -15,6 +15,8 @@ namespace RedeSocial
         public static string[] descricao_comunidades = new string[50];
         public static string[] foto_comunidades = new string[50];
         public static string[] integrantes_comunidade = new string[50];
+        public static string[] qual_comunidade = new string[50];
+        public static bool[] pertence_comunidade = new bool[50];
         public static int contador_de_comunidades = 0;
         public static string a, b, d, c;
         

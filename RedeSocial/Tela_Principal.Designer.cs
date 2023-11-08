@@ -84,7 +84,6 @@ namespace RedeSocial
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil_usuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Mostra_Foto)).BeginInit();
@@ -622,11 +621,11 @@ namespace RedeSocial
             this.flowLayoutPanel1.Controls.Add(this.comunidade9);
             this.flowLayoutPanel1.Controls.Add(this.comunidade10);
             this.flowLayoutPanel1.Controls.Add(this.comunidade11);
-            this.flowLayoutPanel1.Controls.Add(this.checkedListBox1);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(31, 556);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(269, 339);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(259, 296);
             this.flowLayoutPanel1.TabIndex = 48;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // comunidade0
             // 
@@ -641,102 +640,124 @@ namespace RedeSocial
             // 
             // comunidade1
             // 
+            this.comunidade1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comunidade1.Location = new System.Drawing.Point(88, 3);
             this.comunidade1.Name = "comunidade1";
             this.comunidade1.Size = new System.Drawing.Size(79, 67);
             this.comunidade1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade1.TabIndex = 1;
             this.comunidade1.TabStop = false;
+            this.comunidade1.Click += new System.EventHandler(this.comunidade1_Click);
             // 
             // comunidade2
             // 
+            this.comunidade2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comunidade2.Location = new System.Drawing.Point(173, 3);
             this.comunidade2.Name = "comunidade2";
             this.comunidade2.Size = new System.Drawing.Size(79, 67);
             this.comunidade2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade2.TabIndex = 2;
             this.comunidade2.TabStop = false;
+            this.comunidade2.Click += new System.EventHandler(this.comunidade2_Click);
             // 
             // comunidade3
             // 
+            this.comunidade3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comunidade3.Location = new System.Drawing.Point(3, 76);
             this.comunidade3.Name = "comunidade3";
             this.comunidade3.Size = new System.Drawing.Size(79, 67);
             this.comunidade3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade3.TabIndex = 3;
             this.comunidade3.TabStop = false;
+            this.comunidade3.Click += new System.EventHandler(this.comunidade3_Click);
             // 
             // comunidade4
             // 
+            this.comunidade4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comunidade4.Location = new System.Drawing.Point(88, 76);
             this.comunidade4.Name = "comunidade4";
             this.comunidade4.Size = new System.Drawing.Size(79, 67);
             this.comunidade4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade4.TabIndex = 4;
             this.comunidade4.TabStop = false;
+            this.comunidade4.Click += new System.EventHandler(this.comunidade4_Click);
             // 
             // comunidade5
             // 
+            this.comunidade5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comunidade5.Location = new System.Drawing.Point(173, 76);
             this.comunidade5.Name = "comunidade5";
             this.comunidade5.Size = new System.Drawing.Size(79, 67);
             this.comunidade5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade5.TabIndex = 5;
             this.comunidade5.TabStop = false;
+            this.comunidade5.Click += new System.EventHandler(this.comunidade5_Click);
             // 
             // comunidade6
             // 
+            this.comunidade6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comunidade6.Location = new System.Drawing.Point(3, 149);
             this.comunidade6.Name = "comunidade6";
             this.comunidade6.Size = new System.Drawing.Size(79, 67);
             this.comunidade6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade6.TabIndex = 6;
             this.comunidade6.TabStop = false;
+            this.comunidade6.Click += new System.EventHandler(this.comunidade6_Click);
             // 
             // comunidade7
             // 
+            this.comunidade7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comunidade7.Location = new System.Drawing.Point(88, 149);
             this.comunidade7.Name = "comunidade7";
             this.comunidade7.Size = new System.Drawing.Size(79, 67);
             this.comunidade7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade7.TabIndex = 7;
             this.comunidade7.TabStop = false;
+            this.comunidade7.Click += new System.EventHandler(this.comunidade7_Click);
             // 
             // comunidade8
             // 
+            this.comunidade8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comunidade8.Location = new System.Drawing.Point(173, 149);
             this.comunidade8.Name = "comunidade8";
             this.comunidade8.Size = new System.Drawing.Size(79, 67);
             this.comunidade8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade8.TabIndex = 8;
             this.comunidade8.TabStop = false;
+            this.comunidade8.Click += new System.EventHandler(this.comunidade8_Click);
             // 
             // comunidade9
             // 
+            this.comunidade9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comunidade9.Location = new System.Drawing.Point(3, 222);
             this.comunidade9.Name = "comunidade9";
             this.comunidade9.Size = new System.Drawing.Size(79, 67);
             this.comunidade9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade9.TabIndex = 9;
             this.comunidade9.TabStop = false;
+            this.comunidade9.Click += new System.EventHandler(this.comunidade9_Click);
             // 
             // comunidade10
             // 
+            this.comunidade10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comunidade10.Location = new System.Drawing.Point(88, 222);
             this.comunidade10.Name = "comunidade10";
             this.comunidade10.Size = new System.Drawing.Size(79, 67);
             this.comunidade10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade10.TabIndex = 10;
             this.comunidade10.TabStop = false;
+            this.comunidade10.Click += new System.EventHandler(this.comunidade10_Click);
             // 
             // comunidade11
             // 
+            this.comunidade11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comunidade11.Location = new System.Drawing.Point(173, 222);
             this.comunidade11.Name = "comunidade11";
             this.comunidade11.Size = new System.Drawing.Size(79, 67);
             this.comunidade11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade11.TabIndex = 11;
             this.comunidade11.TabStop = false;
+            this.comunidade11.Click += new System.EventHandler(this.comunidade11_Click);
             // 
             // label3
             // 
@@ -763,7 +784,7 @@ namespace RedeSocial
             // 
             this.pictureBox6.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(1560, 85);
+            this.pictureBox6.Location = new System.Drawing.Point(1560, 87);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(344, 956);
             this.pictureBox6.TabIndex = 51;
@@ -793,15 +814,6 @@ namespace RedeSocial
             this.button1.TabIndex = 53;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_3);
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(3, 295);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
-            this.checkedListBox1.TabIndex = 12;
-            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // panel1
             // 
@@ -954,7 +966,6 @@ namespace RedeSocial
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Panel panel1;
     }
 }

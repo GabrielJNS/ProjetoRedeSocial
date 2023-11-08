@@ -106,6 +106,7 @@ namespace RedeSocial
             this.Controls.Add(this.text_descricao);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.foto_postar);
+            this.MaximizeBox = false;
             this.Name = "Tela_Postagem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Postar";

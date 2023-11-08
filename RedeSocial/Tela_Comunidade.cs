@@ -19,14 +19,12 @@ namespace RedeSocial
         {
            
             InitializeComponent();
-            Label_Nome_Comunidade.Text = Comunidade.nome_comunidades[Comunidade.contador_de_comunidades];
-            Label_Descricao.Text = Comunidade.descricao_comunidades[Comunidade.contador_de_comunidades];
+            
+            Label_Nome_Comunidade.Text = Comunidade.nome_comunidades[Tela_BoasVindas.comunidades_Tela];
+            Label_Descricao.Text = Comunidade.descricao_comunidades[Tela_BoasVindas.comunidades_Tela];
             Foto_Comunidade.SizeMode = PictureBoxSizeMode.Zoom;
-            Foto_Comunidade.ImageLocation = Comunidade.foto_comunidades[Comunidade.contador_de_comunidades];
+            Foto_Comunidade.ImageLocation = Comunidade.foto_comunidades[Tela_BoasVindas.comunidades_Tela];
             
-            
-            
-
         }
        
         private void Tela_Comunidade_Load(object sender, EventArgs e)
@@ -46,11 +44,19 @@ namespace RedeSocial
 
         private void bt_convite_comunidade_Click(object sender, EventArgs e)
         {
-
+            ConviteComunidades();
         }
+        
         public void ConviteComunidades()
         {
-
+            if(Comunidade.integrantes_comunidade[Tela_BoasVindas.comunidades_Tela] == Login.nomes[Convert.ToInt32(Login.user)])
+            {
+                MessageBox.Show("Você já faz parte dessa comunidade");
+            }
+            else
+            {
+               
+            }
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)

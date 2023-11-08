@@ -28,6 +28,7 @@ namespace RedeSocial
         public static int a, b, c, d, z;
         public static int amigo;
         public static int postagem_atual;
+        public static int comunidades_Tela;
         Random rnd = new Random();
 
         public Tela_BoasVindas()
@@ -297,13 +298,18 @@ namespace RedeSocial
         public string qual_comunidade;
         public void MostrarComunidades()
         {
-            comunidade0.ImageLocation = Comunidade.foto_comunidades[0];
-            nome_admin = Comunidade.adim_comunidade[0];
-            qual_comunidade = Comunidade.nome_comunidades[0];
+            comunidade0.ImageLocation = Comunidade.foto_comunidades[0];            
             comunidade1.ImageLocation = Comunidade.foto_comunidades[1];
             comunidade2.ImageLocation = Comunidade.foto_comunidades[2];
             comunidade3.ImageLocation = Comunidade.foto_comunidades[3];
             comunidade4.ImageLocation = Comunidade.foto_comunidades[4];
+            comunidade5.ImageLocation = Comunidade.foto_comunidades[5];
+            comunidade6.ImageLocation = Comunidade.foto_comunidades[6];
+            comunidade7.ImageLocation = Comunidade.foto_comunidades[7];
+            comunidade8.ImageLocation = Comunidade.foto_comunidades[8];
+            comunidade9.ImageLocation = Comunidade.foto_comunidades[9];
+            comunidade10.ImageLocation = Comunidade.foto_comunidades[10];
+            comunidade11.ImageLocation = Comunidade.foto_comunidades[11];
         }
         private void button1_Click_2(object sender, EventArgs e)
         {
@@ -527,7 +533,7 @@ namespace RedeSocial
             for(int i = 0; i < 200; i++) {
 
                 if(Login.qual_postagem[i] == Convert.ToString(post)){
-                    caixa_de_comentarios.AppendText(Login.dono_comentario[i] + ":  " + Login.comentarios_postagens[i] + Environment.NewLine + Environment.NewLine);
+                    caixa_de_comentarios.AppendText(Login.dono_comentario[i] + ":  " + Login.comentarios_postagens[i] + Environment.NewLine);
                 }         
              }
 
@@ -537,11 +543,12 @@ namespace RedeSocial
         {
            
         }
-
+        
         private void comunidade0_Click(object sender, EventArgs e)
         {
-            Tela_Comunidade nova = new Tela_Comunidade();   
-                
+            comunidades_Tela = 0;
+            Tela_Comunidade nova = new Tela_Comunidade();
+            
             nova.Show();
         }
 
@@ -572,6 +579,89 @@ namespace RedeSocial
         private void foto_quem_postou_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void comunidade1_Click(object sender, EventArgs e)
+        {
+            comunidades_Tela = 1;
+            Tela_Comunidade nova = new Tela_Comunidade();            
+            nova.Show();
+        }
+
+        private void comunidade2_Click(object sender, EventArgs e)
+        {
+            comunidades_Tela = 2;
+            Tela_Comunidade nova = new Tela_Comunidade();
+            
+            nova.Show();
+        }
+
+        private void comunidade3_Click(object sender, EventArgs e)
+        {
+            comunidades_Tela = 3;
+            Tela_Comunidade nova = new Tela_Comunidade();            
+            nova.Show();
+        }
+
+        private void comunidade4_Click(object sender, EventArgs e)
+        {
+            comunidades_Tela = 4;
+            Tela_Comunidade nova = new Tela_Comunidade();            
+            nova.Show();
+        }
+
+        private void comunidade5_Click(object sender, EventArgs e)
+        {
+            comunidades_Tela = 5;
+            Tela_Comunidade nova = new Tela_Comunidade();            
+            nova.Show();
+        }
+
+        private void comunidade6_Click(object sender, EventArgs e)
+        {
+            comunidades_Tela = 6;
+            Tela_Comunidade nova = new Tela_Comunidade();            
+            nova.Show();
+        }
+
+        private void comunidade7_Click(object sender, EventArgs e)
+        {
+            comunidades_Tela = 7;
+            Tela_Comunidade nova = new Tela_Comunidade();            
+            nova.Show();
+        }
+
+        private void comunidade8_Click(object sender, EventArgs e)
+        {
+            comunidades_Tela = 8;
+            Tela_Comunidade nova = new Tela_Comunidade();            
+            nova.Show();
+        }
+
+        private void comunidade9_Click(object sender, EventArgs e)
+        {
+            comunidades_Tela = 9;
+            Tela_Comunidade nova = new Tela_Comunidade();            
+            nova.Show();
+        }
+
+        private void comunidade10_Click(object sender, EventArgs e)
+        {
+            comunidades_Tela = 10;
+            Tela_Comunidade nova = new Tela_Comunidade();            
+            nova.Show();
+        }
+
+        private void comunidade11_Click(object sender, EventArgs e)
+        {
+            comunidades_Tela = 11;
+            Tela_Comunidade nova = new Tela_Comunidade();            
+            nova.Show();
         }
 
         private void ConfigurarCircularPictureBox(PictureBox pictureBox)
