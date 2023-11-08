@@ -36,21 +36,29 @@ namespace RedeSocial
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string nome = Nome_Comunidade.Text;
-            string descricao = Text_Box_Descricao.Text;
-            string Id = Login.user;
-            string foto = Picture_Imagem_Comunidade.ImageLocation;
-            Comunidade novo = new Comunidade();
-            novo.Criar_Comunidade(nome, descricao, Id, foto);
-            Tela_Comunidade nova_tela = new Tela_Comunidade();
-            Tela_BoasVindas.comunidades_Tela = Comunidade.contador_de_comunidades;
-            Comunidade.integrantes_comunidade[Comunidade.contador_de_comunidades] = Login.nomes[Convert.ToInt32(Login.user)];
-            Comunidade.pertence_comunidade[Comunidade.contador_de_comunidades] = true;            
-            Comunidade.contador_de_comunidades++;
-            Tela_BoasVindas.comunidades_Tela = Comunidade.contador_de_comunidades;
-            nova_tela.Show();
-            Tela_BoasVindas nova = new Tela_BoasVindas();
-            nova.comunidade0.Show();
+            if (Nome_Comunidade.Text == "")
+            {
+                MessageBox.Show("Comunidade sem Nome");
+            }
+            else
+            {
+                string nome = Nome_Comunidade.Text;
+                string descricao = Text_Box_Descricao.Text;
+                string Id = Login.user;
+                string foto = Picture_Imagem_Comunidade.ImageLocation;
+                Comunidade novo = new Comunidade();
+                novo.Criar_Comunidade(nome, descricao, Id, foto);
+                //Tela_Comunidade nova_tela = new Tela_Comunidade();
+                Tela_BoasVindas.comunidades_Tela = Comunidade.contador_de_comunidades;
+                Comunidade.integrantes_comunidade[Comunidade.contador_de_comunidades] = Login.nomes[Convert.ToInt32(Login.user)];
+                Comunidade.pertence_comunidade[Comunidade.contador_de_comunidades] = true;
+                Comunidade.contador_de_comunidades++;
+                Tela_BoasVindas.comunidades_Tela = Comunidade.contador_de_comunidades;
+                //nova_tela.Show();
+                Tela_BoasVindas nova = new Tela_BoasVindas();
+                nova.comunidade0.Show();
+                MessageBox.Show("Comunidade Criada com Sucesso!!!");
+            }
         }
 
         private void Bt_Carrega_Imagem_Click(object sender, EventArgs e)

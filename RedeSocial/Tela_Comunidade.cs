@@ -18,8 +18,7 @@ namespace RedeSocial
         public Tela_Comunidade()
         {
            
-            InitializeComponent();
-            
+            InitializeComponent();            
             Label_Nome_Comunidade.Text = Comunidade.nome_comunidades[Tela_BoasVindas.comunidades_Tela];
             Label_Descricao.Text = Comunidade.descricao_comunidades[Tela_BoasVindas.comunidades_Tela];
             Foto_Comunidade.SizeMode = PictureBoxSizeMode.Zoom;
@@ -55,7 +54,14 @@ namespace RedeSocial
             }
             else
             {
-               
+                for (Comunidade.contador_de_Pessoas = 0; Comunidade.contador_de_Pessoas < Comunidade.contador_de_comunidades; Comunidade.contador_de_Pessoas++) 
+                {
+                    Comunidade.qual_comunidade[Comunidade.contador_de_Pessoas] = Convert.ToString(Tela_BoasVindas.comunidades_Tela);
+                    Comunidade.integrantes_comunidade[Comunidade.contador_de_Pessoas] = Login.nomes[Convert.ToInt32(Login.user)];
+                    Comunidade.pertence_comunidade[Comunidade.contador_de_Pessoas] = false;
+                    MessageBox.Show("Pessoa Cadastrada! Esperando a Confirmação do Administrador");
+
+                }
             }
         }
 

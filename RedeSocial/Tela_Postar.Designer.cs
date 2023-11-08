@@ -40,7 +40,7 @@ namespace RedeSocial
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(421, 493);
+            this.button1.Location = new System.Drawing.Point(349, 491);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 33);
             this.button1.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace RedeSocial
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(229, 493);
+            this.button2.Location = new System.Drawing.Point(539, 238);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 33);
             this.button2.TabIndex = 3;
@@ -68,7 +68,7 @@ namespace RedeSocial
             // 
             // foto_postar
             // 
-            this.foto_postar.Location = new System.Drawing.Point(201, 140);
+            this.foto_postar.Location = new System.Drawing.Point(48, 144);
             this.foto_postar.Name = "foto_postar";
             this.foto_postar.Size = new System.Drawing.Size(472, 256);
             this.foto_postar.TabIndex = 0;
