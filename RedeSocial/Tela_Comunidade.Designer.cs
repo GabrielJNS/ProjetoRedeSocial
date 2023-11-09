@@ -34,28 +34,27 @@ namespace RedeSocial
             this.Foto_Comunidade = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.user0 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.user1 = new System.Windows.Forms.PictureBox();
+            this.user2 = new System.Windows.Forms.PictureBox();
+            this.user3 = new System.Windows.Forms.PictureBox();
+            this.user4 = new System.Windows.Forms.PictureBox();
+            this.user5 = new System.Windows.Forms.PictureBox();
+            this.user6 = new System.Windows.Forms.PictureBox();
+            this.user8 = new System.Windows.Forms.PictureBox();
+            this.user7 = new System.Windows.Forms.PictureBox();
             this.bt_convite_comunidade = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Foto_Comunidade)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.user0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user7)).BeginInit();
             this.SuspendLayout();
             // 
             // Label_Nome_Comunidade
@@ -92,18 +91,17 @@ namespace RedeSocial
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.user0);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox2);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox3);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox4);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox5);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox6);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox7);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox8);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox9);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox10);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(715, 119);
+            this.flowLayoutPanel1.Controls.Add(this.user1);
+            this.flowLayoutPanel1.Controls.Add(this.user2);
+            this.flowLayoutPanel1.Controls.Add(this.user3);
+            this.flowLayoutPanel1.Controls.Add(this.user4);
+            this.flowLayoutPanel1.Controls.Add(this.user5);
+            this.flowLayoutPanel1.Controls.Add(this.user6);
+            this.flowLayoutPanel1.Controls.Add(this.user7);
+            this.flowLayoutPanel1.Controls.Add(this.user8);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(715, 105);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(177, 417);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(177, 465);
             this.flowLayoutPanel1.TabIndex = 3;
             // 
             // user0
@@ -115,78 +113,70 @@ namespace RedeSocial
             this.user0.TabIndex = 0;
             this.user0.TabStop = false;
             // 
-            // pictureBox2
+            // user1
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(89, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(80, 75);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.user1.Location = new System.Drawing.Point(89, 3);
+            this.user1.Name = "user1";
+            this.user1.Size = new System.Drawing.Size(80, 75);
+            this.user1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.user1.TabIndex = 1;
+            this.user1.TabStop = false;
             // 
-            // pictureBox3
+            // user2
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(3, 84);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(80, 75);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.user2.Location = new System.Drawing.Point(3, 84);
+            this.user2.Name = "user2";
+            this.user2.Size = new System.Drawing.Size(80, 75);
+            this.user2.TabIndex = 2;
+            this.user2.TabStop = false;
             // 
-            // pictureBox4
+            // user3
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(89, 84);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(80, 75);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.user3.Location = new System.Drawing.Point(89, 84);
+            this.user3.Name = "user3";
+            this.user3.Size = new System.Drawing.Size(80, 75);
+            this.user3.TabIndex = 3;
+            this.user3.TabStop = false;
             // 
-            // pictureBox5
+            // user4
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(3, 165);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(80, 75);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.user4.Location = new System.Drawing.Point(3, 165);
+            this.user4.Name = "user4";
+            this.user4.Size = new System.Drawing.Size(80, 75);
+            this.user4.TabIndex = 4;
+            this.user4.TabStop = false;
             // 
-            // pictureBox6
+            // user5
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(89, 165);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(80, 75);
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
+            this.user5.Location = new System.Drawing.Point(89, 165);
+            this.user5.Name = "user5";
+            this.user5.Size = new System.Drawing.Size(80, 75);
+            this.user5.TabIndex = 5;
+            this.user5.TabStop = false;
             // 
-            // pictureBox7
+            // user6
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(3, 246);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(80, 75);
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.user6.Location = new System.Drawing.Point(3, 246);
+            this.user6.Name = "user6";
+            this.user6.Size = new System.Drawing.Size(80, 75);
+            this.user6.TabIndex = 6;
+            this.user6.TabStop = false;
             // 
-            // pictureBox8
+            // user8
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(89, 246);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(80, 75);
-            this.pictureBox8.TabIndex = 7;
-            this.pictureBox8.TabStop = false;
+            this.user8.Location = new System.Drawing.Point(3, 327);
+            this.user8.Name = "user8";
+            this.user8.Size = new System.Drawing.Size(80, 75);
+            this.user8.TabIndex = 7;
+            this.user8.TabStop = false;
             // 
-            // pictureBox9
+            // user7
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(3, 327);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(80, 75);
-            this.pictureBox9.TabIndex = 8;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(89, 327);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(80, 75);
-            this.pictureBox10.TabIndex = 9;
-            this.pictureBox10.TabStop = false;
+            this.user7.Location = new System.Drawing.Point(89, 246);
+            this.user7.Name = "user7";
+            this.user7.Size = new System.Drawing.Size(80, 75);
+            this.user7.TabIndex = 8;
+            this.user7.TabStop = false;
             // 
             // bt_convite_comunidade
             // 
@@ -199,12 +189,23 @@ namespace RedeSocial
             this.bt_convite_comunidade.UseVisualStyleBackColor = false;
             this.bt_convite_comunidade.Click += new System.EventHandler(this.bt_convite_comunidade_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(715, 88);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Administrador";
+            // 
             // Tela_Comunidade
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__42_;
             this.ClientSize = new System.Drawing.Size(918, 569);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.bt_convite_comunidade);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.Foto_Comunidade);
@@ -216,15 +217,14 @@ namespace RedeSocial
             ((System.ComponentModel.ISupportInitialize)(this.Foto_Comunidade)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.user0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,15 +237,15 @@ namespace RedeSocial
         private System.Windows.Forms.PictureBox Foto_Comunidade;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.PictureBox user0;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.PictureBox user1;
+        private System.Windows.Forms.PictureBox user2;
+        private System.Windows.Forms.PictureBox user3;
+        private System.Windows.Forms.PictureBox user4;
+        private System.Windows.Forms.PictureBox user5;
+        private System.Windows.Forms.PictureBox user6;
+        private System.Windows.Forms.PictureBox user8;
+        private System.Windows.Forms.PictureBox user7;
         private System.Windows.Forms.Button bt_convite_comunidade;
+        private System.Windows.Forms.Label label1;
     }
 }

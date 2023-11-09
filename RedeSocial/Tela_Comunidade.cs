@@ -23,7 +23,15 @@ namespace RedeSocial
             Label_Descricao.Text = Comunidade.descricao_comunidades[Tela_BoasVindas.comunidades_Tela];
             Foto_Comunidade.SizeMode = PictureBoxSizeMode.Zoom;
             Foto_Comunidade.ImageLocation = Comunidade.foto_comunidades[Tela_BoasVindas.comunidades_Tela];
-            
+            for (int i = 0; i < Login.j; i++)
+            {
+               if (Comunidade.adim_comunidade[Tela_BoasVindas.comunidades_Tela] == Login.nomes[i])
+               {
+                    user0.ImageLocation = Login.foto_perfil[i];                   
+     
+               }
+                //if(Comunidade.integrantes_comunidade[])
+            }
         }
        
         private void Tela_Comunidade_Load(object sender, EventArgs e)
@@ -44,8 +52,9 @@ namespace RedeSocial
         private void bt_convite_comunidade_Click(object sender, EventArgs e)
         {
             ConviteComunidades();
+            Comunidade.contador_de_Pessoas++;
         }
-        
+        //Convite para entrar na Comunidade
         public void ConviteComunidades()
         {
             if(Comunidade.integrantes_comunidade[Tela_BoasVindas.comunidades_Tela] == Login.nomes[Convert.ToInt32(Login.user)])
@@ -58,15 +67,17 @@ namespace RedeSocial
                 {
                     Comunidade.qual_comunidade[Comunidade.contador_de_Pessoas] = Convert.ToString(Tela_BoasVindas.comunidades_Tela);
                     Comunidade.integrantes_comunidade[Comunidade.contador_de_Pessoas] = Login.nomes[Convert.ToInt32(Login.user)];
-                    Comunidade.pertence_comunidade[Comunidade.contador_de_Pessoas] = false;
-                    MessageBox.Show("Pessoa Cadastrada! Esperando a Confirmação do Administrador");
+                    Comunidade.pertence_comunidade[Comunidade.contador_de_Pessoas] = true;
+                    MessageBox.Show("Pessoa Cadastrada! Esperando a Confirmação do Administrador " + Comunidade.contador_de_Pessoas );
 
                 }
             }
+            
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
-                    }
+        
+        }
     }
 }

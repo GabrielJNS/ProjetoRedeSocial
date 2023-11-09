@@ -19,7 +19,7 @@ namespace RedeSocial
         public static bool[] pertence_comunidade = new bool[50];
         public static int contador_de_comunidades = 0;
         public static string a, b, d, c;
-        public static int contador_de_Pessoas;
+        public static int contador_de_Pessoas = 0;
         
         
 

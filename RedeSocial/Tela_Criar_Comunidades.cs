@@ -44,7 +44,7 @@ namespace RedeSocial
             {
                 string nome = Nome_Comunidade.Text;
                 string descricao = Text_Box_Descricao.Text;
-                string Id = Login.user;
+                string Id = Login.nomes[Convert.ToInt32(Login.user)];
                 string foto = Picture_Imagem_Comunidade.ImageLocation;
                 Comunidade novo = new Comunidade();
                 novo.Criar_Comunidade(nome, descricao, Id, foto);
