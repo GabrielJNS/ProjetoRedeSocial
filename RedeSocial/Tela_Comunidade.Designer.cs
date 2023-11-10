@@ -40,7 +40,6 @@ namespace RedeSocial
             this.user4 = new System.Windows.Forms.PictureBox();
             this.user5 = new System.Windows.Forms.PictureBox();
             this.user6 = new System.Windows.Forms.PictureBox();
-            this.user8 = new System.Windows.Forms.PictureBox();
             this.user7 = new System.Windows.Forms.PictureBox();
             this.bt_convite_comunidade = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -53,7 +52,6 @@ namespace RedeSocial
             ((System.ComponentModel.ISupportInitialize)(this.user4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.user5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.user6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.user8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.user7)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +59,7 @@ namespace RedeSocial
             // 
             this.Label_Nome_Comunidade.AutoSize = true;
             this.Label_Nome_Comunidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Nome_Comunidade.Location = new System.Drawing.Point(122, 88);
+            this.Label_Nome_Comunidade.Location = new System.Drawing.Point(197, 88);
             this.Label_Nome_Comunidade.Name = "Label_Nome_Comunidade";
             this.Label_Nome_Comunidade.Size = new System.Drawing.Size(455, 55);
             this.Label_Nome_Comunidade.TabIndex = 0;
@@ -72,7 +70,7 @@ namespace RedeSocial
             // 
             this.Label_Descricao.AutoSize = true;
             this.Label_Descricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Descricao.Location = new System.Drawing.Point(12, 173);
+            this.Label_Descricao.Location = new System.Drawing.Point(203, 159);
             this.Label_Descricao.Name = "Label_Descricao";
             this.Label_Descricao.Size = new System.Drawing.Size(208, 24);
             this.Label_Descricao.TabIndex = 1;
@@ -83,7 +81,7 @@ namespace RedeSocial
             this.Foto_Comunidade.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Foto_Comunidade.Location = new System.Drawing.Point(29, 79);
             this.Foto_Comunidade.Name = "Foto_Comunidade";
-            this.Foto_Comunidade.Size = new System.Drawing.Size(87, 76);
+            this.Foto_Comunidade.Size = new System.Drawing.Size(120, 104);
             this.Foto_Comunidade.TabIndex = 2;
             this.Foto_Comunidade.TabStop = false;
             this.Foto_Comunidade.Click += new System.EventHandler(this.Foto_Comunidade_Click);
@@ -98,10 +96,9 @@ namespace RedeSocial
             this.flowLayoutPanel1.Controls.Add(this.user5);
             this.flowLayoutPanel1.Controls.Add(this.user6);
             this.flowLayoutPanel1.Controls.Add(this.user7);
-            this.flowLayoutPanel1.Controls.Add(this.user8);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(715, 105);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(177, 465);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(177, 331);
             this.flowLayoutPanel1.TabIndex = 3;
             // 
             // user0
@@ -127,6 +124,7 @@ namespace RedeSocial
             this.user2.Location = new System.Drawing.Point(3, 84);
             this.user2.Name = "user2";
             this.user2.Size = new System.Drawing.Size(80, 75);
+            this.user2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.user2.TabIndex = 2;
             this.user2.TabStop = false;
             // 
@@ -135,6 +133,7 @@ namespace RedeSocial
             this.user3.Location = new System.Drawing.Point(89, 84);
             this.user3.Name = "user3";
             this.user3.Size = new System.Drawing.Size(80, 75);
+            this.user3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.user3.TabIndex = 3;
             this.user3.TabStop = false;
             // 
@@ -143,6 +142,7 @@ namespace RedeSocial
             this.user4.Location = new System.Drawing.Point(3, 165);
             this.user4.Name = "user4";
             this.user4.Size = new System.Drawing.Size(80, 75);
+            this.user4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.user4.TabIndex = 4;
             this.user4.TabStop = false;
             // 
@@ -151,6 +151,7 @@ namespace RedeSocial
             this.user5.Location = new System.Drawing.Point(89, 165);
             this.user5.Name = "user5";
             this.user5.Size = new System.Drawing.Size(80, 75);
+            this.user5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.user5.TabIndex = 5;
             this.user5.TabStop = false;
             // 
@@ -159,22 +160,16 @@ namespace RedeSocial
             this.user6.Location = new System.Drawing.Point(3, 246);
             this.user6.Name = "user6";
             this.user6.Size = new System.Drawing.Size(80, 75);
+            this.user6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.user6.TabIndex = 6;
             this.user6.TabStop = false;
-            // 
-            // user8
-            // 
-            this.user8.Location = new System.Drawing.Point(3, 327);
-            this.user8.Name = "user8";
-            this.user8.Size = new System.Drawing.Size(80, 75);
-            this.user8.TabIndex = 7;
-            this.user8.TabStop = false;
             // 
             // user7
             // 
             this.user7.Location = new System.Drawing.Point(89, 246);
             this.user7.Name = "user7";
             this.user7.Size = new System.Drawing.Size(80, 75);
+            this.user7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.user7.TabIndex = 8;
             this.user7.TabStop = false;
             // 
@@ -204,6 +199,7 @@ namespace RedeSocial
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__42_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(918, 569);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bt_convite_comunidade);
@@ -211,6 +207,7 @@ namespace RedeSocial
             this.Controls.Add(this.Foto_Comunidade);
             this.Controls.Add(this.Label_Descricao);
             this.Controls.Add(this.Label_Nome_Comunidade);
+            this.DoubleBuffered = true;
             this.Name = "Tela_Comunidade";
             this.Text = "Tela Comunidade";
             this.Load += new System.EventHandler(this.Tela_Comunidade_Load);
@@ -223,7 +220,6 @@ namespace RedeSocial
             ((System.ComponentModel.ISupportInitialize)(this.user4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.user5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.user6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.user8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.user7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -243,7 +239,6 @@ namespace RedeSocial
         private System.Windows.Forms.PictureBox user4;
         private System.Windows.Forms.PictureBox user5;
         private System.Windows.Forms.PictureBox user6;
-        private System.Windows.Forms.PictureBox user8;
         private System.Windows.Forms.PictureBox user7;
         private System.Windows.Forms.Button bt_convite_comunidade;
         private System.Windows.Forms.Label label1;

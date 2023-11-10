@@ -28,6 +28,9 @@ namespace RedeSocial
         string senha_log;
         string email_log;
         int cont;
+        //Contador de Pessoas nas Comunidades
+        public static int contador_de_Pessoas = 1;
+        public static int cont_cad = 0;
 
         // Vetores para armazenar informações dos usuários e postagens
 

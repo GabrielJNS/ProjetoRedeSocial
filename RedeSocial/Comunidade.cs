@@ -12,6 +12,7 @@ namespace RedeSocial
         
         public static string[] adim_comunidade = new string[50];
         public static string[] nome_comunidades = new string[50];
+        public static string[] nome_comunidades_geral = new string[50];
         public static string[] descricao_comunidades = new string[50];
         public static string[] foto_comunidades = new string[50];
         public static string[] integrantes_comunidade = new string[50];
@@ -19,7 +20,7 @@ namespace RedeSocial
         public static bool[] pertence_comunidade = new bool[50];
         public static int contador_de_comunidades = 0;
         public static string a, b, d, c;
-        public static int contador_de_Pessoas = 0;
+        
         
         
 
@@ -40,8 +41,8 @@ namespace RedeSocial
                     descricao_comunidades[contador_de_comunidades] = b;
                     foto_comunidades[contador_de_comunidades] = d;
                     MessageBox.Show("Comunidade Cadastrada " + nome_comunidades[contador_de_comunidades] + " Usuário Administrador: " + adim_comunidade[contador_de_comunidades] + " Posição do Vetor: " + contador_de_comunidades);
-    
-                
+
+            
             
           
 

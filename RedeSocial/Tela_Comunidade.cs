@@ -14,23 +14,76 @@ namespace RedeSocial
 {
     public partial class Tela_Comunidade : Form
     {
-        
+
         public Tela_Comunidade()
         {
-           
+
             InitializeComponent();            
+            MostrarIntegrantes();
+                  
+
+
+
+        }
+        public void MostrarIntegrantes()
+        {
             Label_Nome_Comunidade.Text = Comunidade.nome_comunidades[Tela_BoasVindas.comunidades_Tela];
             Label_Descricao.Text = Comunidade.descricao_comunidades[Tela_BoasVindas.comunidades_Tela];
             Foto_Comunidade.SizeMode = PictureBoxSizeMode.Zoom;
             Foto_Comunidade.ImageLocation = Comunidade.foto_comunidades[Tela_BoasVindas.comunidades_Tela];
-            for (int i = 0; i < Login.j; i++)
+            for (int i = 0; i < 50; i++)
             {
-               if (Comunidade.adim_comunidade[Tela_BoasVindas.comunidades_Tela] == Login.nomes[i])
-               {
-                    user0.ImageLocation = Login.foto_perfil[i];                   
-     
-               }
-                //if(Comunidade.integrantes_comunidade[])
+                if (Comunidade.adim_comunidade[Tela_BoasVindas.comunidades_Tela] == Login.nomes[i])
+                {
+                    user0.ImageLocation = Login.foto_perfil[i];
+
+                }
+            }
+            int[] prov_nomes_comu = new int[50];
+            for (int i = 0; i < 50; i++)
+            {
+                if (Comunidade.qual_comunidade[i] == Convert.ToString(Tela_BoasVindas.comunidades_Tela))
+                {
+
+                    for (int j = 0; j < 50; j++)
+                        if (Comunidade.integrantes_comunidade[i] == Login.nomes[j] || Comunidade.nome_comunidades_geral[i] == Convert.ToString(j))
+                        {
+                            prov_nomes_comu[i] = j;
+                        }
+                }
+            }
+
+
+            if (prov_nomes_comu[1] == 0)
+            {
+                user1.Hide();
+            }
+            else{
+                user1.ImageLocation = Login.foto_perfil[prov_nomes_comu[1]];
+            }
+            if (prov_nomes_comu[2] == 0)
+            {
+                user2.Hide();
+            }
+            else
+            {
+                user2.ImageLocation = Login.foto_perfil[prov_nomes_comu[2]];
+            }
+            if (prov_nomes_comu[3] == 0)
+            {
+                user3.Hide();
+            }
+            else
+            {
+                user3.ImageLocation = Login.foto_perfil[prov_nomes_comu[3]];
+            }
+            if (prov_nomes_comu[4] == 0)
+            {
+                user4.Hide();
+            }
+            else
+            {
+                user4.ImageLocation = Login.foto_perfil[prov_nomes_comu[4]];
             }
         }
        
@@ -51,28 +104,43 @@ namespace RedeSocial
 
         private void bt_convite_comunidade_Click(object sender, EventArgs e)
         {
-            ConviteComunidades();
-            Comunidade.contador_de_Pessoas++;
+            ConviteComunidades();            
+            
+            
         }
         //Convite para entrar na Comunidade
+        public bool prov = false;
         public void ConviteComunidades()
         {
-            if(Comunidade.integrantes_comunidade[Tela_BoasVindas.comunidades_Tela] == Login.nomes[Convert.ToInt32(Login.user)])
+            for (int i = Login.cont_cad; i < Login.contador_de_Pessoas; i++)
             {
-                MessageBox.Show("Você já faz parte dessa comunidade");
-            }
-            else
-            {
-                for (Comunidade.contador_de_Pessoas = 0; Comunidade.contador_de_Pessoas < Comunidade.contador_de_comunidades; Comunidade.contador_de_Pessoas++) 
+                for (int j = 0; j < 50; j++)
                 {
-                    Comunidade.qual_comunidade[Comunidade.contador_de_Pessoas] = Convert.ToString(Tela_BoasVindas.comunidades_Tela);
-                    Comunidade.integrantes_comunidade[Comunidade.contador_de_Pessoas] = Login.nomes[Convert.ToInt32(Login.user)];
-                    Comunidade.pertence_comunidade[Comunidade.contador_de_Pessoas] = true;
-                    MessageBox.Show("Pessoa Cadastrada! Esperando a Confirmação do Administrador " + Comunidade.contador_de_Pessoas );
-
-                }
+                    if (Comunidade.integrantes_comunidade[j] == Login.nomes[Convert.ToInt32(Login.user)] || Comunidade.adim_comunidade[j] == Login.nomes[Convert.ToInt32(Login.user)])
+                    {
+                        prov = true;
+                    }
+                }   
+                    if(prov == false)
+                    {
+                        Comunidade.qual_comunidade[Login.contador_de_Pessoas] = Convert.ToString(Tela_BoasVindas.comunidades_Tela);
+                        Comunidade.nome_comunidades_geral[Login.contador_de_Pessoas] = Convert.ToString(Login.contador_de_Pessoas);
+                        Comunidade.integrantes_comunidade[Login.contador_de_Pessoas] = Login.nomes[Convert.ToInt32(Login.user)];
+                        Comunidade.pertence_comunidade[Login.contador_de_Pessoas] = true;
+                        Console.WriteLine(Comunidade.integrantes_comunidade[Login.contador_de_Pessoas] + " " + Comunidade.nome_comunidades_geral[Login.contador_de_Pessoas]);
+                        MessageBox.Show("Cadastro Feito");
+                        
+                    }
+                    else
+                    {
+                        MessageBox.Show("Já é Cadastrado");
+                    }
+                
+                    
             }
-            
+            Login.contador_de_Pessoas++;
+            Login.cont_cad++;
+
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)

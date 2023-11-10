@@ -426,11 +426,11 @@ namespace RedeSocial
             this.foto_perfil_usuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.foto_perfil_usuario.Cursor = System.Windows.Forms.Cursors.Default;
             this.foto_perfil_usuario.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.foto_perfil_usuario.Location = new System.Drawing.Point(11, 6);
+            this.foto_perfil_usuario.Location = new System.Drawing.Point(34, 27);
             this.foto_perfil_usuario.Margin = new System.Windows.Forms.Padding(2);
             this.foto_perfil_usuario.Name = "foto_perfil_usuario";
-            this.foto_perfil_usuario.Size = new System.Drawing.Size(73, 61);
-            this.foto_perfil_usuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.foto_perfil_usuario.Size = new System.Drawing.Size(50, 45);
+            this.foto_perfil_usuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.foto_perfil_usuario.TabIndex = 25;
             this.foto_perfil_usuario.TabStop = false;
             this.foto_perfil_usuario.Click += new System.EventHandler(this.foto_perfil_usuario_Click);
