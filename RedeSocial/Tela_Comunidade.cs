@@ -19,10 +19,7 @@ namespace RedeSocial
         {
 
             InitializeComponent();            
-            MostrarIntegrantes();
-                  
-
-
+            MostrarIntegrantes();              
 
         }
         public void MostrarIntegrantes()
@@ -42,14 +39,14 @@ namespace RedeSocial
             int[] prov_nomes_comu = new int[50];
             for (int i = 0; i < 50; i++)
             {
-                if (Comunidade.qual_comunidade[i] == Convert.ToString(Tela_BoasVindas.comunidades_Tela))
+                if (Comunidade.nome_comunidades_geral[i] == Convert.ToString(Tela_BoasVindas.comunidades_Tela))
                 {
-
-                    for (int j = 0; j < 50; j++)
-                        if (Comunidade.integrantes_comunidade[i] == Login.nomes[j] || Comunidade.nome_comunidades_geral[i] == Convert.ToString(j))
-                        {
-                            prov_nomes_comu[i] = j;
-                        }
+                    for(int j = 0; j < 50; j++)
+                    {
+                        if(Comunidade.integrantes_comunidade[i] == Login.nomes[j])
+                        prov_nomes_comu[i] = j;
+                    }
+                    
                 }
             }
 
@@ -112,34 +109,43 @@ namespace RedeSocial
         public bool prov = false;
         public void ConviteComunidades()
         {
-            for (int i = Login.cont_cad; i < Login.contador_de_Pessoas; i++)
-            {
-                for (int j = 0; j < 50; j++)
-                {
-                    if (Comunidade.integrantes_comunidade[j] == Login.nomes[Convert.ToInt32(Login.user)] || Comunidade.adim_comunidade[j] == Login.nomes[Convert.ToInt32(Login.user)])
+            
+            
+               
+                    for (int i = Login.cont_cad; i < Login.contador_de_Pessoas; i++)
                     {
-                        prov = true;
+                        for (int j = 0; j < Login.contador_de_Pessoas; j++)
+                        {
+                            if (Comunidade.adim_comunidade[j] == Login.nomes[Convert.ToInt32(Login.user)] || Comunidade.nome_comunidades_geral[j] == Convert.ToString(Tela_BoasVindas.comunidades_Tela)
+                                && Comunidade.integrantes_comunidade[j] == Login.nomes[Convert.ToInt32(Login.user)])
+                            {
+                                prov = true;
+                            }
+                        }
+                        if (prov == false)
+                        {
+
+                            Comunidade.nome_comunidades_geral[Login.contador_de_Pessoas] = Convert.ToString(Tela_BoasVindas.comunidades_Tela);
+                            Comunidade.integrantes_comunidade[Login.contador_de_Pessoas] = Login.nomes[Convert.ToInt32(Login.user)];
+                            Login.ondeEqualComunidade[Login.contador_de_Pessoas] = Login.contador_de_Pessoas;
+                            this.Close();
+                            Tela_Comunidade novo = new Tela_Comunidade();
+                            novo.Show();
+
+
+                            MessageBox.Show("Cadastro Feito");
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("Já é Cadastrado");
+                        }
+
+
                     }
-                }   
-                    if(prov == false)
-                    {
-                        Comunidade.qual_comunidade[Login.contador_de_Pessoas] = Convert.ToString(Tela_BoasVindas.comunidades_Tela);
-                        Comunidade.nome_comunidades_geral[Login.contador_de_Pessoas] = Convert.ToString(Login.contador_de_Pessoas);
-                        Comunidade.integrantes_comunidade[Login.contador_de_Pessoas] = Login.nomes[Convert.ToInt32(Login.user)];
-                        Comunidade.pertence_comunidade[Login.contador_de_Pessoas] = true;
-                        Console.WriteLine(Comunidade.integrantes_comunidade[Login.contador_de_Pessoas] + " " + Comunidade.nome_comunidades_geral[Login.contador_de_Pessoas]);
-                        MessageBox.Show("Cadastro Feito");
-                        
-                    }
-                    else
-                    {
-                        MessageBox.Show("Já é Cadastrado");
-                    }
-                
-                    
-            }
-            Login.contador_de_Pessoas++;
-            Login.cont_cad++;
+                Login.contador_de_Pessoas++;
+                Login.cont_cad++;
+            
 
         }
 

@@ -31,6 +31,7 @@ namespace RedeSocial
         //Contador de Pessoas nas Comunidades
         public static int contador_de_Pessoas = 1;
         public static int cont_cad = 0;
+        public static int[] ondeEqualComunidade = new int[50];
 
         // Vetores para armazenar informações dos usuários e postagens
 

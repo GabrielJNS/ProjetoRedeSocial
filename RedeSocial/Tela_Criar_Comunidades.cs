@@ -57,6 +57,8 @@ namespace RedeSocial
                 //nova_tela.Show();
                 Tela_BoasVindas nova = new Tela_BoasVindas();
                 nova.comunidade0.Show();
+                this.Close();
+                nova.Show();
                 MessageBox.Show("Comunidade Criada com Sucesso!!!");
             }
         }
