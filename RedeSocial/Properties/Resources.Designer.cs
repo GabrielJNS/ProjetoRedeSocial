@@ -93,6 +93,16 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap grade {
+            get {
+                object obj = ResourceManager.GetObject("grade", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kisspng_computer_icons_arrow_symbol_icon_design_creative_5aca57642062b6_1016917615232100841327 {
             get {
                 object obj = ResourceManager.GetObject("kisspng-computer-icons-arrow-symbol-icon-design-creative-5aca57642062b6.101691761" +
@@ -347,6 +357,36 @@ namespace RedeSocial.Properties {
         internal static System.Drawing.Bitmap Login__43_1 {
             get {
                 object obj = ResourceManager.GetObject("Login (43)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Login__44_ {
+            get {
+                object obj = ResourceManager.GetObject("Login (44)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Login__56_ {
+            get {
+                object obj = ResourceManager.GetObject("Login (56)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Login__56_1 {
+            get {
+                object obj = ResourceManager.GetObject("Login (56)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

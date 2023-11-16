@@ -47,6 +47,7 @@ namespace RedeSocial
                 Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
                 bt_amigo0.Text = Login.seusAmigos[1];
                 bt_amigo1.Text = Login.seusAmigos[2];
+
             
 
         }
@@ -662,6 +663,31 @@ namespace RedeSocial
             comunidades_Tela = 11;
             Tela_Comunidade nova = new Tela_Comunidade();            
             nova.Show();
+        }
+
+        private void Label_Descrição_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bindingNavigator1_RefreshItems(object sender, EventArgs e)
+        {
+
         }
 
         private void ConfigurarCircularPictureBox(PictureBox pictureBox)

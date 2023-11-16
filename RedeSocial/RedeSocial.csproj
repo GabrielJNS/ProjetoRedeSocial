@@ -255,6 +255,10 @@
     <None Include="Resources\Login %2827%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Login %2856%291.png" />
+    <None Include="Resources\grade.png" />
+    <None Include="Resources\Login %2856%29.png" />
+    <None Include="Resources\Login %2844%29.png" />
     <None Include="Resources\Login %2843%291.png" />
     <None Include="Resources\services-parametres-et-icone-d-engrenage-bleue.png" />
     <None Include="Resources\Login %2843%29.png" />
