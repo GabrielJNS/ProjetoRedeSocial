@@ -58,6 +58,7 @@ namespace RedeSocial
             // Label_Nome_Comunidade
             // 
             this.Label_Nome_Comunidade.AutoSize = true;
+            this.Label_Nome_Comunidade.BackColor = System.Drawing.Color.Transparent;
             this.Label_Nome_Comunidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Nome_Comunidade.Location = new System.Drawing.Point(197, 88);
             this.Label_Nome_Comunidade.Name = "Label_Nome_Comunidade";
@@ -69,6 +70,7 @@ namespace RedeSocial
             // Label_Descricao
             // 
             this.Label_Descricao.AutoSize = true;
+            this.Label_Descricao.BackColor = System.Drawing.Color.Transparent;
             this.Label_Descricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Descricao.Location = new System.Drawing.Point(203, 159);
             this.Label_Descricao.Name = "Label_Descricao";
@@ -78,6 +80,7 @@ namespace RedeSocial
             // 
             // Foto_Comunidade
             // 
+            this.Foto_Comunidade.BackColor = System.Drawing.Color.Transparent;
             this.Foto_Comunidade.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.Foto_Comunidade.Location = new System.Drawing.Point(29, 79);
             this.Foto_Comunidade.Name = "Foto_Comunidade";
@@ -88,6 +91,7 @@ namespace RedeSocial
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel1.Controls.Add(this.user0);
             this.flowLayoutPanel1.Controls.Add(this.user1);
             this.flowLayoutPanel1.Controls.Add(this.user2);
@@ -103,6 +107,7 @@ namespace RedeSocial
             // 
             // user0
             // 
+            this.user0.BackColor = System.Drawing.Color.Transparent;
             this.user0.Location = new System.Drawing.Point(3, 3);
             this.user0.Name = "user0";
             this.user0.Size = new System.Drawing.Size(80, 75);
@@ -112,6 +117,7 @@ namespace RedeSocial
             // 
             // user1
             // 
+            this.user1.BackColor = System.Drawing.Color.Transparent;
             this.user1.Location = new System.Drawing.Point(89, 3);
             this.user1.Name = "user1";
             this.user1.Size = new System.Drawing.Size(80, 75);
@@ -121,6 +127,7 @@ namespace RedeSocial
             // 
             // user2
             // 
+            this.user2.BackColor = System.Drawing.Color.Transparent;
             this.user2.Location = new System.Drawing.Point(3, 84);
             this.user2.Name = "user2";
             this.user2.Size = new System.Drawing.Size(80, 75);
@@ -130,6 +137,7 @@ namespace RedeSocial
             // 
             // user3
             // 
+            this.user3.BackColor = System.Drawing.Color.Transparent;
             this.user3.Location = new System.Drawing.Point(89, 84);
             this.user3.Name = "user3";
             this.user3.Size = new System.Drawing.Size(80, 75);
@@ -139,6 +147,7 @@ namespace RedeSocial
             // 
             // user4
             // 
+            this.user4.BackColor = System.Drawing.Color.Transparent;
             this.user4.Location = new System.Drawing.Point(3, 165);
             this.user4.Name = "user4";
             this.user4.Size = new System.Drawing.Size(80, 75);
@@ -148,6 +157,7 @@ namespace RedeSocial
             // 
             // user5
             // 
+            this.user5.BackColor = System.Drawing.Color.Transparent;
             this.user5.Location = new System.Drawing.Point(89, 165);
             this.user5.Name = "user5";
             this.user5.Size = new System.Drawing.Size(80, 75);
@@ -157,6 +167,7 @@ namespace RedeSocial
             // 
             // user6
             // 
+            this.user6.BackColor = System.Drawing.Color.Transparent;
             this.user6.Location = new System.Drawing.Point(3, 246);
             this.user6.Name = "user6";
             this.user6.Size = new System.Drawing.Size(80, 75);
@@ -166,6 +177,7 @@ namespace RedeSocial
             // 
             // user7
             // 
+            this.user7.BackColor = System.Drawing.Color.Transparent;
             this.user7.Location = new System.Drawing.Point(89, 246);
             this.user7.Name = "user7";
             this.user7.Size = new System.Drawing.Size(80, 75);

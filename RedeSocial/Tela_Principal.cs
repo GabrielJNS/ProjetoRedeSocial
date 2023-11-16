@@ -30,6 +30,7 @@ namespace RedeSocial
         public static int postagem_atual;
         public static int comunidades_Tela;
         Random rnd = new Random();
+        public static int[] amigo_final = new int[50];
 
         public Tela_Principal()
         {
@@ -704,7 +705,11 @@ namespace RedeSocial
 
         }
 
-       
+        private void MostraFotoAmigo0_Click(object sender, EventArgs e)
+        {
+          
+        }
+
         private void Button_Click(object sender, EventArgs e)
         {
             Button clickedButton = (Button)sender;
@@ -723,7 +728,7 @@ namespace RedeSocial
         public void MostrarSeusAmigos()
         {
             string[] prov_amigos = new string[50];
-            int[] amigo_final = new int[50];
+            
             
             for (int i = 0; i < 50; i++)
             {
@@ -755,6 +760,8 @@ namespace RedeSocial
             MostraFotoAmigo1.ImageLocation = Login.foto_perfil[amigo_final[2]];
             MostraFotoAmigo2.ImageLocation = Login.foto_perfil[amigo_final[3]];
             MostraFotoAmigo4.ImageLocation = Login.foto_perfil[amigo_final[4]];
+            MostraFotoAmigo5.ImageLocation = Login.foto_perfil[amigo_final[5]];
+            MostraFotoAmigo6.ImageLocation = Login.foto_perfil[amigo_final[6]];
 
 
 

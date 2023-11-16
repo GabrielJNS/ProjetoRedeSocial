@@ -54,6 +54,12 @@ namespace RedeSocial
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
+            this.MostraFotoAmigo6 = new System.Windows.Forms.PictureBox();
+            this.MostraFotoAmigo5 = new System.Windows.Forms.PictureBox();
+            this.MostraFotoAmigo4 = new System.Windows.Forms.PictureBox();
+            this.MostraFotoAmigo2 = new System.Windows.Forms.PictureBox();
+            this.MostraFotoAmigo1 = new System.Windows.Forms.PictureBox();
+            this.MostraFotoAmigo0 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.Bt_mais_amigos = new System.Windows.Forms.Button();
@@ -81,12 +87,6 @@ namespace RedeSocial
             this.text_Box_Comentarios = new System.Windows.Forms.RichTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.toolStripContainer3 = new System.Windows.Forms.ToolStripContainer();
-            this.MostraFotoAmigo0 = new System.Windows.Forms.PictureBox();
-            this.MostraFotoAmigo1 = new System.Windows.Forms.PictureBox();
-            this.MostraFotoAmigo2 = new System.Windows.Forms.PictureBox();
-            this.MostraFotoAmigo4 = new System.Windows.Forms.PictureBox();
-            this.MostraFotoAmigo5 = new System.Windows.Forms.PictureBox();
-            this.MostraFotoAmigo6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil_usuario)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comunidade0)).BeginInit();
@@ -103,6 +103,12 @@ namespace RedeSocial
             ((System.ComponentModel.ISupportInitialize)(this.comunidade1)).BeginInit();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo0)).BeginInit();
             this.flowLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -116,12 +122,6 @@ namespace RedeSocial
             this.panel1.SuspendLayout();
             this.toolStripContainer3.ContentPanel.SuspendLayout();
             this.toolStripContainer3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo6)).BeginInit();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -439,6 +439,61 @@ namespace RedeSocial
             // 
             this.toolStripContainer1.TopToolStripPanel.Padding = new System.Windows.Forms.Padding(0, 0, 25, 25);
             this.toolStripContainer1.TopToolStripPanelVisible = false;
+            // 
+            // MostraFotoAmigo6
+            // 
+            this.MostraFotoAmigo6.Location = new System.Drawing.Point(58, 110);
+            this.MostraFotoAmigo6.Name = "MostraFotoAmigo6";
+            this.MostraFotoAmigo6.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo6.TabIndex = 5;
+            this.MostraFotoAmigo6.TabStop = false;
+            // 
+            // MostraFotoAmigo5
+            // 
+            this.MostraFotoAmigo5.Location = new System.Drawing.Point(6, 110);
+            this.MostraFotoAmigo5.Name = "MostraFotoAmigo5";
+            this.MostraFotoAmigo5.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo5.TabIndex = 4;
+            this.MostraFotoAmigo5.TabStop = false;
+            // 
+            // MostraFotoAmigo4
+            // 
+            this.MostraFotoAmigo4.Location = new System.Drawing.Point(58, 59);
+            this.MostraFotoAmigo4.Name = "MostraFotoAmigo4";
+            this.MostraFotoAmigo4.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo4.TabIndex = 3;
+            this.MostraFotoAmigo4.TabStop = false;
+            // 
+            // MostraFotoAmigo2
+            // 
+            this.MostraFotoAmigo2.Location = new System.Drawing.Point(5, 59);
+            this.MostraFotoAmigo2.Name = "MostraFotoAmigo2";
+            this.MostraFotoAmigo2.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo2.TabIndex = 2;
+            this.MostraFotoAmigo2.TabStop = false;
+            // 
+            // MostraFotoAmigo1
+            // 
+            this.MostraFotoAmigo1.Location = new System.Drawing.Point(58, 4);
+            this.MostraFotoAmigo1.Name = "MostraFotoAmigo1";
+            this.MostraFotoAmigo1.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo1.TabIndex = 1;
+            this.MostraFotoAmigo1.TabStop = false;
+            // 
+            // MostraFotoAmigo0
+            // 
+            this.MostraFotoAmigo0.Location = new System.Drawing.Point(6, 4);
+            this.MostraFotoAmigo0.Name = "MostraFotoAmigo0";
+            this.MostraFotoAmigo0.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo0.TabIndex = 0;
+            this.MostraFotoAmigo0.TabStop = false;
+            this.MostraFotoAmigo0.Click += new System.EventHandler(this.MostraFotoAmigo0_Click);
             // 
             // label1
             // 
@@ -869,60 +924,6 @@ namespace RedeSocial
             this.toolStripContainer3.Text = "toolStripContainer3";
             this.toolStripContainer3.TopToolStripPanelVisible = false;
             // 
-            // MostraFotoAmigo0
-            // 
-            this.MostraFotoAmigo0.Location = new System.Drawing.Point(6, 4);
-            this.MostraFotoAmigo0.Name = "MostraFotoAmigo0";
-            this.MostraFotoAmigo0.Size = new System.Drawing.Size(42, 43);
-            this.MostraFotoAmigo0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.MostraFotoAmigo0.TabIndex = 0;
-            this.MostraFotoAmigo0.TabStop = false;
-            // 
-            // MostraFotoAmigo1
-            // 
-            this.MostraFotoAmigo1.Location = new System.Drawing.Point(58, 4);
-            this.MostraFotoAmigo1.Name = "MostraFotoAmigo1";
-            this.MostraFotoAmigo1.Size = new System.Drawing.Size(42, 43);
-            this.MostraFotoAmigo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.MostraFotoAmigo1.TabIndex = 1;
-            this.MostraFotoAmigo1.TabStop = false;
-            // 
-            // MostraFotoAmigo2
-            // 
-            this.MostraFotoAmigo2.Location = new System.Drawing.Point(5, 59);
-            this.MostraFotoAmigo2.Name = "MostraFotoAmigo2";
-            this.MostraFotoAmigo2.Size = new System.Drawing.Size(42, 43);
-            this.MostraFotoAmigo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.MostraFotoAmigo2.TabIndex = 2;
-            this.MostraFotoAmigo2.TabStop = false;
-            // 
-            // MostraFotoAmigo4
-            // 
-            this.MostraFotoAmigo4.Location = new System.Drawing.Point(58, 59);
-            this.MostraFotoAmigo4.Name = "MostraFotoAmigo4";
-            this.MostraFotoAmigo4.Size = new System.Drawing.Size(42, 43);
-            this.MostraFotoAmigo4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.MostraFotoAmigo4.TabIndex = 3;
-            this.MostraFotoAmigo4.TabStop = false;
-            // 
-            // MostraFotoAmigo5
-            // 
-            this.MostraFotoAmigo5.Location = new System.Drawing.Point(6, 110);
-            this.MostraFotoAmigo5.Name = "MostraFotoAmigo5";
-            this.MostraFotoAmigo5.Size = new System.Drawing.Size(42, 43);
-            this.MostraFotoAmigo5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.MostraFotoAmigo5.TabIndex = 4;
-            this.MostraFotoAmigo5.TabStop = false;
-            // 
-            // MostraFotoAmigo6
-            // 
-            this.MostraFotoAmigo6.Location = new System.Drawing.Point(58, 110);
-            this.MostraFotoAmigo6.Name = "MostraFotoAmigo6";
-            this.MostraFotoAmigo6.Size = new System.Drawing.Size(42, 43);
-            this.MostraFotoAmigo6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.MostraFotoAmigo6.TabIndex = 5;
-            this.MostraFotoAmigo6.TabStop = false;
-            // 
             // Tela_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -958,6 +959,12 @@ namespace RedeSocial
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);
             this.toolStripContainer1.ResumeLayout(false);
             this.toolStripContainer1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo0)).EndInit();
             this.flowLayoutPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -976,12 +983,6 @@ namespace RedeSocial
             this.toolStripContainer3.ContentPanel.PerformLayout();
             this.toolStripContainer3.ResumeLayout(false);
             this.toolStripContainer3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo6)).EndInit();
             this.ResumeLayout(false);
 
         }

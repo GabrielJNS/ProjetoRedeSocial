@@ -29,10 +29,24 @@ namespace RedeSocial
             prov = rnd.Next(prov);
             prov1 = rnd.Next(prov1);
             prov2= rnd.Next(prov2);
+            if(prov < prov1)
+            {
+                prov = prov1;
+            }
+            else if (prov < prov2)
+            {
+                prov = prov2;
+            }
+            else
+            {
+                prov1 = prov2;
+            }
+            
+            
            
             
             {
-                if (Login.amigo_geral[prov] == Login.nomes[Convert.ToInt32(Login.user)])
+                if (Login.amigo_geral[prov] == Login.nomes[Convert.ToInt32(Login.user)] && Login.confirmar_amigo_geral[prov] == false)
                 {
                     //primeira fila                    
                     for (int i = 0; i < Login.n; i++)
@@ -56,7 +70,7 @@ namespace RedeSocial
                 
             }
             {
-                if (Login.amigo_geral[prov1] == Login.nomes[Convert.ToInt32(Login.user)] && Login.amigo_geral[prov1] != Login.amigo_geral[prov])
+                if (Login.amigo_geral[prov1] == Login.nomes[Convert.ToInt32(Login.user)] && Login.confirmar_amigo_geral[prov1] == false && Login.amigo_geral[prov1] != Login.amigo_geral[prov])
                 {
                     //segunda fila                    
                     for (int i = 0; i < Login.n; i++)
@@ -79,7 +93,7 @@ namespace RedeSocial
                 }
             }
             {
-                if (Login.amigo_geral[prov2] == Login.nomes[Convert.ToInt32(Login.user)] && Login.amigo_geral[prov2] != Login.amigo_geral[prov] && Login.amigo_geral[prov2] != Login.amigo_geral[prov1])
+               if (Login.amigo_geral[prov2] == Login.nomes[Convert.ToInt32(Login.user)] && Login.confirmar_amigo_geral[prov2] == false && Login.amigo_geral[prov2] != Login.amigo_geral[prov] && Login.amigo_geral[prov2] != Login.amigo_geral[prov1])
                 {
                     //terceira fila                    
                     for (int i = 0; i < Login.n; i++)
@@ -88,8 +102,8 @@ namespace RedeSocial
                         {
                             pic_solicita3.ImageLocation = Login.foto_perfil[i];
                         }
-                    }
-                    label7.Text = Login.solicita_amigo[prov2];
+                   }
+                   label7.Text = Login.solicita_amigo[prov2];
                     pegaValor2 = prov2;
 
                 }
@@ -156,6 +170,7 @@ namespace RedeSocial
                     label14.Hide();
                     label2.Hide();
                     pic_solicita3.Hide();
+                    pic_solicita1.Hide();
                 }
             }
         }

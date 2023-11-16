@@ -53,8 +53,9 @@ namespace RedeSocial
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(216, 102);
+            this.label1.Location = new System.Drawing.Point(210, 51);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(282, 25);
@@ -64,8 +65,9 @@ namespace RedeSocial
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(51, 219);
+            this.label2.Location = new System.Drawing.Point(74, 127);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 18);
@@ -75,8 +77,9 @@ namespace RedeSocial
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(51, 321);
+            this.label5.Location = new System.Drawing.Point(75, 173);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 18);
@@ -86,8 +89,9 @@ namespace RedeSocial
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(52, 400);
+            this.label7.Location = new System.Drawing.Point(74, 219);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(46, 18);
@@ -98,7 +102,7 @@ namespace RedeSocial
             // 
             this.button1.BackColor = System.Drawing.Color.LimeGreen;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(546, 214);
+            this.button1.Location = new System.Drawing.Point(473, 122);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(64, 33);
@@ -111,7 +115,7 @@ namespace RedeSocial
             // 
             this.button2.BackColor = System.Drawing.Color.Crimson;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(634, 214);
+            this.button2.Location = new System.Drawing.Point(561, 122);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(64, 33);
@@ -124,7 +128,7 @@ namespace RedeSocial
             // 
             this.button3.BackColor = System.Drawing.Color.Crimson;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(634, 315);
+            this.button3.Location = new System.Drawing.Point(562, 167);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(64, 35);
@@ -136,7 +140,7 @@ namespace RedeSocial
             // 
             this.button4.BackColor = System.Drawing.Color.LimeGreen;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(546, 315);
+            this.button4.Location = new System.Drawing.Point(474, 167);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(64, 35);
@@ -149,7 +153,7 @@ namespace RedeSocial
             // 
             this.button5.BackColor = System.Drawing.Color.Crimson;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(635, 396);
+            this.button5.Location = new System.Drawing.Point(561, 215);
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(64, 34);
@@ -161,7 +165,7 @@ namespace RedeSocial
             // 
             this.button6.BackColor = System.Drawing.Color.LimeGreen;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(547, 396);
+            this.button6.Location = new System.Drawing.Point(473, 215);
             this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(64, 34);
@@ -173,8 +177,9 @@ namespace RedeSocial
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(371, 219);
+            this.label14.Location = new System.Drawing.Point(298, 127);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(135, 18);
@@ -184,8 +189,9 @@ namespace RedeSocial
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(371, 321);
+            this.label15.Location = new System.Drawing.Point(299, 173);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(135, 18);
@@ -195,8 +201,9 @@ namespace RedeSocial
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(372, 402);
+            this.label16.Location = new System.Drawing.Point(298, 221);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(135, 18);
@@ -205,7 +212,8 @@ namespace RedeSocial
             // 
             // pic_solicita1
             // 
-            this.pic_solicita1.Location = new System.Drawing.Point(3, 206);
+            this.pic_solicita1.BackColor = System.Drawing.Color.Transparent;
+            this.pic_solicita1.Location = new System.Drawing.Point(26, 114);
             this.pic_solicita1.Name = "pic_solicita1";
             this.pic_solicita1.Size = new System.Drawing.Size(43, 41);
             this.pic_solicita1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -214,7 +222,8 @@ namespace RedeSocial
             // 
             // pic_solicita2
             // 
-            this.pic_solicita2.Location = new System.Drawing.Point(3, 309);
+            this.pic_solicita2.BackColor = System.Drawing.Color.Transparent;
+            this.pic_solicita2.Location = new System.Drawing.Point(27, 161);
             this.pic_solicita2.Name = "pic_solicita2";
             this.pic_solicita2.Size = new System.Drawing.Size(43, 41);
             this.pic_solicita2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -223,7 +232,8 @@ namespace RedeSocial
             // 
             // pic_solicita3
             // 
-            this.pic_solicita3.Location = new System.Drawing.Point(4, 389);
+            this.pic_solicita3.BackColor = System.Drawing.Color.Transparent;
+            this.pic_solicita3.Location = new System.Drawing.Point(26, 208);
             this.pic_solicita3.Name = "pic_solicita3";
             this.pic_solicita3.Size = new System.Drawing.Size(43, 41);
             this.pic_solicita3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -235,7 +245,8 @@ namespace RedeSocial
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__42_;
-            this.ClientSize = new System.Drawing.Size(884, 561);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(686, 284);
             this.Controls.Add(this.pic_solicita3);
             this.Controls.Add(this.pic_solicita2);
             this.Controls.Add(this.pic_solicita1);
@@ -252,6 +263,7 @@ namespace RedeSocial
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Tela_Amizades";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
