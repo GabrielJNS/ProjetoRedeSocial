@@ -162,7 +162,7 @@ namespace RedeSocial
                        
                     }
                 }
-                Tela_BoasVindas nova = new Tela_BoasVindas();
+                Tela_Principal nova = new Tela_Principal();
                 Tela_Perfil_Amigos.prov = 0;
                 nova.Show();
 

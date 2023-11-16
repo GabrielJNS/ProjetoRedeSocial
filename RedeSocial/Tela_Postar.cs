@@ -15,7 +15,7 @@ namespace RedeSocial
 {
     public partial class Tela_Postagem : Form
     {
-        Tela_BoasVindas novo = new Tela_BoasVindas();
+        Tela_Principal novo = new Tela_Principal();
         public static string caminho = System.Environment.CurrentDirectory;
         public static string caminho_foto = caminho + @"\postagem\";
         public Tela_Postagem()
@@ -41,6 +41,9 @@ namespace RedeSocial
                 Login.dono_postagem[Login.contador_Postagens] = Login.nomes[Convert.ToInt32(Login.user)];
                 MessageBox.Show("Postagem Realizada com Sucesso");
                 Login.contador_Postagens++;
+                this.Close();
+                Tela_Principal novo = new Tela_Principal();
+                novo.Show();
             }
         }
         public void Foto_Postagem()

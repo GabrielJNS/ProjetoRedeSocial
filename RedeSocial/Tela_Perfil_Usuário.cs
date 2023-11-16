@@ -88,7 +88,7 @@ namespace RedeSocial
             
             Foto_Perfil();
             MessageBox.Show("Foto Alterada");
-            Tela_BoasVindas novo = new Tela_BoasVindas();
+            Tela_Principal novo = new Tela_Principal();
             novo.Show();
             
         }
@@ -130,7 +130,7 @@ namespace RedeSocial
                     // Configura o PictureBox para exibir a imagem redimensionada
                     foto_perfil.SizeMode = PictureBoxSizeMode.Zoom;
                     foto_perfil.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
-                    Tela_BoasVindas novo = new Tela_BoasVindas();
+                    Tela_Principal novo = new Tela_Principal();
                     novo.foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
                     novo.foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
 

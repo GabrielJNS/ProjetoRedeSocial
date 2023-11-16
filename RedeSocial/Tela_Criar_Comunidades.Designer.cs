@@ -19,7 +19,7 @@ namespace RedeSocial
                 components.Dispose();
             }
             base.Dispose(disposing);
-            Tela_BoasVindas nova = new Tela_BoasVindas();
+            Tela_Principal nova = new Tela_Principal();
             nova.Show();
         }
 

@@ -12,7 +12,7 @@ using System.Drawing.Drawing2D;
 
 namespace RedeSocial
 {
-    public partial class Tela_BoasVindas : Form
+    public partial class Tela_Principal : Form
     {
         // Variáveis de controle e dados do perfil
 
@@ -31,7 +31,7 @@ namespace RedeSocial
         public static int comunidades_Tela;
         Random rnd = new Random();
 
-        public Tela_BoasVindas()
+        public Tela_Principal()
         {
 
             
@@ -40,13 +40,13 @@ namespace RedeSocial
                 Sorteio_Amigos();
                 MostrarComunidades();
                 mostrar_Postagens();
+                MostrarSeusAmigos();
                 foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
                 foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
                 ConfigurarCircularPictureBox(foto_perfil_usuario);
                 caixa_Procura.BorderStyle = BorderStyle.None;
                 Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
-                bt_amigo0.Text = Login.seusAmigos[1];
-                bt_amigo1.Text = Login.seusAmigos[2];
+                
 
             
 
@@ -563,13 +563,13 @@ namespace RedeSocial
             Sorteio_Amigos();
             MostrarComunidades();
             mostrar_Postagens();
+            MostrarSeusAmigos();
             foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
             foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
             ConfigurarCircularPictureBox(foto_perfil_usuario);
             caixa_Procura.BorderStyle = BorderStyle.None;
             Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
-            bt_amigo0.Text = Login.seusAmigos[1];
-            bt_amigo1.Text = Login.seusAmigos[2];
+            
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -690,6 +690,10 @@ namespace RedeSocial
 
         }
 
+        
+
+        
+
         private void ConfigurarCircularPictureBox(PictureBox pictureBox)
         {
             GraphicsPath path = new GraphicsPath();
@@ -715,6 +719,45 @@ namespace RedeSocial
         {
             bt_D.Visible = false;
             bt_E.Visible = false;
+        }
+        public void MostrarSeusAmigos()
+        {
+            string[] prov_amigos = new string[50];
+            int[] amigo_final = new int[50];
+            
+            for (int i = 0; i < 50; i++)
+            {
+              
+                
+                    if (Login.solicita_amigo[i] == Login.nomes[Convert.ToInt32(Login.user)] && Login.confirmar_amigo_geral[i] == true)
+                    {
+                        prov_amigos[i] = Login.amigo_geral[i];
+                
+                    }else if(Login.amigo_geral[i] == Login.nomes[Convert.ToInt32(Login.user)] && Login.confirmar_amigo_geral[i] == true)
+                {
+                    prov_amigos[i] = Login.solicita_amigo[i];
+                }    
+                               
+
+            }            
+            for (int i = 0; i < 50; i++)
+            {
+                for (int j = 0; j < 50; j++)
+                {
+                    if (prov_amigos[i] == Login.nomes[j])
+                    {
+                        amigo_final[i] = j;
+                    }
+                }
+
+            }
+            MostraFotoAmigo0.ImageLocation = Login.foto_perfil[amigo_final[1]];
+            MostraFotoAmigo1.ImageLocation = Login.foto_perfil[amigo_final[2]];
+            MostraFotoAmigo2.ImageLocation = Login.foto_perfil[amigo_final[3]];
+            MostraFotoAmigo4.ImageLocation = Login.foto_perfil[amigo_final[4]];
+
+
+
         }
     }
 }

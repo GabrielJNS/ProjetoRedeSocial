@@ -24,13 +24,13 @@ namespace RedeSocial
         }
         public void MostrarIntegrantes()
         {
-            Label_Nome_Comunidade.Text = Comunidade.nome_comunidades[Tela_BoasVindas.comunidades_Tela];
-            Label_Descricao.Text = Comunidade.descricao_comunidades[Tela_BoasVindas.comunidades_Tela];
+            Label_Nome_Comunidade.Text = Comunidade.nome_comunidades[Tela_Principal.comunidades_Tela];
+            Label_Descricao.Text = Comunidade.descricao_comunidades[Tela_Principal.comunidades_Tela];
             Foto_Comunidade.SizeMode = PictureBoxSizeMode.Zoom;
-            Foto_Comunidade.ImageLocation = Comunidade.foto_comunidades[Tela_BoasVindas.comunidades_Tela];
+            Foto_Comunidade.ImageLocation = Comunidade.foto_comunidades[Tela_Principal.comunidades_Tela];
             for (int i = 0; i < 50; i++)
             {
-                if (Comunidade.adim_comunidade[Tela_BoasVindas.comunidades_Tela] == Login.nomes[i])
+                if (Comunidade.adim_comunidade[Tela_Principal.comunidades_Tela] == Login.nomes[i])
                 {
                     user0.ImageLocation = Login.foto_perfil[i];
 
@@ -39,7 +39,7 @@ namespace RedeSocial
             int[] prov_nomes_comu = new int[50];
             for (int i = 0; i < 50; i++)
             {
-                if (Comunidade.nome_comunidades_geral[i] == Convert.ToString(Tela_BoasVindas.comunidades_Tela))
+                if (Comunidade.nome_comunidades_geral[i] == Convert.ToString(Tela_Principal.comunidades_Tela))
                 {
                     for(int j = 0; j < 50; j++)
                     {
@@ -116,7 +116,7 @@ namespace RedeSocial
                     {
                         for (int j = 0; j < Login.contador_de_Pessoas; j++)
                         {
-                            if (Comunidade.adim_comunidade[j] == Login.nomes[Convert.ToInt32(Login.user)] || Comunidade.nome_comunidades_geral[j] == Convert.ToString(Tela_BoasVindas.comunidades_Tela)
+                            if (Comunidade.adim_comunidade[j] == Login.nomes[Convert.ToInt32(Login.user)] || Comunidade.nome_comunidades_geral[j] == Convert.ToString(Tela_Principal.comunidades_Tela)
                                 && Comunidade.integrantes_comunidade[j] == Login.nomes[Convert.ToInt32(Login.user)])
                             {
                                 prov = true;
@@ -125,7 +125,7 @@ namespace RedeSocial
                         if (prov == false)
                         {
 
-                            Comunidade.nome_comunidades_geral[Login.contador_de_Pessoas] = Convert.ToString(Tela_BoasVindas.comunidades_Tela);
+                            Comunidade.nome_comunidades_geral[Login.contador_de_Pessoas] = Convert.ToString(Tela_Principal.comunidades_Tela);
                             Comunidade.integrantes_comunidade[Login.contador_de_Pessoas] = Login.nomes[Convert.ToInt32(Login.user)];
                             Login.ondeEqualComunidade[Login.contador_de_Pessoas] = Login.contador_de_Pessoas;
                             this.Close();

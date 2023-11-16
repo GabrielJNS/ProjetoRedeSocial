@@ -15,7 +15,7 @@ namespace RedeSocial
     {
         public static string caminho = System.Environment.CurrentDirectory;
         public static string caminho_foto = caminho + @"\postagem\";
-        Tela_BoasVindas novo = new Tela_BoasVindas();
+        Tela_Principal novo = new Tela_Principal();
         public void Foto_Perfil(string lugar)
         {
             string origemCompleto = "";

@@ -1,7 +1,7 @@
 ﻿
 namespace RedeSocial
 {
-    partial class Tela_BoasVindas
+    partial class Tela_Principal
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace RedeSocial
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_BoasVindas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_Principal));
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.bt_amizades = new System.Windows.Forms.Button();
@@ -39,82 +39,89 @@ namespace RedeSocial
             this.foto_perfil_usuario = new System.Windows.Forms.PictureBox();
             this.bt_Foto = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.comunidade2 = new System.Windows.Forms.PictureBox();
-            this.comunidade1 = new System.Windows.Forms.PictureBox();
-            this.comunidade11 = new System.Windows.Forms.PictureBox();
-            this.comunidade10 = new System.Windows.Forms.PictureBox();
-            this.comunidade9 = new System.Windows.Forms.PictureBox();
-            this.comunidade8 = new System.Windows.Forms.PictureBox();
-            this.comunidade7 = new System.Windows.Forms.PictureBox();
-            this.comunidade6 = new System.Windows.Forms.PictureBox();
-            this.comunidade5 = new System.Windows.Forms.PictureBox();
-            this.comunidade4 = new System.Windows.Forms.PictureBox();
             this.comunidade0 = new System.Windows.Forms.PictureBox();
             this.comunidade3 = new System.Windows.Forms.PictureBox();
+            this.comunidade4 = new System.Windows.Forms.PictureBox();
+            this.comunidade5 = new System.Windows.Forms.PictureBox();
+            this.comunidade2 = new System.Windows.Forms.PictureBox();
+            this.comunidade7 = new System.Windows.Forms.PictureBox();
+            this.comunidade9 = new System.Windows.Forms.PictureBox();
+            this.comunidade8 = new System.Windows.Forms.PictureBox();
+            this.comunidade6 = new System.Windows.Forms.PictureBox();
+            this.comunidade10 = new System.Windows.Forms.PictureBox();
+            this.comunidade11 = new System.Windows.Forms.PictureBox();
+            this.comunidade1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
-            this.bt_amigo3 = new System.Windows.Forms.Button();
-            this.bt_amigo0 = new System.Windows.Forms.Button();
-            this.bt_amigo1 = new System.Windows.Forms.Button();
-            this.bt_amigo2 = new System.Windows.Forms.Button();
-            this.bt_amigo4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.Amigo4 = new System.Windows.Forms.Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.Amigo3 = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.Amigo2 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.Amigo1 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.Amigo0 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Bt_mais_amigos = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Amigo0 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.Amigo1 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.Amigo2 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.Amigo3 = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.Amigo4 = new System.Windows.Forms.Button();
             this.toolStripContainer2 = new System.Windows.Forms.ToolStripContainer();
-            this.caixa_de_comentarios = new System.Windows.Forms.RichTextBox();
-            this.bt_D = new System.Windows.Forms.Button();
-            this.bt_like = new System.Windows.Forms.Button();
-            this.text_Box_Comentarios = new System.Windows.Forms.RichTextBox();
-            this.label_Usuario_Postagem = new System.Windows.Forms.Label();
-            this.Label_Descrição = new System.Windows.Forms.Label();
-            this.Pic_Mostra_Foto = new System.Windows.Forms.PictureBox();
-            this.bt_E = new System.Windows.Forms.Button();
-            this.Bt_Postar = new System.Windows.Forms.Button();
             this.foto_quem_postou = new System.Windows.Forms.PictureBox();
+            this.Bt_Postar = new System.Windows.Forms.Button();
+            this.bt_E = new System.Windows.Forms.Button();
+            this.Pic_Mostra_Foto = new System.Windows.Forms.PictureBox();
+            this.Label_Descrição = new System.Windows.Forms.Label();
+            this.label_Usuario_Postagem = new System.Windows.Forms.Label();
+            this.bt_like = new System.Windows.Forms.Button();
+            this.bt_D = new System.Windows.Forms.Button();
+            this.caixa_de_comentarios = new System.Windows.Forms.RichTextBox();
             this.bt_comentarios = new System.Windows.Forms.Button();
+            this.text_Box_Comentarios = new System.Windows.Forms.RichTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.toolStripContainer3 = new System.Windows.Forms.ToolStripContainer();
+            this.MostraFotoAmigo0 = new System.Windows.Forms.PictureBox();
+            this.MostraFotoAmigo1 = new System.Windows.Forms.PictureBox();
+            this.MostraFotoAmigo2 = new System.Windows.Forms.PictureBox();
+            this.MostraFotoAmigo4 = new System.Windows.Forms.PictureBox();
+            this.MostraFotoAmigo5 = new System.Windows.Forms.PictureBox();
+            this.MostraFotoAmigo6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil_usuario)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comunidade0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comunidade3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade1)).BeginInit();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.toolStripContainer2.ContentPanel.SuspendLayout();
             this.toolStripContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Pic_Mostra_Foto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.foto_quem_postou)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Mostra_Foto)).BeginInit();
             this.panel1.SuspendLayout();
             this.toolStripContainer3.ContentPanel.SuspendLayout();
             this.toolStripContainer3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo6)).BeginInit();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -227,122 +234,45 @@ namespace RedeSocial
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Controls.Add(this.comunidade3);
             this.flowLayoutPanel1.Controls.Add(this.comunidade0);
+            this.flowLayoutPanel1.Controls.Add(this.comunidade3);
             this.flowLayoutPanel1.Controls.Add(this.comunidade4);
             this.flowLayoutPanel1.Controls.Add(this.comunidade5);
-            this.flowLayoutPanel1.Controls.Add(this.comunidade6);
+            this.flowLayoutPanel1.Controls.Add(this.comunidade2);
             this.flowLayoutPanel1.Controls.Add(this.comunidade7);
-            this.flowLayoutPanel1.Controls.Add(this.comunidade8);
             this.flowLayoutPanel1.Controls.Add(this.comunidade9);
+            this.flowLayoutPanel1.Controls.Add(this.comunidade8);
+            this.flowLayoutPanel1.Controls.Add(this.comunidade6);
             this.flowLayoutPanel1.Controls.Add(this.comunidade10);
             this.flowLayoutPanel1.Controls.Add(this.comunidade11);
             this.flowLayoutPanel1.Controls.Add(this.comunidade1);
-            this.flowLayoutPanel1.Controls.Add(this.comunidade2);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(35, 378);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(173, 143);
             this.flowLayoutPanel1.TabIndex = 48;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
-            // comunidade2
+            // comunidade0
             // 
-            this.comunidade2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade2.Location = new System.Drawing.Point(109, 93);
-            this.comunidade2.Name = "comunidade2";
-            this.comunidade2.Size = new System.Drawing.Size(47, 24);
-            this.comunidade2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.comunidade2.TabIndex = 2;
-            this.comunidade2.TabStop = false;
-            this.comunidade2.Click += new System.EventHandler(this.comunidade2_Click);
+            this.comunidade0.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comunidade0.Location = new System.Drawing.Point(3, 3);
+            this.comunidade0.Name = "comunidade0";
+            this.comunidade0.Size = new System.Drawing.Size(47, 24);
+            this.comunidade0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.comunidade0.TabIndex = 0;
+            this.comunidade0.TabStop = false;
+            this.comunidade0.Click += new System.EventHandler(this.comunidade0_Click);
             // 
-            // comunidade1
+            // comunidade3
             // 
-            this.comunidade1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade1.Location = new System.Drawing.Point(56, 93);
-            this.comunidade1.Name = "comunidade1";
-            this.comunidade1.Size = new System.Drawing.Size(47, 24);
-            this.comunidade1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.comunidade1.TabIndex = 1;
-            this.comunidade1.TabStop = false;
-            this.comunidade1.Click += new System.EventHandler(this.comunidade1_Click);
-            // 
-            // comunidade11
-            // 
-            this.comunidade11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade11.Location = new System.Drawing.Point(3, 93);
-            this.comunidade11.Name = "comunidade11";
-            this.comunidade11.Size = new System.Drawing.Size(47, 24);
-            this.comunidade11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.comunidade11.TabIndex = 11;
-            this.comunidade11.TabStop = false;
-            this.comunidade11.Click += new System.EventHandler(this.comunidade11_Click);
-            // 
-            // comunidade10
-            // 
-            this.comunidade10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade10.Location = new System.Drawing.Point(109, 63);
-            this.comunidade10.Name = "comunidade10";
-            this.comunidade10.Size = new System.Drawing.Size(47, 24);
-            this.comunidade10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.comunidade10.TabIndex = 10;
-            this.comunidade10.TabStop = false;
-            this.comunidade10.Click += new System.EventHandler(this.comunidade10_Click);
-            // 
-            // comunidade9
-            // 
-            this.comunidade9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade9.Location = new System.Drawing.Point(56, 63);
-            this.comunidade9.Name = "comunidade9";
-            this.comunidade9.Size = new System.Drawing.Size(47, 24);
-            this.comunidade9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.comunidade9.TabIndex = 9;
-            this.comunidade9.TabStop = false;
-            this.comunidade9.Click += new System.EventHandler(this.comunidade9_Click);
-            // 
-            // comunidade8
-            // 
-            this.comunidade8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade8.Location = new System.Drawing.Point(3, 63);
-            this.comunidade8.Name = "comunidade8";
-            this.comunidade8.Size = new System.Drawing.Size(47, 24);
-            this.comunidade8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.comunidade8.TabIndex = 8;
-            this.comunidade8.TabStop = false;
-            this.comunidade8.Click += new System.EventHandler(this.comunidade8_Click);
-            // 
-            // comunidade7
-            // 
-            this.comunidade7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade7.Location = new System.Drawing.Point(109, 33);
-            this.comunidade7.Name = "comunidade7";
-            this.comunidade7.Size = new System.Drawing.Size(47, 24);
-            this.comunidade7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.comunidade7.TabIndex = 7;
-            this.comunidade7.TabStop = false;
-            this.comunidade7.Click += new System.EventHandler(this.comunidade7_Click);
-            // 
-            // comunidade6
-            // 
-            this.comunidade6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade6.Location = new System.Drawing.Point(56, 33);
-            this.comunidade6.Name = "comunidade6";
-            this.comunidade6.Size = new System.Drawing.Size(47, 24);
-            this.comunidade6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.comunidade6.TabIndex = 6;
-            this.comunidade6.TabStop = false;
-            this.comunidade6.Click += new System.EventHandler(this.comunidade6_Click);
-            // 
-            // comunidade5
-            // 
-            this.comunidade5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade5.Location = new System.Drawing.Point(3, 33);
-            this.comunidade5.Name = "comunidade5";
-            this.comunidade5.Size = new System.Drawing.Size(47, 24);
-            this.comunidade5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.comunidade5.TabIndex = 5;
-            this.comunidade5.TabStop = false;
-            this.comunidade5.Click += new System.EventHandler(this.comunidade5_Click);
+            this.comunidade3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comunidade3.Location = new System.Drawing.Point(56, 3);
+            this.comunidade3.Name = "comunidade3";
+            this.comunidade3.Size = new System.Drawing.Size(47, 24);
+            this.comunidade3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.comunidade3.TabIndex = 3;
+            this.comunidade3.TabStop = false;
+            this.comunidade3.Click += new System.EventHandler(this.comunidade3_Click);
             // 
             // comunidade4
             // 
@@ -355,27 +285,104 @@ namespace RedeSocial
             this.comunidade4.TabStop = false;
             this.comunidade4.Click += new System.EventHandler(this.comunidade4_Click);
             // 
-            // comunidade0
+            // comunidade5
             // 
-            this.comunidade0.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade0.Location = new System.Drawing.Point(56, 3);
-            this.comunidade0.Name = "comunidade0";
-            this.comunidade0.Size = new System.Drawing.Size(47, 24);
-            this.comunidade0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.comunidade0.TabIndex = 0;
-            this.comunidade0.TabStop = false;
-            this.comunidade0.Click += new System.EventHandler(this.comunidade0_Click);
+            this.comunidade5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comunidade5.Location = new System.Drawing.Point(3, 33);
+            this.comunidade5.Name = "comunidade5";
+            this.comunidade5.Size = new System.Drawing.Size(47, 24);
+            this.comunidade5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.comunidade5.TabIndex = 5;
+            this.comunidade5.TabStop = false;
+            this.comunidade5.Click += new System.EventHandler(this.comunidade5_Click);
             // 
-            // comunidade3
+            // comunidade2
             // 
-            this.comunidade3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade3.Location = new System.Drawing.Point(3, 3);
-            this.comunidade3.Name = "comunidade3";
-            this.comunidade3.Size = new System.Drawing.Size(47, 24);
-            this.comunidade3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.comunidade3.TabIndex = 3;
-            this.comunidade3.TabStop = false;
-            this.comunidade3.Click += new System.EventHandler(this.comunidade3_Click);
+            this.comunidade2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comunidade2.Location = new System.Drawing.Point(56, 33);
+            this.comunidade2.Name = "comunidade2";
+            this.comunidade2.Size = new System.Drawing.Size(47, 24);
+            this.comunidade2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.comunidade2.TabIndex = 2;
+            this.comunidade2.TabStop = false;
+            this.comunidade2.Click += new System.EventHandler(this.comunidade2_Click);
+            // 
+            // comunidade7
+            // 
+            this.comunidade7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comunidade7.Location = new System.Drawing.Point(109, 33);
+            this.comunidade7.Name = "comunidade7";
+            this.comunidade7.Size = new System.Drawing.Size(47, 24);
+            this.comunidade7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.comunidade7.TabIndex = 7;
+            this.comunidade7.TabStop = false;
+            this.comunidade7.Click += new System.EventHandler(this.comunidade7_Click);
+            // 
+            // comunidade9
+            // 
+            this.comunidade9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comunidade9.Location = new System.Drawing.Point(3, 63);
+            this.comunidade9.Name = "comunidade9";
+            this.comunidade9.Size = new System.Drawing.Size(47, 24);
+            this.comunidade9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.comunidade9.TabIndex = 9;
+            this.comunidade9.TabStop = false;
+            this.comunidade9.Click += new System.EventHandler(this.comunidade9_Click);
+            // 
+            // comunidade8
+            // 
+            this.comunidade8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comunidade8.Location = new System.Drawing.Point(56, 63);
+            this.comunidade8.Name = "comunidade8";
+            this.comunidade8.Size = new System.Drawing.Size(47, 24);
+            this.comunidade8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.comunidade8.TabIndex = 8;
+            this.comunidade8.TabStop = false;
+            this.comunidade8.Click += new System.EventHandler(this.comunidade8_Click);
+            // 
+            // comunidade6
+            // 
+            this.comunidade6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comunidade6.Location = new System.Drawing.Point(109, 63);
+            this.comunidade6.Name = "comunidade6";
+            this.comunidade6.Size = new System.Drawing.Size(47, 24);
+            this.comunidade6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.comunidade6.TabIndex = 6;
+            this.comunidade6.TabStop = false;
+            this.comunidade6.Click += new System.EventHandler(this.comunidade6_Click);
+            // 
+            // comunidade10
+            // 
+            this.comunidade10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comunidade10.Location = new System.Drawing.Point(3, 93);
+            this.comunidade10.Name = "comunidade10";
+            this.comunidade10.Size = new System.Drawing.Size(47, 24);
+            this.comunidade10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.comunidade10.TabIndex = 10;
+            this.comunidade10.TabStop = false;
+            this.comunidade10.Click += new System.EventHandler(this.comunidade10_Click);
+            // 
+            // comunidade11
+            // 
+            this.comunidade11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comunidade11.Location = new System.Drawing.Point(56, 93);
+            this.comunidade11.Name = "comunidade11";
+            this.comunidade11.Size = new System.Drawing.Size(47, 24);
+            this.comunidade11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.comunidade11.TabIndex = 11;
+            this.comunidade11.TabStop = false;
+            this.comunidade11.Click += new System.EventHandler(this.comunidade11_Click);
+            // 
+            // comunidade1
+            // 
+            this.comunidade1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.comunidade1.Location = new System.Drawing.Point(109, 93);
+            this.comunidade1.Name = "comunidade1";
+            this.comunidade1.Size = new System.Drawing.Size(47, 24);
+            this.comunidade1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.comunidade1.TabIndex = 1;
+            this.comunidade1.TabStop = false;
+            this.comunidade1.Click += new System.EventHandler(this.comunidade1_Click);
             // 
             // label3
             // 
@@ -412,18 +419,19 @@ namespace RedeSocial
             // 
             this.toolStripContainer1.ContentPanel.BackColor = System.Drawing.Color.White;
             this.toolStripContainer1.ContentPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.toolStripContainer1.ContentPanel.Controls.Add(this.bt_amigo4);
-            this.toolStripContainer1.ContentPanel.Controls.Add(this.bt_amigo2);
-            this.toolStripContainer1.ContentPanel.Controls.Add(this.bt_amigo1);
-            this.toolStripContainer1.ContentPanel.Controls.Add(this.bt_amigo0);
-            this.toolStripContainer1.ContentPanel.Controls.Add(this.bt_amigo3);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(170, 170);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.MostraFotoAmigo6);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.MostraFotoAmigo5);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.MostraFotoAmigo4);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.MostraFotoAmigo2);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.MostraFotoAmigo1);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.MostraFotoAmigo0);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(112, 170);
             this.toolStripContainer1.ContentPanel.Load += new System.EventHandler(this.toolStripContainer1_ContentPanel_Load);
             this.toolStripContainer1.LeftToolStripPanelVisible = false;
             this.toolStripContainer1.Location = new System.Drawing.Point(38, 184);
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.RightToolStripPanelVisible = false;
-            this.toolStripContainer1.Size = new System.Drawing.Size(170, 170);
+            this.toolStripContainer1.Size = new System.Drawing.Size(112, 170);
             this.toolStripContainer1.TabIndex = 54;
             this.toolStripContainer1.Text = "toolStripContainer1";
             // 
@@ -431,61 +439,6 @@ namespace RedeSocial
             // 
             this.toolStripContainer1.TopToolStripPanel.Padding = new System.Windows.Forms.Padding(0, 0, 25, 25);
             this.toolStripContainer1.TopToolStripPanelVisible = false;
-            // 
-            // bt_amigo3
-            // 
-            this.bt_amigo3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bt_amigo3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_amigo3.Location = new System.Drawing.Point(89, 89);
-            this.bt_amigo3.Name = "bt_amigo3";
-            this.bt_amigo3.Size = new System.Drawing.Size(72, 25);
-            this.bt_amigo3.TabIndex = 23;
-            this.bt_amigo3.Text = "Amigo 3";
-            this.bt_amigo3.UseVisualStyleBackColor = true;
-            // 
-            // bt_amigo0
-            // 
-            this.bt_amigo0.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bt_amigo0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_amigo0.Location = new System.Drawing.Point(5, 30);
-            this.bt_amigo0.Name = "bt_amigo0";
-            this.bt_amigo0.Size = new System.Drawing.Size(72, 28);
-            this.bt_amigo0.TabIndex = 20;
-            this.bt_amigo0.Text = "Amigo 0";
-            this.bt_amigo0.UseVisualStyleBackColor = true;
-            // 
-            // bt_amigo1
-            // 
-            this.bt_amigo1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bt_amigo1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_amigo1.Location = new System.Drawing.Point(89, 30);
-            this.bt_amigo1.Name = "bt_amigo1";
-            this.bt_amigo1.Size = new System.Drawing.Size(72, 28);
-            this.bt_amigo1.TabIndex = 21;
-            this.bt_amigo1.Text = "Amigo 1";
-            this.bt_amigo1.UseVisualStyleBackColor = true;
-            // 
-            // bt_amigo2
-            // 
-            this.bt_amigo2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bt_amigo2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_amigo2.Location = new System.Drawing.Point(5, 89);
-            this.bt_amigo2.Name = "bt_amigo2";
-            this.bt_amigo2.Size = new System.Drawing.Size(72, 25);
-            this.bt_amigo2.TabIndex = 22;
-            this.bt_amigo2.Text = "Amigo 2";
-            this.bt_amigo2.UseVisualStyleBackColor = true;
-            // 
-            // bt_amigo4
-            // 
-            this.bt_amigo4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bt_amigo4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_amigo4.Location = new System.Drawing.Point(47, 143);
-            this.bt_amigo4.Name = "bt_amigo4";
-            this.bt_amigo4.Size = new System.Drawing.Size(72, 24);
-            this.bt_amigo4.TabIndex = 24;
-            this.bt_amigo4.Text = "Amigo 4";
-            this.bt_amigo4.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -520,127 +473,29 @@ namespace RedeSocial
             this.flowLayoutPanel2.Size = new System.Drawing.Size(188, 362);
             this.flowLayoutPanel2.TabIndex = 56;
             // 
-            // Amigo4
+            // Bt_mais_amigos
             // 
-            this.Amigo4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Amigo4.BackColor = System.Drawing.Color.White;
-            this.Amigo4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Amigo4.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo4.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Amigo4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Amigo4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Amigo4.Location = new System.Drawing.Point(80, 315);
-            this.Amigo4.Name = "Amigo4";
-            this.Amigo4.Size = new System.Drawing.Size(73, 24);
-            this.Amigo4.TabIndex = 9;
-            this.Amigo4.Text = "Amigo 4";
-            this.Amigo4.UseVisualStyleBackColor = false;
-            this.Amigo4.Click += new System.EventHandler(this.Amigo5_Click);
+            this.Bt_mais_amigos.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Bt_mais_amigos.BackColor = System.Drawing.Color.DarkBlue;
+            this.Bt_mais_amigos.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Bt_mais_amigos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Bt_mais_amigos.Location = new System.Drawing.Point(3, 3);
+            this.Bt_mais_amigos.Name = "Bt_mais_amigos";
+            this.Bt_mais_amigos.Size = new System.Drawing.Size(181, 33);
+            this.Bt_mais_amigos.TabIndex = 19;
+            this.Bt_mais_amigos.Text = "Sugestão de Amigos";
+            this.Bt_mais_amigos.UseVisualStyleBackColor = false;
+            this.Bt_mais_amigos.Click += new System.EventHandler(this.Bt_mais_amigos_Click);
             // 
-            // pictureBox5
+            // pictureBox1
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.White;
-            this.pictureBox5.Location = new System.Drawing.Point(2, 299);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(73, 56);
-            this.pictureBox5.TabIndex = 41;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
-            // Amigo3
-            // 
-            this.Amigo3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Amigo3.BackColor = System.Drawing.Color.White;
-            this.Amigo3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Amigo3.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo3.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Amigo3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Amigo3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Amigo3.Location = new System.Drawing.Point(79, 253);
-            this.Amigo3.Name = "Amigo3";
-            this.Amigo3.Size = new System.Drawing.Size(75, 25);
-            this.Amigo3.TabIndex = 8;
-            this.Amigo3.Text = "Amigo 3";
-            this.Amigo3.UseVisualStyleBackColor = false;
-            this.Amigo3.Click += new System.EventHandler(this.Amigo3_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.White;
-            this.pictureBox4.Location = new System.Drawing.Point(2, 237);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(72, 58);
-            this.pictureBox4.TabIndex = 40;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // Amigo2
-            // 
-            this.Amigo2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Amigo2.BackColor = System.Drawing.Color.White;
-            this.Amigo2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Amigo2.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo2.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Amigo2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Amigo2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Amigo2.Location = new System.Drawing.Point(79, 189);
-            this.Amigo2.Name = "Amigo2";
-            this.Amigo2.Size = new System.Drawing.Size(73, 30);
-            this.Amigo2.TabIndex = 7;
-            this.Amigo2.Text = "Amigo 2";
-            this.Amigo2.UseVisualStyleBackColor = false;
-            this.Amigo2.Click += new System.EventHandler(this.Amigo2_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.White;
-            this.pictureBox3.Location = new System.Drawing.Point(2, 176);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(72, 57);
-            this.pictureBox3.TabIndex = 39;
-            this.pictureBox3.TabStop = false;
-            // 
-            // Amigo1
-            // 
-            this.Amigo1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Amigo1.BackColor = System.Drawing.Color.White;
-            this.Amigo1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Amigo1.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo1.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.Amigo1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Amigo1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Amigo1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Amigo1.Location = new System.Drawing.Point(79, 125);
-            this.Amigo1.Name = "Amigo1";
-            this.Amigo1.Size = new System.Drawing.Size(75, 30);
-            this.Amigo1.TabIndex = 6;
-            this.Amigo1.Text = "Amigo 1";
-            this.Amigo1.UseVisualStyleBackColor = false;
-            this.Amigo1.Click += new System.EventHandler(this.Amigo1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.Location = new System.Drawing.Point(2, 108);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(72, 64);
-            this.pictureBox2.TabIndex = 38;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 41);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(72, 63);
+            this.pictureBox1.TabIndex = 37;
+            this.pictureBox1.TabStop = false;
             // 
             // Amigo0
             // 
@@ -662,29 +517,127 @@ namespace RedeSocial
             this.Amigo0.UseVisualStyleBackColor = false;
             this.Amigo0.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pictureBox1
+            // pictureBox2
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 41);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(72, 63);
-            this.pictureBox1.TabIndex = 37;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.Location = new System.Drawing.Point(2, 108);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(72, 64);
+            this.pictureBox2.TabIndex = 38;
+            this.pictureBox2.TabStop = false;
             // 
-            // Bt_mais_amigos
+            // Amigo1
             // 
-            this.Bt_mais_amigos.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Bt_mais_amigos.BackColor = System.Drawing.Color.DarkBlue;
-            this.Bt_mais_amigos.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Bt_mais_amigos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Bt_mais_amigos.Location = new System.Drawing.Point(3, 3);
-            this.Bt_mais_amigos.Name = "Bt_mais_amigos";
-            this.Bt_mais_amigos.Size = new System.Drawing.Size(181, 33);
-            this.Bt_mais_amigos.TabIndex = 19;
-            this.Bt_mais_amigos.Text = "Sugestão de Amigos";
-            this.Bt_mais_amigos.UseVisualStyleBackColor = false;
-            this.Bt_mais_amigos.Click += new System.EventHandler(this.Bt_mais_amigos_Click);
+            this.Amigo1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Amigo1.BackColor = System.Drawing.Color.White;
+            this.Amigo1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Amigo1.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo1.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Amigo1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Amigo1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Amigo1.Location = new System.Drawing.Point(79, 125);
+            this.Amigo1.Name = "Amigo1";
+            this.Amigo1.Size = new System.Drawing.Size(75, 30);
+            this.Amigo1.TabIndex = 6;
+            this.Amigo1.Text = "Amigo 1";
+            this.Amigo1.UseVisualStyleBackColor = false;
+            this.Amigo1.Click += new System.EventHandler(this.Amigo1_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.Location = new System.Drawing.Point(2, 176);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(72, 57);
+            this.pictureBox3.TabIndex = 39;
+            this.pictureBox3.TabStop = false;
+            // 
+            // Amigo2
+            // 
+            this.Amigo2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Amigo2.BackColor = System.Drawing.Color.White;
+            this.Amigo2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Amigo2.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo2.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Amigo2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Amigo2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Amigo2.Location = new System.Drawing.Point(79, 189);
+            this.Amigo2.Name = "Amigo2";
+            this.Amigo2.Size = new System.Drawing.Size(73, 30);
+            this.Amigo2.TabIndex = 7;
+            this.Amigo2.Text = "Amigo 2";
+            this.Amigo2.UseVisualStyleBackColor = false;
+            this.Amigo2.Click += new System.EventHandler(this.Amigo2_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.White;
+            this.pictureBox4.Location = new System.Drawing.Point(2, 237);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(72, 58);
+            this.pictureBox4.TabIndex = 40;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // Amigo3
+            // 
+            this.Amigo3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Amigo3.BackColor = System.Drawing.Color.White;
+            this.Amigo3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Amigo3.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo3.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Amigo3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Amigo3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Amigo3.Location = new System.Drawing.Point(79, 253);
+            this.Amigo3.Name = "Amigo3";
+            this.Amigo3.Size = new System.Drawing.Size(75, 25);
+            this.Amigo3.TabIndex = 8;
+            this.Amigo3.Text = "Amigo 3";
+            this.Amigo3.UseVisualStyleBackColor = false;
+            this.Amigo3.Click += new System.EventHandler(this.Amigo3_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.White;
+            this.pictureBox5.Location = new System.Drawing.Point(2, 299);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(73, 56);
+            this.pictureBox5.TabIndex = 41;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // Amigo4
+            // 
+            this.Amigo4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Amigo4.BackColor = System.Drawing.Color.White;
+            this.Amigo4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Amigo4.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo4.FlatAppearance.CheckedBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
+            this.Amigo4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Amigo4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Amigo4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Amigo4.Location = new System.Drawing.Point(80, 315);
+            this.Amigo4.Name = "Amigo4";
+            this.Amigo4.Size = new System.Drawing.Size(73, 24);
+            this.Amigo4.TabIndex = 9;
+            this.Amigo4.Text = "Amigo 4";
+            this.Amigo4.UseVisualStyleBackColor = false;
+            this.Amigo4.Click += new System.EventHandler(this.Amigo5_Click);
             // 
             // toolStripContainer2
             // 
@@ -718,102 +671,33 @@ namespace RedeSocial
             this.toolStripContainer2.TopToolStripPanel.Padding = new System.Windows.Forms.Padding(0, 0, 25, 25);
             this.toolStripContainer2.TopToolStripPanelVisible = false;
             // 
-            // caixa_de_comentarios
+            // foto_quem_postou
             // 
-            this.caixa_de_comentarios.BackColor = System.Drawing.Color.White;
-            this.caixa_de_comentarios.Enabled = false;
-            this.caixa_de_comentarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixa_de_comentarios.Location = new System.Drawing.Point(105, 361);
-            this.caixa_de_comentarios.Name = "caixa_de_comentarios";
-            this.caixa_de_comentarios.ReadOnly = true;
-            this.caixa_de_comentarios.Size = new System.Drawing.Size(462, 63);
-            this.caixa_de_comentarios.TabIndex = 46;
-            this.caixa_de_comentarios.Text = "";
+            this.foto_quem_postou.BackColor = System.Drawing.Color.Transparent;
+            this.foto_quem_postou.Location = new System.Drawing.Point(105, 60);
+            this.foto_quem_postou.Name = "foto_quem_postou";
+            this.foto_quem_postou.Size = new System.Drawing.Size(44, 41);
+            this.foto_quem_postou.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.foto_quem_postou.TabIndex = 50;
+            this.foto_quem_postou.TabStop = false;
+            this.foto_quem_postou.Click += new System.EventHandler(this.foto_quem_postou_Click);
             // 
-            // bt_D
+            // Bt_Postar
             // 
-            this.bt_D.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bt_D.BackColor = System.Drawing.Color.Transparent;
-            this.bt_D.BackgroundImage = global::RedeSocial.Properties.Resources.seta_PhotoRoom_png_PhotoRoom__1_;
-            this.bt_D.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.bt_D.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bt_D.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.bt_D.FlatAppearance.BorderSize = 0;
-            this.bt_D.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.bt_D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.bt_D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_D.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_D.Location = new System.Drawing.Point(571, 101);
-            this.bt_D.Margin = new System.Windows.Forms.Padding(2);
-            this.bt_D.Name = "bt_D";
-            this.bt_D.Size = new System.Drawing.Size(41, 232);
-            this.bt_D.TabIndex = 27;
-            this.bt_D.UseVisualStyleBackColor = false;
-            this.bt_D.Click += new System.EventHandler(this.button1_Click_2);
-            // 
-            // bt_like
-            // 
-            this.bt_like.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_like.Location = new System.Drawing.Point(515, 338);
-            this.bt_like.Name = "bt_like";
-            this.bt_like.Size = new System.Drawing.Size(52, 17);
-            this.bt_like.TabIndex = 35;
-            this.bt_like.Text = "Like 0";
-            this.bt_like.UseVisualStyleBackColor = true;
-            this.bt_like.Click += new System.EventHandler(this.bt_like_Click);
-            // 
-            // text_Box_Comentarios
-            // 
-            this.text_Box_Comentarios.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.text_Box_Comentarios.BackColor = System.Drawing.Color.White;
-            this.text_Box_Comentarios.Location = new System.Drawing.Point(105, 434);
-            this.text_Box_Comentarios.Name = "text_Box_Comentarios";
-            this.text_Box_Comentarios.Size = new System.Drawing.Size(391, 23);
-            this.text_Box_Comentarios.TabIndex = 33;
-            this.text_Box_Comentarios.Text = "";
-            // 
-            // label_Usuario_Postagem
-            // 
-            this.label_Usuario_Postagem.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label_Usuario_Postagem.AutoSize = true;
-            this.label_Usuario_Postagem.BackColor = System.Drawing.Color.Transparent;
-            this.label_Usuario_Postagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Usuario_Postagem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label_Usuario_Postagem.Location = new System.Drawing.Point(155, 79);
-            this.label_Usuario_Postagem.Name = "label_Usuario_Postagem";
-            this.label_Usuario_Postagem.Size = new System.Drawing.Size(64, 20);
-            this.label_Usuario_Postagem.TabIndex = 31;
-            this.label_Usuario_Postagem.Text = "Usuário";
-            this.label_Usuario_Postagem.UseWaitCursor = true;
-            this.label_Usuario_Postagem.Click += new System.EventHandler(this.label_Usuario_Postagem_Click);
-            // 
-            // Label_Descrição
-            // 
-            this.Label_Descrição.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Label_Descrição.AutoSize = true;
-            this.Label_Descrição.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Descrição.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Descrição.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Label_Descrição.Location = new System.Drawing.Point(101, 338);
-            this.Label_Descrição.Name = "Label_Descrição";
-            this.Label_Descrição.Size = new System.Drawing.Size(80, 20);
-            this.Label_Descrição.TabIndex = 29;
-            this.Label_Descrição.Text = "Descrição";
-            this.Label_Descrição.Click += new System.EventHandler(this.Label_Descrição_Click);
-            // 
-            // Pic_Mostra_Foto
-            // 
-            this.Pic_Mostra_Foto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Pic_Mostra_Foto.BackColor = System.Drawing.Color.Transparent;
-            this.Pic_Mostra_Foto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Pic_Mostra_Foto.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Pic_Mostra_Foto.Location = new System.Drawing.Point(105, 101);
-            this.Pic_Mostra_Foto.Margin = new System.Windows.Forms.Padding(2);
-            this.Pic_Mostra_Foto.Name = "Pic_Mostra_Foto";
-            this.Pic_Mostra_Foto.Size = new System.Drawing.Size(462, 232);
-            this.Pic_Mostra_Foto.TabIndex = 17;
-            this.Pic_Mostra_Foto.TabStop = false;
-            this.Pic_Mostra_Foto.Click += new System.EventHandler(this.Pic_Mostra_Foto_Click);
+            this.Bt_Postar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Bt_Postar.BackColor = System.Drawing.Color.Navy;
+            this.Bt_Postar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Bt_Postar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Bt_Postar.FlatAppearance.BorderSize = 0;
+            this.Bt_Postar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Bt_Postar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Bt_Postar.Location = new System.Drawing.Point(486, 68);
+            this.Bt_Postar.Name = "Bt_Postar";
+            this.Bt_Postar.Size = new System.Drawing.Size(81, 33);
+            this.Bt_Postar.TabIndex = 18;
+            this.Bt_Postar.Text = "Postar";
+            this.Bt_Postar.UseVisualStyleBackColor = false;
+            this.Bt_Postar.Click += new System.EventHandler(this.button7_Click);
             // 
             // bt_E
             // 
@@ -836,32 +720,92 @@ namespace RedeSocial
             this.bt_E.UseVisualStyleBackColor = false;
             this.bt_E.Click += new System.EventHandler(this.button7_Click_2);
             // 
-            // Bt_Postar
+            // Pic_Mostra_Foto
             // 
-            this.Bt_Postar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Bt_Postar.BackColor = System.Drawing.Color.White;
-            this.Bt_Postar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Bt_Postar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Bt_Postar.FlatAppearance.BorderSize = 0;
-            this.Bt_Postar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Bt_Postar.Location = new System.Drawing.Point(486, 68);
-            this.Bt_Postar.Name = "Bt_Postar";
-            this.Bt_Postar.Size = new System.Drawing.Size(81, 33);
-            this.Bt_Postar.TabIndex = 18;
-            this.Bt_Postar.Text = "Postar";
-            this.Bt_Postar.UseVisualStyleBackColor = false;
-            this.Bt_Postar.Click += new System.EventHandler(this.button7_Click);
+            this.Pic_Mostra_Foto.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Pic_Mostra_Foto.BackColor = System.Drawing.Color.Transparent;
+            this.Pic_Mostra_Foto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Pic_Mostra_Foto.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Pic_Mostra_Foto.Location = new System.Drawing.Point(105, 101);
+            this.Pic_Mostra_Foto.Margin = new System.Windows.Forms.Padding(2);
+            this.Pic_Mostra_Foto.Name = "Pic_Mostra_Foto";
+            this.Pic_Mostra_Foto.Size = new System.Drawing.Size(462, 232);
+            this.Pic_Mostra_Foto.TabIndex = 17;
+            this.Pic_Mostra_Foto.TabStop = false;
+            this.Pic_Mostra_Foto.Click += new System.EventHandler(this.Pic_Mostra_Foto_Click);
             // 
-            // foto_quem_postou
+            // Label_Descrição
             // 
-            this.foto_quem_postou.BackColor = System.Drawing.Color.Transparent;
-            this.foto_quem_postou.Location = new System.Drawing.Point(105, 60);
-            this.foto_quem_postou.Name = "foto_quem_postou";
-            this.foto_quem_postou.Size = new System.Drawing.Size(44, 41);
-            this.foto_quem_postou.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.foto_quem_postou.TabIndex = 50;
-            this.foto_quem_postou.TabStop = false;
-            this.foto_quem_postou.Click += new System.EventHandler(this.foto_quem_postou_Click);
+            this.Label_Descrição.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Label_Descrição.AutoSize = true;
+            this.Label_Descrição.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Descrição.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Descrição.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Label_Descrição.Location = new System.Drawing.Point(101, 338);
+            this.Label_Descrição.Name = "Label_Descrição";
+            this.Label_Descrição.Size = new System.Drawing.Size(80, 20);
+            this.Label_Descrição.TabIndex = 29;
+            this.Label_Descrição.Text = "Descrição";
+            this.Label_Descrição.Click += new System.EventHandler(this.Label_Descrição_Click);
+            // 
+            // label_Usuario_Postagem
+            // 
+            this.label_Usuario_Postagem.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label_Usuario_Postagem.AutoSize = true;
+            this.label_Usuario_Postagem.BackColor = System.Drawing.Color.Transparent;
+            this.label_Usuario_Postagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Usuario_Postagem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label_Usuario_Postagem.Location = new System.Drawing.Point(155, 79);
+            this.label_Usuario_Postagem.Name = "label_Usuario_Postagem";
+            this.label_Usuario_Postagem.Size = new System.Drawing.Size(64, 20);
+            this.label_Usuario_Postagem.TabIndex = 31;
+            this.label_Usuario_Postagem.Text = "Usuário";
+            this.label_Usuario_Postagem.UseWaitCursor = true;
+            this.label_Usuario_Postagem.Click += new System.EventHandler(this.label_Usuario_Postagem_Click);
+            // 
+            // bt_like
+            // 
+            this.bt_like.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_like.Location = new System.Drawing.Point(515, 338);
+            this.bt_like.Name = "bt_like";
+            this.bt_like.Size = new System.Drawing.Size(52, 17);
+            this.bt_like.TabIndex = 35;
+            this.bt_like.Text = "Like 0";
+            this.bt_like.UseVisualStyleBackColor = true;
+            this.bt_like.Click += new System.EventHandler(this.bt_like_Click);
+            // 
+            // bt_D
+            // 
+            this.bt_D.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bt_D.BackColor = System.Drawing.Color.Transparent;
+            this.bt_D.BackgroundImage = global::RedeSocial.Properties.Resources.seta_PhotoRoom_png_PhotoRoom__1_;
+            this.bt_D.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bt_D.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_D.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.bt_D.FlatAppearance.BorderSize = 0;
+            this.bt_D.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bt_D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.bt_D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_D.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.bt_D.Location = new System.Drawing.Point(571, 101);
+            this.bt_D.Margin = new System.Windows.Forms.Padding(2);
+            this.bt_D.Name = "bt_D";
+            this.bt_D.Size = new System.Drawing.Size(41, 232);
+            this.bt_D.TabIndex = 27;
+            this.bt_D.UseVisualStyleBackColor = false;
+            this.bt_D.Click += new System.EventHandler(this.button1_Click_2);
+            // 
+            // caixa_de_comentarios
+            // 
+            this.caixa_de_comentarios.BackColor = System.Drawing.Color.White;
+            this.caixa_de_comentarios.Enabled = false;
+            this.caixa_de_comentarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.caixa_de_comentarios.Location = new System.Drawing.Point(105, 361);
+            this.caixa_de_comentarios.Name = "caixa_de_comentarios";
+            this.caixa_de_comentarios.ReadOnly = true;
+            this.caixa_de_comentarios.Size = new System.Drawing.Size(462, 63);
+            this.caixa_de_comentarios.TabIndex = 46;
+            this.caixa_de_comentarios.Text = "";
             // 
             // bt_comentarios
             // 
@@ -872,6 +816,16 @@ namespace RedeSocial
             this.bt_comentarios.Text = "Comentario";
             this.bt_comentarios.UseVisualStyleBackColor = true;
             this.bt_comentarios.Click += new System.EventHandler(this.bt_comentarios_Click);
+            // 
+            // text_Box_Comentarios
+            // 
+            this.text_Box_Comentarios.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.text_Box_Comentarios.BackColor = System.Drawing.Color.White;
+            this.text_Box_Comentarios.Location = new System.Drawing.Point(105, 434);
+            this.text_Box_Comentarios.Name = "text_Box_Comentarios";
+            this.text_Box_Comentarios.Size = new System.Drawing.Size(391, 23);
+            this.text_Box_Comentarios.TabIndex = 33;
+            this.text_Box_Comentarios.Text = "";
             // 
             // panel1
             // 
@@ -915,7 +869,61 @@ namespace RedeSocial
             this.toolStripContainer3.Text = "toolStripContainer3";
             this.toolStripContainer3.TopToolStripPanelVisible = false;
             // 
-            // Tela_BoasVindas
+            // MostraFotoAmigo0
+            // 
+            this.MostraFotoAmigo0.Location = new System.Drawing.Point(6, 4);
+            this.MostraFotoAmigo0.Name = "MostraFotoAmigo0";
+            this.MostraFotoAmigo0.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo0.TabIndex = 0;
+            this.MostraFotoAmigo0.TabStop = false;
+            // 
+            // MostraFotoAmigo1
+            // 
+            this.MostraFotoAmigo1.Location = new System.Drawing.Point(58, 4);
+            this.MostraFotoAmigo1.Name = "MostraFotoAmigo1";
+            this.MostraFotoAmigo1.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo1.TabIndex = 1;
+            this.MostraFotoAmigo1.TabStop = false;
+            // 
+            // MostraFotoAmigo2
+            // 
+            this.MostraFotoAmigo2.Location = new System.Drawing.Point(5, 59);
+            this.MostraFotoAmigo2.Name = "MostraFotoAmigo2";
+            this.MostraFotoAmigo2.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo2.TabIndex = 2;
+            this.MostraFotoAmigo2.TabStop = false;
+            // 
+            // MostraFotoAmigo4
+            // 
+            this.MostraFotoAmigo4.Location = new System.Drawing.Point(58, 59);
+            this.MostraFotoAmigo4.Name = "MostraFotoAmigo4";
+            this.MostraFotoAmigo4.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo4.TabIndex = 3;
+            this.MostraFotoAmigo4.TabStop = false;
+            // 
+            // MostraFotoAmigo5
+            // 
+            this.MostraFotoAmigo5.Location = new System.Drawing.Point(6, 110);
+            this.MostraFotoAmigo5.Name = "MostraFotoAmigo5";
+            this.MostraFotoAmigo5.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo5.TabIndex = 4;
+            this.MostraFotoAmigo5.TabStop = false;
+            // 
+            // MostraFotoAmigo6
+            // 
+            this.MostraFotoAmigo6.Location = new System.Drawing.Point(58, 110);
+            this.MostraFotoAmigo6.Name = "MostraFotoAmigo6";
+            this.MostraFotoAmigo6.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MostraFotoAmigo6.TabIndex = 5;
+            this.MostraFotoAmigo6.TabStop = false;
+            // 
+            // Tela_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -928,45 +936,52 @@ namespace RedeSocial
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Tela_BoasVindas";
+            this.Name = "Tela_Principal";
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bem Vindo";
             this.Load += new System.EventHandler(this.Tela_BoasVindas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil_usuario)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comunidade4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comunidade0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comunidade3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comunidade1)).EndInit();
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);
             this.toolStripContainer1.ResumeLayout(false);
             this.toolStripContainer1.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.toolStripContainer2.ContentPanel.ResumeLayout(false);
             this.toolStripContainer2.ContentPanel.PerformLayout();
             this.toolStripContainer2.ResumeLayout(false);
             this.toolStripContainer2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Pic_Mostra_Foto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.foto_quem_postou)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Mostra_Foto)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.toolStripContainer3.ContentPanel.ResumeLayout(false);
             this.toolStripContainer3.ContentPanel.PerformLayout();
             this.toolStripContainer3.ResumeLayout(false);
             this.toolStripContainer3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MostraFotoAmigo6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -997,11 +1012,6 @@ namespace RedeSocial
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ToolStripContainer toolStripContainer1;
-        private System.Windows.Forms.Button bt_amigo4;
-        private System.Windows.Forms.Button bt_amigo2;
-        private System.Windows.Forms.Button bt_amigo1;
-        private System.Windows.Forms.Button bt_amigo0;
-        private System.Windows.Forms.Button bt_amigo3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Button Bt_mais_amigos;
@@ -1029,5 +1039,11 @@ namespace RedeSocial
         private System.Windows.Forms.RichTextBox text_Box_Comentarios;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStripContainer toolStripContainer3;
+        private System.Windows.Forms.PictureBox MostraFotoAmigo6;
+        private System.Windows.Forms.PictureBox MostraFotoAmigo5;
+        private System.Windows.Forms.PictureBox MostraFotoAmigo4;
+        private System.Windows.Forms.PictureBox MostraFotoAmigo2;
+        private System.Windows.Forms.PictureBox MostraFotoAmigo1;
+        private System.Windows.Forms.PictureBox MostraFotoAmigo0;
     }
 }

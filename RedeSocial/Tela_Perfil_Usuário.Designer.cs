@@ -14,7 +14,7 @@ namespace RedeSocial
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
-            Tela_BoasVindas novo = new Tela_BoasVindas();
+            Tela_Principal novo = new Tela_Principal();
             if (disposing && (components != null))
             {
                 components.Dispose();
