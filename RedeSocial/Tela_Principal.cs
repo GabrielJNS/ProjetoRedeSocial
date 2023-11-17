@@ -59,7 +59,7 @@ namespace RedeSocial
             bt_UsuarioLogado.Text = Login.nomes[Convert.ToInt32(Login.user)];
             nome_Perfil = Login.user;
         novo:
-            a = rnd.Next(Login.n-1);
+            a = rnd.Next(Login.n-1);            
             Amigo0.Text = Login.nomes[a];
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.ImageLocation = Login.foto_perfil[a];
@@ -707,7 +707,44 @@ namespace RedeSocial
 
         private void MostraFotoAmigo0_Click(object sender, EventArgs e)
         {
-          
+            Login.amigo = amigo_final[1];
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();            
+            novo.Show();
+        }
+
+        private void MostraFotoAmigo4_Click(object sender, EventArgs e)
+        {
+            Login.amigo = amigo_final[4];
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();
+            novo.Show();
+        }
+
+        private void MostraFotoAmigo2_Click(object sender, EventArgs e)
+        {
+            Login.amigo = amigo_final[3];
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();
+            novo.Show();
+        }
+
+        private void MostraFotoAmigo5_Click(object sender, EventArgs e)
+        {
+            Login.amigo = amigo_final[5];
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();
+            novo.Show();
+        }
+
+        private void MostraFotoAmigo6_Click(object sender, EventArgs e)
+        {
+            Login.amigo = amigo_final[6];
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();
+            novo.Show();
+        }
+
+        private void MostraFotoAmigo1_Click(object sender, EventArgs e)
+        {
+            Login.amigo = amigo_final[2];
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();
+            novo.Show();
         }
 
         private void Button_Click(object sender, EventArgs e)

@@ -202,5 +202,33 @@ namespace RedeSocial
             Tela_Fotos novo = new Tela_Fotos();
             novo.Show();
         }
+
+        private void bt_Excluir_Conta_Click(object sender, EventArgs e)
+        {
+            ExcluirConta();
+        }
+        public void ExcluirConta()
+        {
+            for (int i = Login.contador_excluidos_ini; i < Login.contador_excluidos; i++)
+            {
+                Login.excluir_conta[Login.contador_excluidos_ini] = Login.nomes[Convert.ToInt32(Login.user)];
+                Login.excluir_conta_senha[Login.contador_excluidos_ini] = Login.senha[Convert.ToInt32(Login.user)];
+                Login.excluir_email[Login.contador_excluidos_ini] = Login.email[Convert.ToInt32(Login.user)];
+                Login.excluir_posicao[Login.contador_excluidos_ini] = Login.user;
+                Login.email[Convert.ToInt32(Login.user)] = "";
+                Login.nomes[Convert.ToInt32(Login.user)] = "";
+                Login.descricao_user[Convert.ToInt32(Login.user)] = "";
+                Login.foto_perfil[Convert.ToInt32(Login.user)] = "";
+                Login.senha[Convert.ToInt32(Login.user)] = "";
+                Login.data_nascimento[Convert.ToInt32(Login.user)] = "";
+            }
+            Login.contador_excluidos_ini++;
+            Login.contador_excluidos++;
+            MessageBox.Show("Conta EXCLUIDA");
+            this.Close();
+            Tela_Principal novo = new Tela_Principal();
+            novo.Close();
+
+        }
     }
 }

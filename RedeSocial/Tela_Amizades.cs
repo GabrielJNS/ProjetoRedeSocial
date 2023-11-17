@@ -126,7 +126,8 @@ namespace RedeSocial
                 Login.seusAmigos[Login.conta_seus_amigos] = Login.solicita_amigo[pegaValor];
                 Login.confirmar_amigo_geral[Login.conta_seus_amigos] = true;
                 Login.conta_seus_amigos++;
-                MessageBox.Show(Login.seusAmigos[1]);
+                
+                
             }
         }
 
@@ -135,6 +136,8 @@ namespace RedeSocial
             VirarAmigos();
             MessageBox.Show("Vocês São Amigos "+ Login.conta_seus_amigos);            
             this.Close();
+            Tela_Principal novo = new Tela_Principal();
+            novo.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -142,6 +145,9 @@ namespace RedeSocial
             VirarAmigos();
             MessageBox.Show("Vocês São Amigos " + Login.conta_seus_amigos);
             this.Close();
+            Tela_Principal novo = new Tela_Principal();
+            novo.Show();
+
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -149,6 +155,8 @@ namespace RedeSocial
             VirarAmigos();
             MessageBox.Show("Vocês São Amigos " + Login.conta_seus_amigos);
             this.Close();
+            Tela_Principal novo = new Tela_Principal();
+            novo.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

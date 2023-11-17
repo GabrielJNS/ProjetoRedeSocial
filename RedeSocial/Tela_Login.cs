@@ -41,6 +41,12 @@ namespace RedeSocial
         public static string[] email = new string[50];
         public static string[] data_nascimento = new string[50];
         public static string[] foto_perfil = new string[50];
+        public static string[] excluir_conta = new string[50];
+        public static string[] excluir_conta_senha = new string[50];
+        public static string[] excluir_email = new string[50];
+        public static string[] excluir_posicao = new string[50];
+        public static int contador_excluidos_ini = 0;
+        public static int contador_excluidos = 1;
         //Postagens
         public static string[] dono_postagem = new string[200];
         public static string[] foto_postagens = new string[200];       

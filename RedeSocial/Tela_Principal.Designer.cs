@@ -442,51 +442,62 @@ namespace RedeSocial
             // 
             // MostraFotoAmigo6
             // 
+            this.MostraFotoAmigo6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MostraFotoAmigo6.Location = new System.Drawing.Point(58, 110);
             this.MostraFotoAmigo6.Name = "MostraFotoAmigo6";
             this.MostraFotoAmigo6.Size = new System.Drawing.Size(42, 43);
             this.MostraFotoAmigo6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MostraFotoAmigo6.TabIndex = 5;
             this.MostraFotoAmigo6.TabStop = false;
+            this.MostraFotoAmigo6.Click += new System.EventHandler(this.MostraFotoAmigo6_Click);
             // 
             // MostraFotoAmigo5
             // 
+            this.MostraFotoAmigo5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MostraFotoAmigo5.Location = new System.Drawing.Point(6, 110);
             this.MostraFotoAmigo5.Name = "MostraFotoAmigo5";
             this.MostraFotoAmigo5.Size = new System.Drawing.Size(42, 43);
             this.MostraFotoAmigo5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MostraFotoAmigo5.TabIndex = 4;
             this.MostraFotoAmigo5.TabStop = false;
+            this.MostraFotoAmigo5.Click += new System.EventHandler(this.MostraFotoAmigo5_Click);
             // 
             // MostraFotoAmigo4
             // 
+            this.MostraFotoAmigo4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MostraFotoAmigo4.Location = new System.Drawing.Point(58, 59);
             this.MostraFotoAmigo4.Name = "MostraFotoAmigo4";
             this.MostraFotoAmigo4.Size = new System.Drawing.Size(42, 43);
             this.MostraFotoAmigo4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MostraFotoAmigo4.TabIndex = 3;
             this.MostraFotoAmigo4.TabStop = false;
+            this.MostraFotoAmigo4.Click += new System.EventHandler(this.MostraFotoAmigo4_Click);
             // 
             // MostraFotoAmigo2
             // 
+            this.MostraFotoAmigo2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MostraFotoAmigo2.Location = new System.Drawing.Point(5, 59);
             this.MostraFotoAmigo2.Name = "MostraFotoAmigo2";
             this.MostraFotoAmigo2.Size = new System.Drawing.Size(42, 43);
             this.MostraFotoAmigo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MostraFotoAmigo2.TabIndex = 2;
             this.MostraFotoAmigo2.TabStop = false;
+            this.MostraFotoAmigo2.Click += new System.EventHandler(this.MostraFotoAmigo2_Click);
             // 
             // MostraFotoAmigo1
             // 
+            this.MostraFotoAmigo1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MostraFotoAmigo1.Location = new System.Drawing.Point(58, 4);
             this.MostraFotoAmigo1.Name = "MostraFotoAmigo1";
             this.MostraFotoAmigo1.Size = new System.Drawing.Size(42, 43);
             this.MostraFotoAmigo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MostraFotoAmigo1.TabIndex = 1;
             this.MostraFotoAmigo1.TabStop = false;
+            this.MostraFotoAmigo1.Click += new System.EventHandler(this.MostraFotoAmigo1_Click);
             // 
             // MostraFotoAmigo0
             // 
+            this.MostraFotoAmigo0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MostraFotoAmigo0.Location = new System.Drawing.Point(6, 4);
             this.MostraFotoAmigo0.Name = "MostraFotoAmigo0";
             this.MostraFotoAmigo0.Size = new System.Drawing.Size(42, 43);
@@ -1040,11 +1051,11 @@ namespace RedeSocial
         private System.Windows.Forms.RichTextBox text_Box_Comentarios;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStripContainer toolStripContainer3;
-        private System.Windows.Forms.PictureBox MostraFotoAmigo6;
-        private System.Windows.Forms.PictureBox MostraFotoAmigo5;
-        private System.Windows.Forms.PictureBox MostraFotoAmigo4;
-        private System.Windows.Forms.PictureBox MostraFotoAmigo2;
-        private System.Windows.Forms.PictureBox MostraFotoAmigo1;
-        private System.Windows.Forms.PictureBox MostraFotoAmigo0;
+        public System.Windows.Forms.PictureBox MostraFotoAmigo6;
+        public System.Windows.Forms.PictureBox MostraFotoAmigo5;
+        public System.Windows.Forms.PictureBox MostraFotoAmigo4;
+        public System.Windows.Forms.PictureBox MostraFotoAmigo2;
+        public System.Windows.Forms.PictureBox MostraFotoAmigo1;
+        public System.Windows.Forms.PictureBox MostraFotoAmigo0;
     }
 }

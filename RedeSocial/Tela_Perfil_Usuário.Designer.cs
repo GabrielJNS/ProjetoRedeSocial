@@ -53,6 +53,7 @@ namespace RedeSocial
             this.textBoxDescricao_user = new System.Windows.Forms.TextBox();
             this.btnSalvarDescricao = new System.Windows.Forms.Button();
             this.Label_Descricao = new System.Windows.Forms.Label();
+            this.bt_Excluir_Conta = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil)).BeginInit();
             this.SuspendLayout();
             // 
@@ -280,6 +281,16 @@ namespace RedeSocial
             this.Label_Descricao.TabIndex = 42;
             this.Label_Descricao.Text = "Descrição";
             // 
+            // bt_Excluir_Conta
+            // 
+            this.bt_Excluir_Conta.Location = new System.Drawing.Point(569, 762);
+            this.bt_Excluir_Conta.Name = "bt_Excluir_Conta";
+            this.bt_Excluir_Conta.Size = new System.Drawing.Size(132, 32);
+            this.bt_Excluir_Conta.TabIndex = 43;
+            this.bt_Excluir_Conta.Text = "Excluir Conta";
+            this.bt_Excluir_Conta.UseVisualStyleBackColor = true;
+            this.bt_Excluir_Conta.Click += new System.EventHandler(this.bt_Excluir_Conta_Click);
+            // 
             // Tela_Perfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -287,6 +298,7 @@ namespace RedeSocial
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__43_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.bt_Excluir_Conta);
             this.Controls.Add(this.Label_Descricao);
             this.Controls.Add(this.btnSalvarDescricao);
             this.Controls.Add(this.textBoxDescricao_user);
@@ -337,5 +349,6 @@ namespace RedeSocial
         private System.Windows.Forms.TextBox textBoxDescricao_user;
         private System.Windows.Forms.Button btnSalvarDescricao;
         private System.Windows.Forms.Label Label_Descricao;
+        private System.Windows.Forms.Button bt_Excluir_Conta;
     }
 }
