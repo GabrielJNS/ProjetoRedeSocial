@@ -205,7 +205,8 @@ namespace RedeSocial
 
         private void bt_Excluir_Conta_Click(object sender, EventArgs e)
         {
-            ExcluirConta();
+            Tela_Senha_Excluir novo = new Tela_Senha_Excluir();
+            novo.Show();
         }
         public void ExcluirConta()
         {

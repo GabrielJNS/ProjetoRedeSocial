@@ -131,6 +131,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tela_Senha_Excluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Senha_Excluir.Designer.cs">
+      <DependentUpon>Tela_Senha_Excluir.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Tela_Alterar.resx">
       <DependentUpon>Tela_Alterar.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +186,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Tela_Senha_Excluir.resx">
+      <DependentUpon>Tela_Senha_Excluir.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

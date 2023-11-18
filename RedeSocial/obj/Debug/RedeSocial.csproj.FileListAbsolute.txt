@@ -495,3 +495,4 @@ C:\Users\User\Desktop\Projeto Enari\Rede Social 1711\RedeSocial\obj\Debug\RedeSo
 C:\Users\User\Desktop\Projeto Enari\Rede Social 1711\RedeSocial\obj\Debug\RedeSocial.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Projeto Enari\Rede Social 1711\RedeSocial\obj\Debug\RedeSocial.exe
 C:\Users\User\Desktop\Projeto Enari\Rede Social 1711\RedeSocial\obj\Debug\RedeSocial.pdb
+C:\Users\User\Desktop\Projeto Enari\Rede Social 1711\RedeSocial\obj\Debug\RedeSocial.Tela_Senha_Excluir.resources
