@@ -264,6 +264,12 @@
     <None Include="Resources\Login %2827%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Group 181.png" />
+    <None Include="Resources\Group 18.png" />
+    <None Include="Resources\Group 173.png" />
+    <None Include="Resources\Group 172.png" />
+    <None Include="Resources\Group 171.png" />
+    <None Include="Resources\Group 162.png" />
     <None Include="Resources\Group 161.png" />
     <None Include="Resources\Group 16.png" />
     <None Include="Resources\Group 17.png" />

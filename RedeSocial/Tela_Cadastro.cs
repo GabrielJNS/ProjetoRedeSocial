@@ -198,5 +198,20 @@ namespace RedeSocial
         {
 
         }
+
+        private void caixa_confirmaSenha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void toolStripContainer1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
