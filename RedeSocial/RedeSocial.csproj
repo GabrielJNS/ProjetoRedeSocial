@@ -264,6 +264,22 @@
     <None Include="Resources\Login %2827%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Group 161.png" />
+    <None Include="Resources\Group 16.png" />
+    <None Include="Resources\Group 17.png" />
+    <None Include="Resources\Login %2844%291.png" />
+    <None Include="Resources\icons8-comunidade-50.png" />
+    <None Include="Resources\icons8-casa-64 %281%29.png" />
+    <None Include="Resources\icons8-notificação-100 %283%29.png" />
+    <None Include="Resources\icons8-câmera-100 %283%29.png" />
+    <None Include="Resources\icons8-notificação-100 %281%29.png" />
+    <None Include="Resources\icons8-coração.gif" />
+    <None Include="Resources\icons8-coração-carregando %281%29.gif" />
+    <None Include="Resources\icons8-gostar2.gif" />
+    <None Include="Resources\icons8-gostar1.gif" />
+    <None Include="Resources\icons8-gostar.gif" />
+    <None Include="Resources\Group 121.png" />
+    <None Include="Resources\Group 12.png" />
     <None Include="Resources\Login %2856%291.png" />
     <None Include="Resources\grade.png" />
     <None Include="Resources\Login %2856%29.png" />

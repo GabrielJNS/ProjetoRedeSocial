@@ -100,5 +100,10 @@ namespace RedeSocial
         {
 
         }
+
+        private void Tela_Postagem_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

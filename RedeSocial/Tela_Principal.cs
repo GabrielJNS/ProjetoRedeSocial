@@ -15,7 +15,7 @@ namespace RedeSocial
     public partial class Tela_Principal : Form
     {
         // Variáveis de controle e dados do perfil
-
+        private bool coracao = false;
         public static string nome_Perfil;
         public static string nome_Carregado;
         public static string nome_Carregado1;
@@ -35,21 +35,23 @@ namespace RedeSocial
         public Tela_Principal()
         {
 
-            
-                Pessoa novo = new Pessoa();
-                InitializeComponent();
-                Sorteio_Amigos();
-                MostrarComunidades();
-                mostrar_Postagens();
-                MostrarSeusAmigos();
-                foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
-                foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
-                ConfigurarCircularPictureBox(foto_perfil_usuario);
-                caixa_Procura.BorderStyle = BorderStyle.None;
-                Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
-                
 
+            Pessoa novo = new Pessoa();
+            InitializeComponent();
+            Sorteio_Amigos();
+            MostrarComunidades();
+            mostrar_Postagens();
+            MostrarSeusAmigos();
+            foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
+            foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
+            ConfigurarCircularPictureBox(foto_perfil_usuario);
+            Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
             
+
+
+
+
+
 
         }
 
@@ -59,27 +61,27 @@ namespace RedeSocial
             bt_UsuarioLogado.Text = Login.nomes[Convert.ToInt32(Login.user)];
             nome_Perfil = Login.user;
         novo:
-            a = rnd.Next(Login.n-1);            
+            a = rnd.Next(Login.n - 1);
             Amigo0.Text = Login.nomes[a];
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.ImageLocation = Login.foto_perfil[a];
             nome_Carregado = Amigo0.Text;
-            b = rnd.Next(Login.n-1);
+            b = rnd.Next(Login.n - 1);
             Amigo1.Text = Login.nomes[b];
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.ImageLocation = Login.foto_perfil[b];
             nome_Carregado1 = Amigo1.Text;
-            c = rnd.Next(Login.n-1);
+            c = rnd.Next(Login.n - 1);
             Amigo2.Text = Login.nomes[c];
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.ImageLocation = Login.foto_perfil[c];
             nome_Carregado2 = Amigo2.Text;
-            d = rnd.Next(Login.n-1);
+            d = rnd.Next(Login.n - 1);
             Amigo3.Text = Login.nomes[d];
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.ImageLocation = Login.foto_perfil[d];
             nome_Carregado3 = Amigo3.Text;
-            z = rnd.Next(Login.n-1);
+            z = rnd.Next(Login.n - 1);
             Amigo4.Text = Login.nomes[z];
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.ImageLocation = Login.foto_perfil[z];
@@ -174,8 +176,8 @@ namespace RedeSocial
         }
 
         private void Bt_mais_amigos_Click(object sender, EventArgs e)
-        {            
-           Sorteio_Amigos();   
+        {
+            Sorteio_Amigos();
         }
 
 
@@ -211,7 +213,7 @@ namespace RedeSocial
 
         private void Pic_Mostra_Foto_Click(object sender, EventArgs e)
         {
-           Pic_Mostra_Foto.BackColor = Color.Transparent;
+            Pic_Mostra_Foto.BackColor = Color.Transparent;
 
 
         }
@@ -229,25 +231,25 @@ namespace RedeSocial
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
+
         }
         // Método para exibir postagens aleatórias
         public void mostrar_Postagens()
         {
-            denovo:
+        denovo:
             // Seleciona índices aleatórios para postagens
 
             int i = rnd.Next(Login.contador_Postagens);
             int j = rnd.Next(Login.contador_Postagens);
             int l = rnd.Next(Login.contador_Postagens);
-            
+
             try
             {
                 // Verifica se os índices são iguais para evitar a exibição de postagens duplicadas
 
                 if (i == j && i == l && l == j)
 
-                {  
+                {
                     // Configura o PictureBox para exibir a imagem 
                     Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
 
@@ -260,17 +262,17 @@ namespace RedeSocial
 
                     // Define o nome do usuário que fez a postagem 
                     label_Usuario_Postagem.Text = Login.dono_postagem[l];
-                    
-                    
-                        for (int cont_fotos = 0; cont_fotos < Login.j; cont_fotos++)
+
+
+                    for (int cont_fotos = 0; cont_fotos < Login.j; cont_fotos++)
+                    {
+                        if (Login.dono_postagem[l].Equals(Login.nomes[cont_fotos]))
                         {
-                            if (Login.dono_postagem[l].Equals(Login.nomes[cont_fotos]))
-                            {
-                                foto_quem_postou.ImageLocation = Login.foto_perfil[cont_fotos];
-                            }
+                            foto_quem_postou.ImageLocation = Login.foto_perfil[cont_fotos];
                         }
-                    
-                    
+                    }
+
+
                     //Comentario do Post
                     caixa_de_comentarios.Clear();
                     for (int cont = 0; cont < 50; cont++)
@@ -284,14 +286,14 @@ namespace RedeSocial
                     bt_like.Text = "Likes " + Convert.ToString(Login.contador_Like[postagem_atual]);
 
                 }
-                else            
+                else
                 {
                     goto denovo;
-                }                
-                
-                
+                }
+
+
             }
-            catch(Exception ex) 
+            catch (Exception ex)
             {
                 MessageBox.Show("Deu Ruim");
             }
@@ -300,7 +302,7 @@ namespace RedeSocial
         public string qual_comunidade;
         public void MostrarComunidades()
         {
-            comunidade0.ImageLocation = Comunidade.foto_comunidades[0];            
+            comunidade0.ImageLocation = Comunidade.foto_comunidades[0];
             comunidade1.ImageLocation = Comunidade.foto_comunidades[1];
             comunidade2.ImageLocation = Comunidade.foto_comunidades[2];
             comunidade3.ImageLocation = Comunidade.foto_comunidades[3];
@@ -315,15 +317,15 @@ namespace RedeSocial
         }
         private void button1_Click_2(object sender, EventArgs e)
         {
-            mostrar_Postagens();           
+            mostrar_Postagens();
         }
         private void bt_Perfil_Imagem_Click(object sender, EventArgs e)
         {
-           
-        }
-        
 
-        
+        }
+
+
+
         private void button7_Click_2(object sender, EventArgs e)
         {
             mostrar_Postagens();
@@ -343,7 +345,7 @@ namespace RedeSocial
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-          
+
         }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
@@ -353,7 +355,7 @@ namespace RedeSocial
 
         private void pictureBox1_Click_2(object sender, EventArgs e)
         {
-            
+
         }
 
         private void pictureBox1_Click_3(object sender, EventArgs e)
@@ -366,7 +368,18 @@ namespace RedeSocial
         private void bt_like_Click(object sender, EventArgs e)
         {
             Like(postagem_atual);
+
+            if (coracao)
+            {
+                pictureBoxCoracao.Image = Properties.Resources.icons8_coração;
+            }
+            else
+            {
+                pictureBoxCoracao.Image = Properties.Resources.icons8_coração_carregando__1_;
+            }
+            coracao = !coracao;
         }
+
         private void Like(int a)
         {
             int post;
@@ -378,22 +391,23 @@ namespace RedeSocial
                 Login.quem_deu_like[post] = Login.nomes[Convert.ToInt32(Login.user)];
                 bt_like.Text = "Likes " + Convert.ToString(Login.contador_Like[post]);
 
+
+
             }
             else
             {
-               
+
                 Login.quem_deu_like[post] = null;
                 Login.contador_Like[post] = Login.contador_Like[post] - 1;
                 bt_like.Text = "Likes " + Convert.ToString(Login.contador_Like[post]);
-
             }
-            
-            
+
+
         }
 
         private void foto_perfil_usuario_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void toolStripContainer1_LeftToolStripPanel_Click(object sender, EventArgs e)
@@ -449,12 +463,12 @@ namespace RedeSocial
                 else
 
                 {
-                    
+
                 }
             }
             catch (Exception ex)
             {
-               
+
             }
         }
 
@@ -482,7 +496,7 @@ namespace RedeSocial
             }
             catch (Exception ex)
             {
-                
+
             }
 
         }
@@ -523,34 +537,34 @@ namespace RedeSocial
         }
         public void Comentario(int a)
         {
-            
+
             int post;
             char separador = ' ';
-            
-            post = a;                    
+
+            post = a;
             Login.comentarios_postagens[Login.contagem_comentarios] = text_Box_Comentarios.Text;
             Login.dono_comentario[Login.contagem_comentarios] = Login.nomes[Convert.ToInt32(Login.user)];
-            Login.qual_postagem[Login.contagem_comentarios] = Convert.ToString(post);            
+            Login.qual_postagem[Login.contagem_comentarios] = Convert.ToString(post);
             caixa_de_comentarios.Clear();
-            for(int i = 0; i < 200; i++) {
+            for (int i = 0; i < 200; i++) {
 
-                if(Login.qual_postagem[i] == Convert.ToString(post)){
+                if (Login.qual_postagem[i] == Convert.ToString(post)) {
                     caixa_de_comentarios.AppendText(Login.dono_comentario[i] + ":  " + Login.comentarios_postagens[i] + Environment.NewLine);
-                }         
-             }
+                }
+            }
 
         }
 
         private void bt_home_Click(object sender, EventArgs e)
         {
-           
+
         }
-        
+
         private void comunidade0_Click(object sender, EventArgs e)
         {
             comunidades_Tela = 0;
             Tela_Comunidade nova = new Tela_Comunidade();
-            
+
             nova.Show();
         }
 
@@ -568,9 +582,8 @@ namespace RedeSocial
             foto_perfil_usuario.SizeMode = PictureBoxSizeMode.Zoom;
             foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
             ConfigurarCircularPictureBox(foto_perfil_usuario);
-            caixa_Procura.BorderStyle = BorderStyle.None;
             Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
-            
+
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -591,7 +604,7 @@ namespace RedeSocial
         private void comunidade1_Click(object sender, EventArgs e)
         {
             comunidades_Tela = 1;
-            Tela_Comunidade nova = new Tela_Comunidade();            
+            Tela_Comunidade nova = new Tela_Comunidade();
             nova.Show();
         }
 
@@ -599,70 +612,70 @@ namespace RedeSocial
         {
             comunidades_Tela = 2;
             Tela_Comunidade nova = new Tela_Comunidade();
-            
+
             nova.Show();
         }
 
         private void comunidade3_Click(object sender, EventArgs e)
         {
             comunidades_Tela = 3;
-            Tela_Comunidade nova = new Tela_Comunidade();            
+            Tela_Comunidade nova = new Tela_Comunidade();
             nova.Show();
         }
 
         private void comunidade4_Click(object sender, EventArgs e)
         {
             comunidades_Tela = 4;
-            Tela_Comunidade nova = new Tela_Comunidade();            
+            Tela_Comunidade nova = new Tela_Comunidade();
             nova.Show();
         }
 
         private void comunidade5_Click(object sender, EventArgs e)
         {
             comunidades_Tela = 5;
-            Tela_Comunidade nova = new Tela_Comunidade();            
+            Tela_Comunidade nova = new Tela_Comunidade();
             nova.Show();
         }
 
         private void comunidade6_Click(object sender, EventArgs e)
         {
             comunidades_Tela = 6;
-            Tela_Comunidade nova = new Tela_Comunidade();            
+            Tela_Comunidade nova = new Tela_Comunidade();
             nova.Show();
         }
 
         private void comunidade7_Click(object sender, EventArgs e)
         {
             comunidades_Tela = 7;
-            Tela_Comunidade nova = new Tela_Comunidade();            
+            Tela_Comunidade nova = new Tela_Comunidade();
             nova.Show();
         }
 
         private void comunidade8_Click(object sender, EventArgs e)
         {
             comunidades_Tela = 8;
-            Tela_Comunidade nova = new Tela_Comunidade();            
+            Tela_Comunidade nova = new Tela_Comunidade();
             nova.Show();
         }
 
         private void comunidade9_Click(object sender, EventArgs e)
         {
             comunidades_Tela = 9;
-            Tela_Comunidade nova = new Tela_Comunidade();            
+            Tela_Comunidade nova = new Tela_Comunidade();
             nova.Show();
         }
 
         private void comunidade10_Click(object sender, EventArgs e)
         {
             comunidades_Tela = 10;
-            Tela_Comunidade nova = new Tela_Comunidade();            
+            Tela_Comunidade nova = new Tela_Comunidade();
             nova.Show();
         }
 
         private void comunidade11_Click(object sender, EventArgs e)
         {
             comunidades_Tela = 11;
-            Tela_Comunidade nova = new Tela_Comunidade();            
+            Tela_Comunidade nova = new Tela_Comunidade();
             nova.Show();
         }
 
@@ -691,9 +704,9 @@ namespace RedeSocial
 
         }
 
-        
 
-        
+
+
 
         private void ConfigurarCircularPictureBox(PictureBox pictureBox)
         {
@@ -708,7 +721,7 @@ namespace RedeSocial
         private void MostraFotoAmigo0_Click(object sender, EventArgs e)
         {
             Login.amigo = amigo_final[1];
-            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();            
+            Tela_Perfil_Amigos novo = new Tela_Perfil_Amigos();
             novo.Show();
         }
 
@@ -747,6 +760,31 @@ namespace RedeSocial
             novo.Show();
         }
 
+        private void toolStripContainer2_ContentPanel_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Like(postagem_atual);
+
+            if (coracao)
+            {
+                pictureBoxCoracao.BackgroundImage = Properties.Resources.icons8_coração;
+            }
+            else
+            {
+                pictureBoxCoracao.BackgroundImage = Properties.Resources.icons8_coração_carregando__1_;
+            }
+            coracao = !coracao;
+        }
+
+        private void toolStripContainer3_ContentPanel_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void Button_Click(object sender, EventArgs e)
         {
             Button clickedButton = (Button)sender;
@@ -765,23 +803,23 @@ namespace RedeSocial
         public void MostrarSeusAmigos()
         {
             string[] prov_amigos = new string[50];
-            
-            
+
+
             for (int i = 0; i < 50; i++)
             {
-              
-                
-                    if (Login.solicita_amigo[i] == Login.nomes[Convert.ToInt32(Login.user)] && Login.confirmar_amigo_geral[i] == true)
-                    {
-                        prov_amigos[i] = Login.amigo_geral[i];
-                
-                    }else if(Login.amigo_geral[i] == Login.nomes[Convert.ToInt32(Login.user)] && Login.confirmar_amigo_geral[i] == true)
+
+
+                if (Login.solicita_amigo[i] == Login.nomes[Convert.ToInt32(Login.user)] && Login.confirmar_amigo_geral[i] == true)
+                {
+                    prov_amigos[i] = Login.amigo_geral[i];
+
+                } else if (Login.amigo_geral[i] == Login.nomes[Convert.ToInt32(Login.user)] && Login.confirmar_amigo_geral[i] == true)
                 {
                     prov_amigos[i] = Login.solicita_amigo[i];
-                }    
-                               
+                }
 
-            }            
+
+            }
             for (int i = 0; i < 50; i++)
             {
                 for (int j = 0; j < 50; j++)
@@ -803,5 +841,10 @@ namespace RedeSocial
 
 
         }
+
     }
+          
+
+
+        
 }

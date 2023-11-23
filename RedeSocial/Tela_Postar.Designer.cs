@@ -68,6 +68,7 @@ namespace RedeSocial
             // 
             // foto_postar
             // 
+            this.foto_postar.BackColor = System.Drawing.Color.Transparent;
             this.foto_postar.Location = new System.Drawing.Point(48, 144);
             this.foto_postar.Name = "foto_postar";
             this.foto_postar.Size = new System.Drawing.Size(472, 256);
@@ -98,7 +99,8 @@ namespace RedeSocial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__42_;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::RedeSocial.Properties.Resources.Login__44_1;
             this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -110,6 +112,7 @@ namespace RedeSocial
             this.Name = "Tela_Postagem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Postar";
+            this.Load += new System.EventHandler(this.Tela_Postagem_Load);
             ((System.ComponentModel.ISupportInitialize)(this.foto_postar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
