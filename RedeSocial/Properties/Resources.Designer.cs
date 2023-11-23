@@ -213,9 +213,59 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_20 {
+            get {
+                object obj = ResourceManager.GetObject("Group 20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_câmera_100__3_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-câmera-100 (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_câmera_100__3_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-câmera-100 (3)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_câmera_100__4_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-câmera-100 (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_câmera_100__5_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-câmera-100 (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_câmera_100__5_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-câmera-100 (5)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

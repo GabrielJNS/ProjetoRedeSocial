@@ -655,7 +655,7 @@ namespace RedeSocial
             // Bt_mais_amigos
             // 
             this.Bt_mais_amigos.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Bt_mais_amigos.BackColor = System.Drawing.Color.DarkBlue;
+            this.Bt_mais_amigos.BackColor = System.Drawing.Color.Navy;
             this.Bt_mais_amigos.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Bt_mais_amigos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Bt_mais_amigos.Location = new System.Drawing.Point(1012, 151);

@@ -264,6 +264,11 @@
     <None Include="Resources\Login %2827%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\icons8-câmera-100 %284%29.png" />
+    <None Include="Resources\icons8-câmera-100 %285%291.png" />
+    <None Include="Resources\icons8-câmera-100 %285%29.png" />
+    <None Include="Resources\icons8-câmera-100 %283%291.png" />
+    <None Include="Resources\Group 20.png" />
     <None Include="Resources\Group 181.png" />
     <None Include="Resources\Group 18.png" />
     <None Include="Resources\Group 173.png" />
