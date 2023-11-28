@@ -31,6 +31,7 @@ namespace RedeSocial
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Esqueci = new System.Windows.Forms.Button();
             this.bt_logar = new System.Windows.Forms.Button();
             this.bt_cadastrar = new System.Windows.Forms.Button();
             this.Caixa_email = new System.Windows.Forms.TextBox();
@@ -43,6 +44,7 @@ namespace RedeSocial
             // 
             this.panel1.BackgroundImage = global::RedeSocial.Properties.Resources.Group_181;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.Esqueci);
             this.panel1.Controls.Add(this.bt_logar);
             this.panel1.Controls.Add(this.bt_cadastrar);
             this.panel1.Controls.Add(this.Caixa_email);
@@ -54,6 +56,17 @@ namespace RedeSocial
             this.panel1.Size = new System.Drawing.Size(1264, 681);
             this.panel1.TabIndex = 8;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // Esqueci
+            // 
+            this.Esqueci.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Esqueci.Location = new System.Drawing.Point(1107, 536);
+            this.Esqueci.Name = "Esqueci";
+            this.Esqueci.Size = new System.Drawing.Size(98, 23);
+            this.Esqueci.TabIndex = 8;
+            this.Esqueci.Text = "Esqueci a senha";
+            this.Esqueci.UseVisualStyleBackColor = true;
+            this.Esqueci.Click += new System.EventHandler(this.Esqueci_Click_1);
             // 
             // bt_logar
             // 
@@ -164,6 +177,7 @@ namespace RedeSocial
         private System.Windows.Forms.Button btnMostrarSenha;
         private System.Windows.Forms.TextBox caixaSenha;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button Esqueci;
     }
 }
 

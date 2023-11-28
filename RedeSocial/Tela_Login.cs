@@ -16,8 +16,8 @@ namespace RedeSocial
         // Variáveis de controle e dados do usuário
 
         private bool senhaVisivel = false;
-        private Image olhoAberto = Properties.Resources.olho_aberto; 
-        private Image olhoFechado = Properties.Resources.olho_fechado; 
+        private Image olhoAberto = Properties.Resources.olho_aberto;
+        private Image olhoFechado = Properties.Resources.olho_fechado;
         public static int cont_ami;
         public static int amig_atual = 0;
         public static int amig_fut = 1;
@@ -49,7 +49,7 @@ namespace RedeSocial
         public static int contador_excluidos = 1;
         //Postagens
         public static string[] dono_postagem = new string[200];
-        public static string[] foto_postagens = new string[200];       
+        public static string[] foto_postagens = new string[200];
         public static string[] descricao_postagens = new string[200];
         public static string[] comentarios_postagens = new string[200];
         public static string[] dono_comentario = new string[200];
@@ -61,7 +61,7 @@ namespace RedeSocial
         //Comunidades
         public static string[] comunidade_fotos = new string[50];
         public static int contador_Postagens = 2;
-        public static int amigo;        
+        public static int amigo;
         int indiceUsuario;
 
         // Solicitação de Amizades
@@ -73,7 +73,7 @@ namespace RedeSocial
         public static bool[] confirmar_amigo_geral = new bool[200];
         public static string[] seusAmigos = new string[200];
         //contagem de amigos pessoais
-        public static int conta_seus_amigos = 1; 
+        public static int conta_seus_amigos = 1;
 
         public Login()
         {
@@ -138,11 +138,11 @@ namespace RedeSocial
         }
 
         private void Bt_cadastrar_Click(object sender, EventArgs e)
-        {       
+        {
 
             Tela_Cadastro nova = new Tela_Cadastro();
             nova.Show();
-            
+
         }
 
         private void bt_logar_Click(object sender, EventArgs e)
@@ -160,37 +160,37 @@ namespace RedeSocial
             {
                 for (cont = 0; cont < 50; cont++)
                 {
-            if (email_log.Equals(email[cont]) && senha[indiceUsuario] == senha_log)
+                    if (email_log.Equals(email[cont]) && senha[indiceUsuario] == senha_log)
                     {
                         user = Convert.ToString(cont);
-                        MessageBox.Show("Valor do Vetor:" + cont);                      
+                        MessageBox.Show("Login efetuado com  sucesso!");
 
-                       
+
                     }
                 }
                 Tela_Principal nova = new Tela_Principal();
                 Tela_Perfil_Amigos.prov = 0;
                 nova.Show();
 
-                
+
             }
             else
             {
                 Tela_Erro nova1 = new Tela_Erro();
                 nova1.Show();
-               
+
             }
         }
-        
+
 
         private void label2_Click(object sender, EventArgs e)
         {
-            
+
         }
         //inicialiazar com:
         private void Login_Load(object sender, EventArgs e)
         {
-            caixaSenha.PasswordChar = '•'; 
+            caixaSenha.PasswordChar = '•';
             btnMostrarSenha.BackgroundImage = Properties.Resources.olho_fechado;
             caixaSenha.BorderStyle = BorderStyle.None;
             Caixa_email.BorderStyle = BorderStyle.None;
@@ -222,15 +222,15 @@ namespace RedeSocial
             }
             else
             {
-                caixaSenha.PasswordChar = '\0'; 
+                caixaSenha.PasswordChar = '\0';
                 btnMostrarSenha.BackgroundImage = Properties.Resources.olho_aberto;
-                
+
             }
 
-            senhaVisivel = !senhaVisivel; 
-        
+            senhaVisivel = !senhaVisivel;
 
-    }
+
+        }
 
         private void pictureBoxOlho_Click(object sender, EventArgs e)
         {
@@ -246,6 +246,12 @@ namespace RedeSocial
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void Esqueci_Click_1(object sender, EventArgs e)
+        {
+            Tela_Senha nova = new Tela_Senha();
+            nova.Show();
         }
     }
 }
