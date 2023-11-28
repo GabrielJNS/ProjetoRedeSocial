@@ -318,6 +318,7 @@ namespace RedeSocial
         private void button1_Click_2(object sender, EventArgs e)
         {
             mostrar_Postagens();
+            Coracao(postagem_atual);
         }
         private void bt_Perfil_Imagem_Click(object sender, EventArgs e)
         {
@@ -329,6 +330,7 @@ namespace RedeSocial
         private void button7_Click_2(object sender, EventArgs e)
         {
             mostrar_Postagens();
+            Coracao(postagem_atual);
 
 
         }
@@ -368,18 +370,25 @@ namespace RedeSocial
         private void bt_like_Click(object sender, EventArgs e)
         {
             Like(postagem_atual);
+            Coracao(postagem_atual);
 
-            if (coracao)
-            {
-                pictureBoxCoracao.Image = Properties.Resources.icons8_coração;
-            }
-            else
+           
+        }
+        private void Coracao(int a)
+        {
+
+            int post = a;
+            if (Login.quem_deu_like[post] == Login.nomes[Convert.ToInt32(Login.user)])
             {
                 pictureBoxCoracao.Image = Properties.Resources.icons8_coração_carregando__1_;
             }
-            coracao = !coracao;
-        }
+            else
+            {
+                pictureBoxCoracao.Image = Properties.Resources.icons8_coração;
+            }
 
+        }
+        
         private void Like(int a)
         {
             int post;
@@ -390,6 +399,8 @@ namespace RedeSocial
                 Login.contador_Like[post]++;
                 Login.quem_deu_like[post] = Login.nomes[Convert.ToInt32(Login.user)];
                 bt_like.Text = "Likes " + Convert.ToString(Login.contador_Like[post]);
+                
+                
 
 
 
@@ -400,6 +411,10 @@ namespace RedeSocial
                 Login.quem_deu_like[post] = null;
                 Login.contador_Like[post] = Login.contador_Like[post] - 1;
                 bt_like.Text = "Likes " + Convert.ToString(Login.contador_Like[post]);
+                
+               
+
+
             }
 
 
@@ -768,16 +783,7 @@ namespace RedeSocial
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             Like(postagem_atual);
-
-            if (coracao)
-            {
-                pictureBoxCoracao.BackgroundImage = Properties.Resources.icons8_coração;
-            }
-            else
-            {
-                pictureBoxCoracao.BackgroundImage = Properties.Resources.icons8_coração_carregando__1_;
-            }
-            coracao = !coracao;
+           
         }
 
         private void toolStripContainer3_ContentPanel_Load(object sender, EventArgs e)
