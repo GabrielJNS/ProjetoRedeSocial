@@ -101,9 +101,9 @@ namespace RedeSocial
             // Picture_Imagem_Comunidade
             // 
             this.Picture_Imagem_Comunidade.BackColor = System.Drawing.Color.Transparent;
-            this.Picture_Imagem_Comunidade.Location = new System.Drawing.Point(579, 142);
+            this.Picture_Imagem_Comunidade.Location = new System.Drawing.Point(580, 145);
             this.Picture_Imagem_Comunidade.Name = "Picture_Imagem_Comunidade";
-            this.Picture_Imagem_Comunidade.Size = new System.Drawing.Size(149, 128);
+            this.Picture_Imagem_Comunidade.Size = new System.Drawing.Size(147, 126);
             this.Picture_Imagem_Comunidade.TabIndex = 8;
             this.Picture_Imagem_Comunidade.TabStop = false;
             this.Picture_Imagem_Comunidade.Click += new System.EventHandler(this.Picture_Imagem_Comunidade_Click);
@@ -167,7 +167,7 @@ namespace RedeSocial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::RedeSocial.Properties.Resources.Group_36;
+            this.BackgroundImage = global::RedeSocial.Properties.Resources.Group_361;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.Sair);

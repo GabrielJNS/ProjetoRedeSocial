@@ -183,6 +183,16 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_123 {
+            get {
+                object obj = ResourceManager.GetObject("Group 123", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Group_16 {
             get {
                 object obj = ResourceManager.GetObject("Group 16", resourceCulture);
@@ -436,6 +446,16 @@ namespace RedeSocial.Properties {
         internal static System.Drawing.Bitmap Group_36 {
             get {
                 object obj = ResourceManager.GetObject("Group 36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_361 {
+            get {
+                object obj = ResourceManager.GetObject("Group 361", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

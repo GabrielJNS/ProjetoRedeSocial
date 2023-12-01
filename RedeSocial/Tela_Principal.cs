@@ -812,6 +812,11 @@ namespace RedeSocial
             this.Close();
         }
 
+        private void caixa_de_comentarios_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void Button_Click(object sender, EventArgs e)
         {
             Button clickedButton = (Button)sender;
