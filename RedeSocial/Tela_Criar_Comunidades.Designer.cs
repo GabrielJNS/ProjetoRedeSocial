@@ -53,9 +53,10 @@ namespace RedeSocial
             this.Bt_Criar_Comunidade.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Bt_Criar_Comunidade.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Bt_Criar_Comunidade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bt_Criar_Comunidade.ForeColor = System.Drawing.Color.Transparent;
             this.Bt_Criar_Comunidade.Location = new System.Drawing.Point(337, 481);
             this.Bt_Criar_Comunidade.Name = "Bt_Criar_Comunidade";
-            this.Bt_Criar_Comunidade.Size = new System.Drawing.Size(182, 39);
+            this.Bt_Criar_Comunidade.Size = new System.Drawing.Size(182, 43);
             this.Bt_Criar_Comunidade.TabIndex = 0;
             this.Bt_Criar_Comunidade.UseVisualStyleBackColor = false;
             this.Bt_Criar_Comunidade.Click += new System.EventHandler(this.button1_Click);
@@ -68,6 +69,7 @@ namespace RedeSocial
             this.bt_Voltar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_Voltar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_Voltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_Voltar.ForeColor = System.Drawing.Color.Transparent;
             this.bt_Voltar.Location = new System.Drawing.Point(544, 480);
             this.bt_Voltar.Name = "bt_Voltar";
             this.bt_Voltar.Size = new System.Drawing.Size(184, 40);
@@ -91,6 +93,7 @@ namespace RedeSocial
             this.Bt_Carrega_Imagem.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Bt_Carrega_Imagem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Bt_Carrega_Imagem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bt_Carrega_Imagem.ForeColor = System.Drawing.Color.Transparent;
             this.Bt_Carrega_Imagem.Location = new System.Drawing.Point(579, 269);
             this.Bt_Carrega_Imagem.Name = "Bt_Carrega_Imagem";
             this.Bt_Carrega_Imagem.Size = new System.Drawing.Size(149, 41);

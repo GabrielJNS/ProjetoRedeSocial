@@ -322,6 +322,7 @@ namespace RedeSocial
             this.Controls.Add(this.toolStripContainer1);
             this.DoubleBuffered = true;
             this.Name = "Tela_Fotos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fotos";
             this.Load += new System.EventHandler(this.Tela_Fotos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

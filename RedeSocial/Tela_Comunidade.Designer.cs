@@ -198,6 +198,7 @@ namespace RedeSocial
             this.bt_convite_comunidade.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_convite_comunidade.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_convite_comunidade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_convite_comunidade.ForeColor = System.Drawing.Color.Transparent;
             this.bt_convite_comunidade.Location = new System.Drawing.Point(23, 152);
             this.bt_convite_comunidade.Name = "bt_convite_comunidade";
             this.bt_convite_comunidade.Size = new System.Drawing.Size(147, 39);
@@ -268,6 +269,7 @@ namespace RedeSocial
             this.Controls.Add(this.flowLayoutPanel1);
             this.DoubleBuffered = true;
             this.Name = "Tela_Comunidade";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Comunidade";
             this.Load += new System.EventHandler(this.Tela_Comunidade_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Foto_Comunidade)).EndInit();

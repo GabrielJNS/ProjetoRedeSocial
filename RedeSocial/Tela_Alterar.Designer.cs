@@ -164,6 +164,7 @@ namespace RedeSocial
             this.Controls.Add(this.toolStripContainer1);
             this.Name = "Tela_Alterar";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Alterar";
             this.Load += new System.EventHandler(this.Tela_Alterar_Load);
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);

@@ -47,6 +47,7 @@ namespace RedeSocial
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Location = new System.Drawing.Point(362, 445);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 33);
@@ -70,9 +71,10 @@ namespace RedeSocial
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.Transparent;
             this.button2.Location = new System.Drawing.Point(525, 80);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 22);
+            this.button2.Size = new System.Drawing.Size(136, 25);
             this.button2.TabIndex = 3;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
