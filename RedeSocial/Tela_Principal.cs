@@ -561,7 +561,7 @@ namespace RedeSocial
         private void bt_comentarios_Click(object sender, EventArgs e)
         {
             Comentario(postagem_atual);
-            MessageBox.Show("Comentario Número" + Login.contagem_comentarios);
+            
             Login.contagem_comentarios++;
             text_Box_Comentarios.Text = "";
 
@@ -813,6 +813,30 @@ namespace RedeSocial
         }
 
         private void caixa_de_comentarios_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void VScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            int scrollValue = vScrollBar1.Value;
+
+            caixa_de_comentarios.Location = new Point(caixa_de_comentarios.Location.X, -scrollValue);
+            
+           
+        }
+
+        private void Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Text_Box_Comentarios_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
