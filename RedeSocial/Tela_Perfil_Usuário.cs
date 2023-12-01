@@ -35,6 +35,27 @@ namespace RedeSocial
             ConfigurarCircularPictureBox(foto_perfil);
             textBoxDescricao_user.Text = Login.descricao_user[Convert.ToInt32(Login.user)];
 
+            this.FormBorderStyle = FormBorderStyle.None;
+            InicializarBordasArredondadas();
+
+
+        }
+
+        public void InicializarBordasArredondadas()
+        {
+            using (GraphicsPath path = new GraphicsPath())
+            {
+                int radius = 30;
+                Rectangle rect = new Rectangle(0, 0, this.Width, this.Height);
+
+                path.AddArc(rect.Left, rect.Top, radius * 2, radius * 2, 180, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Top, radius * 2, radius * 2, 270, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Bottom - radius * 2, radius * 2, radius * 2, 0, 90);
+                path.AddArc(rect.Left, rect.Bottom - radius * 2, radius * 2, radius * 2, 90, 90);
+                path.CloseFigure();
+
+                this.Region = new Region(path);
+            }
         }
 
 
@@ -233,6 +254,16 @@ namespace RedeSocial
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Sair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
         {
 
         }

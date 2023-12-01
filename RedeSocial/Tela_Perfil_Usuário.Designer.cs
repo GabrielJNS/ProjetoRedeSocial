@@ -54,7 +54,11 @@ namespace RedeSocial
             this.btnSalvarDescricao = new System.Windows.Forms.Button();
             this.Label_Descricao = new System.Windows.Forms.Label();
             this.bt_Excluir_Conta = new System.Windows.Forms.Button();
+            this.Sair = new System.Windows.Forms.Button();
+            this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil)).BeginInit();
+            this.toolStripContainer1.ContentPanel.SuspendLayout();
+            this.toolStripContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Label_Nome
@@ -62,7 +66,7 @@ namespace RedeSocial
             this.Label_Nome.AutoSize = true;
             this.Label_Nome.BackColor = System.Drawing.Color.Transparent;
             this.Label_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Nome.Location = new System.Drawing.Point(524, 611);
+            this.Label_Nome.Location = new System.Drawing.Point(40, 419);
             this.Label_Nome.Name = "Label_Nome";
             this.Label_Nome.Size = new System.Drawing.Size(159, 20);
             this.Label_Nome.TabIndex = 1;
@@ -80,7 +84,7 @@ namespace RedeSocial
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(832, 162);
+            this.label1.Location = new System.Drawing.Point(576, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 15);
             this.label1.TabIndex = 2;
@@ -92,7 +96,7 @@ namespace RedeSocial
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(525, 450);
+            this.label2.Location = new System.Drawing.Point(40, 286);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(32, 24);
             this.label2.TabIndex = 3;
@@ -104,7 +108,7 @@ namespace RedeSocial
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(525, 538);
+            this.label3.Location = new System.Drawing.Point(40, 371);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(184, 24);
             this.label3.TabIndex = 4;
@@ -115,7 +119,7 @@ namespace RedeSocial
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(525, 498);
+            this.label4.Location = new System.Drawing.Point(40, 331);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(68, 24);
             this.label4.TabIndex = 5;
@@ -125,7 +129,7 @@ namespace RedeSocial
             // 
             this.Label_Id.AutoSize = true;
             this.Label_Id.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Id.Location = new System.Drawing.Point(724, 461);
+            this.Label_Id.Location = new System.Drawing.Point(239, 294);
             this.Label_Id.Name = "Label_Id";
             this.Label_Id.Size = new System.Drawing.Size(18, 13);
             this.Label_Id.TabIndex = 6;
@@ -136,7 +140,7 @@ namespace RedeSocial
             // 
             this.Label_Data.AutoSize = true;
             this.Label_Data.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Data.Location = new System.Drawing.Point(721, 546);
+            this.Label_Data.Location = new System.Drawing.Point(236, 379);
             this.Label_Data.Name = "Label_Data";
             this.Label_Data.Size = new System.Drawing.Size(30, 13);
             this.Label_Data.TabIndex = 7;
@@ -146,7 +150,7 @@ namespace RedeSocial
             // 
             this.Label_email.AutoSize = true;
             this.Label_email.BackColor = System.Drawing.Color.Transparent;
-            this.Label_email.Location = new System.Drawing.Point(708, 506);
+            this.Label_email.Location = new System.Drawing.Point(223, 339);
             this.Label_email.Name = "Label_email";
             this.Label_email.Size = new System.Drawing.Size(43, 13);
             this.Label_email.TabIndex = 8;
@@ -157,7 +161,7 @@ namespace RedeSocial
             this.Label_name.AutoSize = true;
             this.Label_name.BackColor = System.Drawing.Color.Transparent;
             this.Label_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_name.Location = new System.Drawing.Point(828, 188);
+            this.Label_name.Location = new System.Drawing.Point(286, 52);
             this.Label_name.Name = "Label_name";
             this.Label_name.Size = new System.Drawing.Size(137, 39);
             this.Label_name.TabIndex = 9;
@@ -168,9 +172,9 @@ namespace RedeSocial
             // 
             this.foto_perfil.BackColor = System.Drawing.Color.Transparent;
             this.foto_perfil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.foto_perfil.Location = new System.Drawing.Point(529, 188);
+            this.foto_perfil.Location = new System.Drawing.Point(44, 52);
             this.foto_perfil.Name = "foto_perfil";
-            this.foto_perfil.Size = new System.Drawing.Size(222, 212);
+            this.foto_perfil.Size = new System.Drawing.Size(200, 177);
             this.foto_perfil.TabIndex = 10;
             this.foto_perfil.TabStop = false;
             this.foto_perfil.Click += new System.EventHandler(this.foto_perfil_Click);
@@ -179,9 +183,9 @@ namespace RedeSocial
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(528, 401);
+            this.button2.Location = new System.Drawing.Point(44, 233);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(223, 32);
+            this.button2.Size = new System.Drawing.Size(200, 32);
             this.button2.TabIndex = 11;
             this.button2.Text = "Alterar Foto Perfil";
             this.button2.UseVisualStyleBackColor = false;
@@ -203,7 +207,7 @@ namespace RedeSocial
             this.bt_alterar_dados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_alterar_dados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_alterar_dados.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_alterar_dados.Location = new System.Drawing.Point(601, 671);
+            this.bt_alterar_dados.Location = new System.Drawing.Point(117, 450);
             this.bt_alterar_dados.Name = "bt_alterar_dados";
             this.bt_alterar_dados.Size = new System.Drawing.Size(57, 47);
             this.bt_alterar_dados.TabIndex = 12;
@@ -222,7 +226,7 @@ namespace RedeSocial
             this.bt_Foto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_Foto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_Foto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_Foto.Location = new System.Drawing.Point(529, 672);
+            this.bt_Foto.Location = new System.Drawing.Point(45, 451);
             this.bt_Foto.Margin = new System.Windows.Forms.Padding(2);
             this.bt_Foto.Name = "bt_Foto";
             this.bt_Foto.Size = new System.Drawing.Size(49, 46);
@@ -235,7 +239,7 @@ namespace RedeSocial
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(526, 721);
+            this.label5.Location = new System.Drawing.Point(42, 500);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(83, 16);
             this.label5.TabIndex = 38;
@@ -246,7 +250,7 @@ namespace RedeSocial
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(598, 721);
+            this.label6.Location = new System.Drawing.Point(114, 500);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(91, 16);
             this.label6.TabIndex = 39;
@@ -256,16 +260,16 @@ namespace RedeSocial
             // textBoxDescricao_user
             // 
             this.textBoxDescricao_user.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxDescricao_user.Location = new System.Drawing.Point(835, 273);
+            this.textBoxDescricao_user.Location = new System.Drawing.Point(293, 119);
             this.textBoxDescricao_user.Multiline = true;
             this.textBoxDescricao_user.Name = "textBoxDescricao_user";
-            this.textBoxDescricao_user.Size = new System.Drawing.Size(547, 127);
+            this.textBoxDescricao_user.Size = new System.Drawing.Size(469, 110);
             this.textBoxDescricao_user.TabIndex = 40;
             this.textBoxDescricao_user.TextChanged += new System.EventHandler(this.textBoxDescricao_TextChanged);
             // 
             // btnSalvarDescricao
             // 
-            this.btnSalvarDescricao.Location = new System.Drawing.Point(1329, 377);
+            this.btnSalvarDescricao.Location = new System.Drawing.Point(707, 205);
             this.btnSalvarDescricao.Name = "btnSalvarDescricao";
             this.btnSalvarDescricao.Size = new System.Drawing.Size(53, 23);
             this.btnSalvarDescricao.TabIndex = 41;
@@ -278,7 +282,7 @@ namespace RedeSocial
             this.Label_Descricao.AutoSize = true;
             this.Label_Descricao.BackColor = System.Drawing.Color.Transparent;
             this.Label_Descricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Descricao.Location = new System.Drawing.Point(832, 255);
+            this.Label_Descricao.Location = new System.Drawing.Point(290, 101);
             this.Label_Descricao.Name = "Label_Descricao";
             this.Label_Descricao.Size = new System.Drawing.Size(62, 15);
             this.Label_Descricao.TabIndex = 42;
@@ -288,46 +292,87 @@ namespace RedeSocial
             // 
             this.bt_Excluir_Conta.BackColor = System.Drawing.Color.Transparent;
             this.bt_Excluir_Conta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_Excluir_Conta.Location = new System.Drawing.Point(528, 762);
+            this.bt_Excluir_Conta.Location = new System.Drawing.Point(44, 541);
             this.bt_Excluir_Conta.Name = "bt_Excluir_Conta";
-            this.bt_Excluir_Conta.Size = new System.Drawing.Size(223, 32);
+            this.bt_Excluir_Conta.Size = new System.Drawing.Size(200, 32);
             this.bt_Excluir_Conta.TabIndex = 43;
             this.bt_Excluir_Conta.Text = "Excluir Conta";
             this.bt_Excluir_Conta.UseVisualStyleBackColor = false;
             this.bt_Excluir_Conta.Click += new System.EventHandler(this.bt_Excluir_Conta_Click);
             // 
+            // Sair
+            // 
+            this.Sair.BackColor = System.Drawing.Color.Transparent;
+            this.Sair.BackgroundImage = global::RedeSocial.Properties.Resources.icons8_fechar_64__2_;
+            this.Sair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Sair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Sair.FlatAppearance.BorderSize = 0;
+            this.Sair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Sair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sair.Location = new System.Drawing.Point(1200, 12);
+            this.Sair.Name = "Sair";
+            this.Sair.Size = new System.Drawing.Size(35, 40);
+            this.Sair.TabIndex = 44;
+            this.Sair.UseVisualStyleBackColor = false;
+            this.Sair.Click += new System.EventHandler(this.Sair_Click);
+            // 
+            // toolStripContainer1
+            // 
+            this.toolStripContainer1.BottomToolStripPanelVisible = false;
+            // 
+            // toolStripContainer1.ContentPanel
+            // 
+            this.toolStripContainer1.ContentPanel.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.foto_perfil);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.Label_Nome);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.btnSalvarDescricao);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.bt_Excluir_Conta);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.label2);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.label3);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.Label_Descricao);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.label4);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.Label_Id);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.textBoxDescricao_user);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.Label_Data);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.label6);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.Label_email);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.label5);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.Label_name);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.bt_Foto);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.button2);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.bt_alterar_dados);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(948, 602);
+            this.toolStripContainer1.ContentPanel.Load += new System.EventHandler(this.toolStripContainer1_ContentPanel_Load);
+            this.toolStripContainer1.LeftToolStripPanelVisible = false;
+            this.toolStripContainer1.Location = new System.Drawing.Point(241, 81);
+            this.toolStripContainer1.Name = "toolStripContainer1";
+            this.toolStripContainer1.RightToolStripPanelVisible = false;
+            this.toolStripContainer1.Size = new System.Drawing.Size(948, 602);
+            this.toolStripContainer1.TabIndex = 45;
+            this.toolStripContainer1.Text = "toolStripContainer1";
+            this.toolStripContainer1.TopToolStripPanelVisible = false;
+            // 
             // Tela_Perfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::RedeSocial.Properties.Resources.Group_20;
+            this.BackgroundImage = global::RedeSocial.Properties.Resources.generica2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1904, 1041);
-            this.Controls.Add(this.bt_Excluir_Conta);
-            this.Controls.Add(this.Label_Descricao);
-            this.Controls.Add(this.btnSalvarDescricao);
-            this.Controls.Add(this.textBoxDescricao_user);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.bt_Foto);
-            this.Controls.Add(this.bt_alterar_dados);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.foto_perfil);
-            this.Controls.Add(this.Label_name);
-            this.Controls.Add(this.Label_email);
-            this.Controls.Add(this.Label_Data);
-            this.Controls.Add(this.Label_Id);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.toolStripContainer1);
+            this.Controls.Add(this.Sair);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.Label_Nome);
             this.DoubleBuffered = true;
             this.Name = "Tela_Perfil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Perfil";
             this.Load += new System.EventHandler(this.Tela_Perfil_Load);
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil)).EndInit();
+            this.toolStripContainer1.ContentPanel.ResumeLayout(false);
+            this.toolStripContainer1.ContentPanel.PerformLayout();
+            this.toolStripContainer1.ResumeLayout(false);
+            this.toolStripContainer1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -355,5 +400,7 @@ namespace RedeSocial
         private System.Windows.Forms.Button btnSalvarDescricao;
         private System.Windows.Forms.Label Label_Descricao;
         private System.Windows.Forms.Button bt_Excluir_Conta;
+        private System.Windows.Forms.Button Sair;
+        private System.Windows.Forms.ToolStripContainer toolStripContainer1;
     }
 }

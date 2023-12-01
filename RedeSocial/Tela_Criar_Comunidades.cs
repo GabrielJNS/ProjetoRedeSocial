@@ -20,8 +20,29 @@ namespace RedeSocial
         public static string caminho_foto_comunidade = caminho + @"\fotos_comunidade\";
         public Tela_Criar_Comunidades()
         {
-            InitializeComponent();           
-            
+            InitializeComponent();
+
+            this.FormBorderStyle = FormBorderStyle.None;
+            InicializarBordasArredondadas();
+
+
+        }
+
+        public void InicializarBordasArredondadas()
+        {
+            using (GraphicsPath path = new GraphicsPath())
+            {
+                int radius = 30;
+                Rectangle rect = new Rectangle(0, 0, this.Width, this.Height);
+
+                path.AddArc(rect.Left, rect.Top, radius * 2, radius * 2, 180, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Top, radius * 2, radius * 2, 270, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Bottom - radius * 2, radius * 2, radius * 2, 0, 90);
+                path.AddArc(rect.Left, rect.Bottom - radius * 2, radius * 2, radius * 2, 90, 90);
+                path.CloseFigure();
+
+                this.Region = new Region(path);
+            }
         }
 
         private void Tela_Criar_Comunidades_Load(object sender, EventArgs e)
@@ -122,6 +143,21 @@ namespace RedeSocial
         private void Picture_Imagem_Comunidade_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Text_Box_Descricao_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Sair_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

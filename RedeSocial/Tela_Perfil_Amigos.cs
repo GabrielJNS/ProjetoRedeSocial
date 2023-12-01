@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Drawing2D;
+
 
 namespace RedeSocial
 {
@@ -26,8 +28,29 @@ namespace RedeSocial
             Label_nome.Text = Login.nomes[Login.amigo];
             Label_data.Text = Login.data_nascimento[Login.amigo];
             Pic_amigo.SizeMode = PictureBoxSizeMode.Zoom;
-            Pic_amigo.ImageLocation = Login.foto_perfil[Login.amigo];    
-           
+            Pic_amigo.ImageLocation = Login.foto_perfil[Login.amigo];
+
+            this.FormBorderStyle = FormBorderStyle.None;
+            InicializarBordasArredondadas();
+
+
+        }
+
+        public void InicializarBordasArredondadas()
+        {
+            using (GraphicsPath path = new GraphicsPath())
+            {
+                int radius = 30;
+                Rectangle rect = new Rectangle(0, 0, this.Width, this.Height);
+
+                path.AddArc(rect.Left, rect.Top, radius * 2, radius * 2, 180, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Top, radius * 2, radius * 2, 270, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Bottom - radius * 2, radius * 2, radius * 2, 0, 90);
+                path.AddArc(rect.Left, rect.Bottom - radius * 2, radius * 2, radius * 2, 90, 90);
+                path.CloseFigure();
+
+                this.Region = new Region(path);
+            }
         }
 
         private void Tela_Perfil_Amigos_Load(object sender, EventArgs e)
@@ -72,6 +95,61 @@ namespace RedeSocial
         private void button2_Click_1(object sender, EventArgs e)
         {
            
+        }
+
+        private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Sair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label_nome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label_data_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label_comunidades_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label_id_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripContainer1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Drawing2D;
 
 namespace RedeSocial
 {
@@ -14,7 +15,37 @@ namespace RedeSocial
     {
         string nome, data, email, senha, confirmarsenha;
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Tela_Alterar_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Sair_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -25,10 +56,32 @@ namespace RedeSocial
             textBox_Nome_Alterar.Text = Login.nomes[Convert.ToInt32(Login.user)];
             textBox_Email_alterar.Text = Login.email[Convert.ToInt32(Login.user)];
             textBox_data_alterar.Text = Login.data_nascimento[Convert.ToInt32(Login.user)];
-            
+
+            this.FormBorderStyle = FormBorderStyle.None;
+            InicializarBordasArredondadas();
+
+
+
+
 
         }
 
+        public void InicializarBordasArredondadas()
+        {
+            using (GraphicsPath path = new GraphicsPath())
+            {
+                int radius = 30;
+                Rectangle rect = new Rectangle(0, 0, this.Width, this.Height);
+
+                path.AddArc(rect.Left, rect.Top, radius * 2, radius * 2, 180, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Top, radius * 2, radius * 2, 270, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Bottom - radius * 2, radius * 2, radius * 2, 0, 90);
+                path.AddArc(rect.Left, rect.Bottom - radius * 2, radius * 2, radius * 2, 90, 90);
+                path.CloseFigure();
+
+                this.Region = new Region(path);
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             Alterar();

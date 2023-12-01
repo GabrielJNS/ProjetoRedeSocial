@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using System.Drawing.Drawing2D;
+
 
 namespace RedeSocial
 {
@@ -80,57 +82,63 @@ namespace RedeSocial
             //  exemplo
 
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
+            InicializarBordasArredondadas();
+
+
             Login.nomes[0] = "Manuel Francisco dos Santos";
             Login.email[0] = "mane@gmail.com";
             Login.senha[0] = "123";
             Login.data_nascimento[0] = "28/10/1933";
-            Login.foto_perfil[0] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/garrincha.jpg";
+            Login.foto_perfil[0] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/fotos/garrincha.jpg";
             Login.nomes[1] = "Tom Anjos";
             Login.email[1] = "tom@gmail.com";
             Login.senha[1] = "123";
             Login.data_nascimento[1] = "15/11/2000";
-            Login.foto_perfil[1] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/tomanjos.jpg";
+            Login.foto_perfil[1] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/fotos/tomanjos.jpg";
             Login.nomes[2] = "Edson Arantes do Nascimento";
             Login.email[2] = "pele@gmail.com";
             Login.senha[2] = "123";
             Login.data_nascimento[2] = "23/10/1940";
-            Login.foto_perfil[2] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/pele.jpg";
+            Login.foto_perfil[2] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/fotos/pele.jpg";
             Login.nomes[3] = "Diego Armando Maradonna";
             Login.email[3] = "dios@gmail.com";
             Login.senha[3] = "123";
             Login.data_nascimento[3] = "30/10/1960";
-            Login.foto_perfil[3] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/maradonna.jpg";
+            Login.foto_perfil[3] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/fotos/maradonna.jpg";
             Login.nomes[4] = "Lionel Messi";
             Login.email[4] = "et@gmail.com";
             Login.senha[4] = "123";
             Login.data_nascimento[4] = "24/06/1987";
-            Login.foto_perfil[4] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/messi.jpg";
+            Login.foto_perfil[4] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/fotos/steve.jpg";
             Login.nomes[5] = "Steve Jobs";
             Login.email[5] = "maça@gmail.com";
             Login.senha[5] = "123";
             Login.data_nascimento[5] = "24/02/1955";
-            Login.foto_perfil[5] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/steve.jpg";
+            Login.foto_perfil[5] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/fotos/steve.jpg";
             Login.nomes[6] = "Steve Jobs";
             Login.email[6] = "maça@gmail.com";
             Login.senha[6] = "123";
             Login.data_nascimento[6] = "24/02/1955";
-            Login.foto_perfil[6] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/steve.jpg";
+            Login.foto_perfil[6] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/fotos/bezos.jpg";
             Login.nomes[7] = "Jeff Bezos";
             Login.email[7] = "amazon@gmail.com";
             Login.senha[7] = "123";
             Login.data_nascimento[7] = "12/01/1964";
-            Login.foto_perfil[7] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/bezos.jpg";
+            Login.foto_perfil[7] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/fotos/pietra.jpg";
             Login.nomes[8] = "Pietra Ferrari";
             Login.email[8] = "pietra@gmail.com";
             Login.senha[8] = "123";
             Login.data_nascimento[8] = "12/07/2000";
-            Login.foto_perfil[8] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 2510/RedeSocial/bin/Debug/fotos/pietra.jpg";
+            Login.foto_perfil[8] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/fotos/pietra.jpg";
             Login.descricao_postagens[0] = "Paisagem";
             Login.dono_postagem[0] = "Edson Arantes do Nascimento";
-            Login.foto_postagens[0] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 3010/postagem/paraiso.jpg";
+            Login.foto_postagens[0] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/postagem/paraiso.jpg";
             Login.descricao_postagens[1] = "Nova Foto";
             Login.dono_postagem[1] = "Steve Jobs";
-            Login.foto_postagens[1] = "C:/Users/User/Desktop/Projeto Enari/Rede Social 3010/postagem/garrincha.jpg";
+            Login.foto_postagens[1] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/postagem/garrincha.jpg";
+
+
 
 
             caixaSenha.PasswordChar = '•';
@@ -197,7 +205,22 @@ namespace RedeSocial
 
 
         }
+        public void InicializarBordasArredondadas()
+        {
+            using (GraphicsPath path = new GraphicsPath())
+            {
+                int radius = 30; 
+                Rectangle rect = new Rectangle(0, 0, this.Width, this.Height);
 
+                path.AddArc(rect.Left, rect.Top, radius * 2, radius * 2, 180, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Top, radius * 2, radius * 2, 270, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Bottom - radius * 2, radius * 2, radius * 2, 0, 90);
+                path.AddArc(rect.Left, rect.Bottom - radius * 2, radius * 2, radius * 2, 90, 90);
+                path.CloseFigure();
+
+                this.Region = new Region(path);
+            }
+        }
 
 
         private void Caixa_email_TextChanged(object sender, EventArgs e)
@@ -252,6 +275,11 @@ namespace RedeSocial
         {
             Tela_Senha nova = new Tela_Senha();
             nova.Show();
+        }
+
+        private void Sair_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

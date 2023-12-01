@@ -46,8 +46,8 @@ namespace RedeSocial
             foto_perfil_usuario.ImageLocation = Login.foto_perfil[Convert.ToInt32(Login.user)];
             ConfigurarCircularPictureBox(foto_perfil_usuario);
             Pic_Mostra_Foto.SizeMode = PictureBoxSizeMode.Zoom;
-            
-
+            this.FormBorderStyle = FormBorderStyle.None;
+            InicializarBordasArredondadas();
 
 
 
@@ -55,6 +55,22 @@ namespace RedeSocial
 
         }
 
+        public void InicializarBordasArredondadas()
+        {
+            using (GraphicsPath path = new GraphicsPath())
+            {
+                int radius = 30;
+                Rectangle rect = new Rectangle(0, 0, this.Width, this.Height);
+
+                path.AddArc(rect.Left, rect.Top, radius * 2, radius * 2, 180, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Top, radius * 2, radius * 2, 270, 90);
+                path.AddArc(rect.Right - radius * 2, rect.Bottom - radius * 2, radius * 2, radius * 2, 0, 90);
+                path.AddArc(rect.Left, rect.Bottom - radius * 2, radius * 2, radius * 2, 90, 90);
+                path.CloseFigure();
+
+                this.Region = new Region(path);
+            }
+        }
         // Função para sortear amigos
         private void Sorteio_Amigos()
         {
@@ -789,6 +805,11 @@ namespace RedeSocial
         private void toolStripContainer3_ContentPanel_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Sair_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void Button_Click(object sender, EventArgs e)

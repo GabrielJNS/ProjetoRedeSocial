@@ -39,6 +39,7 @@ namespace RedeSocial
             this.caixa_data = new System.Windows.Forms.TextBox();
             this.caixa_confirmaEmail = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Sair = new System.Windows.Forms.Button();
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.panel1.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
@@ -143,6 +144,7 @@ namespace RedeSocial
             // 
             this.panel1.BackgroundImage = global::RedeSocial.Properties.Resources.Group_162;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.Sair);
             this.panel1.Controls.Add(this.toolStripContainer1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -150,6 +152,23 @@ namespace RedeSocial
             this.panel1.Size = new System.Drawing.Size(1264, 681);
             this.panel1.TabIndex = 8;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // Sair
+            // 
+            this.Sair.BackColor = System.Drawing.Color.Transparent;
+            this.Sair.BackgroundImage = global::RedeSocial.Properties.Resources.icons8_fechar_64__2_;
+            this.Sair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Sair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Sair.FlatAppearance.BorderSize = 0;
+            this.Sair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Sair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sair.Location = new System.Drawing.Point(1184, 30);
+            this.Sair.Name = "Sair";
+            this.Sair.Size = new System.Drawing.Size(35, 40);
+            this.Sair.TabIndex = 55;
+            this.Sair.UseVisualStyleBackColor = false;
+            this.Sair.Click += new System.EventHandler(this.Sair_Click);
             // 
             // toolStripContainer1
             // 
@@ -166,6 +185,7 @@ namespace RedeSocial
             this.toolStripContainer1.ContentPanel.Controls.Add(this.bt_cadastrar);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.caixa_confirmaSenha);
             this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(631, 558);
+            this.toolStripContainer1.ContentPanel.Load += new System.EventHandler(this.toolStripContainer1_ContentPanel_Load);
             this.toolStripContainer1.LeftToolStripPanelVisible = false;
             this.toolStripContainer1.Location = new System.Drawing.Point(600, 76);
             this.toolStripContainer1.Name = "toolStripContainer1";
@@ -213,5 +233,6 @@ namespace RedeSocial
         private System.Windows.Forms.TextBox caixa_confirmaEmail;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStripContainer toolStripContainer1;
+        private System.Windows.Forms.Button Sair;
     }
 }

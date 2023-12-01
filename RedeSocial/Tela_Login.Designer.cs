@@ -31,6 +31,7 @@ namespace RedeSocial
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Sair = new System.Windows.Forms.Button();
             this.Esqueci = new System.Windows.Forms.Button();
             this.bt_logar = new System.Windows.Forms.Button();
             this.bt_cadastrar = new System.Windows.Forms.Button();
@@ -42,8 +43,9 @@ namespace RedeSocial
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::RedeSocial.Properties.Resources.Group_181;
+            this.panel1.BackgroundImage = global::RedeSocial.Properties.Resources.Group_182;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.Sair);
             this.panel1.Controls.Add(this.Esqueci);
             this.panel1.Controls.Add(this.bt_logar);
             this.panel1.Controls.Add(this.bt_cadastrar);
@@ -57,15 +59,36 @@ namespace RedeSocial
             this.panel1.TabIndex = 8;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // Sair
+            // 
+            this.Sair.BackColor = System.Drawing.Color.Transparent;
+            this.Sair.BackgroundImage = global::RedeSocial.Properties.Resources.icons8_fechar_64__2_;
+            this.Sair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Sair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Sair.FlatAppearance.BorderSize = 0;
+            this.Sair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Sair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sair.Location = new System.Drawing.Point(1217, 12);
+            this.Sair.Name = "Sair";
+            this.Sair.Size = new System.Drawing.Size(35, 40);
+            this.Sair.TabIndex = 9;
+            this.Sair.UseVisualStyleBackColor = false;
+            this.Sair.Click += new System.EventHandler(this.Sair_Click);
+            // 
             // Esqueci
             // 
+            this.Esqueci.BackColor = System.Drawing.Color.Transparent;
             this.Esqueci.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Esqueci.Location = new System.Drawing.Point(1107, 536);
+            this.Esqueci.FlatAppearance.BorderSize = 0;
+            this.Esqueci.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Esqueci.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Esqueci.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Esqueci.Location = new System.Drawing.Point(991, 638);
             this.Esqueci.Name = "Esqueci";
-            this.Esqueci.Size = new System.Drawing.Size(98, 23);
+            this.Esqueci.Size = new System.Drawing.Size(58, 23);
             this.Esqueci.TabIndex = 8;
-            this.Esqueci.Text = "Esqueci a senha";
-            this.Esqueci.UseVisualStyleBackColor = true;
+            this.Esqueci.UseVisualStyleBackColor = false;
             this.Esqueci.Click += new System.EventHandler(this.Esqueci_Click_1);
             // 
             // bt_logar
@@ -97,7 +120,7 @@ namespace RedeSocial
             this.bt_cadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_cadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cadastrar.Location = new System.Drawing.Point(1029, 634);
+            this.bt_cadastrar.Location = new System.Drawing.Point(1015, 616);
             this.bt_cadastrar.Name = "bt_cadastrar";
             this.bt_cadastrar.Size = new System.Drawing.Size(128, 20);
             this.bt_cadastrar.TabIndex = 3;
@@ -178,6 +201,7 @@ namespace RedeSocial
         private System.Windows.Forms.TextBox caixaSenha;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button Esqueci;
+        private System.Windows.Forms.Button Sair;
     }
 }
 

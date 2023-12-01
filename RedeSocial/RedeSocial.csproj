@@ -315,6 +315,34 @@
     <None Include="Resources\Login %2827%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Group 40.png" />
+    <None Include="Resources\generica2.png" />
+    <None Include="Resources\generica1.png" />
+    <None Include="Resources\Group 232.png" />
+    <None Include="Resources\Group 354.png" />
+    <None Include="Resources\Group 231.png" />
+    <None Include="Resources\Group 37.png" />
+    <None Include="Resources\Group 36.png" />
+    <None Include="Resources\Group 353.png" />
+    <None Include="Resources\Group 352.png" />
+    <None Include="Resources\Group 351.png" />
+    <None Include="Resources\Group 35.png" />
+    <None Include="Resources\Group 33.png" />
+    <None Include="Resources\Group 23.png" />
+    <None Include="Resources\generica.png" />
+    <None Include="Resources\Group 29.png" />
+    <None Include="Resources\Solicitação1.png" />
+    <None Include="Resources\Solicitação.png" />
+    <None Include="Resources\Group 30.png" />
+    <None Include="Resources\Group 1111.png" />
+    <None Include="Resources\Group 122.png" />
+    <None Include="Resources\icons8-fechar-64 %282%29.png" />
+    <None Include="Resources\icons8-fechar-64 %281%29.png" />
+    <None Include="Resources\icons8-fechar-64.png" />
+    <None Include="Resources\Group 182.png" />
+    <None Include="Resources\Group 281.png" />
+    <None Include="Resources\Group 28.png" />
+    <None Include="Resources\Group 26.png" />
     <None Include="Resources\icons8-câmera-100 %284%29.png" />
     <None Include="Resources\icons8-câmera-100 %285%291.png" />
     <None Include="Resources\icons8-câmera-100 %285%29.png" />
@@ -356,6 +384,7 @@
     <None Include="Resources\4511733-icone-de-camera-em-fundo-branco-vetor.jpg" />
     <None Include="Resources\5525275.png" />
     <Content Include="Resources\3.png" />
+    <None Include="Resources\Alterar cadastro.png" />
     <Content Include="Resources\Foto_fotos.PNG">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

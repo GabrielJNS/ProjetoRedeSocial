@@ -86,6 +86,7 @@ namespace RedeSocial
             this.bt_like = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.toolStripContainer3 = new System.Windows.Forms.ToolStripContainer();
+            this.Sair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.foto_perfil_usuario)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comunidade0)).BeginInit();
@@ -138,7 +139,7 @@ namespace RedeSocial
             this.bt_amizades.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bt_amizades.FlatAppearance.BorderSize = 0;
             this.bt_amizades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_amizades.Location = new System.Drawing.Point(1180, 4);
+            this.bt_amizades.Location = new System.Drawing.Point(1080, 2);
             this.bt_amizades.Margin = new System.Windows.Forms.Padding(2);
             this.bt_amizades.Name = "bt_amizades";
             this.bt_amizades.Size = new System.Drawing.Size(50, 45);
@@ -158,7 +159,7 @@ namespace RedeSocial
             this.bt_UsuarioLogado.Font = new System.Drawing.Font("Arial Black", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_UsuarioLogado.ForeColor = System.Drawing.Color.White;
             this.bt_UsuarioLogado.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_UsuarioLogado.Location = new System.Drawing.Point(47, 18);
+            this.bt_UsuarioLogado.Location = new System.Drawing.Point(73, 19);
             this.bt_UsuarioLogado.Name = "bt_UsuarioLogado";
             this.bt_UsuarioLogado.Size = new System.Drawing.Size(201, 30);
             this.bt_UsuarioLogado.TabIndex = 3;
@@ -177,7 +178,7 @@ namespace RedeSocial
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button3.Location = new System.Drawing.Point(1041, 4);
+            this.button3.Location = new System.Drawing.Point(983, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(47, 45);
             this.button3.TabIndex = 5;
@@ -190,7 +191,7 @@ namespace RedeSocial
             this.foto_perfil_usuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.foto_perfil_usuario.Cursor = System.Windows.Forms.Cursors.Default;
             this.foto_perfil_usuario.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.foto_perfil_usuario.Location = new System.Drawing.Point(-1, 2);
+            this.foto_perfil_usuario.Location = new System.Drawing.Point(20, 4);
             this.foto_perfil_usuario.Margin = new System.Windows.Forms.Padding(2);
             this.foto_perfil_usuario.Name = "foto_perfil_usuario";
             this.foto_perfil_usuario.Size = new System.Drawing.Size(53, 46);
@@ -211,7 +212,7 @@ namespace RedeSocial
             this.bt_Foto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_Foto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_Foto.ForeColor = System.Drawing.Color.Transparent;
-            this.bt_Foto.Location = new System.Drawing.Point(872, 2);
+            this.bt_Foto.Location = new System.Drawing.Point(872, 0);
             this.bt_Foto.Margin = new System.Windows.Forms.Padding(2);
             this.bt_Foto.Name = "bt_Foto";
             this.bt_Foto.Size = new System.Drawing.Size(58, 49);
@@ -380,7 +381,7 @@ namespace RedeSocial
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(723, 6);
+            this.button1.Location = new System.Drawing.Point(766, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(54, 44);
             this.button1.TabIndex = 53;
@@ -880,7 +881,7 @@ namespace RedeSocial
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::RedeSocial.Properties.Resources.Group_121;
+            this.panel1.BackgroundImage = global::RedeSocial.Properties.Resources.Group_1111;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.toolStripContainer3);
             this.panel1.Controls.Add(this.Bt_mais_amigos);
@@ -902,6 +903,7 @@ namespace RedeSocial
             // toolStripContainer3.ContentPanel
             // 
             this.toolStripContainer3.ContentPanel.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripContainer3.ContentPanel.Controls.Add(this.Sair);
             this.toolStripContainer3.ContentPanel.Controls.Add(this.bt_amizades);
             this.toolStripContainer3.ContentPanel.Controls.Add(this.bt_UsuarioLogado);
             this.toolStripContainer3.ContentPanel.Controls.Add(this.button3);
@@ -918,6 +920,23 @@ namespace RedeSocial
             this.toolStripContainer3.TabIndex = 59;
             this.toolStripContainer3.Text = "toolStripContainer3";
             this.toolStripContainer3.TopToolStripPanelVisible = false;
+            // 
+            // Sair
+            // 
+            this.Sair.BackColor = System.Drawing.Color.Transparent;
+            this.Sair.BackgroundImage = global::RedeSocial.Properties.Resources.icons8_fechar_64__2_;
+            this.Sair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Sair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Sair.FlatAppearance.BorderSize = 0;
+            this.Sair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Sair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sair.Location = new System.Drawing.Point(1192, 8);
+            this.Sair.Name = "Sair";
+            this.Sair.Size = new System.Drawing.Size(35, 40);
+            this.Sair.TabIndex = 54;
+            this.Sair.UseVisualStyleBackColor = false;
+            this.Sair.Click += new System.EventHandler(this.Sair_Click);
             // 
             // Tela_Principal
             // 
@@ -1041,5 +1060,6 @@ namespace RedeSocial
         public System.Windows.Forms.PictureBox MostraFotoAmigo0;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBoxCoracao;
+        private System.Windows.Forms.Button Sair;
     }
 }
