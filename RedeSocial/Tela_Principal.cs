@@ -74,7 +74,14 @@ namespace RedeSocial
         // Função para sortear amigos
         private void Sorteio_Amigos()
         {
-            bt_UsuarioLogado.Text = Login.nomes[Convert.ToInt32(Login.user)];
+
+
+
+            string[] nome;
+            string nome_prov;
+            nome_prov = Login.nomes[Convert.ToInt32(Login.user)];
+            nome = nome_prov.Split(' ');
+            bt_UsuarioLogado.Text = nome[0];
             nome_Perfil = Login.user;
         novo:
             a = rnd.Next(Login.n - 1);
