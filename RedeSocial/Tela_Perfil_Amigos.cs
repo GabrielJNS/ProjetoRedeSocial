@@ -71,7 +71,7 @@ namespace RedeSocial
                 Login.confirmar_amigo_geral[Login.cont_amigo] = false;
 
             }
-            MessageBox.Show("Convite eviado a:  " + Login.amigo_geral[Login.cont_amigo_ini] + " Esperando Confirmação: " + Login.confirmar_amigo_geral[Login.cont_amigo_ini]);
+            MessageBox.Show("Convite eviado a " + Login.amigo_geral[Login.cont_amigo_ini] + " Esperando Confirmação ");
             Login.cont_amigo_ini++;
             Login.cont_amigo++;
         }

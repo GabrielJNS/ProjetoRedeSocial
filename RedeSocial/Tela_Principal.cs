@@ -848,6 +848,11 @@ namespace RedeSocial
 
         }
 
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
         private void Button_Click(object sender, EventArgs e)
         {
             Button clickedButton = (Button)sender;

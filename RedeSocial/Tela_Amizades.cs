@@ -160,7 +160,7 @@ namespace RedeSocial
         private void button1_Click(object sender, EventArgs e)
         {
             VirarAmigos();
-            MessageBox.Show("Vocês São Amigos "+ Login.conta_seus_amigos);            
+            MessageBox.Show("Vocês São Amigos ");            
             this.Close();
             Tela_Principal novo = new Tela_Principal();
             novo.Show();
@@ -169,7 +169,7 @@ namespace RedeSocial
         private void button4_Click(object sender, EventArgs e)
         {
             VirarAmigos();
-            MessageBox.Show("Vocês São Amigos " + Login.conta_seus_amigos);
+            MessageBox.Show("Vocês São Amigos ");
             this.Close();
             Tela_Principal novo = new Tela_Principal();
             novo.Show();
@@ -179,7 +179,7 @@ namespace RedeSocial
         private void button6_Click(object sender, EventArgs e)
         {
             VirarAmigos();
-            MessageBox.Show("Vocês São Amigos " + Login.conta_seus_amigos);
+            MessageBox.Show("Vocês São Amigos ");
             this.Close();
             Tela_Principal novo = new Tela_Principal();
             novo.Show();

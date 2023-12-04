@@ -216,6 +216,9 @@ namespace RedeSocial
         private void btnSalvarDescricao_Click(object sender, EventArgs e)
         {
            Login.descricao_user[Convert.ToInt32(Login.user)] = textBoxDescricao_user.Text;
+            MessageBox.Show("Perfil Atualizado!!");
+            Tela_Perfil novo = new Tela_Perfil();
+            novo.Show();
         }
 
         private void bt_Foto_Click(object sender, EventArgs e)
