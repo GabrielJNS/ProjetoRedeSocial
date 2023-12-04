@@ -315,6 +315,9 @@
     <None Include="Resources\Login %2827%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Group 291.png" />
+    <None Include="Resources\Group 282.png" />
+    <None Include="Resources\Group 49.png" />
     <None Include="Resources\icons8-alarme-50.png" />
     <None Include="Resources\icons8-grupo-de-usuário-homem-homem-50.png" />
     <None Include="Resources\icons8-câmera-50.png" />

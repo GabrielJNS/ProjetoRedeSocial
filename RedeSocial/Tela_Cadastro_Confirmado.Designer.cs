@@ -37,7 +37,7 @@ namespace RedeSocial
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(-25, 29);
+            this.label1.Location = new System.Drawing.Point(6, -21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(14, 24);
             this.label1.TabIndex = 0;
@@ -51,7 +51,7 @@ namespace RedeSocial
             this.bt_sair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_sair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_sair.Location = new System.Drawing.Point(60, 170);
+            this.bt_sair.Location = new System.Drawing.Point(62, 129);
             this.bt_sair.Name = "bt_sair";
             this.bt_sair.Size = new System.Drawing.Size(66, 29);
             this.bt_sair.TabIndex = 1;
@@ -63,9 +63,9 @@ namespace RedeSocial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::RedeSocial.Properties.Resources.Group_29;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(184, 211);
+            this.BackgroundImage = global::RedeSocial.Properties.Resources.Group_291;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(184, 161);
             this.Controls.Add(this.bt_sair);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
