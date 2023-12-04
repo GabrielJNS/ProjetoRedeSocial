@@ -12,14 +12,14 @@ using System.Drawing.Drawing2D;
 
 namespace RedeSocial
 {
-    
+
     public partial class Tela_Perfil_Amigos : Form
     {
         public int cont;
         public static int contF = 1;
         public static int contI = 0;
         public int segue;
-        Pessoa novo = new Pessoa();      
+        Pessoa novo = new Pessoa();
         public static int prov;
         public Tela_Perfil_Amigos()
         {
@@ -58,18 +58,18 @@ namespace RedeSocial
 
         }
 
-       
-              
+
+
         public void Amizade()
         {
-            
-            
+
+
             for (Login.cont_amigo_ini = 0; Login.cont_amigo_ini < Login.cont_amigo; Login.cont_amigo_ini++)
             {
-                Login.amigo_geral[Login.cont_amigo] =  Login.nomes[Login.amigo];
+                Login.amigo_geral[Login.cont_amigo] = Login.nomes[Login.amigo];
                 Login.solicita_amigo[Login.cont_amigo] = Login.nomes[Convert.ToInt32(Login.user)];
                 Login.confirmar_amigo_geral[Login.cont_amigo] = false;
-                
+
             }
             MessageBox.Show("Convite eviado a:  " + Login.amigo_geral[Login.cont_amigo_ini] + " Esperando Confirmação: " + Login.confirmar_amigo_geral[Login.cont_amigo_ini]);
             Login.cont_amigo_ini++;
@@ -77,7 +77,7 @@ namespace RedeSocial
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            Amizade();                       
+            Amizade();
 
         }
 
@@ -89,12 +89,12 @@ namespace RedeSocial
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-           
+
         }
 
         private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
@@ -139,15 +139,33 @@ namespace RedeSocial
 
         private void Label_comunidades_Click(object sender, EventArgs e)
         {
-
         }
-
         private void Label_id_Click(object sender, EventArgs e)
         {
 
         }
 
         private void toolStripContainer1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_2(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnSalvarDescricao_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label_Descricao_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxDescricao_user_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -48,9 +48,10 @@ namespace RedeSocial
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(362, 445);
+            this.button1.Location = new System.Drawing.Point(483, 548);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 33);
+            this.button1.Size = new System.Drawing.Size(116, 41);
             this.button1.TabIndex = 1;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -58,9 +59,10 @@ namespace RedeSocial
             // text_descricao
             // 
             this.text_descricao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.text_descricao.Location = new System.Drawing.Point(153, 373);
+            this.text_descricao.Location = new System.Drawing.Point(204, 459);
+            this.text_descricao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.text_descricao.Name = "text_descricao";
-            this.text_descricao.Size = new System.Drawing.Size(508, 63);
+            this.text_descricao.Size = new System.Drawing.Size(676, 77);
             this.text_descricao.TabIndex = 2;
             this.text_descricao.Text = "";
             // 
@@ -72,9 +74,10 @@ namespace RedeSocial
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.Transparent;
-            this.button2.Location = new System.Drawing.Point(525, 80);
+            this.button2.Location = new System.Drawing.Point(700, 98);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 25);
+            this.button2.Size = new System.Drawing.Size(181, 31);
             this.button2.TabIndex = 3;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -83,9 +86,10 @@ namespace RedeSocial
             // 
             this.foto_postar.BackColor = System.Drawing.Color.Transparent;
             this.foto_postar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.foto_postar.Location = new System.Drawing.Point(153, 108);
+            this.foto_postar.Location = new System.Drawing.Point(204, 133);
+            this.foto_postar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.foto_postar.Name = "foto_postar";
-            this.foto_postar.Size = new System.Drawing.Size(508, 233);
+            this.foto_postar.Size = new System.Drawing.Size(677, 286);
             this.foto_postar.TabIndex = 0;
             this.foto_postar.TabStop = false;
             this.foto_postar.Click += new System.EventHandler(this.foto_postar_Click);
@@ -101,13 +105,15 @@ namespace RedeSocial
             this.toolStripContainer1.ContentPanel.Controls.Add(this.button1);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.text_descricao);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.button2);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(886, 556);
+            this.toolStripContainer1.ContentPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1181, 684);
             this.toolStripContainer1.ContentPanel.Load += new System.EventHandler(this.toolStripContainer1_ContentPanel_Load);
             this.toolStripContainer1.LeftToolStripPanelVisible = false;
-            this.toolStripContainer1.Location = new System.Drawing.Point(228, 113);
+            this.toolStripContainer1.Location = new System.Drawing.Point(304, 139);
+            this.toolStripContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.RightToolStripPanelVisible = false;
-            this.toolStripContainer1.Size = new System.Drawing.Size(886, 556);
+            this.toolStripContainer1.Size = new System.Drawing.Size(1181, 684);
             this.toolStripContainer1.TabIndex = 6;
             this.toolStripContainer1.Text = "toolStripContainer1";
             this.toolStripContainer1.TopToolStripPanelVisible = false;
@@ -122,24 +128,26 @@ namespace RedeSocial
             this.Sair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Sair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Sair.Location = new System.Drawing.Point(1199, 12);
+            this.Sair.Location = new System.Drawing.Point(1599, 15);
+            this.Sair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Sair.Name = "Sair";
-            this.Sair.Size = new System.Drawing.Size(35, 40);
+            this.Sair.Size = new System.Drawing.Size(47, 49);
             this.Sair.TabIndex = 55;
             this.Sair.UseVisualStyleBackColor = false;
             this.Sair.Click += new System.EventHandler(this.Sair_Click);
             // 
             // Tela_Postagem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Group_40;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1685, 838);
             this.Controls.Add(this.Sair);
             this.Controls.Add(this.toolStripContainer1);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Tela_Postagem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

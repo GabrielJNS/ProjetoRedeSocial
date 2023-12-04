@@ -26,7 +26,7 @@ namespace RedeSocial
         {
             using (GraphicsPath path = new GraphicsPath())
             {
-                int radius = 30;
+                int radius = 10;
                 Rectangle rect = new Rectangle(0, 0, this.Width, this.Height);
 
                 path.AddArc(rect.Left, rect.Top, radius * 2, radius * 2, 180, 90);

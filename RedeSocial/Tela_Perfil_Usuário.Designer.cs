@@ -65,10 +65,10 @@ namespace RedeSocial
             // 
             this.Label_Nome.AutoSize = true;
             this.Label_Nome.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Nome.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Nome.Location = new System.Drawing.Point(40, 419);
             this.Label_Nome.Name = "Label_Nome";
-            this.Label_Nome.Size = new System.Drawing.Size(159, 20);
+            this.Label_Nome.Size = new System.Drawing.Size(159, 19);
             this.Label_Nome.TabIndex = 1;
             this.Label_Nome.Text = "Nome Usuário Amigo";
             this.Label_Nome.Click += new System.EventHandler(this.Label_Nome_Click);
@@ -95,10 +95,10 @@ namespace RedeSocial
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(40, 286);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 24);
+            this.label2.Size = new System.Drawing.Size(32, 23);
             this.label2.TabIndex = 3;
             this.label2.Text = "ID:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -107,31 +107,34 @@ namespace RedeSocial
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(40, 371);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(184, 24);
+            this.label3.Size = new System.Drawing.Size(187, 23);
             this.label3.TabIndex = 4;
             this.label3.Text = "Data de Nascimento:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(40, 331);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 24);
+            this.label4.Size = new System.Drawing.Size(68, 23);
             this.label4.TabIndex = 5;
             this.label4.Text = "E-Mail:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Label_Id
             // 
             this.Label_Id.AutoSize = true;
             this.Label_Id.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Id.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Id.Location = new System.Drawing.Point(239, 294);
             this.Label_Id.Name = "Label_Id";
-            this.Label_Id.Size = new System.Drawing.Size(18, 13);
+            this.Label_Id.Size = new System.Drawing.Size(17, 13);
             this.Label_Id.TabIndex = 6;
             this.Label_Id.Text = "ID";
             this.Label_Id.Click += new System.EventHandler(this.Label_Id_Click);
@@ -140,30 +143,34 @@ namespace RedeSocial
             // 
             this.Label_Data.AutoSize = true;
             this.Label_Data.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Data.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Data.Location = new System.Drawing.Point(236, 379);
             this.Label_Data.Name = "Label_Data";
             this.Label_Data.Size = new System.Drawing.Size(30, 13);
             this.Label_Data.TabIndex = 7;
             this.Label_Data.Text = "Data";
+            this.Label_Data.Click += new System.EventHandler(this.Label_Data_Click);
             // 
             // Label_email
             // 
             this.Label_email.AutoSize = true;
             this.Label_email.BackColor = System.Drawing.Color.Transparent;
+            this.Label_email.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_email.Location = new System.Drawing.Point(223, 339);
             this.Label_email.Name = "Label_email";
-            this.Label_email.Size = new System.Drawing.Size(43, 13);
+            this.Label_email.Size = new System.Drawing.Size(45, 13);
             this.Label_email.TabIndex = 8;
             this.Label_email.Text = "Usuário";
+            this.Label_email.Click += new System.EventHandler(this.Label_email_Click);
             // 
             // Label_name
             // 
             this.Label_name.AutoSize = true;
             this.Label_name.BackColor = System.Drawing.Color.Transparent;
-            this.Label_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_name.Font = new System.Drawing.Font("Roboto", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_name.Location = new System.Drawing.Point(286, 52);
             this.Label_name.Name = "Label_name";
-            this.Label_name.Size = new System.Drawing.Size(137, 39);
+            this.Label_name.Size = new System.Drawing.Size(138, 42);
             this.Label_name.TabIndex = 9;
             this.Label_name.Text = "Usuário";
             this.Label_name.Click += new System.EventHandler(this.Label_name_Click);
@@ -207,7 +214,7 @@ namespace RedeSocial
             this.bt_alterar_dados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_alterar_dados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_alterar_dados.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_alterar_dados.Location = new System.Drawing.Point(117, 450);
+            this.bt_alterar_dados.Location = new System.Drawing.Point(142, 451);
             this.bt_alterar_dados.Name = "bt_alterar_dados";
             this.bt_alterar_dados.Size = new System.Drawing.Size(57, 47);
             this.bt_alterar_dados.TabIndex = 12;
@@ -226,7 +233,7 @@ namespace RedeSocial
             this.bt_Foto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_Foto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_Foto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_Foto.Location = new System.Drawing.Point(45, 451);
+            this.bt_Foto.Location = new System.Drawing.Point(59, 452);
             this.bt_Foto.Margin = new System.Windows.Forms.Padding(2);
             this.bt_Foto.Name = "bt_Foto";
             this.bt_Foto.Size = new System.Drawing.Size(49, 46);
@@ -238,10 +245,10 @@ namespace RedeSocial
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(42, 500);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(83, 16);
+            this.label5.Size = new System.Drawing.Size(82, 15);
             this.label5.TabIndex = 38;
             this.label5.Text = "Minhas fotos";
             // 
@@ -249,10 +256,10 @@ namespace RedeSocial
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(114, 500);
+            this.label6.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(130, 500);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 16);
+            this.label6.Size = new System.Drawing.Size(84, 15);
             this.label6.TabIndex = 39;
             this.label6.Text = "Alterar Dados";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -269,6 +276,7 @@ namespace RedeSocial
             // 
             // btnSalvarDescricao
             // 
+            this.btnSalvarDescricao.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvarDescricao.Location = new System.Drawing.Point(707, 205);
             this.btnSalvarDescricao.Name = "btnSalvarDescricao";
             this.btnSalvarDescricao.Size = new System.Drawing.Size(53, 23);
@@ -281,17 +289,19 @@ namespace RedeSocial
             // 
             this.Label_Descricao.AutoSize = true;
             this.Label_Descricao.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Descricao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Descricao.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Descricao.Location = new System.Drawing.Point(290, 101);
             this.Label_Descricao.Name = "Label_Descricao";
-            this.Label_Descricao.Size = new System.Drawing.Size(62, 15);
+            this.Label_Descricao.Size = new System.Drawing.Size(60, 14);
             this.Label_Descricao.TabIndex = 42;
             this.Label_Descricao.Text = "Descrição";
+            this.Label_Descricao.Click += new System.EventHandler(this.Label_Descricao_Click);
             // 
             // bt_Excluir_Conta
             // 
             this.bt_Excluir_Conta.BackColor = System.Drawing.Color.Transparent;
             this.bt_Excluir_Conta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_Excluir_Conta.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_Excluir_Conta.Location = new System.Drawing.Point(44, 541);
             this.bt_Excluir_Conta.Name = "bt_Excluir_Conta";
             this.bt_Excluir_Conta.Size = new System.Drawing.Size(200, 32);

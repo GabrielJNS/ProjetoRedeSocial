@@ -42,6 +42,8 @@ namespace RedeSocial
             this.Pic_amigo = new System.Windows.Forms.PictureBox();
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.Sair = new System.Windows.Forms.Button();
+            this.Label_Descricao = new System.Windows.Forms.Label();
+            this.textBoxDescricao_user = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_amigo)).BeginInit();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -80,10 +82,10 @@ namespace RedeSocial
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Font = new System.Drawing.Font("Roboto", 10F);
-            this.label2.Location = new System.Drawing.Point(12, 267);
+            this.label2.Font = new System.Drawing.Font("Roboto", 5F);
+            this.label2.Location = new System.Drawing.Point(150, 28);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 17);
+            this.label2.Size = new System.Drawing.Size(24, 9);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nome";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -93,7 +95,7 @@ namespace RedeSocial
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Roboto", 10F);
-            this.label3.Location = new System.Drawing.Point(12, 310);
+            this.label3.Location = new System.Drawing.Point(13, 264);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(134, 17);
             this.label3.TabIndex = 3;
@@ -105,7 +107,7 @@ namespace RedeSocial
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Roboto", 10F);
-            this.label4.Location = new System.Drawing.Point(12, 353);
+            this.label4.Location = new System.Drawing.Point(12, 311);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(94, 17);
             this.label4.TabIndex = 4;
@@ -117,7 +119,7 @@ namespace RedeSocial
             this.label_nome_amigo.AutoSize = true;
             this.label_nome_amigo.BackColor = System.Drawing.Color.Transparent;
             this.label_nome_amigo.Font = new System.Drawing.Font("Roboto", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_nome_amigo.Location = new System.Drawing.Point(199, 147);
+            this.label_nome_amigo.Location = new System.Drawing.Point(70, 14);
             this.label_nome_amigo.Name = "label_nome_amigo";
             this.label_nome_amigo.Size = new System.Drawing.Size(76, 23);
             this.label_nome_amigo.TabIndex = 5;
@@ -128,10 +130,10 @@ namespace RedeSocial
             // 
             this.Label_nome.AutoSize = true;
             this.Label_nome.BackColor = System.Drawing.Color.White;
-            this.Label_nome.Font = new System.Drawing.Font("Roboto", 10F);
-            this.Label_nome.Location = new System.Drawing.Point(153, 267);
+            this.Label_nome.Font = new System.Drawing.Font("Roboto", 20F);
+            this.Label_nome.Location = new System.Drawing.Point(198, 28);
             this.Label_nome.Name = "Label_nome";
-            this.Label_nome.Size = new System.Drawing.Size(45, 17);
+            this.Label_nome.Size = new System.Drawing.Size(87, 33);
             this.Label_nome.TabIndex = 6;
             this.Label_nome.Text = "Nome";
             this.Label_nome.Click += new System.EventHandler(this.Label_nome_Click);
@@ -141,7 +143,7 @@ namespace RedeSocial
             this.Label_data.AutoSize = true;
             this.Label_data.BackColor = System.Drawing.Color.White;
             this.Label_data.Font = new System.Drawing.Font("Roboto", 10F);
-            this.Label_data.Location = new System.Drawing.Point(153, 310);
+            this.Label_data.Location = new System.Drawing.Point(153, 264);
             this.Label_data.Name = "Label_data";
             this.Label_data.Size = new System.Drawing.Size(38, 17);
             this.Label_data.TabIndex = 7;
@@ -153,7 +155,7 @@ namespace RedeSocial
             this.Label_comunidades.AutoSize = true;
             this.Label_comunidades.BackColor = System.Drawing.Color.White;
             this.Label_comunidades.Font = new System.Drawing.Font("Roboto", 10F);
-            this.Label_comunidades.Location = new System.Drawing.Point(153, 353);
+            this.Label_comunidades.Location = new System.Drawing.Point(149, 311);
             this.Label_comunidades.Name = "Label_comunidades";
             this.Label_comunidades.Size = new System.Drawing.Size(94, 17);
             this.Label_comunidades.TabIndex = 8;
@@ -189,6 +191,8 @@ namespace RedeSocial
             // toolStripContainer1.ContentPanel
             // 
             this.toolStripContainer1.ContentPanel.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.Label_Descricao);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.textBoxDescricao_user);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.Pic_amigo);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.button1);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.Label_id);
@@ -200,13 +204,13 @@ namespace RedeSocial
             this.toolStripContainer1.ContentPanel.Controls.Add(this.Label_nome);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.label4);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.label_nome_amigo);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(739, 554);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(630, 554);
             this.toolStripContainer1.ContentPanel.Load += new System.EventHandler(this.toolStripContainer1_ContentPanel_Load);
             this.toolStripContainer1.LeftToolStripPanelVisible = false;
-            this.toolStripContainer1.Location = new System.Drawing.Point(280, 115);
+            this.toolStripContainer1.Location = new System.Drawing.Point(315, 104);
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.RightToolStripPanelVisible = false;
-            this.toolStripContainer1.Size = new System.Drawing.Size(739, 554);
+            this.toolStripContainer1.Size = new System.Drawing.Size(630, 554);
             this.toolStripContainer1.TabIndex = 11;
             this.toolStripContainer1.Text = "toolStripContainer1";
             this.toolStripContainer1.TopToolStripPanelVisible = false;
@@ -229,14 +233,38 @@ namespace RedeSocial
             this.Sair.UseVisualStyleBackColor = false;
             this.Sair.Click += new System.EventHandler(this.Sair_Click);
             // 
+            // Label_Descricao
+            // 
+            this.Label_Descricao.AutoSize = true;
+            this.Label_Descricao.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Descricao.Font = new System.Drawing.Font("Roboto", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Descricao.Location = new System.Drawing.Point(201, 77);
+            this.Label_Descricao.Name = "Label_Descricao";
+            this.Label_Descricao.Size = new System.Drawing.Size(60, 14);
+            this.Label_Descricao.TabIndex = 45;
+            this.Label_Descricao.Text = "Descrição";
+            this.Label_Descricao.Click += new System.EventHandler(this.Label_Descricao_Click);
+            // 
+            // textBoxDescricao_user
+            // 
+            this.textBoxDescricao_user.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxDescricao_user.Location = new System.Drawing.Point(204, 95);
+            this.textBoxDescricao_user.Multiline = true;
+            this.textBoxDescricao_user.Name = "textBoxDescricao_user";
+            this.textBoxDescricao_user.Size = new System.Drawing.Size(410, 110);
+            this.textBoxDescricao_user.TabIndex = 43;
+            this.textBoxDescricao_user.TextChanged += new System.EventHandler(this.textBoxDescricao_user_TextChanged);
+            // 
             // Tela_Perfil_Amigos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Group_232;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.Sair);
             this.Controls.Add(this.toolStripContainer1);
+            this.DoubleBuffered = true;
             this.Name = "Tela_Perfil_Amigos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Amigos";
@@ -265,5 +293,7 @@ namespace RedeSocial
         private System.Windows.Forms.PictureBox Pic_amigo;
         private System.Windows.Forms.ToolStripContainer toolStripContainer1;
         private System.Windows.Forms.Button Sair;
+        private System.Windows.Forms.Label Label_Descricao;
+        private System.Windows.Forms.TextBox textBoxDescricao_user;
     }
 }

@@ -80,6 +80,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="novasenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="novasenha.Designer.cs">
+      <DependentUpon>novasenha.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tela_RecSenha.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,6 +187,9 @@
     <Compile Include="Tela_Senha_Excluir.Designer.cs">
       <DependentUpon>Tela_Senha_Excluir.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="novasenha.resx">
+      <DependentUpon>novasenha.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tela_Alterar.resx">
       <DependentUpon>Tela_Alterar.cs</DependentUpon>
     </EmbeddedResource>
@@ -315,6 +324,10 @@
     <None Include="Resources\Login %2827%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Group 292.png" />
+    <None Include="Resources\Group 283.png" />
+    <None Include="Resources\Group 363.png" />
+    <None Include="Resources\Group 362.png" />
     <None Include="Resources\Group 291.png" />
     <None Include="Resources\Group 282.png" />
     <None Include="Resources\Group 49.png" />

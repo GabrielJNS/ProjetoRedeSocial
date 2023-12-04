@@ -63,7 +63,7 @@ namespace RedeSocial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::RedeSocial.Properties.Resources.Group_291;
+            this.BackgroundImage = global::RedeSocial.Properties.Resources.Group_292;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(184, 161);
             this.Controls.Add(this.bt_sair);

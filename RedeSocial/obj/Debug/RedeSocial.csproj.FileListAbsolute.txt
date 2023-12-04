@@ -775,3 +775,4 @@ C:\Users\gabri\Source\Repos\RedeSocialll\RedeSocial\obj\Debug\RedeSocial.csproj.
 C:\Users\gabri\Source\Repos\RedeSocialll\RedeSocial\obj\Debug\RedeSocial.csproj.CopyComplete
 C:\Users\gabri\Source\Repos\RedeSocialll\RedeSocial\obj\Debug\RedeSocial.exe
 C:\Users\gabri\Source\Repos\RedeSocialll\RedeSocial\obj\Debug\RedeSocial.pdb
+C:\Users\gabri\Source\Repos\RedeSocialll\RedeSocial\obj\Debug\RedeSocial.novasenha.resources

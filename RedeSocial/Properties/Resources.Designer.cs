@@ -373,6 +373,16 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_283 {
+            get {
+                object obj = ResourceManager.GetObject("Group 283", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Group_29 {
             get {
                 object obj = ResourceManager.GetObject("Group 29", resourceCulture);
@@ -386,6 +396,16 @@ namespace RedeSocial.Properties {
         internal static System.Drawing.Bitmap Group_291 {
             get {
                 object obj = ResourceManager.GetObject("Group 291", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_292 {
+            get {
+                object obj = ResourceManager.GetObject("Group 292", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -476,6 +496,26 @@ namespace RedeSocial.Properties {
         internal static System.Drawing.Bitmap Group_361 {
             get {
                 object obj = ResourceManager.GetObject("Group 361", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_362 {
+            get {
+                object obj = ResourceManager.GetObject("Group 362", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_363 {
+            get {
+                object obj = ResourceManager.GetObject("Group 363", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
