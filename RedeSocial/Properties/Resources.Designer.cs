@@ -483,6 +483,46 @@ namespace RedeSocial.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_50 {
+            get {
+                object obj = ResourceManager.GetObject("Group 50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_cadastro {
+            get {
+                object obj = ResourceManager.GetObject("Group cadastro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_cadastro1 {
+            get {
+                object obj = ResourceManager.GetObject("Group cadastro1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_alarme_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-alarme-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_câmera_100__3_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-câmera-100 (3)", resourceCulture);
@@ -526,6 +566,26 @@ namespace RedeSocial.Properties {
         internal static System.Drawing.Bitmap icons8_câmera_100__5_1 {
             get {
                 object obj = ResourceManager.GetObject("icons8-câmera-100 (5)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_câmera_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-câmera-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_casa_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-casa-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -626,6 +686,16 @@ namespace RedeSocial.Properties {
         internal static System.Drawing.Bitmap icons8_gostar2 {
             get {
                 object obj = ResourceManager.GetObject("icons8-gostar2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_grupo_de_usuário_homem_homem_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-grupo-de-usuário-homem-homem-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

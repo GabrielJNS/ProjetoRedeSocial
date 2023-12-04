@@ -315,6 +315,13 @@
     <None Include="Resources\Login %2827%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\icons8-alarme-50.png" />
+    <None Include="Resources\icons8-grupo-de-usuário-homem-homem-50.png" />
+    <None Include="Resources\icons8-câmera-50.png" />
+    <None Include="Resources\icons8-casa-50.png" />
+    <None Include="Resources\Group 50.png" />
+    <None Include="Resources\Group cadastro1.png" />
+    <None Include="Resources\Group cadastro.png" />
     <None Include="Resources\Group 123.png" />
     <None Include="Resources\Group 361.png" />
     <None Include="Resources\Group 40.png" />
