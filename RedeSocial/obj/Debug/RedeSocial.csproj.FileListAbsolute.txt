@@ -201,9 +201,7 @@ C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Post
 C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Comunidade.resources
 C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Criar_Comunidades.resources
 C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Login.resources
-C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Mostrar_Comunidade.resources
 C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Perfil_Amigos.resources
-C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_BoasVindas.resources
 C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Erro.resources
 C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Cadastro.resources
 C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Aviso_Cadastro.resources
@@ -828,3 +826,33 @@ C:\Users\User\Desktop\Projeto Enari\Rede Social Final Version\RedeSocial\obj\Deb
 C:\Users\User\Desktop\Projeto Enari\Rede Social Final Version\RedeSocial\obj\Debug\RedeSocial.csproj.CopyComplete
 C:\Users\User\Desktop\Projeto Enari\Rede Social Final Version\RedeSocial\obj\Debug\RedeSocial.exe
 C:\Users\User\Desktop\Projeto Enari\Rede Social Final Version\RedeSocial\obj\Debug\RedeSocial.pdb
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\MailKit.dll
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\MimeKit.dll
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Buffers.dll
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Formats.Asn1.dll
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Memory.dll
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.ValueTuple.dll
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\MailKit.pdb
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\MailKit.xml
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\MailKit.dll.config
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\MimeKit.pdb
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\MimeKit.xml
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\MimeKit.dll.config
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Buffers.xml
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Formats.Asn1.xml
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Memory.xml
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\bin\Debug\System.ValueTuple.xml
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.novasenha.resources
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Principal.resources
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_RecSenha.resources
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Senha.resources
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.Tela_Senha_Excluir.resources
+C:\Users\gabri\Source\Repos\RedeSocial\RedeSocial\obj\Debug\RedeSocial.csproj.CopyComplete

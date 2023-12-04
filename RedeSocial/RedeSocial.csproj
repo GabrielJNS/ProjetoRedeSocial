@@ -324,6 +324,8 @@
     <None Include="Resources\Login %2827%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Group 365.png" />
+    <None Include="Resources\Group 364.png" />
     <None Include="Resources\Group 292.png" />
     <None Include="Resources\Group 283.png" />
     <None Include="Resources\Group 363.png" />
