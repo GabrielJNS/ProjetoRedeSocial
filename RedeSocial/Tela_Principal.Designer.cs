@@ -144,10 +144,10 @@ namespace RedeSocial
             this.bt_amizades.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_amizades.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_amizades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_amizades.Location = new System.Drawing.Point(1113, 7);
-            this.bt_amizades.Margin = new System.Windows.Forms.Padding(2);
+            this.bt_amizades.Location = new System.Drawing.Point(1484, 9);
+            this.bt_amizades.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bt_amizades.Name = "bt_amizades";
-            this.bt_amizades.Size = new System.Drawing.Size(57, 42);
+            this.bt_amizades.Size = new System.Drawing.Size(76, 52);
             this.bt_amizades.TabIndex = 42;
             this.bt_amizades.UseVisualStyleBackColor = false;
             this.bt_amizades.Click += new System.EventHandler(this.bt_amizades_Click);
@@ -164,9 +164,10 @@ namespace RedeSocial
             this.bt_UsuarioLogado.Font = new System.Drawing.Font("Arial Black", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_UsuarioLogado.ForeColor = System.Drawing.Color.White;
             this.bt_UsuarioLogado.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_UsuarioLogado.Location = new System.Drawing.Point(78, 18);
+            this.bt_UsuarioLogado.Location = new System.Drawing.Point(104, 22);
+            this.bt_UsuarioLogado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt_UsuarioLogado.Name = "bt_UsuarioLogado";
-            this.bt_UsuarioLogado.Size = new System.Drawing.Size(201, 30);
+            this.bt_UsuarioLogado.Size = new System.Drawing.Size(268, 37);
             this.bt_UsuarioLogado.TabIndex = 3;
             this.bt_UsuarioLogado.Text = "Usuário";
             this.bt_UsuarioLogado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -185,9 +186,10 @@ namespace RedeSocial
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button3.Location = new System.Drawing.Point(1015, 7);
+            this.button3.Location = new System.Drawing.Point(1353, 9);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(47, 39);
+            this.button3.Size = new System.Drawing.Size(63, 48);
             this.button3.TabIndex = 5;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -198,10 +200,10 @@ namespace RedeSocial
             this.foto_perfil_usuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.foto_perfil_usuario.Cursor = System.Windows.Forms.Cursors.Default;
             this.foto_perfil_usuario.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.foto_perfil_usuario.Location = new System.Drawing.Point(20, 3);
-            this.foto_perfil_usuario.Margin = new System.Windows.Forms.Padding(2);
+            this.foto_perfil_usuario.Location = new System.Drawing.Point(27, 4);
+            this.foto_perfil_usuario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.foto_perfil_usuario.Name = "foto_perfil_usuario";
-            this.foto_perfil_usuario.Size = new System.Drawing.Size(53, 46);
+            this.foto_perfil_usuario.Size = new System.Drawing.Size(71, 57);
             this.foto_perfil_usuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.foto_perfil_usuario.TabIndex = 25;
             this.foto_perfil_usuario.TabStop = false;
@@ -219,10 +221,10 @@ namespace RedeSocial
             this.bt_Foto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_Foto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_Foto.ForeColor = System.Drawing.Color.Transparent;
-            this.bt_Foto.Location = new System.Drawing.Point(885, 7);
-            this.bt_Foto.Margin = new System.Windows.Forms.Padding(2);
+            this.bt_Foto.Location = new System.Drawing.Point(1180, 9);
+            this.bt_Foto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bt_Foto.Name = "bt_Foto";
-            this.bt_Foto.Size = new System.Drawing.Size(58, 43);
+            this.bt_Foto.Size = new System.Drawing.Size(77, 53);
             this.bt_Foto.TabIndex = 36;
             this.bt_Foto.UseVisualStyleBackColor = false;
             this.bt_Foto.Click += new System.EventHandler(this.bt_Foto_Click);
@@ -242,18 +244,20 @@ namespace RedeSocial
             this.flowLayoutPanel1.Controls.Add(this.comunidade10);
             this.flowLayoutPanel1.Controls.Add(this.comunidade11);
             this.flowLayoutPanel1.Controls.Add(this.comunidade1);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(77, 422);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(103, 519);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(160, 169);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(213, 208);
             this.flowLayoutPanel1.TabIndex = 48;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // comunidade0
             // 
             this.comunidade0.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade0.Location = new System.Drawing.Point(3, 3);
+            this.comunidade0.Location = new System.Drawing.Point(4, 4);
+            this.comunidade0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade0.Name = "comunidade0";
-            this.comunidade0.Size = new System.Drawing.Size(47, 36);
+            this.comunidade0.Size = new System.Drawing.Size(63, 44);
             this.comunidade0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade0.TabIndex = 0;
             this.comunidade0.TabStop = false;
@@ -262,9 +266,10 @@ namespace RedeSocial
             // comunidade3
             // 
             this.comunidade3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade3.Location = new System.Drawing.Point(56, 3);
+            this.comunidade3.Location = new System.Drawing.Point(75, 4);
+            this.comunidade3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade3.Name = "comunidade3";
-            this.comunidade3.Size = new System.Drawing.Size(47, 36);
+            this.comunidade3.Size = new System.Drawing.Size(63, 44);
             this.comunidade3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade3.TabIndex = 3;
             this.comunidade3.TabStop = false;
@@ -273,9 +278,10 @@ namespace RedeSocial
             // comunidade4
             // 
             this.comunidade4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade4.Location = new System.Drawing.Point(109, 3);
+            this.comunidade4.Location = new System.Drawing.Point(146, 4);
+            this.comunidade4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade4.Name = "comunidade4";
-            this.comunidade4.Size = new System.Drawing.Size(47, 36);
+            this.comunidade4.Size = new System.Drawing.Size(63, 44);
             this.comunidade4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade4.TabIndex = 4;
             this.comunidade4.TabStop = false;
@@ -284,9 +290,10 @@ namespace RedeSocial
             // comunidade5
             // 
             this.comunidade5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade5.Location = new System.Drawing.Point(3, 45);
+            this.comunidade5.Location = new System.Drawing.Point(4, 56);
+            this.comunidade5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade5.Name = "comunidade5";
-            this.comunidade5.Size = new System.Drawing.Size(47, 36);
+            this.comunidade5.Size = new System.Drawing.Size(63, 44);
             this.comunidade5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade5.TabIndex = 5;
             this.comunidade5.TabStop = false;
@@ -295,9 +302,10 @@ namespace RedeSocial
             // comunidade2
             // 
             this.comunidade2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade2.Location = new System.Drawing.Point(56, 45);
+            this.comunidade2.Location = new System.Drawing.Point(75, 56);
+            this.comunidade2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade2.Name = "comunidade2";
-            this.comunidade2.Size = new System.Drawing.Size(47, 36);
+            this.comunidade2.Size = new System.Drawing.Size(63, 44);
             this.comunidade2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade2.TabIndex = 2;
             this.comunidade2.TabStop = false;
@@ -306,9 +314,10 @@ namespace RedeSocial
             // comunidade7
             // 
             this.comunidade7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade7.Location = new System.Drawing.Point(109, 45);
+            this.comunidade7.Location = new System.Drawing.Point(146, 56);
+            this.comunidade7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade7.Name = "comunidade7";
-            this.comunidade7.Size = new System.Drawing.Size(47, 36);
+            this.comunidade7.Size = new System.Drawing.Size(63, 44);
             this.comunidade7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade7.TabIndex = 7;
             this.comunidade7.TabStop = false;
@@ -317,9 +326,10 @@ namespace RedeSocial
             // comunidade9
             // 
             this.comunidade9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade9.Location = new System.Drawing.Point(3, 87);
+            this.comunidade9.Location = new System.Drawing.Point(4, 108);
+            this.comunidade9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade9.Name = "comunidade9";
-            this.comunidade9.Size = new System.Drawing.Size(47, 36);
+            this.comunidade9.Size = new System.Drawing.Size(63, 44);
             this.comunidade9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade9.TabIndex = 9;
             this.comunidade9.TabStop = false;
@@ -328,9 +338,10 @@ namespace RedeSocial
             // comunidade8
             // 
             this.comunidade8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade8.Location = new System.Drawing.Point(56, 87);
+            this.comunidade8.Location = new System.Drawing.Point(75, 108);
+            this.comunidade8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade8.Name = "comunidade8";
-            this.comunidade8.Size = new System.Drawing.Size(47, 36);
+            this.comunidade8.Size = new System.Drawing.Size(63, 44);
             this.comunidade8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade8.TabIndex = 8;
             this.comunidade8.TabStop = false;
@@ -339,9 +350,10 @@ namespace RedeSocial
             // comunidade6
             // 
             this.comunidade6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade6.Location = new System.Drawing.Point(109, 87);
+            this.comunidade6.Location = new System.Drawing.Point(146, 108);
+            this.comunidade6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade6.Name = "comunidade6";
-            this.comunidade6.Size = new System.Drawing.Size(47, 36);
+            this.comunidade6.Size = new System.Drawing.Size(63, 44);
             this.comunidade6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade6.TabIndex = 6;
             this.comunidade6.TabStop = false;
@@ -350,9 +362,10 @@ namespace RedeSocial
             // comunidade10
             // 
             this.comunidade10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade10.Location = new System.Drawing.Point(3, 129);
+            this.comunidade10.Location = new System.Drawing.Point(4, 160);
+            this.comunidade10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade10.Name = "comunidade10";
-            this.comunidade10.Size = new System.Drawing.Size(47, 36);
+            this.comunidade10.Size = new System.Drawing.Size(63, 44);
             this.comunidade10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade10.TabIndex = 10;
             this.comunidade10.TabStop = false;
@@ -361,9 +374,10 @@ namespace RedeSocial
             // comunidade11
             // 
             this.comunidade11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade11.Location = new System.Drawing.Point(56, 129);
+            this.comunidade11.Location = new System.Drawing.Point(75, 160);
+            this.comunidade11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade11.Name = "comunidade11";
-            this.comunidade11.Size = new System.Drawing.Size(47, 36);
+            this.comunidade11.Size = new System.Drawing.Size(63, 44);
             this.comunidade11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade11.TabIndex = 11;
             this.comunidade11.TabStop = false;
@@ -372,9 +386,10 @@ namespace RedeSocial
             // comunidade1
             // 
             this.comunidade1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.comunidade1.Location = new System.Drawing.Point(109, 129);
+            this.comunidade1.Location = new System.Drawing.Point(146, 160);
+            this.comunidade1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comunidade1.Name = "comunidade1";
-            this.comunidade1.Size = new System.Drawing.Size(47, 36);
+            this.comunidade1.Size = new System.Drawing.Size(63, 44);
             this.comunidade1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.comunidade1.TabIndex = 1;
             this.comunidade1.TabStop = false;
@@ -390,9 +405,10 @@ namespace RedeSocial
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(773, 8);
+            this.button1.Location = new System.Drawing.Point(1031, 10);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(54, 38);
+            this.button1.Size = new System.Drawing.Size(72, 47);
             this.button1.TabIndex = 53;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_3);
@@ -411,13 +427,15 @@ namespace RedeSocial
             this.toolStripContainer1.ContentPanel.Controls.Add(this.MostraFotoAmigo2);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.MostraFotoAmigo1);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.MostraFotoAmigo0);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(170, 170);
+            this.toolStripContainer1.ContentPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(227, 209);
             this.toolStripContainer1.ContentPanel.Load += new System.EventHandler(this.toolStripContainer1_ContentPanel_Load);
             this.toolStripContainer1.LeftToolStripPanelVisible = false;
-            this.toolStripContainer1.Location = new System.Drawing.Point(72, 147);
+            this.toolStripContainer1.Location = new System.Drawing.Point(96, 181);
+            this.toolStripContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.toolStripContainer1.Name = "toolStripContainer1";
             this.toolStripContainer1.RightToolStripPanelVisible = false;
-            this.toolStripContainer1.Size = new System.Drawing.Size(170, 170);
+            this.toolStripContainer1.Size = new System.Drawing.Size(227, 209);
             this.toolStripContainer1.TabIndex = 54;
             this.toolStripContainer1.Text = "toolStripContainer1";
             // 
@@ -429,9 +447,10 @@ namespace RedeSocial
             // MostraFotoAmigo6
             // 
             this.MostraFotoAmigo6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MostraFotoAmigo6.Location = new System.Drawing.Point(128, 61);
+            this.MostraFotoAmigo6.Location = new System.Drawing.Point(171, 75);
+            this.MostraFotoAmigo6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MostraFotoAmigo6.Name = "MostraFotoAmigo6";
-            this.MostraFotoAmigo6.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo6.Size = new System.Drawing.Size(56, 53);
             this.MostraFotoAmigo6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MostraFotoAmigo6.TabIndex = 5;
             this.MostraFotoAmigo6.TabStop = false;
@@ -440,9 +459,10 @@ namespace RedeSocial
             // MostraFotoAmigo5
             // 
             this.MostraFotoAmigo5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MostraFotoAmigo5.Location = new System.Drawing.Point(63, 61);
+            this.MostraFotoAmigo5.Location = new System.Drawing.Point(84, 75);
+            this.MostraFotoAmigo5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MostraFotoAmigo5.Name = "MostraFotoAmigo5";
-            this.MostraFotoAmigo5.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo5.Size = new System.Drawing.Size(56, 53);
             this.MostraFotoAmigo5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MostraFotoAmigo5.TabIndex = 4;
             this.MostraFotoAmigo5.TabStop = false;
@@ -451,9 +471,10 @@ namespace RedeSocial
             // MostraFotoAmigo4
             // 
             this.MostraFotoAmigo4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MostraFotoAmigo4.Location = new System.Drawing.Point(125, 4);
+            this.MostraFotoAmigo4.Location = new System.Drawing.Point(167, 5);
+            this.MostraFotoAmigo4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MostraFotoAmigo4.Name = "MostraFotoAmigo4";
-            this.MostraFotoAmigo4.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo4.Size = new System.Drawing.Size(56, 53);
             this.MostraFotoAmigo4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MostraFotoAmigo4.TabIndex = 3;
             this.MostraFotoAmigo4.TabStop = false;
@@ -462,9 +483,10 @@ namespace RedeSocial
             // MostraFotoAmigo2
             // 
             this.MostraFotoAmigo2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MostraFotoAmigo2.Location = new System.Drawing.Point(0, 61);
+            this.MostraFotoAmigo2.Location = new System.Drawing.Point(0, 75);
+            this.MostraFotoAmigo2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MostraFotoAmigo2.Name = "MostraFotoAmigo2";
-            this.MostraFotoAmigo2.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo2.Size = new System.Drawing.Size(56, 53);
             this.MostraFotoAmigo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MostraFotoAmigo2.TabIndex = 2;
             this.MostraFotoAmigo2.TabStop = false;
@@ -473,9 +495,10 @@ namespace RedeSocial
             // MostraFotoAmigo1
             // 
             this.MostraFotoAmigo1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MostraFotoAmigo1.Location = new System.Drawing.Point(63, 4);
+            this.MostraFotoAmigo1.Location = new System.Drawing.Point(84, 5);
+            this.MostraFotoAmigo1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MostraFotoAmigo1.Name = "MostraFotoAmigo1";
-            this.MostraFotoAmigo1.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo1.Size = new System.Drawing.Size(56, 53);
             this.MostraFotoAmigo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MostraFotoAmigo1.TabIndex = 1;
             this.MostraFotoAmigo1.TabStop = false;
@@ -484,9 +507,10 @@ namespace RedeSocial
             // MostraFotoAmigo0
             // 
             this.MostraFotoAmigo0.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MostraFotoAmigo0.Location = new System.Drawing.Point(0, 4);
+            this.MostraFotoAmigo0.Location = new System.Drawing.Point(0, 5);
+            this.MostraFotoAmigo0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MostraFotoAmigo0.Name = "MostraFotoAmigo0";
-            this.MostraFotoAmigo0.Size = new System.Drawing.Size(42, 43);
+            this.MostraFotoAmigo0.Size = new System.Drawing.Size(56, 53);
             this.MostraFotoAmigo0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MostraFotoAmigo0.TabIndex = 0;
             this.MostraFotoAmigo0.TabStop = false;
@@ -505,18 +529,19 @@ namespace RedeSocial
             this.flowLayoutPanel2.Controls.Add(this.Amigo3);
             this.flowLayoutPanel2.Controls.Add(this.pictureBox5);
             this.flowLayoutPanel2.Controls.Add(this.Amigo4);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(1012, 183);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(1349, 225);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(188, 390);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(251, 480);
             this.flowLayoutPanel2.TabIndex = 56;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(72, 63);
+            this.pictureBox1.Size = new System.Drawing.Size(96, 78);
             this.pictureBox1.TabIndex = 37;
             this.pictureBox1.TabStop = false;
             // 
@@ -532,9 +557,10 @@ namespace RedeSocial
             this.Amigo0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Amigo0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Amigo0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Amigo0.Location = new System.Drawing.Point(79, 18);
+            this.Amigo0.Location = new System.Drawing.Point(106, 22);
+            this.Amigo0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Amigo0.Name = "Amigo0";
-            this.Amigo0.Size = new System.Drawing.Size(72, 30);
+            this.Amigo0.Size = new System.Drawing.Size(96, 37);
             this.Amigo0.TabIndex = 2;
             this.Amigo0.Text = "Amigo 0";
             this.Amigo0.UseVisualStyleBackColor = false;
@@ -543,10 +569,10 @@ namespace RedeSocial
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.Location = new System.Drawing.Point(2, 69);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 84);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(72, 64);
+            this.pictureBox2.Size = new System.Drawing.Size(96, 79);
             this.pictureBox2.TabIndex = 38;
             this.pictureBox2.TabStop = false;
             // 
@@ -562,9 +588,10 @@ namespace RedeSocial
             this.Amigo1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Amigo1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Amigo1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Amigo1.Location = new System.Drawing.Point(79, 86);
+            this.Amigo1.Location = new System.Drawing.Point(106, 105);
+            this.Amigo1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Amigo1.Name = "Amigo1";
-            this.Amigo1.Size = new System.Drawing.Size(75, 30);
+            this.Amigo1.Size = new System.Drawing.Size(100, 37);
             this.Amigo1.TabIndex = 6;
             this.Amigo1.Text = "Amigo 1";
             this.Amigo1.UseVisualStyleBackColor = false;
@@ -573,10 +600,10 @@ namespace RedeSocial
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.White;
-            this.pictureBox3.Location = new System.Drawing.Point(2, 137);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Location = new System.Drawing.Point(3, 167);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(72, 57);
+            this.pictureBox3.Size = new System.Drawing.Size(96, 70);
             this.pictureBox3.TabIndex = 39;
             this.pictureBox3.TabStop = false;
             // 
@@ -592,9 +619,10 @@ namespace RedeSocial
             this.Amigo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Amigo2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Amigo2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Amigo2.Location = new System.Drawing.Point(79, 150);
+            this.Amigo2.Location = new System.Drawing.Point(106, 183);
+            this.Amigo2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Amigo2.Name = "Amigo2";
-            this.Amigo2.Size = new System.Drawing.Size(73, 30);
+            this.Amigo2.Size = new System.Drawing.Size(97, 37);
             this.Amigo2.TabIndex = 7;
             this.Amigo2.Text = "Amigo 2";
             this.Amigo2.UseVisualStyleBackColor = false;
@@ -603,10 +631,10 @@ namespace RedeSocial
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.White;
-            this.pictureBox4.Location = new System.Drawing.Point(2, 198);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Location = new System.Drawing.Point(3, 241);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(72, 58);
+            this.pictureBox4.Size = new System.Drawing.Size(96, 71);
             this.pictureBox4.TabIndex = 40;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
@@ -623,9 +651,10 @@ namespace RedeSocial
             this.Amigo3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Amigo3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Amigo3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Amigo3.Location = new System.Drawing.Point(79, 214);
+            this.Amigo3.Location = new System.Drawing.Point(106, 261);
+            this.Amigo3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Amigo3.Name = "Amigo3";
-            this.Amigo3.Size = new System.Drawing.Size(75, 25);
+            this.Amigo3.Size = new System.Drawing.Size(100, 31);
             this.Amigo3.TabIndex = 8;
             this.Amigo3.Text = "Amigo 3";
             this.Amigo3.UseVisualStyleBackColor = false;
@@ -634,10 +663,10 @@ namespace RedeSocial
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.White;
-            this.pictureBox5.Location = new System.Drawing.Point(2, 260);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Location = new System.Drawing.Point(3, 316);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(73, 56);
+            this.pictureBox5.Size = new System.Drawing.Size(97, 69);
             this.pictureBox5.TabIndex = 41;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
@@ -654,9 +683,10 @@ namespace RedeSocial
             this.Amigo4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Amigo4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Amigo4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Amigo4.Location = new System.Drawing.Point(80, 276);
+            this.Amigo4.Location = new System.Drawing.Point(107, 335);
+            this.Amigo4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Amigo4.Name = "Amigo4";
-            this.Amigo4.Size = new System.Drawing.Size(73, 24);
+            this.Amigo4.Size = new System.Drawing.Size(97, 30);
             this.Amigo4.TabIndex = 9;
             this.Amigo4.Text = "Amigo 4";
             this.Amigo4.UseVisualStyleBackColor = false;
@@ -668,9 +698,10 @@ namespace RedeSocial
             this.Bt_mais_amigos.BackColor = System.Drawing.Color.Navy;
             this.Bt_mais_amigos.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Bt_mais_amigos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Bt_mais_amigos.Location = new System.Drawing.Point(1012, 151);
+            this.Bt_mais_amigos.Location = new System.Drawing.Point(1349, 186);
+            this.Bt_mais_amigos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Bt_mais_amigos.Name = "Bt_mais_amigos";
-            this.Bt_mais_amigos.Size = new System.Drawing.Size(188, 33);
+            this.Bt_mais_amigos.Size = new System.Drawing.Size(251, 41);
             this.Bt_mais_amigos.TabIndex = 19;
             this.Bt_mais_amigos.Text = "Recarregar Amigos";
             this.Bt_mais_amigos.UseVisualStyleBackColor = false;
@@ -694,13 +725,15 @@ namespace RedeSocial
             this.toolStripContainer2.ContentPanel.Controls.Add(this.label_Usuario_Postagem);
             this.toolStripContainer2.ContentPanel.Controls.Add(this.bt_D);
             this.toolStripContainer2.ContentPanel.Controls.Add(this.panel2);
-            this.toolStripContainer2.ContentPanel.Size = new System.Drawing.Size(630, 562);
+            this.toolStripContainer2.ContentPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.toolStripContainer2.ContentPanel.Size = new System.Drawing.Size(840, 692);
             this.toolStripContainer2.ContentPanel.Load += new System.EventHandler(this.toolStripContainer2_ContentPanel_Load);
             this.toolStripContainer2.LeftToolStripPanelVisible = false;
-            this.toolStripContainer2.Location = new System.Drawing.Point(312, 87);
+            this.toolStripContainer2.Location = new System.Drawing.Point(416, 107);
+            this.toolStripContainer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.toolStripContainer2.Name = "toolStripContainer2";
             this.toolStripContainer2.RightToolStripPanelVisible = false;
-            this.toolStripContainer2.Size = new System.Drawing.Size(630, 562);
+            this.toolStripContainer2.Size = new System.Drawing.Size(840, 692);
             this.toolStripContainer2.TabIndex = 57;
             this.toolStripContainer2.Text = "toolStripContainer2";
             // 
@@ -711,9 +744,10 @@ namespace RedeSocial
             // 
             // bt_comentarios
             // 
-            this.bt_comentarios.Location = new System.Drawing.Point(498, 490);
+            this.bt_comentarios.Location = new System.Drawing.Point(664, 603);
+            this.bt_comentarios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt_comentarios.Name = "bt_comentarios";
-            this.bt_comentarios.Size = new System.Drawing.Size(58, 23);
+            this.bt_comentarios.Size = new System.Drawing.Size(77, 28);
             this.bt_comentarios.TabIndex = 43;
             this.bt_comentarios.Text = "Enviar";
             this.bt_comentarios.UseVisualStyleBackColor = true;
@@ -723,18 +757,19 @@ namespace RedeSocial
             // 
             this.text_Box_Comentarios.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.text_Box_Comentarios.BackColor = System.Drawing.Color.White;
-            this.text_Box_Comentarios.Location = new System.Drawing.Point(85, 490);
+            this.text_Box_Comentarios.Location = new System.Drawing.Point(113, 603);
+            this.text_Box_Comentarios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.text_Box_Comentarios.Name = "text_Box_Comentarios";
-            this.text_Box_Comentarios.Size = new System.Drawing.Size(423, 23);
+            this.text_Box_Comentarios.Size = new System.Drawing.Size(563, 27);
             this.text_Box_Comentarios.TabIndex = 33;
             this.text_Box_Comentarios.Text = "";
             this.text_Box_Comentarios.TextChanged += new System.EventHandler(this.Text_Box_Comentarios_TextChanged);
             // 
             // vScrollBar1
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(541, 343);
+            this.vScrollBar1.Location = new System.Drawing.Point(721, 422);
             this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(15, 152);
+            this.vScrollBar1.Size = new System.Drawing.Size(15, 187);
             this.vScrollBar1.TabIndex = 52;
             this.vScrollBar1.Visible = false;
             this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.VScrollBar1_Scroll);
@@ -743,9 +778,10 @@ namespace RedeSocial
             // 
             this.panel3.AutoScroll = true;
             this.panel3.Controls.Add(this.caixa_de_comentarios);
-            this.panel3.Location = new System.Drawing.Point(84, 343);
+            this.panel3.Location = new System.Drawing.Point(112, 422);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(472, 161);
+            this.panel3.Size = new System.Drawing.Size(629, 198);
             this.panel3.TabIndex = 53;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel3_Paint);
             // 
@@ -755,11 +791,12 @@ namespace RedeSocial
             this.caixa_de_comentarios.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.caixa_de_comentarios.Enabled = false;
             this.caixa_de_comentarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixa_de_comentarios.Location = new System.Drawing.Point(1, -3);
+            this.caixa_de_comentarios.Location = new System.Drawing.Point(1, -4);
+            this.caixa_de_comentarios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.caixa_de_comentarios.Name = "caixa_de_comentarios";
             this.caixa_de_comentarios.ReadOnly = true;
             this.caixa_de_comentarios.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.caixa_de_comentarios.Size = new System.Drawing.Size(469, 592);
+            this.caixa_de_comentarios.Size = new System.Drawing.Size(625, 729);
             this.caixa_de_comentarios.TabIndex = 46;
             this.caixa_de_comentarios.Text = "";
             this.caixa_de_comentarios.TextChanged += new System.EventHandler(this.caixa_de_comentarios_TextChanged);
@@ -767,9 +804,10 @@ namespace RedeSocial
             // foto_quem_postou
             // 
             this.foto_quem_postou.BackColor = System.Drawing.Color.Transparent;
-            this.foto_quem_postou.Location = new System.Drawing.Point(84, 25);
+            this.foto_quem_postou.Location = new System.Drawing.Point(112, 31);
+            this.foto_quem_postou.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.foto_quem_postou.Name = "foto_quem_postou";
-            this.foto_quem_postou.Size = new System.Drawing.Size(50, 47);
+            this.foto_quem_postou.Size = new System.Drawing.Size(67, 58);
             this.foto_quem_postou.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.foto_quem_postou.TabIndex = 50;
             this.foto_quem_postou.TabStop = false;
@@ -784,9 +822,10 @@ namespace RedeSocial
             this.Bt_Postar.FlatAppearance.BorderSize = 0;
             this.Bt_Postar.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Bt_Postar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Bt_Postar.Location = new System.Drawing.Point(473, 39);
+            this.Bt_Postar.Location = new System.Drawing.Point(631, 48);
+            this.Bt_Postar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Bt_Postar.Name = "Bt_Postar";
-            this.Bt_Postar.Size = new System.Drawing.Size(81, 33);
+            this.Bt_Postar.Size = new System.Drawing.Size(108, 41);
             this.Bt_Postar.TabIndex = 18;
             this.Bt_Postar.Text = "Postar";
             this.Bt_Postar.UseVisualStyleBackColor = false;
@@ -805,10 +844,10 @@ namespace RedeSocial
             this.bt_E.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_E.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_E.Location = new System.Drawing.Point(38, 77);
-            this.bt_E.Margin = new System.Windows.Forms.Padding(2);
+            this.bt_E.Location = new System.Drawing.Point(51, 95);
+            this.bt_E.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bt_E.Name = "bt_E";
-            this.bt_E.Size = new System.Drawing.Size(42, 232);
+            this.bt_E.Size = new System.Drawing.Size(56, 286);
             this.bt_E.TabIndex = 28;
             this.bt_E.UseVisualStyleBackColor = false;
             this.bt_E.Click += new System.EventHandler(this.button7_Click_2);
@@ -819,10 +858,10 @@ namespace RedeSocial
             this.Pic_Mostra_Foto.BackColor = System.Drawing.Color.Transparent;
             this.Pic_Mostra_Foto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Pic_Mostra_Foto.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Pic_Mostra_Foto.Location = new System.Drawing.Point(84, 77);
-            this.Pic_Mostra_Foto.Margin = new System.Windows.Forms.Padding(2);
+            this.Pic_Mostra_Foto.Location = new System.Drawing.Point(112, 95);
+            this.Pic_Mostra_Foto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Pic_Mostra_Foto.Name = "Pic_Mostra_Foto";
-            this.Pic_Mostra_Foto.Size = new System.Drawing.Size(470, 232);
+            this.Pic_Mostra_Foto.Size = new System.Drawing.Size(627, 286);
             this.Pic_Mostra_Foto.TabIndex = 17;
             this.Pic_Mostra_Foto.TabStop = false;
             this.Pic_Mostra_Foto.Click += new System.EventHandler(this.Pic_Mostra_Foto_Click);
@@ -834,9 +873,10 @@ namespace RedeSocial
             this.label_Usuario_Postagem.BackColor = System.Drawing.Color.Transparent;
             this.label_Usuario_Postagem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Usuario_Postagem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label_Usuario_Postagem.Location = new System.Drawing.Point(140, 52);
+            this.label_Usuario_Postagem.Location = new System.Drawing.Point(187, 64);
+            this.label_Usuario_Postagem.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Usuario_Postagem.Name = "label_Usuario_Postagem";
-            this.label_Usuario_Postagem.Size = new System.Drawing.Size(64, 20);
+            this.label_Usuario_Postagem.Size = new System.Drawing.Size(79, 25);
             this.label_Usuario_Postagem.TabIndex = 31;
             this.label_Usuario_Postagem.Text = "Usuário";
             this.label_Usuario_Postagem.UseWaitCursor = true;
@@ -855,10 +895,10 @@ namespace RedeSocial
             this.bt_D.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_D.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bt_D.Location = new System.Drawing.Point(558, 77);
-            this.bt_D.Margin = new System.Windows.Forms.Padding(2);
+            this.bt_D.Location = new System.Drawing.Point(744, 95);
+            this.bt_D.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bt_D.Name = "bt_D";
-            this.bt_D.Size = new System.Drawing.Size(41, 232);
+            this.bt_D.Size = new System.Drawing.Size(55, 286);
             this.bt_D.TabIndex = 27;
             this.bt_D.UseVisualStyleBackColor = false;
             this.bt_D.Click += new System.EventHandler(this.button1_Click_2);
@@ -870,18 +910,20 @@ namespace RedeSocial
             this.panel2.Controls.Add(this.pictureBoxCoracao);
             this.panel2.Controls.Add(this.Label_Descrição);
             this.panel2.Controls.Add(this.bt_like);
-            this.panel2.Location = new System.Drawing.Point(84, 308);
+            this.panel2.Location = new System.Drawing.Point(112, 379);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(470, 35);
+            this.panel2.Size = new System.Drawing.Size(626, 43);
             this.panel2.TabIndex = 51;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel2_Paint);
             // 
             // pictureBoxCoracao
             // 
             this.pictureBoxCoracao.Image = global::RedeSocial.Properties.Resources.icons8_coração;
-            this.pictureBoxCoracao.Location = new System.Drawing.Point(381, 5);
+            this.pictureBoxCoracao.Location = new System.Drawing.Point(508, 6);
+            this.pictureBoxCoracao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBoxCoracao.Name = "pictureBoxCoracao";
-            this.pictureBoxCoracao.Size = new System.Drawing.Size(32, 28);
+            this.pictureBoxCoracao.Size = new System.Drawing.Size(43, 34);
             this.pictureBoxCoracao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxCoracao.TabIndex = 36;
             this.pictureBoxCoracao.TabStop = false;
@@ -894,9 +936,10 @@ namespace RedeSocial
             this.Label_Descrição.BackColor = System.Drawing.Color.Transparent;
             this.Label_Descrição.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Descrição.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Label_Descrição.Location = new System.Drawing.Point(3, 9);
+            this.Label_Descrição.Location = new System.Drawing.Point(4, 11);
+            this.Label_Descrição.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label_Descrição.Name = "Label_Descrição";
-            this.Label_Descrição.Size = new System.Drawing.Size(80, 20);
+            this.Label_Descrição.Size = new System.Drawing.Size(99, 25);
             this.Label_Descrição.TabIndex = 29;
             this.Label_Descrição.Text = "Descrição";
             this.Label_Descrição.Click += new System.EventHandler(this.Label_Descrição_Click);
@@ -905,9 +948,10 @@ namespace RedeSocial
             // 
             this.bt_like.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bt_like.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_like.Location = new System.Drawing.Point(413, 3);
+            this.bt_like.Location = new System.Drawing.Point(551, 6);
+            this.bt_like.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt_like.Name = "bt_like";
-            this.bt_like.Size = new System.Drawing.Size(56, 28);
+            this.bt_like.Size = new System.Drawing.Size(69, 34);
             this.bt_like.TabIndex = 35;
             this.bt_like.Text = "0";
             this.bt_like.UseVisualStyleBackColor = true;
@@ -925,8 +969,9 @@ namespace RedeSocial
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1264, 681);
+            this.panel1.Size = new System.Drawing.Size(1685, 838);
             this.panel1.TabIndex = 54;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -944,13 +989,15 @@ namespace RedeSocial
             this.toolStripContainer3.ContentPanel.Controls.Add(this.foto_perfil_usuario);
             this.toolStripContainer3.ContentPanel.Controls.Add(this.bt_Foto);
             this.toolStripContainer3.ContentPanel.Controls.Add(this.button1);
-            this.toolStripContainer3.ContentPanel.Size = new System.Drawing.Size(1252, 50);
+            this.toolStripContainer3.ContentPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.toolStripContainer3.ContentPanel.Size = new System.Drawing.Size(1669, 62);
             this.toolStripContainer3.ContentPanel.Load += new System.EventHandler(this.toolStripContainer3_ContentPanel_Load);
             this.toolStripContainer3.LeftToolStripPanelVisible = false;
-            this.toolStripContainer3.Location = new System.Drawing.Point(12, 3);
+            this.toolStripContainer3.Location = new System.Drawing.Point(16, 4);
+            this.toolStripContainer3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.toolStripContainer3.Name = "toolStripContainer3";
             this.toolStripContainer3.RightToolStripPanelVisible = false;
-            this.toolStripContainer3.Size = new System.Drawing.Size(1252, 50);
+            this.toolStripContainer3.Size = new System.Drawing.Size(1669, 62);
             this.toolStripContainer3.TabIndex = 59;
             this.toolStripContainer3.Text = "toolStripContainer3";
             this.toolStripContainer3.TopToolStripPanelVisible = false;
@@ -965,25 +1012,27 @@ namespace RedeSocial
             this.Sair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Sair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Sair.Location = new System.Drawing.Point(1192, 8);
+            this.Sair.Location = new System.Drawing.Point(1589, 10);
+            this.Sair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Sair.Name = "Sair";
-            this.Sair.Size = new System.Drawing.Size(35, 40);
+            this.Sair.Size = new System.Drawing.Size(47, 49);
             this.Sair.TabIndex = 54;
             this.Sair.UseVisualStyleBackColor = false;
             this.Sair.Click += new System.EventHandler(this.Sair_Click);
             // 
             // Tela_Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImage = global::RedeSocial.Properties.Resources.Group_12;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1685, 838);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Tela_Principal";
             this.ShowInTaskbar = false;
