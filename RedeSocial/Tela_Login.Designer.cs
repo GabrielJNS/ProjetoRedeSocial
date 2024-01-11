@@ -54,8 +54,9 @@ namespace RedeSocial
             this.panel1.Controls.Add(this.btnMostrarSenha);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1264, 681);
+            this.panel1.Size = new System.Drawing.Size(1685, 838);
             this.panel1.TabIndex = 8;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -69,9 +70,10 @@ namespace RedeSocial
             this.Sair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Sair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Sair.Location = new System.Drawing.Point(1217, 12);
+            this.Sair.Location = new System.Drawing.Point(1623, 15);
+            this.Sair.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Sair.Name = "Sair";
-            this.Sair.Size = new System.Drawing.Size(35, 40);
+            this.Sair.Size = new System.Drawing.Size(47, 49);
             this.Sair.TabIndex = 9;
             this.Sair.UseVisualStyleBackColor = false;
             this.Sair.Click += new System.EventHandler(this.Sair_Click);
@@ -84,9 +86,10 @@ namespace RedeSocial
             this.Esqueci.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Esqueci.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Esqueci.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Esqueci.Location = new System.Drawing.Point(1001, 638);
+            this.Esqueci.Location = new System.Drawing.Point(1335, 785);
+            this.Esqueci.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Esqueci.Name = "Esqueci";
-            this.Esqueci.Size = new System.Drawing.Size(58, 23);
+            this.Esqueci.Size = new System.Drawing.Size(77, 28);
             this.Esqueci.TabIndex = 8;
             this.Esqueci.UseVisualStyleBackColor = false;
             this.Esqueci.Click += new System.EventHandler(this.Esqueci_Click_1);
@@ -102,9 +105,10 @@ namespace RedeSocial
             this.bt_logar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_logar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_logar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_logar.Location = new System.Drawing.Point(853, 516);
+            this.bt_logar.Location = new System.Drawing.Point(1137, 635);
+            this.bt_logar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt_logar.Name = "bt_logar";
-            this.bt_logar.Size = new System.Drawing.Size(238, 63);
+            this.bt_logar.Size = new System.Drawing.Size(317, 78);
             this.bt_logar.TabIndex = 2;
             this.bt_logar.UseVisualStyleBackColor = false;
             this.bt_logar.Click += new System.EventHandler(this.bt_logar_Click);
@@ -120,9 +124,10 @@ namespace RedeSocial
             this.bt_cadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.bt_cadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.bt_cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cadastrar.Location = new System.Drawing.Point(1028, 612);
+            this.bt_cadastrar.Location = new System.Drawing.Point(1371, 753);
+            this.bt_cadastrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt_cadastrar.Name = "bt_cadastrar";
-            this.bt_cadastrar.Size = new System.Drawing.Size(128, 20);
+            this.bt_cadastrar.Size = new System.Drawing.Size(171, 25);
             this.bt_cadastrar.TabIndex = 3;
             this.bt_cadastrar.UseVisualStyleBackColor = false;
             this.bt_cadastrar.Click += new System.EventHandler(this.Bt_cadastrar_Click);
@@ -133,12 +138,12 @@ namespace RedeSocial
             this.Caixa_email.BackColor = System.Drawing.Color.White;
             this.Caixa_email.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Caixa_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Caixa_email.Location = new System.Drawing.Point(816, 244);
+            this.Caixa_email.Location = new System.Drawing.Point(1088, 300);
+            this.Caixa_email.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Caixa_email.Multiline = true;
             this.Caixa_email.Name = "Caixa_email";
-            this.Caixa_email.Size = new System.Drawing.Size(337, 30);
+            this.Caixa_email.Size = new System.Drawing.Size(449, 37);
             this.Caixa_email.TabIndex = 5;
-            this.Caixa_email.Text = "mane@gmail.com";
             this.Caixa_email.TextChanged += new System.EventHandler(this.Caixa_email_TextChanged);
             // 
             // caixaSenha
@@ -146,12 +151,11 @@ namespace RedeSocial
             this.caixaSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.caixaSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.caixaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaSenha.Location = new System.Drawing.Point(816, 392);
-            this.caixaSenha.Margin = new System.Windows.Forms.Padding(2);
+            this.caixaSenha.Location = new System.Drawing.Point(1088, 482);
+            this.caixaSenha.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.caixaSenha.Name = "caixaSenha";
-            this.caixaSenha.Size = new System.Drawing.Size(293, 22);
+            this.caixaSenha.Size = new System.Drawing.Size(391, 27);
             this.caixaSenha.TabIndex = 7;
-            this.caixaSenha.Text = "123";
             this.caixaSenha.TextChanged += new System.EventHandler(this.caixaSenha_TextChanged);
             // 
             // btnMostrarSenha
@@ -164,24 +168,25 @@ namespace RedeSocial
             this.btnMostrarSenha.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnMostrarSenha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
             this.btnMostrarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMostrarSenha.Location = new System.Drawing.Point(1116, 386);
-            this.btnMostrarSenha.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMostrarSenha.Location = new System.Drawing.Point(1488, 475);
+            this.btnMostrarSenha.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMostrarSenha.Name = "btnMostrarSenha";
-            this.btnMostrarSenha.Size = new System.Drawing.Size(40, 31);
+            this.btnMostrarSenha.Size = new System.Drawing.Size(53, 38);
             this.btnMostrarSenha.TabIndex = 6;
             this.btnMostrarSenha.UseVisualStyleBackColor = false;
             this.btnMostrarSenha.Click += new System.EventHandler(this.btnMostrarSenha_Click);
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1685, 838);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

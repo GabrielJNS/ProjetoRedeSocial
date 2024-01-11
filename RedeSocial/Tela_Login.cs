@@ -85,14 +85,14 @@ namespace RedeSocial
             this.FormBorderStyle = FormBorderStyle.None;
             InicializarBordasArredondadas();
 
-
-            Login.nomes[0] = "Manuel Francisco dos Santos";
-            Login.email[0] = "mane@gmail.com";
+            //dados salvos na memória para teste
+            Login.nomes[0] = "adm";
+            Login.email[0] = "adm@gmail.com";
             Login.senha[0] = "123";
-            Login.data_nascimento[0] = "28/10/1933";
+            Login.data_nascimento[0] = "03/10/200";
             Login.foto_perfil[0] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/fotos/garrincha.jpg";
-            Login.nomes[1] = "Tom Anjos";
-            Login.email[1] = "tom@gmail.com";
+            Login.nomes[1] = "wonka";
+            Login.email[1] = "wonka@gmail.com";
             Login.senha[1] = "123";
             Login.data_nascimento[1] = "15/11/2000";
             Login.foto_perfil[1] = "C:/Users/gabri/OneDrive/Área de Trabalho/Rede Social 2711/fotos/tomanjos.jpg";
